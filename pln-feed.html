@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PLN Feed — Cultura Digital MCCEMS</title>
+    <title>COCUDI Feed — Mi PLN</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@mozilla/readability@0.5.0/Readability.js"></script>
@@ -291,7 +291,7 @@
 <body>
 
 <nav id="top-nav">
-    <span class="nav-brand" id="nav-student-name">MCCEMS · SEP 2025</span>
+    <span class="nav-brand" id="nav-student-name">Mi PLN Feed</span>
     <div class="nav-links">
         <a href="index.html" class="nav-link">
             <i class="fas fa-network-wired" style="margin-right:4px;"></i> Mi PLN
@@ -438,9 +438,9 @@
 </div>
 
 <footer id="site-footer">
-    Plantilla PLN Cultura Digital &nbsp;·&nbsp;
+    Plataforma COCUDI Docente &nbsp;·&nbsp;
     Creada por <a href="https://github.com/68sfszbqhq-stack" target="_blank" rel="noopener">José Roberto Mendoza Mendoza</a>
-    &nbsp;·&nbsp; IBERO Puebla &nbsp;·&nbsp; MCCEMS SEP 2025 &nbsp;·&nbsp; v1.0
+    &nbsp;·&nbsp; IBERO Puebla &nbsp;·&nbsp; v1.0
 </footer>
 
 <script>
@@ -472,10 +472,10 @@ function loadStudentConfig() {
     if (raw) {
         try { config = JSON.parse(raw); } catch { config = null; }
     }
-    if (config?.student?.name && config.student.name !== 'Tu Nombre Completo') {
-        document.getElementById('nav-student-name').textContent =
-            config.student.name + ' · MCCEMS';
-        document.title = 'PLN Feed — ' + config.student.name;
+    const profileName = config?.profile?.name || config?.student?.name;
+    if (profileName && profileName !== 'Tu Nombre Completo') {
+        document.getElementById('nav-student-name').textContent = profileName;
+        document.title = 'COCUDI Feed — ' + profileName;
     }
     customItems = (config?.pln?.custom_items || []).filter(i => !i.deleted);
 }
@@ -914,7 +914,7 @@ function demoItems() {
         { id:'n3',  category:'tech-ia', isLogo:true, title:'HolaMundo: Aprende Git y GitHub desde cero — La guía definitiva en español', url:'https://www.youtube.com/@HolaMundoDev', source:'HolaMundo (YouTube)', published:n(8), summary:'Canal de desarrollo moderno con proyectos reales, desde JavaScript hasta arquitecturas cloud.', image:YT },
 
         /* EDUCACIÓN */
-        { id:'s10', category:'educacion', isLogo:true, title:'SEP: Nueva guía de planeación didáctica para Cultura Digital — Descarga oficial', url:'https://www.gob.mx/sep', source:'SEP México', published:n(4), summary:'La SEP publica los lineamientos actualizados para la planeación por competencias en el MCCEMS 2025.', image:cb('gob.mx') },
+        
         { id:'s11', category:'educacion', isLogo:true, title:'Educación 3.0: 7 estrategias con IA para el aula de bachillerato', url:'https://www.educaciontrespuntocero.com/', source:'Educación 3.0', published:n(7), summary:'Propuestas prácticas respaldadas por evidencia para integrar IA generativa en el aula.', image:cb('educaciontrespuntocero.com') },
         { id:'e1',  category:'educacion', isLogo:true, title:'Observatorio Tec: Las 10 tendencias educativas que transformarán el aula en 2026', url:'https://observatorio.tec.mx/', source:'Observatorio Tec de Monterrey', published:n(11), summary:'Análisis de innovaciones pedagógicas, tecnologías emergentes y nuevos modelos de aprendizaje.', image:cb('tec.mx') },
         { id:'s16', category:'educacion', isLogo:true, title:'CuriosaMente: ¿Cómo aprende el cerebro? Neurociencia aplicada al aprendizaje', url:'https://www.youtube.com/@curiosamente', source:'CuriosaMente (YouTube)', published:n(19), summary:'El canal más visto en español explica cómo la memoria, la atención y el sueño afectan el aprendizaje.', image:YT },
