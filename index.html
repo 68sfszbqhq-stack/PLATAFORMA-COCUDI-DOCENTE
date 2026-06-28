@@ -404,7 +404,7 @@ select.f-input{cursor:pointer}
 
 <!-- ═══════════════ NAVBAR ═══════════════ -->
 <nav id="top-nav">
-  <span class="nav-logo"><i class="fas fa-network-wired" style="color:var(--primary);margin-right:6px"></i>PLN Cultura Digital</span>
+  <span class="nav-logo"><i class="fas fa-network-wired" style="color:var(--primary);margin-right:6px"></i>Mi PLE Builder</span>
   <div style="display:flex;align-items:center;gap:10px">
     <span id="save-status"></span>
     <a href="ple.html" target="_blank" class="nav-btn nav-btn-ghost"><i class="fas fa-eye"></i> Ver mi PLE</a>
@@ -427,7 +427,7 @@ select.f-input{cursor:pointer}
           <div id="prev-foto-ph"><i class="fas fa-user"></i></div>
           <img id="prev-foto" src="" alt="">
           <div id="prev-name">Tu Nombre Completo</div>
-          <div id="prev-inst">Tu Institución · 1er Semestre</div>
+          <div id="prev-inst">Tu Institución · Tu Materia</div>
           <div id="prev-quote" style="margin-top:10px">"La tecnología es más poderosa cuando empodera a las personas."</div>
         </div>
       </div>
@@ -456,7 +456,7 @@ select.f-input{cursor:pointer}
 
     <!-- PLN temas -->
     <div class="prev-section" id="ps-pln">
-      <div class="prev-sec-header"><i class="fas fa-graduation-cap" style="color:var(--primary)"></i> Red PLN — Temas MCCEMS</div>
+      <div class="prev-sec-header"><i class="fas fa-graduation-cap" style="color:var(--primary)"></i> Red PLN — Mis Temas</div>
       <div style="padding:0 18px 18px" id="prev-pln-list"></div>
     </div>
 
@@ -480,33 +480,34 @@ select.f-input{cursor:pointer}
       <!-- ─── PASO 1: Identidad ─── -->
       <div class="step-panel" id="step-1">
         <div class="step-heading">Mi Identidad</div>
-        <div class="step-sub">Esta información aparece en la portada de tu PLE.</div>
+        <div class="step-sub">Esta información aparece en la portada de tu PLE. Completa lo que corresponda a tu perfil docente.</div>
         <div class="f-group">
           <label class="f-label">Nombre completo</label>
-          <input type="text" class="f-input" id="s1-name" placeholder="ej. María García López" oninput="s1Update()">
+          <input type="text" class="f-input" id="s1-name" placeholder="ej. Dr. Roberto García López" oninput="s1Update()">
         </div>
         <div class="f-row">
           <div class="f-group">
-            <label class="f-label">Institución</label>
+            <label class="f-label">Universidad / Institución</label>
             <input type="text" class="f-input" id="s1-inst" placeholder="ej. IBERO Puebla" oninput="s1Update()">
           </div>
           <div class="f-group">
-            <label class="f-label">Semestre</label>
-            <select class="f-input" id="s1-sem" onchange="s1Update()">
-              <option>1er Semestre</option><option>2do Semestre</option><option>3er Semestre</option>
-              <option>4to Semestre</option><option>5to Semestre</option><option>6to Semestre</option>
-            </select>
+            <label class="f-label">Área o Departamento</label>
+            <input type="text" class="f-input" id="s1-department" placeholder="ej. Ciencias Sociales" oninput="s1Update()">
           </div>
         </div>
         <div class="f-row">
           <div class="f-group">
-            <label class="f-label">Grupo</label>
-            <input type="text" class="f-input" id="s1-group" placeholder="ej. Grupo A" oninput="s1Update()">
+            <label class="f-label">Materia / Asignatura</label>
+            <input type="text" class="f-input" id="s1-subject" placeholder="ej. Metodología de Investigación" oninput="s1Update()">
           </div>
           <div class="f-group">
-            <label class="f-label">Email institucional</label>
-            <input type="email" class="f-input" id="s1-email" placeholder="tu@escuela.mx" oninput="s1Update()">
+            <label class="f-label">Período académico</label>
+            <input type="text" class="f-input" id="s1-period" placeholder="ej. Primavera 2026" oninput="s1Update()">
           </div>
+        </div>
+        <div class="f-group">
+          <label class="f-label">Correo institucional</label>
+          <input type="email" class="f-input" id="s1-email" placeholder="tu@universidad.mx" oninput="s1Update()">
         </div>
         <div class="f-group">
           <label class="f-label">Foto de perfil</label>
@@ -573,26 +574,26 @@ select.f-input{cursor:pointer}
       <!-- ─── PASO 3: Portada y contexto ─── -->
       <div class="step-panel" id="step-3">
         <div class="step-heading">Mi Portada y Contexto</div>
-        <div class="step-sub">Describe tu asignatura y el propósito de tu PLE. Escribe con tus propias palabras.</div>
+        <div class="step-sub">Describe tu materia y el propósito de este PLE. Escribe con tus propias palabras — no hay formato fijo.</div>
         <div class="f-group">
           <label class="f-label">Título de tu PLE</label>
-          <input type="text" class="f-input" id="s3-title" placeholder="ej. Mi PLE — Cultura Digital II" oninput="s3Update()">
+          <input type="text" class="f-input" id="s3-title" placeholder="ej. Mi PLE — Metodología de Investigación Social" oninput="s3Update()">
         </div>
         <div class="f-group">
-          <label class="f-label">Contexto de la asignatura</label>
-          <textarea class="f-input" id="s3-context" rows="3" placeholder="Describe de qué trata Cultura Digital, para quién se imparte y qué busca lograr en los estudiantes." oninput="s3Update()"></textarea>
+          <label class="f-label">Contexto de la materia</label>
+          <textarea class="f-input" id="s3-context" rows="3" placeholder="¿De qué trata tu materia? ¿Para quién la impartes? ¿Qué busca lograr en tus estudiantes?" oninput="s3Update()"></textarea>
         </div>
         <div class="f-group">
           <label class="f-label">Propósito de tu PLE</label>
-          <textarea class="f-input" id="s3-purpose" rows="3" placeholder="¿Para qué construiste este PLE? ¿Cómo te ayuda en tu aprendizaje y desarrollo digital?" oninput="s3Update()"></textarea>
+          <textarea class="f-input" id="s3-purpose" rows="3" placeholder="¿Para qué construiste este PLE? ¿Cómo te apoya en tu práctica docente o en tu desarrollo profesional?" oninput="s3Update()"></textarea>
         </div>
         <div class="f-group">
-          <label class="f-label">Valoración personal</label>
-          <textarea class="f-input" id="s3-assessment" rows="3" placeholder="¿Qué aprendiste al construir tu PLE? ¿Cómo ha impactado tu proceso de aprendizaje?" oninput="s3Update()"></textarea>
+          <label class="f-label">Reflexión o valoración personal</label>
+          <textarea class="f-input" id="s3-assessment" rows="3" placeholder="¿Qué has aprendido al construir tu PLE? ¿Cómo ha impactado tu manera de aprender y enseñar?" oninput="s3Update()"></textarea>
         </div>
         <div class="f-group">
           <label class="f-label">Comentarios adicionales <span style="color:#bbb;font-weight:400">(opcional)</span></label>
-          <textarea class="f-input" id="s3-comments" rows="2" placeholder="Otras reflexiones o comentarios sobre tu proceso..." oninput="s3Update()"></textarea>
+          <textarea class="f-input" id="s3-comments" rows="2" placeholder="Cualquier otra reflexión, proyecto o propósito que quieras compartir..." oninput="s3Update()"></textarea>
         </div>
       </div>
 
@@ -603,18 +604,12 @@ select.f-input{cursor:pointer}
         <div class="eco-builder-grid" id="eco-builder"></div>
       </div>
 
-      <!-- ─── PASO 5: PLN temas ─── -->
+      <!-- ─── PASO 5: PLN temas libres ─── -->
       <div class="step-panel" id="step-5">
-        <div class="step-heading">Mi Red PLN — Temas MCCEMS</div>
-        <div class="step-sub">Agrega recursos digitales a cada tema del programa. Activa solo los semestres que corresponden.</div>
-        <div class="sem-tabs">
-          <div class="sem-tab active" onclick="showSem(1,this)">Cultura Digital I</div>
-          <div class="sem-tab" onclick="showSem(2,this)">Cultura Digital II</div>
-          <div class="sem-tab" onclick="showSem(3,this)">Cultura Digital III</div>
-        </div>
-        <div id="pln-acc-sem1"></div>
-        <div id="pln-acc-sem2" style="display:none"></div>
-        <div id="pln-acc-sem3" style="display:none"></div>
+        <div class="step-heading">Mi Red PLN — Temas y Recursos</div>
+        <div class="step-sub">Agrega los temas, unidades o bloques de tu materia. Ponles el nombre que quieras y enlaza recursos: videos, artículos, libros, sitios web.</div>
+        <div id="pln-topics-list"></div>
+        <button class="eco-add-btn" onclick="addNewTopic()" style="width:100%;margin-top:10px;padding:11px;font-size:0.78rem"><i class="fas fa-plus"></i> Agregar nuevo tema o unidad</button>
       </div>
 
       <!-- ─── PASO 6: PLN Feed ─── -->
@@ -696,7 +691,7 @@ select.f-input{cursor:pointer}
 
 <!-- ═══════════════ FOOTER ═══════════════ -->
 <footer id="footer">
-  <p>🎓 Plantilla PLN Cultura Digital &nbsp;·&nbsp; Creada por <strong>José Roberto Mendoza Mendoza</strong> &nbsp;·&nbsp; IBERO Puebla &nbsp;·&nbsp; MCCEMS SEP 2025 &nbsp;·&nbsp; <a href="https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla" target="_blank">Ver plantilla original</a></p>
+  <p>🎓 Plantilla PLE / PLN para Docentes &nbsp;·&nbsp; Creada por <strong>José Roberto Mendoza Mendoza</strong> &nbsp;·&nbsp; IBERO Puebla &nbsp;·&nbsp; <a href="https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla" target="_blank">Ver plantilla original</a></p>
 </footer>
 <div id="toast"></div>
 
@@ -727,8 +722,6 @@ const CATS_CONFIG = {
   'startup':   { label:'Startups',    color:'#117A65' },
 };
 
-const SEM_LABELS = { 1:'Cultura Digital I', 2:'Cultura Digital II', 3:'Cultura Digital III' };
-const SEM_COLORS = { 1:'sem1-badge', 2:'sem2-badge', 3:'sem3-badge' };
 
 // ═══════════════════════════════════════════
 // LOAD / SAVE
@@ -738,7 +731,7 @@ async function loadConfig() {
   if (stored) {
     try { config = JSON.parse(stored); } catch { config = {}; }
   }
-  if (!config || !config.student) {
+  if (!config || !config.profile) {
     try {
       const r = await fetch('student-config.json?t=' + Date.now());
       config = await r.json();
@@ -749,7 +742,7 @@ async function loadConfig() {
   applyConfigToForms();
   renderAll();
   // Check if setup needed
-  if (!config.student || !config.student.name || config.student.name === 'Tu Nombre Completo') {
+  if (!config.profile || !config.profile.name || config.profile.name === 'Tu Nombre Completo') {
     document.getElementById('setup-overlay').style.display = 'flex';
   } else {
     document.getElementById('setup-overlay').style.display = 'none';
@@ -768,40 +761,29 @@ function saveConfig() {
 
 function buildDefaultConfig() {
   return {
-    _meta: { version:'1.0', template_author:'José Roberto Mendoza Mendoza', template_institution:'IBERO Puebla', template_subject:'Cultura Digital — MCCEMS SEP 2025', template_url:'https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla', created: new Date().toISOString(), last_saved:'' },
+    _meta: { version:'1.0', template_author:'José Roberto Mendoza Mendoza', template_institution:'IBERO Puebla', template_url:'https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla', created: new Date().toISOString(), last_saved:'' },
     github: { username:'', repo:'', branch:'main' },
-    student: { name:'Tu Nombre Completo', institution:'Tu Institución', semester:'1er Semestre', group:'Grupo A', email:'', teacher:'José Roberto Mendoza Mendoza', photo:null },
-    appearance: { wallpaper:null, wallpaper_mode:'gradient', primary_color:'#E12828', secondary_color:'#111111', gradient_start:'#1a1a2e', gradient_end:'#16213e', quote:'La tecnología es más poderosa cuando empodera a las personas.', quote_author:'' },
-    ple: { title:'Mi PLE — Cultura Digital', context:'', purpose:'', assessment:'', comments:'', ecosystem:{ busco:{description:'',tools:[]}, organizo:{description:'',tools:[]}, creo:{description:'',tools:[]}, colaboro:{description:'',tools:[]}, comparto:{description:'',tools:[]}, publico:{description:'',tools:[]} }, topics: getDefaultTopics() },
+    profile: { name:'Tu Nombre Completo', institution:'Tu Universidad / Institución', department:'Área o Departamento', period:'Ciclo Escolar 2025-2026', subject:'Materia o asignatura que impartes', email:'', photo:null },
+    appearance: { wallpaper:null, wallpaper_mode:'gradient', primary_color:'#E12828', gradient_start:'#1a1a2e', gradient_end:'#16213e', quote:'La tecnología es más poderosa cuando empodera a las personas.', quote_author:'' },
+    ple: { title:'Mi PLE — Entorno Personal de Aprendizaje', context:'', purpose:'', assessment:'', comments:'', ecosystem:{ busco:{description:'',tools:[]}, organizo:{description:'',tools:[]}, creo:{description:'',tools:[]}, colaboro:{description:'',tools:[]}, comparto:{description:'',tools:[]}, publico:{description:'',tools:[]} }, topics:[
+      { id:'tema-1', title:'Primer tema o unidad de tu materia', group:'', active:true, resources:[] },
+      { id:'tema-2', title:'Segundo tema o unidad de tu materia', group:'', active:true, resources:[] },
+    ]},
     pln: { categories_active:['tech-ia','educacion','academia'], custom_items:[] }
   };
-}
-
-function getDefaultTopics() {
-  return [
-    { id:'cd1-ciudadania', title:'Ciudadanía Digital y Ética en la Red', semester:1, active:true, purposes:['Reconocer los derechos y responsabilidades como ciudadano digital.','Identificar normas de netiqueta y convivencia ética en el ciberespacio.'], resources:[{name:'Platzi – ¿Qué es la transformación digital?',type:'platzi',url:'https://www.youtube.com/watch?v=NeQ4eE1QVVU'},{name:'SEP – Cultura digital en el bachillerato (MCCEMS)',type:'sep',url:'https://www.youtube.com/watch?v=RRu6jhMfVkw'}] },
-    { id:'cd1-seguridad', title:'Seguridad Digital e Identidad en Línea', semester:1, active:true, purposes:['Comprender qué es la huella digital y cómo protegerla.','Aplicar prácticas de higiene digital: contraseñas, privacidad, phishing.'], resources:[{name:'Platzi – Cómo protegerte en internet',type:'platzi',url:'https://www.youtube.com/watch?v=Jm9qKz7Kq7c'},{name:'OSI – Oficina de Seguridad del Internauta',type:'web',url:'https://www.osi.es'}] },
-    { id:'cd1-hardware', title:'Hardware, Software y Evolución Tecnológica', semester:1, active:true, purposes:['Identificar los componentes de hardware y software.','Reconocer la historia de las computadoras y su evolución.'], resources:[{name:'YouTube – Historia de las computadoras',type:'yt',url:'https://www.youtube.com/watch?v=O5nskjZ_GoI'}] },
-    { id:'cd2-colaboracion', title:'Aprendizaje Colaborativo y Herramientas Digitales', semester:2, active:true, purposes:['Usar herramientas digitales libres para crear y colaborar.','Trabajar en equipo mediante entornos digitales.'], resources:[{name:'Cryptpad – Colaboración sin vigilancia',type:'web',url:'https://cryptpad.fr'}] },
-    { id:'cd2-datos', title:'Gestión de Datos e Información Digital', semester:2, active:true, purposes:['Organizar y procesar información con hojas de cálculo.','Evaluar la confiabilidad de fuentes en internet.'], resources:[{name:'YouTube – Fake News y verificación',type:'yt',url:'https://www.youtube.com/watch?v=WpVHaTDLwRE'}] },
-    { id:'cd2-contenido', title:'Creación de Contenidos y Marca Personal Digital', semester:2, active:true, purposes:['Producir contenidos digitales con responsabilidad.','Construir una identidad digital positiva.'], resources:[{name:'Platzi – Crea tu marca personal',type:'platzi',url:'https://www.youtube.com/watch?v=6bxdFfFGHyM'}] },
-    { id:'cd3-pensamiento', title:'Pensamiento Computacional y Programación Básica', semester:3, active:true, purposes:['Aplicar el pensamiento computacional para resolver problemas.','Construir programas simples.'], resources:[{name:'Code.org – Ciencia Computacional',type:'web',url:'https://code.org'}] },
-    { id:'cd3-redes', title:'Cómo Funciona Internet y las Redes Digitales', semester:3, active:true, purposes:['Explicar cómo funciona internet: TCP/IP, DNS, servidores.','Comprender el IoT y la IA básica.'], resources:[{name:'YouTube – Cómo funciona el internet',type:'yt',url:'https://www.youtube.com/watch?v=_9-NtYAP6uc'}] },
-    { id:'cd3-difusion', title:'Difusión del Conocimiento y Ciudadanía Digital Avanzada', semester:3, active:true, purposes:['Construir y publicar conocimiento en plataformas abiertas.','Usar IA generativa de forma crítica.'], resources:[{name:'YouTube – Futuro del trabajo digital',type:'yt',url:'https://www.youtube.com/watch?v=7Pq-S557XQU'}] },
-  ];
 }
 
 // ═══════════════════════════════════════════
 // APPLY CONFIG TO FORMS
 // ═══════════════════════════════════════════
 function applyConfigToForms() {
-  const s = config.student || {};
-  const a = config.appearance || {};
-  const p = config.ple || {};
-  setValue('s1-name', s.name); setValue('s1-inst', s.institution);
-  setSelect('s1-sem', s.semester); setValue('s1-group', s.group);
-  setValue('s1-email', s.email);
-  if (s.photo) { document.getElementById('foto-preview').src = s.photo; document.getElementById('foto-preview').style.display='block'; document.getElementById('foto-icon').style.display='none'; }
+  const pr = config.profile || {};
+  const a  = config.appearance || {};
+  const p  = config.ple || {};
+  setValue('s1-name', pr.name); setValue('s1-inst', pr.institution);
+  setValue('s1-department', pr.department); setValue('s1-subject', pr.subject);
+  setValue('s1-period', pr.period); setValue('s1-email', pr.email);
+  if (pr.photo) { document.getElementById('foto-preview').src = pr.photo; document.getElementById('foto-preview').style.display='block'; document.getElementById('foto-icon').style.display='none'; }
 
   setRadio('bg-mode', a.wallpaper_mode || 'gradient');
   setColor('s2-g1', a.gradient_start); setColor('s2-g2', a.gradient_end);
@@ -818,7 +800,7 @@ function applyConfigToForms() {
   setValue('gh-repo', config.github?.repo);
 
   buildEcoForm();
-  buildPlnAccordion(1); buildPlnAccordion(2); buildPlnAccordion(3);
+  buildPlnTopics();
   buildCatToggles();
   renderCustomFeedList();
 }
@@ -871,12 +853,13 @@ function prevStep() { if (currentStep > 1) goToStep(currentStep-1); }
 // STEP 1 — IDENTIDAD
 // ═══════════════════════════════════════════
 function s1Update() {
-  if (!config.student) config.student = {};
-  config.student.name        = document.getElementById('s1-name').value || 'Tu Nombre';
-  config.student.institution = document.getElementById('s1-inst').value || 'Tu Institución';
-  config.student.semester    = document.getElementById('s1-sem').value;
-  config.student.group       = document.getElementById('s1-group').value;
-  config.student.email       = document.getElementById('s1-email').value;
+  if (!config.profile) config.profile = {};
+  config.profile.name        = document.getElementById('s1-name').value || 'Tu Nombre';
+  config.profile.institution = document.getElementById('s1-inst').value || 'Tu Institución';
+  config.profile.department  = document.getElementById('s1-department').value;
+  config.profile.subject     = document.getElementById('s1-subject').value;
+  config.profile.period      = document.getElementById('s1-period').value;
+  config.profile.email       = document.getElementById('s1-email').value;
   saveConfig();
 }
 
@@ -993,43 +976,53 @@ function deleteEcoTool(key, idx) {
 }
 
 // ═══════════════════════════════════════════
-// STEP 5 — PLN TEMAS
+// STEP 5 — PLN TEMAS (libres)
 // ═══════════════════════════════════════════
-function buildPlnAccordion(sem) {
-  const container = document.getElementById('pln-acc-sem' + sem);
+function buildPlnTopics() {
+  const container = document.getElementById('pln-topics-list');
   if (!container) return;
-  const topics = (config.ple?.topics || []).filter(t => t.semester === sem);
-  const semBadge = SEM_COLORS[sem];
-  container.innerHTML = topics.map(topic => {
+  const topics = config.ple?.topics || [];
+  if (!topics.length) {
+    container.innerHTML = '<p style="font-size:0.78rem;color:#bbb;text-align:center;padding:20px">Aún no tienes temas. Haz clic en "+ Agregar" para empezar.</p>';
+    return;
+  }
+  container.innerHTML = topics.map((topic, idx) => {
     const resHTML = (topic.resources || []).map((r,i) => `
       <div class="res-item">
-        <span class="res-badge badge-${r.type}">${r.type.toUpperCase()}</span>
+        <span class="res-badge badge-${r.type||'web'}">${(r.type||'web').toUpperCase()}</span>
         <span class="res-name">${eh(r.name)}</span>
         <a href="${eh(r.url)}" target="_blank" class="res-link"><i class="fas fa-external-link-alt"></i></a>
         <button class="eco-del" onclick="deleteResource('${topic.id}',${i})">✕</button>
       </div>
     `).join('');
     return `
-      <div class="topic-accordion" id="tacc-${topic.id}">
-        <div class="topic-acc-header" onclick="toggleTopicAcc(this)" id="thdr-${topic.id}">
+      <div class="topic-accordion" id="tacc-${topic.id}" style="margin-bottom:10px">
+        <div class="topic-acc-header" id="thdr-${topic.id}">
           <label class="topic-toggle" onclick="event.stopPropagation()">
-            <input type="checkbox" ${topic.active ? 'checked' : ''} onchange="toggleTopic('${topic.id}',this.checked)">
+            <input type="checkbox" ${topic.active ? 'checked' : ''} onchange="toggleTopicActive('${topic.id}',this.checked)">
             <span class="toggle-track"></span>
           </label>
-          <span class="topic-acc-title">${eh(topic.title)}</span>
-          <span class="topic-acc-sem ${semBadge}">${SEM_LABELS[sem].split(' ').pop()}</span>
-          <i class="fas fa-chevron-down topic-acc-chevron"></i>
+          <input type="text" class="f-input" value="${eh(topic.title)}"
+            placeholder="Nombre de este tema o unidad..."
+            oninput="updateTopicTitle('${topic.id}',this.value)"
+            onclick="event.stopPropagation()"
+            style="flex:1;margin:0 8px;font-size:0.8rem;padding:6px 10px">
+          <button class="eco-del" onclick="event.stopPropagation();deleteTopic('${topic.id}')" title="Eliminar tema" style="flex-shrink:0">✕</button>
+          <i class="fas fa-chevron-down topic-acc-chevron" style="margin-left:6px;flex-shrink:0;cursor:pointer" onclick="toggleTopicAcc(document.getElementById('thdr-${topic.id}'))"></i>
         </div>
         <div class="topic-acc-body" id="tbody-${topic.id}">
           ${resHTML}
           <div class="add-res-row" style="margin-top:10px">
             <input type="text" class="f-input" id="rn-${topic.id}" placeholder="Nombre del recurso">
             <input type="url"  class="f-input" id="ru-${topic.id}" placeholder="https://...">
-            <select class="f-input" id="rt-${topic.id}" style="max-width:90px">
-              <option value="yt">YouTube</option><option value="platzi">Platzi</option>
-              <option value="sep">SEP</option><option value="web">Web</option>
-              <option value="libro">Libro</option><option value="tiktok">TikTok</option>
-              <option value="cpe">Capacítate</option>
+            <select class="f-input" id="rt-${topic.id}" style="max-width:100px">
+              <option value="web">Web</option>
+              <option value="yt">YouTube</option>
+              <option value="libro">Libro</option>
+              <option value="platzi">Platzi</option>
+              <option value="tiktok">TikTok</option>
+              <option value="sep">SEP/Gov</option>
+              <option value="cpe">Curso</option>
             </select>
             <button class="eco-add-btn" onclick="addResource('${topic.id}')">+ Add</button>
           </div>
@@ -1045,9 +1038,32 @@ function toggleTopicAcc(hdr) {
   document.getElementById('tbody-' + id)?.classList.toggle('open');
 }
 
-function toggleTopic(id, active) {
-  const topic = config.ple.topics.find(t => t.id === id);
+function toggleTopicActive(id, active) {
+  const topic = (config.ple?.topics || []).find(t => t.id === id);
   if (topic) { topic.active = active; saveConfig(); }
+}
+
+function updateTopicTitle(id, val) {
+  const topic = (config.ple?.topics || []).find(t => t.id === id);
+  if (topic) { topic.title = val; saveConfig(); }
+}
+
+function addNewTopic() {
+  if (!config.ple) config.ple = {};
+  if (!config.ple.topics) config.ple.topics = [];
+  config.ple.topics.push({ id:'tema-'+Date.now(), title:'Nuevo tema', group:'', active:true, resources:[] });
+  saveConfig();
+  buildPlnTopics();
+  // Open the new one
+  const last = config.ple.topics[config.ple.topics.length-1];
+  setTimeout(() => toggleTopicAcc(document.getElementById('thdr-'+last.id)), 80);
+}
+
+function deleteTopic(id) {
+  if (!config.ple?.topics) return;
+  config.ple.topics = config.ple.topics.filter(t => t.id !== id);
+  saveConfig();
+  buildPlnTopics();
 }
 
 function addResource(topicId) {
@@ -1055,10 +1071,9 @@ function addResource(topicId) {
   const url  = document.getElementById('ru-' + topicId).value.trim();
   const type = document.getElementById('rt-' + topicId).value;
   if (!name || !url) return;
-  const topic = config.ple.topics.find(t => t.id === topicId);
+  const topic = (config.ple?.topics || []).find(t => t.id === topicId);
   if (topic) { topic.resources.push({ name, url, type }); saveConfig(); }
-  const sem = topic.semester;
-  buildPlnAccordion(sem);
+  buildPlnTopics();
   setTimeout(() => {
     const hdr = document.getElementById('thdr-' + topicId);
     if (hdr && !hdr.classList.contains('open')) toggleTopicAcc(hdr);
@@ -1066,16 +1081,8 @@ function addResource(topicId) {
 }
 
 function deleteResource(topicId, idx) {
-  const topic = config.ple.topics.find(t => t.id === topicId);
-  if (topic) { topic.resources.splice(idx,1); saveConfig(); buildPlnAccordion(topic.semester); }
-}
-
-function showSem(n, tabEl) {
-  [1,2,3].forEach(i => {
-    document.getElementById('pln-acc-sem' + i).style.display = i===n ? 'block' : 'none';
-  });
-  document.querySelectorAll('.sem-tab').forEach(t => t.classList.remove('active'));
-  tabEl.classList.add('active');
+  const topic = (config.ple?.topics || []).find(t => t.id === topicId);
+  if (topic) { topic.resources.splice(idx,1); saveConfig(); buildPlnTopics(); }
 }
 
 // ═══════════════════════════════════════════
@@ -1217,7 +1224,7 @@ async function publishToGitHub() {
     } catch {}
     config._meta.last_saved = new Date().toISOString();
     const content = btoa(unescape(encodeURIComponent(JSON.stringify(config, null, 2))));
-    const body = { message:`PLN actualizado — ${config.student?.name || 'alumno'}`, content, branch: branch||'main' };
+    const body = { message:`PLE actualizado — ${config.profile?.name || 'docente'}`, content, branch: branch||'main' };
     if (sha) body.sha = sha;
     const putRes = await fetch(`${apiBase}/contents/student-config.json`, {
       method:'PUT',
@@ -1252,7 +1259,8 @@ function handleImageFile(file, field) {
   const reader = new FileReader();
   reader.onload = e => {
     if (field === 'photo') {
-      config.student.photo = e.target.result;
+      if (!config.profile) config.profile = {};
+      config.profile.photo = e.target.result;
       const prev = document.getElementById('foto-preview');
       prev.src = e.target.result; prev.style.display='block';
       document.getElementById('foto-icon').style.display='none';
@@ -1303,10 +1311,10 @@ function adjustColor(hex, amt) {
 }
 
 function renderPortada() {
-  const s = config.student || {};
-  const a = config.appearance || {};
-  document.getElementById('prev-name').textContent = s.name || 'Tu Nombre Completo';
-  document.getElementById('prev-inst').textContent = [s.institution, s.semester].filter(Boolean).join(' · ') || 'Tu Institución · 1er Semestre';
+  const pr = config.profile || {};
+  const a  = config.appearance || {};
+  document.getElementById('prev-name').textContent = pr.name || 'Tu Nombre Completo';
+  document.getElementById('prev-inst').textContent = [pr.institution, pr.subject || pr.department].filter(Boolean).join(' · ') || 'Tu Institución · Tu Materia';
   document.getElementById('prev-quote').textContent = (a.quote ? `"${a.quote}"` : '') + (a.quote_author ? ` — ${a.quote_author}` : '');
   // Background
   const portada = document.getElementById('prev-portada');
@@ -1325,7 +1333,7 @@ function renderPortada() {
   // Photo
   const foto = document.getElementById('prev-foto');
   const fotoPh = document.getElementById('prev-foto-ph');
-  if (s.photo) { foto.src = s.photo; foto.style.display='block'; fotoPh.style.display='none'; }
+  if (pr.photo) { foto.src = pr.photo; foto.style.display='block'; fotoPh.style.display='none'; }
   else { foto.style.display='none'; fotoPh.style.display='flex'; }
 }
 
@@ -1351,13 +1359,13 @@ function renderEcosistema() {
 }
 
 function renderPLN() {
-  const topics = config.ple?.topics || [];
-  document.getElementById('prev-pln-list').innerHTML = topics.filter(t => t.active).map(t => `
+  const topics = (config.ple?.topics || []).filter(t => t.active);
+  document.getElementById('prev-pln-list').innerHTML = topics.map(t => `
     <div class="prev-topic">
       <span class="prev-topic-title">${eh(t.title)}</span>
       <span class="prev-res-count">${(t.resources||[]).length} recursos</span>
     </div>
-  `).join('') || '<p style="font-size:0.75rem;color:#bbb;text-align:center;padding:12px">Activa temas en el Paso 5</p>';
+  `).join('') || '<p style="font-size:0.75rem;color:#bbb;text-align:center;padding:12px">Agrega temas en el Paso 5</p>';
 }
 
 function renderFeed() {

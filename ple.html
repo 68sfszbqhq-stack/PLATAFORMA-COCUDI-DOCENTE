@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mi PLE — Cultura Digital</title>
+<title>Mi PLE — Entorno Personal de Aprendizaje</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
 <style>
@@ -269,7 +269,7 @@ body { font-family:'Inter',sans-serif; background:#f4f4f0; color:#111; }
     <div class="nav-logo-dot"></div>
     <span class="nav-title">PLE</span>
     <span class="nav-sep">·</span>
-    <span id="nav-name">Cultura Digital</span>
+    <span id="nav-name">Mi PLE</span>
   </div>
   <div class="nav-actions">
     <a href="pln-feed.html" class="nav-btn nav-ghost"><i class="fas fa-newspaper"></i> Mi Feed</a>
@@ -301,8 +301,8 @@ body { font-family:'Inter',sans-serif; background:#f4f4f0; color:#111; }
 <section id="sec-contexto">
   <div class="section">
     <div class="section-label"><i class="fas fa-book-open"></i> Contexto Académico</div>
-    <h2 class="section-title" id="ple-title">Mi PLE — Cultura Digital</h2>
-    <p class="section-sub">Mi Entorno Personal de Aprendizaje construido para la certificación Cultura Digital MCCEMS SEP 2025.</p>
+    <h2 class="section-title" id="ple-title">Mi PLE — Entorno Personal de Aprendizaje</h2>
+    <p class="section-sub">Mi Entorno Personal de Aprendizaje: las herramientas, redes y recursos que sostienen mi práctica docente y mi desarrollo profesional continuo.</p>
     <div class="ctx-grid">
       <div class="ctx-card">
         <div class="ctx-icon">📚</div>
@@ -342,12 +342,12 @@ body { font-family:'Inter',sans-serif; background:#f4f4f0; color:#111; }
 </section>
 <div class="section-divider dark-divider" style="background:rgba(255,255,255,0.04)"></div>
 
-<!-- ═══════ RED PLN — TEMAS MCCEMS ═══════ -->
+<!-- ═══════ RED PLN — TEMAS Y RECURSOS ═══════ -->
 <section id="sec-pln">
   <div class="section">
     <div class="section-label"><i class="fas fa-graduation-cap"></i> Red PLN</div>
-    <h2 class="section-title">Temas MCCEMS — Mis Recursos</h2>
-    <p class="section-sub">Recursos digitales organizados por los 9 temas del programa Cultura Digital MCCEMS SEP 2025.</p>
+    <h2 class="section-title">Mis Temas y Recursos</h2>
+    <p class="section-sub">Recursos digitales organizados por los temas y unidades de mi materia.</p>
     <div id="pln-container"><!-- filled by JS --></div>
   </div>
 </section>
@@ -363,9 +363,9 @@ body { font-family:'Inter',sans-serif; background:#f4f4f0; color:#111; }
 <!-- ═══════ FOOTER ═══════ -->
 <footer id="footer">
   <p>
-    🎓 Plantilla PLN Cultura Digital &nbsp;·&nbsp;
+    🎓 Plantilla PLE / PLN para Docentes &nbsp;·&nbsp;
     Creada por <strong>José Roberto Mendoza Mendoza</strong> &nbsp;·&nbsp;
-    IBERO Puebla &nbsp;·&nbsp; MCCEMS SEP 2025 &nbsp;·&nbsp;
+    IBERO Puebla &nbsp;·&nbsp;
     <a href="https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla" target="_blank">Ver plantilla original</a>
   </p>
 </footer>
@@ -385,11 +385,6 @@ const ECO_NODES = [
   { key:'publico',  icon:'🌐', label:'Publico',  desc_ph:'Espacios donde publico y difundo mi aprendizaje' },
 ];
 
-const SEM_DATA = [
-  { num:1, label:'Cultura Digital I',   badge:'sem-badge-1' },
-  { num:2, label:'Cultura Digital II',  badge:'sem-badge-2' },
-  { num:3, label:'Cultura Digital III', badge:'sem-badge-3' },
-];
 
 // ═══════════════════════════════════════════
 // LOAD CONFIG
@@ -411,14 +406,15 @@ async function loadConfig() {
 // RENDER
 // ═══════════════════════════════════════════
 function renderPortada(config) {
-  const s = config.student || {};
-  const a = config.appearance || {};
+  const pr = config.profile || config.student || {};
+  const a  = config.appearance || {};
 
-  document.getElementById('nav-name').textContent = s.name || 'Mi PLE';
-  document.title = (s.name ? `PLE — ${s.name}` : 'Mi PLE — Cultura Digital');
-  document.getElementById('hero-name').textContent = s.name || 'Tu Nombre Completo';
-  document.getElementById('hero-sub').textContent  = [s.institution, s.semester, s.group].filter(Boolean).join(' · ') || 'Tu Institución';
-  if (s.teacher) document.getElementById('hero-teacher').innerHTML = `<i class="fas fa-chalkboard-teacher" style="margin-right:5px"></i> Docente: ${eh(s.teacher)}`;
+  document.getElementById('nav-name').textContent = pr.name || 'Mi PLE';
+  document.title = pr.name ? `PLE — ${pr.name}` : 'Mi PLE';
+  document.getElementById('hero-name').textContent = pr.name || 'Tu Nombre Completo';
+  const subParts = [pr.institution, pr.subject || pr.department, pr.period].filter(Boolean);
+  document.getElementById('hero-sub').textContent  = subParts.join(' · ') || 'Tu Institución';
+  document.getElementById('hero-teacher').style.display = 'none';
 
   if (a.quote) {
     document.getElementById('hero-quote').textContent  = `"${a.quote}"`;
@@ -426,9 +422,9 @@ function renderPortada(config) {
   }
 
   // Foto
-  if (s.photo) {
+  if (pr.photo) {
     const img = document.getElementById('hero-foto');
-    img.src = s.photo; img.style.display = 'block';
+    img.src = pr.photo; img.style.display = 'block';
     document.getElementById('hero-foto-ph').style.display = 'none';
   }
 
@@ -455,10 +451,11 @@ function renderPortada(config) {
 }
 
 function renderContexto(config) {
-  const p = config.ple || {};
+  const p  = config.ple || {};
+  const pr = config.profile || config.student || {};
   if (p.title) {
     document.getElementById('ple-title').textContent = p.title;
-    document.title = `PLE — ${config.student?.name || p.title}`;
+    document.title = pr.name ? `PLE — ${pr.name}` : p.title;
   }
   setIfVal('ctx-context',    p.context,    'Completa este campo en tu builder.');
   setIfVal('ctx-purpose',    p.purpose,    'Completa este campo en tu builder.');
@@ -522,50 +519,46 @@ function renderEcosistema(config) {
 }
 
 function renderPLN(config) {
-  const topics = config.ple?.topics || [];
+  const topics    = config.ple?.topics || [];
   const container = document.getElementById('pln-container');
-  if (!topics.length) {
+  const active    = topics.filter(t => t.active);
+  if (!active.length) {
     container.innerHTML = '<p style="color:#aaa;font-style:italic">Agrega temas en el builder (Paso 5).</p>';
     return;
   }
+  // Group by optional "group" field
+  const groups = {};
+  active.forEach(t => {
+    const g = t.group || '';
+    if (!groups[g]) groups[g] = [];
+    groups[g].push(t);
+  });
   let html = '';
-  SEM_DATA.forEach(sem => {
-    const semTopics = topics.filter(t => t.semester === sem.num);
-    if (!semTopics.length) return;
-    const activeTopics = semTopics.filter(t => t.active);
-    if (!activeTopics.length) return;
-    html += `<div class="sem-group">
-      <div class="sem-header">
-        <span class="sem-badge ${sem.badge}">${sem.label}</span>
-        <span class="sem-name">${sem.label}</span>
-      </div>
-      <div class="topic-grid">`;
-    semTopics.forEach((topic, idx) => {
-      const inactive = !topic.active ? 'inactive' : '';
-      const purposesHtml = (topic.purposes || []).map(p =>
-        `<div class="topic-purpose">${eh(p)}</div>`
-      ).join('');
-      const resources = (topic.resources || []);
+  Object.entries(groups).forEach(([groupName, groupTopics]) => {
+    if (groupName) {
+      html += `<div class="sem-group"><div class="sem-header"><span class="sem-name">${eh(groupName)}</span></div><div class="topic-grid">`;
+    } else {
+      html += `<div class="sem-group"><div class="topic-grid">`;
+    }
+    groupTopics.forEach((topic, idx) => {
+      const resources = topic.resources || [];
       const resHtml = resources.length
         ? resources.map(r => `
             <a class="topic-resource" href="${eh(r.url||'#')}" target="_blank" rel="noopener">
               <span class="res-badge b-${r.type||'web'}">${(r.type||'web').toUpperCase()}</span>
               <span class="res-name">${eh(r.name)}</span>
-            </a>
-          `).join('')
+            </a>`).join('')
         : '<span class="topic-empty">Sin recursos aún</span>';
       html += `
-        <div class="topic-card ${inactive}">
+        <div class="topic-card">
           <div class="topic-num">${idx+1}</div>
           <div class="topic-title">${eh(topic.title)}</div>
-          ${purposesHtml ? `<div class="topic-purposes">${purposesHtml}</div>` : ''}
           <div class="topic-resources">${resHtml}</div>
-        </div>
-      `;
+        </div>`;
     });
     html += `</div></div>`;
   });
-  container.innerHTML = html || '<p style="color:#aaa;font-style:italic">Activa temas en el builder (Paso 5).</p>';
+  container.innerHTML = html;
 }
 
 // ═══════════════════════════════════════════
