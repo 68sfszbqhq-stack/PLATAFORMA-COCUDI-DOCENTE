@@ -1,11 +1,10 @@
-# 🎓 PLN Cultura Digital — Plantilla para Alumnos
+# 🎓 Plataforma COCUDI Docente — PLE / PLN para Docentes Universitarios
 
 > **Creado por:** José Roberto Mendoza Mendoza  
 > **Institución:** IBERO Puebla  
-> **Asignatura:** Cultura Digital — MCCEMS SEP 2025  
 > **Versión:** 1.0
 
-Plantilla libre y abierta para que los alumnos de la certificación **Cultura Digital (MCCEMS SEP 2025)** construyan y publiquen su propio **Entorno Personal de Aprendizaje (PLE)** y **Red Personal de Aprendizaje (PLN)** en GitHub Pages, paso a paso y sin necesidad de saber programar.
+Plantilla libre y abierta para que **docentes universitarios** construyan y publiquen su propio **Entorno Personal de Aprendizaje (PLE)** y **Red Personal de Aprendizaje (PLN)** en GitHub Pages, paso a paso y sin necesidad de saber programar. Diseñada especialmente para la red de universidades jesuitas.
 
 ---
 
@@ -14,15 +13,16 @@ Plantilla libre y abierta para que los alumnos de la certificación **Cultura Di
 | Archivo | Descripción |
 |---------|-------------|
 | `index.html` | Builder interactivo de 7 pasos (PLE completo + publicación en GitHub) |
+| `ple.html` | Página pública de tu PLE personalizado |
 | `pln-feed.html` | Feed tipo Flipboard con fuentes en español y tarjetas personales |
-| `student-config.json` | Tu configuración personal (este archivo se actualiza con el builder) |
+| `student-config.json` | Tu configuración personal (se actualiza automáticamente con el builder) |
 | `data/feeds.json` | Caché de artículos RSS (se actualiza automáticamente con GitHub Actions) |
 | `scripts/fetch_feeds.py` | Script Python para obtener artículos en tiempo real |
 | `.github/workflows/update-feeds.yml` | Automatización que actualiza el feed cada 6 horas |
 
 ---
 
-## Guía para el alumno — Cómo empezar
+## Guía para el docente — Cómo empezar
 
 ### Paso 1: Crea tu cuenta en GitHub
 
@@ -33,9 +33,9 @@ Plantilla libre y abierta para que los alumnos de la certificación **Cultura Di
 
 ### Paso 2: Haz fork de esta plantilla
 
-1. Entra a: **[github.com/68sfszbqhq-stack/PLN-CD-Plantilla](https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla)**
+1. Entra a: **[github.com/68sfszbqhq-stack/PLATAFORMA-COCUDI-DOCENTE](https://github.com/68sfszbqhq-stack/PLATAFORMA-COCUDI-DOCENTE)**
 2. Haz clic en el botón **Fork** (esquina superior derecha)
-3. En "Repository name" deja `PLN-CD-Plantilla` o escribe tu nombre, ej. `mi-pln-cultura-digital`
+3. En "Repository name" puedes dejar `PLATAFORMA-COCUDI-DOCENTE` o escribir algo propio, ej. `mi-ple-docente`
 4. Haz clic en **Create fork**
 
 ### Paso 3: Activa GitHub Pages
@@ -46,27 +46,26 @@ Plantilla libre y abierta para que los alumnos de la certificación **Cultura Di
 4. Branch → **main** → carpeta **/ (root)**
 5. Haz clic en **Save**
 6. Espera 2-3 minutos y tu sitio estará en:  
-   `https://TU-USUARIO.github.io/PLN-CD-Plantilla/`
+   `https://TU-USUARIO.github.io/PLATAFORMA-COCUDI-DOCENTE/`
 
 ### Paso 4: Crea tu Personal Access Token
 
 El token permite que el builder guarde tu configuración automáticamente en GitHub.
 
-1. Ve a: **[github.com/settings/tokens/new?scopes=repo&description=PLN-Cultura-Digital](https://github.com/settings/tokens/new?scopes=repo&description=PLN-Cultura-Digital)**
-2. En **Note** escribe: `PLN Cultura Digital`
+1. Ve a: **github.com/settings/tokens/new** → activa el scope **repo**
+2. En **Note** escribe: `PLE Docente`
 3. En **Expiration** elige **No expiration**
-4. En **Select scopes** activa **repo** (el primero de la lista)
-5. Haz clic en **Generate token**
-6. **Copia el token** (empieza con `ghp_`) — solo lo verás una vez
+4. Haz clic en **Generate token**
+5. **Copia el token** (empieza con `ghp_`) — solo lo verás una vez
 
 ### Paso 5: Usa el builder
 
-1. Abre tu sitio de GitHub Pages: `https://TU-USUARIO.github.io/PLN-CD-Plantilla/`
-2. Se mostrará el **Setup Wizard** — sigue los pasos
+1. Abre tu sitio de GitHub Pages: `https://TU-USUARIO.github.io/PLATAFORMA-COCUDI-DOCENTE/`
+2. Se mostrará el **Setup Wizard** — sigue los 7 pasos
 3. En el **Paso 7** ingresa tu usuario, nombre del repo y token
 4. Haz clic en **Guardar en mi GitHub**
 
-Tu PLN ya está en línea. Cada vez que hagas cambios y guardes, el sitio se actualiza en 30-60 segundos.
+Tu PLE ya está en línea. Cada vez que hagas cambios y guardes, el sitio se actualiza en 30-60 segundos.
 
 ---
 
@@ -74,51 +73,30 @@ Tu PLN ya está en línea. Cada vez que hagas cambios y guardes, el sitio se act
 
 | Paso | Sección | Qué construyes |
 |------|---------|----------------|
-| 1 | **Mi Identidad** | Nombre, institución, semestre, foto de perfil |
+| 1 | **Mi Identidad** | Nombre, universidad, área, materia, período académico, foto |
 | 2 | **Mi Apariencia** | Fondo, colores, cita motivacional |
 | 3 | **Mi Portada y Contexto** | Título del PLE, contexto académico, propósito, valoración |
 | 4 | **Mi Ecosistema Digital** | 6 nodos (Busco, Organizo, Creo, Colaboro, Comparto, Publico) |
-| 5 | **Mi Red PLN** | 9 temas MCCEMS con recursos: YouTube, Platzi, SEP, etc. |
-| 6 | **Mi PLN Feed** | Categorías activas y tarjetas de recursos propios |
+| 5 | **Mi Red PLN** | Temas y unidades de tu materia con recursos propios |
+| 6 | **Mi PLN Feed** | Categorías activas y tarjetas de recursos personales |
 | 7 | **Publicar en GitHub** | Conectar cuenta y publicar en línea |
 
 ---
 
-## Temas MCCEMS incluidos
+## Personalización de temas (Paso 5)
 
-### Cultura Digital I
-- Ciudadanía Digital y Ética en la Red
-- Seguridad Digital e Identidad en Línea
-- Hardware, Software y Evolución Tecnológica
+El builder es completamente abierto: tú defines los temas, unidades o bloques de tu materia. Puedes:
 
-### Cultura Digital II
-- Aprendizaje Colaborativo y Herramientas Digitales
-- Gestión de Datos e Información Digital
-- Creación de Contenidos y Marca Personal Digital
+- **Agregar** tantos temas como quieras (botón "+ Agregar nuevo tema")
+- **Nombrarlos** como prefieras: "Unidad 1", "Módulo A", "Semana 3", etc.
+- **Agruparlos** por bloque si tu materia tiene una estructura mayor
+- **Enlazar recursos** de cualquier tipo: YouTube, artículos, libros, plataformas
 
-### Cultura Digital III
-- Pensamiento Computacional y Programación Básica
-- Cómo Funciona Internet y las Redes Digitales
-- Difusión del Conocimiento y Ciudadanía Digital Avanzada
+No hay una estructura predefinida — la plantilla se adapta a cualquier materia y nivel universitario.
 
 ---
 
-## Para el docente — Cómo compartir con tus alumnos
-
-1. Comparte este enlace con tus alumnos: `https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla`
-2. Cada alumno hace su propio fork (copia personal)
-3. El PLN de cada alumno vive en su propia URL de GitHub Pages
-4. Puedes ver el trabajo de cada alumno accediendo a su URL pública
-
-### Opciones de entrega
-
-- **Evidencia digital**: El alumno comparte su URL de GitHub Pages
-- **Evaluación de proceso**: Revisa los commits en GitHub (fecha y hora de cada guardado)
-- **Portfolio**: El PLN queda como portfolio profesional del alumno después del curso
-
----
-
-## Feed en vivo (opcional — para alumnos avanzados)
+## Feed en vivo (opcional)
 
 La plantilla incluye un sistema de actualización automática de noticias en español:
 
@@ -146,11 +124,10 @@ python3 scripts/fetch_feeds.py
 
 ## Créditos y licencia
 
-**Creador y docente responsable:**  
+**Creador:**  
 **José Roberto Mendoza Mendoza**  
-Docente de Cultura Digital — IBERO Puebla  
-MCCEMS SEP 2025
+Docente — IBERO Puebla
 
 Plantilla de uso libre para fines educativos. Puedes adaptarla, mejorarla y compartirla siempre que mantengas la atribución al autor original.
 
-Repositorio original: [github.com/68sfszbqhq-stack/PLN-CD-Plantilla](https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla)
+Repositorio original: [github.com/68sfszbqhq-stack/PLATAFORMA-COCUDI-DOCENTE](https://github.com/68sfszbqhq-stack/PLATAFORMA-COCUDI-DOCENTE)
