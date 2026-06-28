@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mi PLN — Cultura Digital MCCEMS</title>
+<title>COCUDI — Mi PLE y PLN</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
 <style>
@@ -292,38 +292,31 @@ select.f-input{cursor:pointer}
 <div id="setup-modal">
   <div class="setup-hero">
     <div class="setup-hero-icon">🎓</div>
-    <h1>Bienvenido a tu PLN<br>Cultura Digital</h1>
-    <p>Construye tu Entorno Personal de Aprendizaje paso a paso.<br>Todo se guarda en tu propio GitHub.</p>
+    <h1>Bienvenido a COCUDI<br>Tu PLE y PLN</h1>
+    <p>Construye tu Entorno Personal de Aprendizaje y tu Red Personal de Aprendizaje paso a paso.<br>Todo se guarda en tu propio GitHub.</p>
   </div>
   <div class="setup-body">
     <div class="setup-credits">
       Plantilla diseñada por <strong>José Roberto Mendoza Mendoza</strong><br>
-      IBERO Puebla · Cultura Digital MCCEMS SEP 2025
+      IBERO Puebla
     </div>
 
     <!-- Setup Step A: Identidad básica -->
     <div class="setup-step-panel active" id="ss-a">
-      <div class="setup-step-title">¿Cómo te llamas?</div>
-      <div class="setup-step-sub">Estos datos aparecerán en tu PLE. Podrás cambiarlos después.</div>
+      <div class="setup-step-title">¿Quién eres?</div>
+      <div class="setup-step-sub">Estos datos aparecerán en tu PLE y PLN. Podrás cambiarlos después.</div>
       <div class="f-group">
         <label class="f-label">Tu nombre completo</label>
         <input type="text" class="f-input" id="ss-name" placeholder="ej. María García López">
       </div>
       <div class="f-row">
         <div class="f-group">
-          <label class="f-label">Institución</label>
+          <label class="f-label">Universidad / Institución</label>
           <input type="text" class="f-input" id="ss-inst" placeholder="ej. IBERO Puebla">
         </div>
         <div class="f-group">
-          <label class="f-label">Semestre</label>
-          <select class="f-input" id="ss-sem">
-            <option value="1er Semestre">1er Semestre</option>
-            <option value="2do Semestre">2do Semestre</option>
-            <option value="3er Semestre">3er Semestre</option>
-            <option value="4to Semestre">4to Semestre</option>
-            <option value="5to Semestre">5to Semestre</option>
-            <option value="6to Semestre">6to Semestre</option>
-          </select>
+          <label class="f-label">Materia que impartes</label>
+          <input type="text" class="f-input" id="ss-sem" placeholder="ej. Ética y Sociedad">
         </div>
       </div>
       <button class="setup-btn" onclick="setupNext('a','b')">Continuar <i class="fas fa-arrow-right"></i></button>
@@ -365,7 +358,7 @@ select.f-input{cursor:pointer}
         <div class="gh-info-title">Cómo crear tu token</div>
         <ol class="gh-info-steps">
           <li>Haz clic en el botón de abajo</li>
-          <li>En <strong>Note</strong> escribe: <em>PLN Cultura Digital</em></li>
+          <li>En <strong>Note</strong> escribe: <em>COCUDI Docente</em></li>
           <li>En <strong>Expiration</strong> elige <strong>No expiration</strong></li>
           <li>En <strong>Scopes</strong> activa <strong>repo</strong></li>
           <li>Clic en <strong>Generate token</strong></li>
@@ -394,8 +387,8 @@ select.f-input{cursor:pointer}
       <div style="text-align:center;padding:10px 0">
         <div style="font-size:3rem;margin-bottom:12px">🎉</div>
         <div class="setup-step-title">¡Todo listo!</div>
-        <p style="font-size:0.78rem;color:#666;margin:8px 0 24px;line-height:1.6">Tu PLN está conectado a GitHub.<br>Ahora construye tu PLE paso a paso.</p>
-        <button class="setup-btn" onclick="closeSetup()">Empezar a construir mi PLN <i class="fas fa-rocket"></i></button>
+        <p style="font-size:0.78rem;color:#666;margin:8px 0 24px;line-height:1.6">Tu espacio COCUDI está conectado a GitHub.<br>Ahora construye tu PLE y PLN paso a paso.</p>
+        <button class="setup-btn" onclick="closeSetup()">Empezar a construir mi PLE y PLN <i class="fas fa-rocket"></i></button>
       </div>
     </div>
   </div>
@@ -1390,14 +1383,14 @@ function setupNext(from, to) {
   if (from === 'a') {
     const name = document.getElementById('ss-name').value.trim();
     if (!name) { alert('Por favor ingresa tu nombre.'); return; }
-    if (!config.student) config.student = {};
-    config.student.name        = name;
-    config.student.institution = document.getElementById('ss-inst').value.trim() || 'Mi Institución';
-    config.student.semester    = document.getElementById('ss-sem').value;
+    if (!config.profile) config.profile = {};
+    config.profile.name        = name;
+    config.profile.institution = document.getElementById('ss-inst').value.trim() || 'Mi Institución';
+    config.profile.subject     = document.getElementById('ss-sem').value.trim();
     // Sync to step 1 form
-    setValue('s1-name', config.student.name);
-    setValue('s1-inst', config.student.institution);
-    setSelect('s1-sem', config.student.semester);
+    setValue('s1-name', config.profile.name);
+    setValue('s1-inst', config.profile.institution);
+    setValue('s1-subject', config.profile.subject);
     saveConfig();
   }
   document.getElementById('ss-' + from).classList.remove('active');
