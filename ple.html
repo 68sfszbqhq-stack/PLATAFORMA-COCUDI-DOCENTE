@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi PLE — Cultura Digital</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary:    #E12828;
+  --primary-dk: #B71C1C;
+  --dark:       #0a0a0f;
+  --surface:    #13131a;
+  --text-light: rgba(255,255,255,0.88);
+  --muted:      rgba(255,255,255,0.5);
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior: smooth; }
+body { font-family:'Inter',sans-serif; background:#f4f4f0; color:#111; }
+
+/* ─── NAV ─── */
+#nav {
+  position:fixed; top:0; left:0; right:0; z-index:500;
+  height:52px; background:rgba(10,10,15,0.96);
+  backdrop-filter:blur(14px); border-bottom:1px solid rgba(225,40,40,0.25);
+  display:flex; align-items:center; justify-content:space-between; padding:0 24px;
+}
+.nav-left { display:flex; align-items:center; gap:10px; }
+.nav-logo-dot { width:8px; height:8px; border-radius:50%; background:var(--primary); flex-shrink:0; }
+.nav-title { font-size:0.7rem; font-weight:900; letter-spacing:0.14em; text-transform:uppercase; color:rgba(255,255,255,0.45); }
+#nav-name { font-size:0.85rem; font-weight:700; color:white; }
+.nav-sep { color:rgba(255,255,255,0.2); margin:0 6px; }
+.nav-actions { display:flex; gap:8px; }
+.nav-btn { display:inline-flex; align-items:center; gap:5px; padding:6px 13px; border-radius:8px; font-size:0.7rem; font-weight:800; text-decoration:none; border:none; cursor:pointer; font-family:'Inter',sans-serif; transition:all 0.18s; }
+.nav-ghost { background:rgba(255,255,255,0.07); color:rgba(255,255,255,0.7); }
+.nav-ghost:hover { background:rgba(255,255,255,0.13); color:white; }
+.nav-primary { background:var(--primary); color:white; }
+.nav-primary:hover { background:var(--primary-dk); }
+
+/* ─── HERO / PORTADA ─── */
+#hero {
+  min-height:100vh; display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  padding:100px 24px 60px; text-align:center;
+  position:relative; overflow:hidden;
+  background:linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+}
+#hero-bg { position:absolute; inset:0; background-size:cover; background-position:center; opacity:0.35; }
+#hero-content { position:relative; z-index:1; max-width:700px; }
+#hero-foto {
+  width:140px; height:140px; border-radius:50%; object-fit:cover;
+  border:4px solid rgba(255,255,255,0.2); margin-bottom:24px;
+  box-shadow:0 16px 48px rgba(0,0,0,0.5);
+  display:none;
+}
+#hero-foto-ph {
+  width:140px; height:140px; border-radius:50%;
+  background:rgba(255,255,255,0.07); border:4px solid rgba(255,255,255,0.15);
+  display:flex; align-items:center; justify-content:center;
+  font-size:3.5rem; color:rgba(255,255,255,0.25); margin:0 auto 24px;
+}
+#hero-name {
+  font-family:'Playfair Display',serif; font-size:3rem; font-weight:900;
+  color:white; line-height:1.1; margin-bottom:12px;
+}
+#hero-sub {
+  font-size:1rem; font-weight:600; color:rgba(255,255,255,0.6);
+  margin-bottom:10px; letter-spacing:0.02em;
+}
+#hero-teacher {
+  font-size:0.78rem; color:rgba(255,255,255,0.4); margin-bottom:32px;
+}
+#hero-quote-wrap {
+  background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1);
+  border-left:3px solid var(--primary); border-radius:0 12px 12px 0;
+  padding:16px 20px; text-align:left; margin-bottom:40px;
+}
+#hero-quote { font-size:1.05rem; font-style:italic; color:rgba(255,255,255,0.8); line-height:1.6; }
+#hero-author { font-size:0.78rem; color:rgba(255,255,255,0.45); margin-top:6px; font-weight:600; }
+.hero-scroll { font-size:0.72rem; font-weight:700; color:rgba(255,255,255,0.35); letter-spacing:0.1em; text-transform:uppercase; }
+.hero-scroll i { display:block; margin:6px auto 0; animation:bounce 1.8s infinite; }
+@keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(6px)} }
+
+/* ─── SECTION WRAPPER ─── */
+.section { padding:72px 24px; max-width:1100px; margin:0 auto; }
+.section-label {
+  font-size:0.65rem; font-weight:900; text-transform:uppercase;
+  letter-spacing:0.14em; color:var(--primary); margin-bottom:8px;
+  display:flex; align-items:center; gap:7px;
+}
+.section-label::before { content:''; flex:0 0 24px; height:2px; background:var(--primary); border-radius:1px; }
+.section-title {
+  font-family:'Playfair Display',serif; font-size:2rem; font-weight:900;
+  color:#111; margin-bottom:10px; line-height:1.2;
+}
+.section-sub { font-size:0.92rem; color:#666; line-height:1.65; max-width:640px; margin-bottom:48px; }
+
+/* ─── CONTEXTO ─── */
+#sec-contexto { background:#f4f4f0; }
+.ctx-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; }
+@media(max-width:640px){ .ctx-grid{ grid-template-columns:1fr; } }
+.ctx-card {
+  background:white; border-radius:20px; padding:28px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.06); border:1px solid rgba(0,0,0,0.04);
+  transition:transform 0.2s, box-shadow 0.2s;
+}
+.ctx-card:hover { transform:translateY(-4px); box-shadow:0 12px 40px rgba(0,0,0,0.1); }
+.ctx-icon {
+  width:44px; height:44px; border-radius:12px; background:#fff5f5;
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.2rem; margin-bottom:16px;
+}
+.ctx-label { font-size:0.65rem; font-weight:900; text-transform:uppercase; letter-spacing:0.1em; color:var(--primary); margin-bottom:8px; }
+.ctx-text { font-size:0.88rem; color:#444; line-height:1.75; min-height:40px; }
+
+/* ─── ECOSISTEMA ─── */
+#sec-eco { background:var(--dark); }
+#sec-eco .section-title { color:white; }
+#sec-eco .section-sub { color:rgba(255,255,255,0.5); }
+#sec-eco .section-label { color:var(--primary); }
+.eco-canvas {
+  display:grid; grid-template-columns:repeat(3,1fr); gap:16px;
+  max-width:860px; margin:0 auto;
+}
+@media(max-width:640px){ .eco-canvas{ grid-template-columns:repeat(2,1fr); } }
+.eco-node-card {
+  background:#1c1c26; border:1px solid rgba(255,255,255,0.07);
+  border-radius:20px; padding:22px; text-align:center;
+  transition:all 0.2s; cursor:default; position:relative; overflow:hidden;
+}
+.eco-node-card::before {
+  content:''; position:absolute; top:0; left:0; right:0; height:3px;
+  background:var(--primary); transform:scaleX(0); transition:transform 0.3s; transform-origin:left;
+}
+.eco-node-card:hover { transform:translateY(-4px); border-color:rgba(225,40,40,0.3); box-shadow:0 16px 40px rgba(0,0,0,0.4); }
+.eco-node-card:hover::before { transform:scaleX(1); }
+.eco-node-icon { font-size:2rem; margin-bottom:10px; display:block; }
+.eco-node-name { font-size:0.7rem; font-weight:900; text-transform:uppercase; letter-spacing:0.1em; color:rgba(255,255,255,0.5); margin-bottom:8px; }
+.eco-node-desc { font-size:0.75rem; color:rgba(255,255,255,0.45); line-height:1.55; margin-bottom:14px; min-height:36px; }
+.eco-tools-list { display:flex; flex-direction:column; gap:6px; }
+.eco-tool {
+  background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.08);
+  border-radius:8px; padding:6px 10px; display:flex; align-items:center;
+  gap:8px; text-decoration:none; transition:background 0.15s;
+}
+.eco-tool:hover { background:rgba(255,255,255,0.1); }
+.eco-tool-logo { width:18px; height:18px; border-radius:4px; object-fit:contain; flex-shrink:0; }
+.eco-tool-name { font-size:0.72rem; font-weight:700; color:rgba(255,255,255,0.7); text-align:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.eco-tool-empty { font-size:0.7rem; color:rgba(255,255,255,0.2); font-style:italic; }
+.eco-yo-center {
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  background:var(--primary); border-radius:20px; padding:22px;
+  border:none; grid-column:2; grid-row:2;
+}
+.eco-yo-label { font-size:1.2rem; font-weight:900; color:white; }
+.eco-yo-sub { font-size:0.65rem; font-weight:700; color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.1em; margin-top:4px; }
+
+/* ─── PLN TEMAS ─── */
+#sec-pln { background:#f4f4f0; }
+.sem-group { margin-bottom:48px; }
+.sem-header {
+  display:flex; align-items:center; gap:12px; margin-bottom:20px;
+  padding-bottom:12px; border-bottom:2px solid #e5e5e0;
+}
+.sem-badge {
+  padding:4px 12px; border-radius:20px; font-size:0.65rem;
+  font-weight:900; text-transform:uppercase; letter-spacing:0.08em; color:white;
+}
+.sem-badge-1 { background:#1A7A4A; }
+.sem-badge-2 { background:#1565C0; }
+.sem-badge-3 { background:#8E44AD; }
+.sem-name { font-size:1.1rem; font-weight:800; color:#111; }
+.topic-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+@media(max-width:900px){ .topic-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(max-width:580px){ .topic-grid{ grid-template-columns:1fr; } }
+.topic-card {
+  background:white; border-radius:18px; padding:22px;
+  box-shadow:0 2px 12px rgba(0,0,0,0.06); border:1px solid rgba(0,0,0,0.04);
+  display:flex; flex-direction:column;
+}
+.topic-card.inactive { opacity:0.4; }
+.topic-num {
+  width:28px; height:28px; border-radius:8px; background:#f4f4f0;
+  display:flex; align-items:center; justify-content:center;
+  font-size:0.7rem; font-weight:900; color:#aaa; margin-bottom:12px; flex-shrink:0;
+}
+.topic-title { font-size:0.88rem; font-weight:800; color:#111; line-height:1.4; margin-bottom:12px; flex:1; }
+.topic-purposes { margin-bottom:14px; }
+.topic-purpose { font-size:0.73rem; color:#666; line-height:1.55; padding-left:14px; position:relative; margin-bottom:4px; }
+.topic-purpose::before { content:'·'; position:absolute; left:0; color:var(--primary); font-weight:900; }
+.topic-resources { display:flex; flex-direction:column; gap:6px; border-top:1px solid #f0f0ec; padding-top:12px; }
+.topic-resource {
+  display:flex; align-items:center; gap:8px; text-decoration:none;
+  padding:6px 9px; border-radius:8px; background:#fafaf8; border:1px solid #e8e8e3;
+  transition:all 0.15s;
+}
+.topic-resource:hover { background:#fff0f0; border-color:rgba(225,40,40,0.2); }
+.res-badge {
+  font-size:0.5rem; font-weight:900; text-transform:uppercase; padding:2px 5px;
+  border-radius:4px; color:white; flex-shrink:0; letter-spacing:0.04em;
+}
+.b-yt      { background:#CC0000; }
+.b-platzi  { background:#98CA3F; }
+.b-sep     { background:#1A7A4A; }
+.b-web     { background:#6366F1; }
+.b-libro   { background:#B7950B; }
+.b-tiktok  { background:#111; }
+.b-cpe     { background:#0078D4; }
+.res-name { font-size:0.73rem; font-weight:700; color:#333; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.topic-empty { font-size:0.72rem; color:#bbb; font-style:italic; }
+
+/* ─── FEED CTA ─── */
+#sec-feed-cta {
+  background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dk) 100%);
+  padding:80px 24px; text-align:center;
+}
+.cta-icon { font-size:3rem; margin-bottom:16px; }
+.cta-title { font-family:'Playfair Display',serif; font-size:2.2rem; font-weight:900; color:white; margin-bottom:12px; }
+.cta-sub { font-size:1rem; color:rgba(255,255,255,0.8); margin-bottom:36px; max-width:500px; margin-left:auto; margin-right:auto; line-height:1.65; }
+.cta-btn {
+  display:inline-flex; align-items:center; gap:10px; background:white; color:var(--primary);
+  padding:16px 32px; border-radius:16px; font-size:0.95rem; font-weight:900;
+  text-decoration:none; box-shadow:0 8px 30px rgba(0,0,0,0.2); transition:all 0.2s;
+}
+.cta-btn:hover { transform:translateY(-3px); box-shadow:0 16px 40px rgba(0,0,0,0.3); }
+
+/* ─── FOOTER ─── */
+#footer { background:#0a0a0f; padding:32px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.05); }
+#footer p { font-size:0.65rem; color:rgba(255,255,255,0.3); line-height:2; }
+#footer strong { color:rgba(255,255,255,0.6); }
+#footer a { color:rgba(255,255,255,0.4); text-decoration:none; font-weight:700; }
+#footer a:hover { color:rgba(255,255,255,0.7); }
+
+/* ─── LOADING ─── */
+#loading {
+  position:fixed; inset:0; background:var(--dark); z-index:900;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px;
+}
+#loading-bar { width:200px; height:3px; background:rgba(255,255,255,0.1); border-radius:3px; overflow:hidden; }
+#loading-fill { height:100%; background:var(--primary); border-radius:3px; animation:fillBar 1.5s ease-out forwards; }
+@keyframes fillBar { from{width:0} to{width:100%} }
+#loading p { font-size:0.72rem; font-weight:600; color:rgba(255,255,255,0.4); letter-spacing:0.08em; text-transform:uppercase; }
+
+/* ─── DIVIDER ─── */
+.section-divider { height:1px; background:rgba(0,0,0,0.08); max-width:1100px; margin:0 auto; }
+.dark-divider { background:rgba(255,255,255,0.05); }
+
+@media(max-width:768px){
+  #hero-name { font-size:2rem; }
+  .section { padding:48px 20px; }
+  .eco-canvas { gap:10px; }
+  .eco-yo-center { display:none; }
+}
+</style>
+</head>
+<body>
+
+<!-- LOADING -->
+<div id="loading">
+  <div><span style="font-size:1.8rem">🎓</span></div>
+  <div id="loading-bar"><div id="loading-fill"></div></div>
+  <p>Cargando tu PLE...</p>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-left">
+    <div class="nav-logo-dot"></div>
+    <span class="nav-title">PLE</span>
+    <span class="nav-sep">·</span>
+    <span id="nav-name">Cultura Digital</span>
+  </div>
+  <div class="nav-actions">
+    <a href="pln-feed.html" class="nav-btn nav-ghost"><i class="fas fa-newspaper"></i> Mi Feed</a>
+    <a href="index.html"    class="nav-btn nav-ghost"><i class="fas fa-edit"></i> Editar</a>
+  </div>
+</nav>
+
+<!-- ═══════ PORTADA / HERO ═══════ -->
+<section id="hero">
+  <div id="hero-bg"></div>
+  <div id="hero-content">
+    <div id="hero-foto-ph"><i class="fas fa-user"></i></div>
+    <img id="hero-foto" src="" alt="Foto de perfil">
+    <h1 id="hero-name">Tu Nombre Completo</h1>
+    <p id="hero-sub">Tu Institución · 1er Semestre</p>
+    <p id="hero-teacher"><i class="fas fa-chalkboard-teacher" style="margin-right:5px"></i> Docente: José Roberto Mendoza Mendoza</p>
+    <div id="hero-quote-wrap">
+      <p id="hero-quote">La tecnología es más poderosa cuando empodera a las personas.</p>
+      <p id="hero-author">— Autor desconocido</p>
+    </div>
+    <div class="hero-scroll">
+      Conoce mi PLE
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CONTEXTO ACADÉMICO ═══════ -->
+<section id="sec-contexto">
+  <div class="section">
+    <div class="section-label"><i class="fas fa-book-open"></i> Contexto Académico</div>
+    <h2 class="section-title" id="ple-title">Mi PLE — Cultura Digital</h2>
+    <p class="section-sub">Mi Entorno Personal de Aprendizaje construido para la certificación Cultura Digital MCCEMS SEP 2025.</p>
+    <div class="ctx-grid">
+      <div class="ctx-card">
+        <div class="ctx-icon">📚</div>
+        <div class="ctx-label">Contexto</div>
+        <div class="ctx-text" id="ctx-context">Describe el contexto de la asignatura...</div>
+      </div>
+      <div class="ctx-card">
+        <div class="ctx-icon">🎯</div>
+        <div class="ctx-label">Propósito</div>
+        <div class="ctx-text" id="ctx-purpose">¿Para qué construiste este PLE?</div>
+      </div>
+      <div class="ctx-card">
+        <div class="ctx-icon">💡</div>
+        <div class="ctx-label">Valoración Personal</div>
+        <div class="ctx-text" id="ctx-assessment">¿Qué aprendiste al construirlo?</div>
+      </div>
+      <div class="ctx-card">
+        <div class="ctx-icon">💬</div>
+        <div class="ctx-label">Comentarios</div>
+        <div class="ctx-text" id="ctx-comments">Comentarios adicionales...</div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="section-divider"></div>
+
+<!-- ═══════ ECOSISTEMA DIGITAL ═══════ -->
+<section id="sec-eco" style="padding:72px 24px">
+  <div style="max-width:1100px;margin:0 auto">
+    <div class="section-label" style="color:var(--primary)"><i class="fas fa-circle-nodes"></i> Ecosistema Digital</div>
+    <h2 class="section-title" style="color:white">Mis Herramientas Digitales</h2>
+    <p class="section-sub">Las plataformas y aplicaciones que conforman mi ecosistema personal de aprendizaje.</p>
+    <div class="eco-canvas" id="eco-canvas">
+      <!-- Filled by JS: 6 nodes + center -->
+    </div>
+  </div>
+</section>
+<div class="section-divider dark-divider" style="background:rgba(255,255,255,0.04)"></div>
+
+<!-- ═══════ RED PLN — TEMAS MCCEMS ═══════ -->
+<section id="sec-pln">
+  <div class="section">
+    <div class="section-label"><i class="fas fa-graduation-cap"></i> Red PLN</div>
+    <h2 class="section-title">Temas MCCEMS — Mis Recursos</h2>
+    <p class="section-sub">Recursos digitales organizados por los 9 temas del programa Cultura Digital MCCEMS SEP 2025.</p>
+    <div id="pln-container"><!-- filled by JS --></div>
+  </div>
+</section>
+
+<!-- ═══════ CTA — PLN FEED ═══════ -->
+<section id="sec-feed-cta">
+  <div class="cta-icon">📰</div>
+  <h2 class="cta-title">Mi PLN Feed</h2>
+  <p class="cta-sub">Artículos de actualidad, recursos en español y mis fuentes seleccionadas organizadas por tema.</p>
+  <a href="pln-feed.html" class="cta-btn"><i class="fas fa-newspaper"></i> Abrir mi PLN Feed</a>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer id="footer">
+  <p>
+    🎓 Plantilla PLN Cultura Digital &nbsp;·&nbsp;
+    Creada por <strong>José Roberto Mendoza Mendoza</strong> &nbsp;·&nbsp;
+    IBERO Puebla &nbsp;·&nbsp; MCCEMS SEP 2025 &nbsp;·&nbsp;
+    <a href="https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla" target="_blank">Ver plantilla original</a>
+  </p>
+</footer>
+
+<script>
+// ═══════════════════════════════════════════
+// CONSTANTS
+// ═══════════════════════════════════════════
+const LS_KEY = 'pln_student_config';
+
+const ECO_NODES = [
+  { key:'busco',    icon:'🔍', label:'Busco',    desc_ph:'Buscadores y fuentes de información que utilizo' },
+  { key:'organizo', icon:'📁', label:'Organizo', desc_ph:'Herramientas para organizar y gestionar mi información' },
+  { key:'creo',     icon:'🎨', label:'Creo',     desc_ph:'Aplicaciones para crear contenido digital' },
+  { key:'colaboro', icon:'👥', label:'Colaboro', desc_ph:'Plataformas para trabajo colaborativo y en equipo' },
+  { key:'comparto', icon:'📤', label:'Comparto', desc_ph:'Redes y canales donde comparto conocimiento' },
+  { key:'publico',  icon:'🌐', label:'Publico',  desc_ph:'Espacios donde publico y difundo mi aprendizaje' },
+];
+
+const SEM_DATA = [
+  { num:1, label:'Cultura Digital I',   badge:'sem-badge-1' },
+  { num:2, label:'Cultura Digital II',  badge:'sem-badge-2' },
+  { num:3, label:'Cultura Digital III', badge:'sem-badge-3' },
+];
+
+// ═══════════════════════════════════════════
+// LOAD CONFIG
+// ═══════════════════════════════════════════
+async function loadConfig() {
+  let config = {};
+  try {
+    const stored = localStorage.getItem(LS_KEY);
+    if (stored) { config = JSON.parse(stored); }
+    else {
+      const r = await fetch('student-config.json?t=' + Date.now());
+      if (r.ok) { config = await r.json(); }
+    }
+  } catch(e) { console.warn('Could not load config:', e); }
+  return config;
+}
+
+// ═══════════════════════════════════════════
+// RENDER
+// ═══════════════════════════════════════════
+function renderPortada(config) {
+  const s = config.student || {};
+  const a = config.appearance || {};
+
+  document.getElementById('nav-name').textContent = s.name || 'Mi PLE';
+  document.title = (s.name ? `PLE — ${s.name}` : 'Mi PLE — Cultura Digital');
+  document.getElementById('hero-name').textContent = s.name || 'Tu Nombre Completo';
+  document.getElementById('hero-sub').textContent  = [s.institution, s.semester, s.group].filter(Boolean).join(' · ') || 'Tu Institución';
+  if (s.teacher) document.getElementById('hero-teacher').innerHTML = `<i class="fas fa-chalkboard-teacher" style="margin-right:5px"></i> Docente: ${eh(s.teacher)}`;
+
+  if (a.quote) {
+    document.getElementById('hero-quote').textContent  = `"${a.quote}"`;
+    document.getElementById('hero-author').textContent = a.quote_author ? `— ${a.quote_author}` : '';
+  }
+
+  // Foto
+  if (s.photo) {
+    const img = document.getElementById('hero-foto');
+    img.src = s.photo; img.style.display = 'block';
+    document.getElementById('hero-foto-ph').style.display = 'none';
+  }
+
+  // Fondo
+  const hero = document.getElementById('hero');
+  const bg   = document.getElementById('hero-bg');
+  const mode = a.wallpaper_mode || 'gradient';
+  if (mode === 'image' && a.wallpaper) {
+    bg.style.cssText = `background-image:url(${a.wallpaper});background-size:cover;background-position:center;opacity:0.5;`;
+    hero.style.background = '#000';
+  } else if (mode === 'solid') {
+    hero.style.background = a.gradient_start || '#1a1a2e';
+    bg.style.opacity = '0';
+  } else {
+    hero.style.background = `linear-gradient(135deg,${a.gradient_start||'#1a1a2e'} 0%,${a.gradient_end||'#16213e'} 60%,${a.gradient_end||'#0f3460'} 100%)`;
+    bg.style.opacity = '0';
+  }
+
+  // Primary color
+  if (a.primary_color) {
+    document.documentElement.style.setProperty('--primary', a.primary_color);
+    document.documentElement.style.setProperty('--primary-dk', adjustColor(a.primary_color, -20));
+  }
+}
+
+function renderContexto(config) {
+  const p = config.ple || {};
+  if (p.title) {
+    document.getElementById('ple-title').textContent = p.title;
+    document.title = `PLE — ${config.student?.name || p.title}`;
+  }
+  setIfVal('ctx-context',    p.context,    'Completa este campo en tu builder.');
+  setIfVal('ctx-purpose',    p.purpose,    'Completa este campo en tu builder.');
+  setIfVal('ctx-assessment', p.assessment, 'Completa este campo en tu builder.');
+  setIfVal('ctx-comments',   p.comments,   'Sin comentarios adicionales.');
+}
+
+function renderEcosistema(config) {
+  const eco = config.ple?.ecosystem || {};
+  const canvas = document.getElementById('eco-canvas');
+  // Layout: 3 cols × 3 rows. Positions: [0]=r1c1 [1]=r1c2 [2]=r1c3 [3]=r2c1 [CENTER]=r2c2 [4]=r2c3 [5]=r3c1 [6]=r3c2
+  // We have 6 nodes. Place: top-left, top-center, top-right, mid-left, [yo], mid-right, bot-left, bot-center, bot-right
+  // Actually with 3-col grid: row1: Busco Organizo Creo | row2: Colaboro [YO] Comparto | row3: Publico _ _
+  const nodeOrder = ['busco','organizo','creo','colaboro','comparto','publico'];
+  let html = '';
+  // Row 1: busco, organizo, creo
+  // Row 2: colaboro, [YO], comparto
+  // Row 3: publico (span), _, _
+  const nodeMap = {};
+  ECO_NODES.forEach(n => nodeMap[n.key] = n);
+
+  const makeNode = (key) => {
+    const node = nodeMap[key];
+    const data = eco[key] || { description:'', tools:[] };
+    const tools = (data.tools||[]).slice(0,4);
+    const toolsHtml = tools.length
+      ? tools.map(t => {
+          const domain = t.url ? tryDomain(t.url) : '';
+          const logo = domain ? `https://www.google.com/s2/favicons?sz=32&domain_url=${domain}` : '';
+          return `<a href="${eh(t.url||'#')}" target="_blank" rel="noopener" class="eco-tool">
+            ${logo ? `<img class="eco-tool-logo" src="${logo}" alt="" onerror="this.style.display='none'">` : ''}
+            <span class="eco-tool-name">${eh(t.name)}</span>
+          </a>`;
+        }).join('')
+      : `<span class="eco-tool-empty">Sin herramientas aún</span>`;
+    return `
+      <div class="eco-node-card">
+        <span class="eco-node-icon">${node.icon}</span>
+        <div class="eco-node-name">${node.label}</div>
+        <div class="eco-node-desc">${eh(data.description || node.desc_ph)}</div>
+        <div class="eco-tools-list">${toolsHtml}</div>
+      </div>
+    `;
+  };
+
+  html += makeNode('busco');
+  html += makeNode('organizo');
+  html += makeNode('creo');
+  html += makeNode('colaboro');
+  // Center YO
+  html += `<div class="eco-yo-center">
+    <span style="font-size:2rem;margin-bottom:6px">🎓</span>
+    <div class="eco-yo-label">Yo</div>
+    <div class="eco-yo-sub">Aprendiz Digital</div>
+  </div>`;
+  html += makeNode('comparto');
+  html += makeNode('publico');
+  // Empty cells to complete row 3
+  html += '<div></div><div></div>';
+  canvas.innerHTML = html;
+}
+
+function renderPLN(config) {
+  const topics = config.ple?.topics || [];
+  const container = document.getElementById('pln-container');
+  if (!topics.length) {
+    container.innerHTML = '<p style="color:#aaa;font-style:italic">Agrega temas en el builder (Paso 5).</p>';
+    return;
+  }
+  let html = '';
+  SEM_DATA.forEach(sem => {
+    const semTopics = topics.filter(t => t.semester === sem.num);
+    if (!semTopics.length) return;
+    const activeTopics = semTopics.filter(t => t.active);
+    if (!activeTopics.length) return;
+    html += `<div class="sem-group">
+      <div class="sem-header">
+        <span class="sem-badge ${sem.badge}">${sem.label}</span>
+        <span class="sem-name">${sem.label}</span>
+      </div>
+      <div class="topic-grid">`;
+    semTopics.forEach((topic, idx) => {
+      const inactive = !topic.active ? 'inactive' : '';
+      const purposesHtml = (topic.purposes || []).map(p =>
+        `<div class="topic-purpose">${eh(p)}</div>`
+      ).join('');
+      const resources = (topic.resources || []);
+      const resHtml = resources.length
+        ? resources.map(r => `
+            <a class="topic-resource" href="${eh(r.url||'#')}" target="_blank" rel="noopener">
+              <span class="res-badge b-${r.type||'web'}">${(r.type||'web').toUpperCase()}</span>
+              <span class="res-name">${eh(r.name)}</span>
+            </a>
+          `).join('')
+        : '<span class="topic-empty">Sin recursos aún</span>';
+      html += `
+        <div class="topic-card ${inactive}">
+          <div class="topic-num">${idx+1}</div>
+          <div class="topic-title">${eh(topic.title)}</div>
+          ${purposesHtml ? `<div class="topic-purposes">${purposesHtml}</div>` : ''}
+          <div class="topic-resources">${resHtml}</div>
+        </div>
+      `;
+    });
+    html += `</div></div>`;
+  });
+  container.innerHTML = html || '<p style="color:#aaa;font-style:italic">Activa temas en el builder (Paso 5).</p>';
+}
+
+// ═══════════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════════
+function setIfVal(id, val, fallback) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = val || fallback;
+}
+function eh(s) {
+  return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function tryDomain(url) {
+  try { return new URL(url).hostname.replace('www.',''); } catch { return ''; }
+}
+function adjustColor(hex, amt) {
+  try {
+    const c = parseInt(hex.slice(1),16);
+    const r = Math.max(0,Math.min(255,((c>>16)&255)+amt));
+    const g = Math.max(0,Math.min(255,((c>>8)&255)+amt));
+    const b = Math.max(0,Math.min(255,(c&255)+amt));
+    return '#'+[r,g,b].map(x=>x.toString(16).padStart(2,'0')).join('');
+  } catch { return hex; }
+}
+
+// ═══════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════
+loadConfig().then(config => {
+  renderPortada(config);
+  renderContexto(config);
+  renderEcosistema(config);
+  renderPLN(config);
+  // Hide loading
+  setTimeout(() => {
+    const l = document.getElementById('loading');
+    l.style.transition = 'opacity 0.4s';
+    l.style.opacity = '0';
+    setTimeout(() => l.remove(), 400);
+  }, 800);
+});
+</script>
+</body>
+</html>
