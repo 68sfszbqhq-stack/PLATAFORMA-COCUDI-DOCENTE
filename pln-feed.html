@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLN Feed — Cultura Digital MCCEMS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@mozilla/readability@0.5.0/Readability.js"></script>
+    <style>
+        :root {
+            --red:      #E12828;
+            --red-dark: #B71C1C;
+            --nav-h:    56px;
+            --tab-h:    48px;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: #f5f5f0; color: #111; min-height: 100vh; }
+
+        /* NAVBAR */
+        #top-nav {
+            position: fixed; top: 0; left: 0; width: 100%; z-index: 600;
+            height: var(--nav-h); background: rgba(10,10,10,0.96);
+            backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+            border-bottom: 2px solid rgba(225,40,40,0.35);
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 0 20px; box-shadow: 0 4px 24px rgba(0,0,0,0.55);
+        }
+        .nav-brand { font-size: 0.67rem; font-weight: 900; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.38); }
+        .nav-links { display: flex; gap: 5px; }
+        .nav-link {
+            font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;
+            padding: 6px 12px; border-radius: 7px; text-decoration: none;
+            color: rgba(255,255,255,0.58); border: 1px solid transparent; transition: all 0.2s;
+        }
+        .nav-link:hover { color: white; background: rgba(255,255,255,0.1); }
+        .nav-link.active-subject { background: var(--red); color: white; border-color: var(--red-dark); }
+
+        /* TAB BAR */
+        #tab-bar {
+            position: fixed; top: var(--nav-h); left: 0; width: 100%; z-index: 500;
+            height: var(--tab-h); background: white; border-bottom: 2px solid #e8e8e8;
+            display: flex; align-items: stretch; overflow-x: auto; -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        #tab-bar::-webkit-scrollbar { display: none; }
+        .tab {
+            display: inline-flex; align-items: center; gap: 5px; padding: 0 16px;
+            font-size: 0.73rem; font-weight: 700; white-space: nowrap; cursor: pointer;
+            color: #777; border: none; background: none; border-bottom: 3px solid transparent;
+            transition: color 0.18s, border-color 0.18s; position: relative; top: 2px;
+            user-select: none; flex-shrink: 0;
+        }
+        .tab:hover { color: #222; }
+        .tab.active { color: var(--red); border-bottom-color: var(--red); }
+        #search-wrap { margin-left: auto; display: flex; align-items: center; padding: 0 12px; flex-shrink: 0; position: relative; }
+        #search-input {
+            padding: 6px 12px 6px 30px; border-radius: 16px; border: 1.5px solid #e5e7eb;
+            font-size: 0.75rem; font-family: 'Inter', sans-serif; outline: none;
+            width: 150px; transition: width 0.3s, border-color 0.2s; background: #f7f7f5;
+        }
+        #search-input:focus { width: 190px; border-color: var(--red); background: white; }
+        #search-wrap > i { position: absolute; left: 24px; font-size: 0.7rem; color: #aaa; pointer-events: none; }
+
+        /* MAIN */
+        #main-wrap {
+            margin-top: calc(var(--nav-h) + var(--tab-h));
+            max-width: 1200px; margin-left: auto; margin-right: auto;
+            padding: calc(var(--nav-h) + var(--tab-h) + 18px) 20px 80px;
+        }
+
+        /* FEATURED */
+        .feat {
+            width: 100%; height: 420px; border-radius: 18px; overflow: hidden;
+            position: relative; cursor: pointer; margin-bottom: 16px;
+            box-shadow: 0 10px 36px rgba(0,0,0,0.18);
+            transition: transform 0.22s, box-shadow 0.22s;
+        }
+        .feat:hover { transform: translateY(-3px); box-shadow: 0 18px 50px rgba(0,0,0,0.24); }
+        .feat-bg { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+        .feat-bg i { font-size: 7rem; opacity: 0.12; }
+        .feat-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+        .feat-src-badge {
+            position: absolute; top: 14px; right: 14px;
+            width: 38px; height: 38px; border-radius: 8px;
+            object-fit: contain; background: white; padding: 4px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+        }
+        .feat-overlay {
+            position: absolute; inset: 0; background: linear-gradient(180deg,transparent 30%,rgba(0,0,0,0.88) 100%);
+            display: flex; flex-direction: column; justify-content: flex-end; padding: 28px 28px 30px;
+        }
+        .feat-badge {
+            font-size: 0.58rem; font-weight: 900; text-transform: uppercase;
+            letter-spacing: 0.1em; padding: 4px 10px; border-radius: 5px;
+            color: white; width: fit-content; margin-bottom: 10px;
+        }
+        .feat-summary-text { font-size: 0.85rem; color: rgba(255,255,255,0.8); margin-bottom: 8px; line-height: 1.4; }
+        .feat-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.72rem; font-weight: 900; color: white; line-height: 1.22;
+            margin-bottom: 10px; text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        }
+        .feat-meta { font-size: 0.7rem; color: rgba(255,255,255,0.6); font-weight: 600; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+        .feat-meta-dot { width: 3px; height: 3px; border-radius: 50%; background: rgba(255,255,255,0.4); }
+        .feat-visit-hint { font-size: 0.7rem; color: rgba(255,255,255,0.7); margin-top: 7px; display: flex; align-items: center; gap: 5px; }
+
+        /* SEC GRID */
+        .sec-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap: 16px; }
+        .sec-card {
+            background: white; border-radius: 14px; overflow: hidden; cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .sec-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+        .sec-img-wrap { position: relative; width: 100%; aspect-ratio: 16/9; overflow: hidden; }
+        .sec-img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .sec-img-placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+        .sec-img-placeholder i { font-size: 2rem; opacity: 0.25; color: white; }
+        .src-badge {
+            position: absolute; bottom: 8px; right: 8px; width: 28px; height: 28px;
+            border-radius: 6px; object-fit: contain; background: white; padding: 3px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .sec-body { padding: 14px 16px 16px; }
+        .sec-badge {
+            font-size: 0.54rem; font-weight: 900; text-transform: uppercase;
+            letter-spacing: 0.08em; padding: 3px 8px; border-radius: 4px;
+            color: white; display: inline-block; margin-bottom: 7px;
+        }
+        .sec-title { font-size: 0.87rem; font-weight: 700; color: #111; line-height: 1.35; margin-bottom: 6px; }
+        .sec-summary-text { font-size: 0.76rem; color: #555; line-height: 1.45; margin-bottom: 6px; }
+        .sec-meta { font-size: 0.68rem; color: #aaa; font-weight: 600; display: flex; gap: 5px; align-items: center; flex-wrap: wrap; }
+        .sec-source { color: #888; font-weight: 700; }
+        .sec-dot { width: 2.5px; height: 2.5px; border-radius: 50%; background: #ccc; }
+        .sec-visit-hint { font-size: 0.68rem; font-weight: 700; margin-top: 6px; display: flex; align-items: center; gap: 4px; }
+
+        /* SKELETON */
+        .skel {
+            background: linear-gradient(90deg,#ebebeb 25%,#f5f5f5 50%,#ebebeb 75%);
+            background-size: 200% 100%; border-radius: 8px; animation: shimmer 1.4s ease infinite;
+        }
+        @keyframes shimmer { 0%,100%{background-position:0%} 50%{background-position:100%} }
+        .skel-feat { width: 100%; height: 420px; border-radius: 18px; margin-bottom: 16px; }
+        .skel-sec { background: white; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+
+        /* EMPTY */
+        #empty { display: none; text-align: center; padding: 100px 20px; color: #aaa; }
+        #empty i { font-size: 3rem; margin-bottom: 16px; display: block; opacity: 0.25; }
+
+        /* READER MODAL */
+        #modal {
+            display: none; position: fixed; inset: 0; z-index: 900;
+            background: rgba(0,0,0,0.8); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+            justify-content: center; align-items: flex-start; overflow-y: auto; padding: 40px 16px;
+        }
+        #modal.open { display: flex; }
+        #reader {
+            background: white; border-radius: 22px; width: 100%; max-width: 720px; margin: auto;
+            box-shadow: 0 32px 70px rgba(0,0,0,0.45); animation: zoomIn 0.26s ease; overflow: hidden;
+        }
+        @keyframes zoomIn { from{transform:scale(0.9);opacity:0} to{transform:scale(1);opacity:1} }
+        #r-header {
+            padding: 16px 20px; border-bottom: 1px solid #f0f0f0;
+            display: flex; align-items: center; gap: 10px;
+            position: sticky; top: 0; background: white; z-index: 10;
+        }
+        #r-badge { font-size: 0.58rem; font-weight: 900; text-transform: uppercase; padding: 4px 9px; border-radius: 4px; color: white; }
+        #r-source { font-size: 0.73rem; font-weight: 700; color: #777; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        #r-ext {
+            background: #f3f4f6; border: none; padding: 6px 11px; border-radius: 8px;
+            cursor: pointer; font-size: 0.68rem; font-weight: 700; color: #444;
+            text-decoration: none; display: flex; align-items: center; gap: 5px; transition: background 0.18s; flex-shrink: 0;
+        }
+        #r-ext:hover { background: #e5e7eb; }
+        #r-close {
+            background: #f3f4f6; border: none; width: 32px; height: 32px; border-radius: 50%;
+            cursor: pointer; font-size: 0.85rem; color: #444;
+            display: flex; align-items: center; justify-content: center; transition: background 0.18s; flex-shrink: 0;
+        }
+        #r-close:hover { background: #e5e7eb; }
+        #r-hero { width: 100%; max-height: 280px; object-fit: cover; display: none; }
+        #r-body { padding: 30px 40px 52px; }
+        #r-title { font-family: 'Playfair Display', Georgia, serif; font-size: 1.65rem; font-weight: 900; line-height: 1.28; color: #111; margin-bottom: 12px; }
+        #r-meta { font-size: 0.72rem; color: #aaa; font-weight: 600; margin-bottom: 28px; display: flex; gap: 8px; flex-wrap: wrap; }
+        #r-content { font-size: 1rem; line-height: 1.88; color: #1f2937; }
+        #r-content h1,#r-content h2,#r-content h3 { font-family:'Playfair Display',serif; margin: 22px 0 10px; font-weight: 700; }
+        #r-content h1{font-size:1.4rem} #r-content h2{font-size:1.2rem} #r-content h3{font-size:1rem}
+        #r-content p { margin-bottom: 15px; }
+        #r-content a { color: var(--red); }
+        #r-content img { max-width: 100%; border-radius: 8px; margin: 14px 0; display: block; }
+        #r-content blockquote { border-left: 4px solid var(--red); padding-left: 16px; margin: 18px 0; color: #555; font-style: italic; }
+        #r-content ul,#r-content ol { padding-left: 20px; margin-bottom: 14px; }
+        #r-content li { margin-bottom: 5px; }
+        #r-content pre,#r-content code { background:#f5f5f0; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem; }
+        #r-content pre { display:block; padding: 14px; overflow-x: auto; margin-bottom: 14px; }
+        #r-loading { padding: 60px 40px; text-align: center; color: #aaa; }
+        #r-loading i { font-size: 1.4rem; display: block; margin-bottom: 10px; animation: spin 0.8s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        #r-error { padding: 40px; text-align: center; color: #777; display: none; }
+        #r-error i { font-size: 2rem; margin-bottom: 12px; display: block; color: #F59E0B; }
+        #r-fallback {
+            display: inline-block; margin-top: 14px; background: var(--red); color: white;
+            padding: 9px 20px; border-radius: 10px; font-weight: 700; font-size: 0.82rem; text-decoration: none;
+        }
+        #r-article { display: none; }
+
+        /* FAB + TOAST */
+        #fab {
+            position: fixed; bottom: 24px; right: 20px; z-index: 400;
+            background: var(--red); color: white; border: none;
+            width: 50px; height: 50px; border-radius: 50%; font-size: 0.95rem;
+            cursor: pointer; box-shadow: 0 6px 20px rgba(225,40,40,0.45);
+            transition: all 0.2s; display: flex; align-items: center; justify-content: center;
+        }
+        #fab:hover { transform: scale(1.1); }
+        #fab.spin i { animation: spin 0.7s linear infinite; }
+        #toast {
+            position: fixed; bottom: 84px; right: 20px; z-index: 700;
+            background: #111; color: white; padding: 9px 16px; border-radius: 10px;
+            font-size: 0.78rem; font-weight: 600; box-shadow: 0 8px 22px rgba(0,0,0,0.3);
+            transform: translateY(12px); opacity: 0; transition: all 0.25s; pointer-events: none;
+        }
+        #toast.show { transform: translateY(0); opacity: 1; }
+
+        /* ADMIN PANEL */
+        #admin-fab {
+            position: fixed; bottom: 24px; left: 20px; z-index: 400;
+            background: #1a1a2e; color: white; border: none;
+            width: 50px; height: 50px; border-radius: 50%; font-size: 1.1rem;
+            cursor: pointer; box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+            transition: all 0.2s; display: flex; align-items: center; justify-content: center;
+        }
+        #admin-fab:hover { transform: scale(1.1); background: #16213e; }
+        #admin-fab.active-admin { background: var(--red); }
+        #admin-overlay { display: none; position: fixed; inset: 0; z-index: 800; background: rgba(0,0,0,0.55); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+        #admin-overlay.open { display: block; }
+        #admin-panel {
+            position: fixed; bottom: 0; left: 0; right: 0; z-index: 850;
+            max-height: 92vh; overflow-y: auto; background: white;
+            border-radius: 24px 24px 0 0; box-shadow: 0 -8px 40px rgba(0,0,0,0.22);
+            transform: translateY(100%); transition: transform 0.35s cubic-bezier(0.4,0,0.2,1); padding: 0 0 40px;
+        }
+        #admin-panel.open { transform: translateY(0); }
+        .ap-handle { width: 44px; height: 4px; background: #ddd; border-radius: 2px; margin: 14px auto 0; }
+        .ap-header { padding: 18px 24px 16px; border-bottom: 1.5px solid #f0f0f0; display: flex; align-items: center; justify-content: space-between; }
+        .ap-title { font-size: 1.05rem; font-weight: 900; color: #111; display: flex; align-items: center; gap: 8px; }
+        .ap-close { background: #f3f4f6; border: none; width: 34px; height: 34px; border-radius: 50%; cursor: pointer; font-size: 0.9rem; color: #555; display: flex; align-items: center; justify-content: center; transition: background 0.18s; }
+        .ap-close:hover { background: #e5e7eb; }
+        .ap-body { padding: 20px 24px; }
+        .ap-section-title { font-size: 0.72rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin: 0 0 12px; }
+        .ap-field { margin-bottom: 14px; }
+        .ap-label { display: block; font-size: 0.72rem; font-weight: 700; color: #444; margin-bottom: 5px; }
+        .ap-input { width: 100%; padding: 10px 14px; border: 1.5px solid #e5e7eb; border-radius: 10px; font-size: 0.83rem; font-family: 'Inter', sans-serif; outline: none; transition: border-color 0.2s; background: white; }
+        .ap-input:focus { border-color: var(--red); }
+        .ap-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .ap-btn { display: inline-flex; align-items: center; gap: 7px; padding: 10px 20px; border-radius: 10px; border: none; font-size: 0.82rem; font-weight: 800; cursor: pointer; transition: all 0.18s; font-family: 'Inter', sans-serif; }
+        .ap-btn-primary { background: var(--red); color: white; }
+        .ap-btn-primary:hover { background: var(--red-dark); transform: translateY(-1px); }
+        .ap-btn-ghost { background: #f3f4f6; color: #444; }
+        .ap-btn-ghost:hover { background: #e5e7eb; }
+        .ap-divider { height: 1px; background: #f0f0f0; margin: 24px 0; }
+        .ap-custom-item { display: flex; align-items: flex-start; gap: 12px; background: #fafafa; border: 1px solid #eee; border-radius: 12px; padding: 12px 14px; margin-bottom: 8px; }
+        .ap-custom-item-body { flex: 1; min-width: 0; }
+        .ap-custom-item-title { font-size: 0.82rem; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ap-custom-item-meta { font-size: 0.7rem; color: #888; margin-top: 2px; }
+        .ap-del-btn { background: #fee2e2; border: none; color: #dc2626; padding: 5px 10px; border-radius: 8px; font-size: 0.7rem; font-weight: 800; cursor: pointer; flex-shrink: 0; transition: background 0.15s; font-family: 'Inter', sans-serif; }
+        .ap-del-btn:hover { background: #dc2626; color: white; }
+        .ap-empty { font-size: 0.8rem; color: #bbb; text-align: center; padding: 20px 0; }
+
+        /* FOOTER */
+        #site-footer {
+            background: #0a0a0a; color: rgba(255,255,255,0.38); text-align: center;
+            padding: 18px 20px; font-size: 0.66rem; font-weight: 600; letter-spacing: 0.04em;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+        #site-footer a { color: rgba(255,255,255,0.5); text-decoration: none; }
+        #site-footer a:hover { color: white; }
+
+        @media (max-width: 640px) {
+            .nav-brand { display: none; }
+            .nav-link { font-size: 0.64rem; padding: 5px 8px; }
+            .feat { height: 300px; }
+            .feat-title { font-size: 1.3rem; }
+            .feat-overlay { padding: 20px 18px 22px; }
+            .sec-grid { grid-template-columns: 1fr; }
+            #r-body { padding: 20px 18px 36px; }
+            #r-title { font-size: 1.3rem; }
+        }
+    </style>
+</head>
+<body>
+
+<nav id="top-nav">
+    <span class="nav-brand" id="nav-student-name">MCCEMS · SEP 2025</span>
+    <div class="nav-links">
+        <a href="index.html" class="nav-link">
+            <i class="fas fa-network-wired" style="margin-right:4px;"></i> Mi PLN
+        </a>
+        <a href="pln-feed.html" class="nav-link active-subject">
+            <i class="fas fa-newspaper" style="margin-right:4px;"></i> PLN Feed
+        </a>
+    </div>
+</nav>
+
+<div id="tab-bar">
+    <button class="tab active" data-cat="parati"><i class="fas fa-star"></i> Para Ti</button>
+    <button class="tab" data-cat="all">Todos</button>
+    <button class="tab" data-cat="tech-ia"><i class="fas fa-microchip"></i> Tech / IA</button>
+    <button class="tab" data-cat="educacion"><i class="fas fa-graduation-cap"></i> Educación</button>
+    <button class="tab" data-cat="academia"><i class="fas fa-book-open"></i> Academia</button>
+    <button class="tab" data-cat="coaching"><i class="fas fa-briefcase"></i> Coaching</button>
+    <button class="tab" data-cat="psicologia"><i class="fas fa-brain"></i> Psicología</button>
+    <button class="tab" data-cat="startup"><i class="fas fa-rocket"></i> Startups</button>
+    <button class="tab" data-cat="custom"><i class="fas fa-star" style="color:#F59E0B"></i> Mis Recursos</button>
+    <div id="search-wrap">
+        <i class="fas fa-search"></i>
+        <input type="text" id="search-input" placeholder="Buscar...">
+    </div>
+</div>
+
+<div id="main-wrap">
+    <div id="mag-grid"></div>
+    <div id="empty">
+        <i class="fas fa-inbox"></i>
+        <p style="font-size:1.05rem;font-weight:700;margin-bottom:6px;">Sin resultados</p>
+        <p style="font-size:0.83rem;">Intenta con otro filtro o búsqueda.</p>
+    </div>
+</div>
+
+<!-- READER MODAL -->
+<div id="modal" role="dialog" aria-modal="true">
+    <div id="reader">
+        <div id="r-header">
+            <span id="r-badge"></span>
+            <span id="r-source"></span>
+            <a id="r-ext" href="#" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i> Original
+            </a>
+            <button id="r-close" onclick="closeReader()" aria-label="Cerrar"><i class="fas fa-times"></i></button>
+        </div>
+        <div id="r-loading">
+            <i class="fas fa-circle-notch"></i>
+            <p style="font-weight:600;font-size:0.9rem;">Extrayendo contenido limpio...</p>
+            <p style="font-size:0.77rem;margin-top:5px;color:#bbb;">Eliminando anuncios</p>
+        </div>
+        <div id="r-error">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p style="font-weight:700;margin-bottom:6px;">El sitio bloqueó la extracción</p>
+            <p style="font-size:0.82rem;">Algunos sitios no permiten lectores externos.</p>
+            <a id="r-fallback" href="#" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i> Abrir en nueva pestaña
+            </a>
+        </div>
+        <div id="r-article">
+            <img id="r-hero" src="" alt="">
+            <div id="r-body">
+                <h1 id="r-title"></h1>
+                <div id="r-meta"></div>
+                <div id="r-content"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button id="fab" onclick="refresh()" title="Actualizar"><i class="fas fa-sync-alt"></i></button>
+<button id="admin-fab" onclick="toggleAdmin()" title="Agregar recurso personal">
+    <i class="fas fa-plus"></i>
+</button>
+<div id="toast"></div>
+
+<!-- ADMIN PANEL -->
+<div id="admin-overlay" onclick="closeAdmin()"></div>
+<div id="admin-panel" role="dialog" aria-modal="true" aria-label="Agregar recurso">
+    <div class="ap-handle"></div>
+    <div class="ap-header">
+        <div class="ap-title">
+            <i class="fas fa-plus-circle" style="color:var(--red)"></i>
+            Agregar recurso personal
+        </div>
+        <button class="ap-close" onclick="closeAdmin()"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="ap-body">
+        <p class="ap-section-title"><i class="fas fa-plus"></i> Nuevo recurso</p>
+        <div class="ap-row">
+            <div class="ap-field">
+                <label class="ap-label">Categoría</label>
+                <select id="ap-cat" class="ap-input" onchange="refreshCustomList()">
+                    <option value="tech-ia">Tech / IA</option>
+                    <option value="educacion">Educación</option>
+                    <option value="academia">Academia</option>
+                    <option value="coaching">Coaching</option>
+                    <option value="psicologia">Psicología</option>
+                    <option value="startup">Startups</option>
+                    <option value="custom">Mis Recursos</option>
+                </select>
+            </div>
+            <div class="ap-field">
+                <label class="ap-label">Fuente</label>
+                <input type="text" id="ap-source" class="ap-input" placeholder="ej. YouTube, Platzi, Blog">
+            </div>
+        </div>
+        <div class="ap-field">
+            <label class="ap-label">Título</label>
+            <input type="text" id="ap-title" class="ap-input" placeholder="ej. Cómo proteger tu identidad digital">
+        </div>
+        <div class="ap-field">
+            <label class="ap-label">URL</label>
+            <input type="url" id="ap-url" class="ap-input" placeholder="https://...">
+        </div>
+        <div class="ap-field">
+            <label class="ap-label">Resumen breve (opcional)</label>
+            <textarea id="ap-summary" class="ap-input" rows="2" placeholder="Una línea describiendo el recurso."></textarea>
+        </div>
+        <div class="ap-field" style="display:flex;align-items:center;gap:10px;">
+            <input type="checkbox" id="ap-direct" style="width:16px;height:16px;accent-color:var(--red);">
+            <label for="ap-direct" class="ap-label" style="margin:0;cursor:pointer;">
+                Abrir directamente (sin lector)
+            </label>
+        </div>
+        <div style="display:flex;gap:10px;margin-top:4px;">
+            <button class="ap-btn ap-btn-primary" onclick="addCustomCard()">
+                <i class="fas fa-plus"></i> Agregar
+            </button>
+            <button class="ap-btn ap-btn-ghost" onclick="clearAdminForm()">
+                <i class="fas fa-eraser"></i> Limpiar
+            </button>
+        </div>
+        <div class="ap-divider"></div>
+        <p class="ap-section-title"><i class="fas fa-list"></i> Mis recursos guardados</p>
+        <div id="ap-custom-list"><p class="ap-empty">Sin recursos aún. ¡Agrega el primero!</p></div>
+        <div class="ap-divider"></div>
+        <p class="ap-section-title" style="color:#10b981"><i class="fas fa-cloud-upload-alt"></i> Guardar en GitHub</p>
+        <p style="font-size:0.77rem;color:#888;margin-bottom:12px;">Los recursos se guardan en tu navegador automáticamente. Para publicarlos en tu sitio, guárdalos en GitHub.</p>
+        <button class="ap-btn ap-btn-primary" onclick="publishFeedToGitHub()" style="background:#10b981;">
+            <i class="fas fa-cloud-upload-alt"></i> Guardar en mi GitHub
+        </button>
+    </div>
+</div>
+
+<footer id="site-footer">
+    Plantilla PLN Cultura Digital &nbsp;·&nbsp;
+    Creada por <a href="https://github.com/68sfszbqhq-stack" target="_blank" rel="noopener">José Roberto Mendoza Mendoza</a>
+    &nbsp;·&nbsp; IBERO Puebla &nbsp;·&nbsp; MCCEMS SEP 2025 &nbsp;·&nbsp; v1.0
+</footer>
+
+<script>
+const FEEDS_URL  = 'data/feeds.json';
+const CORS_PROXY = 'https://api.allorigins.win/get?url=';
+const LS_KEY     = 'pln_student_config';
+const SS_TOKEN   = 'gh_token';
+
+const CATS = {
+    all:       { label:'Todos',       color:'#333',    icon:'fa-border-all',     grad:'linear-gradient(135deg,#374151,#111827)' },
+    'tech-ia': { label:'Tech / IA',   color:'#C0392B', icon:'fa-microchip',      grad:'linear-gradient(135deg,#B71C1C,#C0392B)' },
+    educacion: { label:'Educación',   color:'#1A7A4A', icon:'fa-graduation-cap', grad:'linear-gradient(135deg,#1B5E20,#1A7A4A)' },
+    academia:  { label:'Academia',    color:'#5C3A6B', icon:'fa-book-open',      grad:'linear-gradient(135deg,#3B1F4C,#5C3A6B)' },
+    coaching:  { label:'Coaching',    color:'#E67E22', icon:'fa-briefcase',      grad:'linear-gradient(135deg,#E65100,#E67E22)' },
+    psicologia:{ label:'Psicología',  color:'#8E44AD', icon:'fa-brain',          grad:'linear-gradient(135deg,#4A148C,#8E44AD)' },
+    startup:   { label:'Startups',    color:'#117A65', icon:'fa-rocket',         grad:'linear-gradient(135deg,#004D40,#117A65)' },
+    custom:    { label:'Mis Recursos',color:'#F59E0B', icon:'fa-star',           grad:'linear-gradient(135deg,#D97706,#F59E0B)' },
+};
+
+let allItems   = [];
+let customItems = [];
+let activeCat  = 'parati';
+let query      = '';
+let config     = null;
+
+// ── CARGAR CONFIG DEL ESTUDIANTE ──────────────────────────────────────────
+function loadStudentConfig() {
+    const raw = localStorage.getItem(LS_KEY);
+    if (raw) {
+        try { config = JSON.parse(raw); } catch { config = null; }
+    }
+    if (config?.student?.name && config.student.name !== 'Tu Nombre Completo') {
+        document.getElementById('nav-student-name').textContent =
+            config.student.name + ' · MCCEMS';
+        document.title = 'PLN Feed — ' + config.student.name;
+    }
+    customItems = (config?.pln?.custom_items || []).filter(i => !i.deleted);
+}
+
+// ── LOAD ──────────────────────────────────────────────────────────────────
+async function loadFeeds() {
+    showSkeleton();
+    try {
+        const resp = await fetch(FEEDS_URL + '?t=' + Date.now());
+        if (!resp.ok) throw new Error();
+        const data = await resp.json();
+        const knownIds = new Set(customItems.map(i => i.id));
+        const demo     = demoItems();
+        demo.forEach(d => knownIds.add(d.id));
+        const live = (data.items || []).filter(i => !knownIds.has(i.id));
+        allItems = [...customItems, ...demo, ...live];
+        if (!allItems.length) throw new Error();
+        toast(`${allItems.length} tarjetas cargadas`);
+    } catch {
+        allItems = [...customItems, ...demoItems()];
+        toast('Fuentes curadas · Ejecuta fetch_feeds.py para noticias en vivo');
+    }
+    flipRender();
+}
+
+// ── FILTRADO ──────────────────────────────────────────────────────────────
+function filtered() {
+    const q = query.toLowerCase();
+    let list;
+    if      (activeCat === 'parati') list = forYou(allItems);
+    else if (activeCat === 'all')    list = allItems;
+    else                             list = allItems.filter(i => i.category === activeCat);
+    if (q) list = list.filter(i =>
+        i.title.toLowerCase().includes(q) ||
+        (i.summary||'').toLowerCase().includes(q) ||
+        i.source.toLowerCase().includes(q)
+    );
+    return list;
+}
+
+function forYou(items) {
+    const bycat = {};
+    items.forEach(i => {
+        if (!bycat[i.category]) bycat[i.category] = [];
+        if (bycat[i.category].length < 3) bycat[i.category].push(i);
+    });
+    return Object.values(bycat).flat()
+        .sort((a,b) => new Date(b.published) - new Date(a.published));
+}
+
+// ── RENDER ────────────────────────────────────────────────────────────────
+function render() {
+    const grid  = document.getElementById('mag-grid');
+    const empty = document.getElementById('empty');
+    const list  = filtered();
+    if (!list.length) { grid.innerHTML = ''; empty.style.display = 'block'; return; }
+    empty.style.display = 'none';
+    const [feat, ...rest] = list;
+    grid.innerHTML = featHTML(feat) + secGridHTML(rest);
+}
+
+function flipRender() {
+    const grid = document.getElementById('mag-grid');
+    grid.classList.add('flip-out');
+    setTimeout(() => { render(); grid.classList.remove('flip-out'); }, 200);
+}
+
+function featHTML(it) {
+    if (!it) return '';
+    const cat  = CATS[it.category] || CATS['tech-ia'];
+    const ago  = timeAgo(it.published);
+    const args = mkArgs(it);
+    const bgImgSrc = (it.image && !it.isLogo)
+        ? it.image
+        : `https://image.thum.io/get/width/1280/crop/630/${encodeURIComponent(it.url)}`;
+    const bgImg = `<img class="feat-img" src="${eh(bgImgSrc)}" alt="" onerror="this.style.display='none'">`;
+    const bgDiv = `<div class="feat-bg" style="background:${cat.grad}"><i class="fas ${cat.icon}" style="color:white;"></i></div>`;
+    const logoInset = (it.isLogo && it.image)
+        ? `<img class="feat-src-badge" src="${eh(it.image)}" alt="${eh(it.source)}" onerror="this.style.display='none'">` : '';
+    const visitHint = it.direct
+        ? `<div class="feat-visit-hint"><i class="fas fa-external-link-alt"></i> Ver sitio en vivo</div>` : '';
+    const summaryLine = (it.direct && it.summary)
+        ? `<p class="feat-summary-text">${eh(it.summary)}</p>` : '';
+    return `<div class="feat" onclick="openReader(${args})" role="article" tabindex="0" aria-label="${eh(it.title)}">
+        ${bgDiv}${bgImg}${logoInset}
+        <div class="feat-overlay">
+            <span class="feat-badge" style="background:${cat.color}">${cat.label}</span>
+            ${summaryLine}
+            <h2 class="feat-title">${eh(it.title)}</h2>
+            <div class="feat-meta">
+                <span>${eh(it.source)}</span>
+                <span class="feat-meta-dot"></span>
+                <span>${ago}</span>
+            </div>
+            ${visitHint}
+        </div>
+    </div>`;
+}
+
+function secGridHTML(items) {
+    if (!items.length) return '';
+    return `<div class="sec-grid">${items.map(it => secCardHTML(it)).join('')}</div>`;
+}
+
+function secCardHTML(it) {
+    const cat  = CATS[it.category] || CATS['tech-ia'];
+    const ago  = timeAgo(it.published);
+    const args = mkArgs(it);
+    const dispImgSrc = (it.image && !it.isLogo)
+        ? it.image
+        : `https://image.thum.io/get/width/640/crop/360/${encodeURIComponent(it.url)}`;
+    const logoBadge = (it.isLogo && it.image)
+        ? `<img class="src-badge" src="${eh(it.image)}" alt="${eh(it.source)}" loading="lazy" onerror="this.style.display='none'">` : '';
+    const imgBlock = `<div class="sec-img-wrap">
+        <img class="sec-img" src="${eh(dispImgSrc)}" alt="" loading="lazy"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="sec-img-placeholder" style="background:${cat.grad};display:none">
+            <i class="fas ${cat.icon}" style="color:white;"></i>
+        </div>
+        ${logoBadge}
+    </div>`;
+    const summaryLine = it.summary ? `<p class="sec-summary-text">${eh(it.summary)}</p>` : '';
+    const visitHint = it.direct
+        ? `<div class="sec-visit-hint" style="color:${cat.color}"><i class="fas fa-external-link-alt"></i> Ver sitio</div>` : '';
+    return `<div class="sec-card" onclick="openReader(${args})" role="article" tabindex="0">
+        ${imgBlock}
+        <div class="sec-body">
+            <span class="sec-badge" style="background:${cat.color}">${cat.label}</span>
+            <h3 class="sec-title">${eh(it.title)}</h3>
+            ${summaryLine}
+            <div class="sec-meta">
+                <span class="sec-source">${eh(it.source)}</span>
+                <span class="sec-dot"></span>
+                <span>${ago}</span>
+            </div>
+            ${visitHint}
+        </div>
+    </div>`;
+}
+
+function showSkeleton() {
+    document.getElementById('mag-grid').innerHTML =
+        `<div class="skel skel-feat"></div>
+         <div class="sec-grid">
+            ${Array(6).fill(`
+             <div class="skel-sec">
+                <div class="skel" style="width:100%;aspect-ratio:16/9;border-radius:0;"></div>
+                <div style="padding:14px 16px 16px">
+                    <div class="skel" style="width:50px;height:16px;margin-bottom:8px;"></div>
+                    <div class="skel" style="width:100%;height:13px;margin-bottom:5px;"></div>
+                    <div class="skel" style="width:75%;height:13px;margin-bottom:5px;"></div>
+                    <div class="skel" style="width:40%;height:10px;margin-top:8px;"></div>
+                </div>
+             </div>`).join('')}
+         </div>`;
+}
+
+// ── READER ────────────────────────────────────────────────────────────────
+async function openReader(url, title, image, category, source, direct) {
+    if (direct) { window.open(url, '_blank', 'noopener,noreferrer'); return; }
+    const modal   = document.getElementById('modal');
+    const loading = document.getElementById('r-loading');
+    const error   = document.getElementById('r-error');
+    const article = document.getElementById('r-article');
+    loading.style.display = 'block';
+    error.style.display   = 'none';
+    article.style.display = 'none';
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    const cat = CATS[category] || CATS['tech-ia'];
+    document.getElementById('r-badge').textContent      = cat.label;
+    document.getElementById('r-badge').style.background = cat.color;
+    document.getElementById('r-source').textContent     = source;
+    document.getElementById('r-ext').href               = url;
+    document.getElementById('r-fallback').href          = url;
+    try {
+        const html   = await fetchProxy(url);
+        const parser = new DOMParser();
+        const doc    = parser.parseFromString(html, 'text/html');
+        const base   = doc.createElement('base');
+        base.href    = url;
+        doc.head.appendChild(base);
+        const result = new Readability(doc, { charThreshold: 80 }).parse();
+        if (!result?.content) throw new Error('Sin contenido');
+        const hero = document.getElementById('r-hero');
+        if (image) { hero.src = image; hero.style.display = 'block'; }
+        else        { hero.style.display = 'none'; }
+        document.getElementById('r-title').textContent = result.title || title;
+        const mins = Math.max(1, Math.ceil((result.textContent||'').split(/\s+/).length / 200));
+        document.getElementById('r-meta').innerHTML =
+            `<span>${eh(source)}</span><span>·</span>
+             <span><i class="fas fa-clock" style="margin-right:3px;"></i>${mins} min lectura</span>`;
+        document.getElementById('r-content').innerHTML = result.content;
+        loading.style.display = 'none';
+        article.style.display = 'block';
+    } catch(e) {
+        loading.style.display = 'none';
+        error.style.display   = 'block';
+    }
+}
+
+async function fetchProxy(url) {
+    const r = await fetch(CORS_PROXY + encodeURIComponent(url), { signal: AbortSignal.timeout(12000) });
+    if (!r.ok) throw new Error('Proxy ' + r.status);
+    const d = await r.json();
+    if (!d.contents) throw new Error('vacío');
+    return d.contents;
+}
+
+function closeReader() {
+    document.getElementById('modal').classList.remove('open');
+    document.body.style.overflow = '';
+}
+
+// ── TABS + BÚSQUEDA ───────────────────────────────────────────────────────
+document.querySelectorAll('.tab').forEach(t => {
+    t.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+        t.classList.add('active');
+        activeCat = t.dataset.cat;
+        flipRender();
+        const apCat = document.getElementById('ap-cat');
+        if (apCat && activeCat !== 'parati' && activeCat !== 'all') {
+            apCat.value = activeCat;
+            refreshCustomList();
+        }
+    });
+});
+
+let searchTimer;
+document.getElementById('search-input').addEventListener('input', e => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => { query = e.target.value; flipRender(); }, 280);
+});
+
+async function refresh() {
+    const fab = document.getElementById('fab');
+    fab.classList.add('spin');
+    await loadFeeds();
+    fab.classList.remove('spin');
+}
+
+document.getElementById('modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('modal')) closeReader();
+});
+
+document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { closeReader(); closeAdmin(); }
+});
+
+// ── ADMIN PANEL ───────────────────────────────────────────────────────────
+function toggleAdmin() {
+    const panel   = document.getElementById('admin-panel');
+    const overlay = document.getElementById('admin-overlay');
+    const fab     = document.getElementById('admin-fab');
+    if (panel.classList.contains('open')) {
+        closeAdmin();
+    } else {
+        const apCat = document.getElementById('ap-cat');
+        if (apCat && activeCat !== 'parati' && activeCat !== 'all') apCat.value = activeCat;
+        panel.classList.add('open');
+        overlay.classList.add('open');
+        fab.classList.add('active-admin');
+        fab.innerHTML = '<i class="fas fa-times"></i>';
+        refreshCustomList();
+    }
+}
+
+function closeAdmin() {
+    document.getElementById('admin-panel').classList.remove('open');
+    document.getElementById('admin-overlay').classList.remove('open');
+    const fab = document.getElementById('admin-fab');
+    fab.classList.remove('active-admin');
+    fab.innerHTML = '<i class="fas fa-plus"></i>';
+}
+
+function clearAdminForm() {
+    ['ap-title','ap-url','ap-source','ap-summary'].forEach(id => {
+        document.getElementById(id).value = '';
+    });
+    document.getElementById('ap-direct').checked = false;
+}
+
+function addCustomCard() {
+    const title   = document.getElementById('ap-title').value.trim();
+    const url     = document.getElementById('ap-url').value.trim();
+    const source  = document.getElementById('ap-source').value.trim();
+    const summary = document.getElementById('ap-summary').value.trim();
+    const cat     = document.getElementById('ap-cat').value;
+    const direct  = document.getElementById('ap-direct').checked;
+    if (!title || !url) { alert('El título y la URL son obligatorios.'); return; }
+
+    const newItem = {
+        id:        'custom-' + Date.now(),
+        title, url,
+        source:    source || 'Mi recurso',
+        category:  cat,
+        summary:   summary || '',
+        image:     null,
+        published: new Date().toISOString(),
+        direct,
+        isLogo:    false,
+        deleted:   false,
+        _custom:   true,
+    };
+
+    if (!config) config = JSON.parse(localStorage.getItem(LS_KEY) || '{}');
+    if (!config.pln) config.pln = { categories_active: [], custom_items: [] };
+    if (!config.pln.custom_items) config.pln.custom_items = [];
+    config.pln.custom_items.unshift(newItem);
+    saveConfigLocal();
+
+    customItems = config.pln.custom_items.filter(i => !i.deleted);
+    allItems = [...customItems, ...demoItems().filter(d => !customItems.find(c => c.id === d.id))];
+    clearAdminForm();
+    refreshCustomList();
+    flipRender();
+    toast('Recurso agregado · Guarda en GitHub para publicarlo');
+}
+
+function deleteCustomCard(id) {
+    if (!config?.pln?.custom_items) return;
+    const item = config.pln.custom_items.find(i => i.id === id);
+    if (!item) return;
+    item.deleted = true;
+    saveConfigLocal();
+    customItems = config.pln.custom_items.filter(i => !i.deleted);
+    allItems = [...customItems, ...demoItems().filter(d => !customItems.find(c => c.id === d.id))];
+    refreshCustomList();
+    flipRender();
+    toast('Recurso eliminado');
+}
+
+function refreshCustomList() {
+    const container = document.getElementById('ap-custom-list');
+    const catFilter = document.getElementById('ap-cat').value;
+    const items     = (config?.pln?.custom_items || []).filter(i => !i.deleted && i.category === catFilter);
+    if (!items.length) {
+        container.innerHTML = '<p class="ap-empty">Sin recursos en esta categoría.</p>';
+        return;
+    }
+    container.innerHTML = items.map(it => `
+        <div class="ap-custom-item">
+            <div class="ap-custom-item-body">
+                <div class="ap-custom-item-title">${eh(it.title)}</div>
+                <div class="ap-custom-item-meta">${eh(it.source)} · ${timeAgo(it.published)}</div>
+            </div>
+            <button class="ap-del-btn" onclick="deleteCustomCard('${it.id}')">✕</button>
+        </div>
+    `).join('');
+}
+
+// ── PUBLICAR EN GITHUB ────────────────────────────────────────────────────
+async function publishFeedToGitHub() {
+    const token = sessionStorage.getItem(SS_TOKEN);
+    if (!config?.github?.username || !config?.github?.repo) {
+        alert('Configura tu usuario y repositorio de GitHub en el constructor (index.html), Paso 7.');
+        return;
+    }
+    if (!token) {
+        const t = prompt('Ingresa tu Personal Access Token de GitHub (no se guarda en archivos):');
+        if (!t) return;
+        sessionStorage.setItem(SS_TOKEN, t);
+    }
+    await doPublish();
+}
+
+async function doPublish() {
+    const token = sessionStorage.getItem(SS_TOKEN);
+    const { username, repo, branch = 'main' } = config.github;
+    const path    = 'student-config.json';
+    const apiBase = `https://api.github.com/repos/${username}/${repo}/contents/${path}`;
+    try {
+        config.last_saved = new Date().toISOString();
+        const content = btoa(unescape(encodeURIComponent(JSON.stringify(config, null, 2))));
+        let sha;
+        try {
+            const getResp = await fetch(apiBase, { headers: { Authorization: 'token ' + token, Accept: 'application/vnd.github+json' } });
+            if (getResp.ok) { const d = await getResp.json(); sha = d.sha; }
+        } catch {}
+        const body = { message: 'Actualizar PLN Feed — ' + new Date().toLocaleString('es-MX'), content, branch };
+        if (sha) body.sha = sha;
+        const putResp = await fetch(apiBase, {
+            method: 'PUT',
+            headers: { Authorization: 'token ' + token, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' },
+            body: JSON.stringify(body)
+        });
+        if (!putResp.ok) {
+            const err = await putResp.json();
+            throw new Error(err.message || putResp.status);
+        }
+        saveConfigLocal();
+        toast('✅ Guardado en GitHub · Tu sitio actualizará en ~30 seg');
+    } catch(e) {
+        alert('Error al guardar en GitHub: ' + e.message);
+    }
+}
+
+function saveConfigLocal() {
+    try { localStorage.setItem(LS_KEY, JSON.stringify(config)); } catch {}
+}
+
+// ── UTILIDADES ────────────────────────────────────────────────────────────
+function eh(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function es(s) { return (s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"'); }
+function mkArgs(it) {
+    const d = it.direct ? ',true' : '';
+    return `'${es(it.url)}','${es(it.title)}','${es(it.image||'')}','${it.category}','${es(it.source)}'${d}`;
+}
+function timeAgo(iso) {
+    if (!iso) return '';
+    const d = (Date.now() - new Date(iso)) / 1000;
+    if (d < 3600)   return Math.floor(d/60)    + ' min';
+    if (d < 86400)  return Math.floor(d/3600)  + ' h';
+    if (d < 604800) return Math.floor(d/86400) + ' d';
+    return             Math.floor(d/604800)     + ' sem';
+}
+function toast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg; t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 3500);
+}
+
+// ── DEMO ITEMS ────────────────────────────────────────────────────────────
+function demoItems() {
+    const n  = h  => new Date(Date.now() - h * 3600000).toISOString();
+    const cb = d  => `https://logo.clearbit.com/${d}`;
+    const YT = cb('youtube.com');
+    return [
+        /* TECH / IA */
+        { id:'s1',  category:'tech-ia', isLogo:true, title:'Xataka: Las 10 herramientas de IA que están cambiando la productividad', url:'https://www.xataka.com/', source:'Xataka', published:n(0.5), summary:'El referente en español analiza las plataformas de IA generativa con mayor impacto en flujos de trabajo profesionales.', image:cb('xataka.com') },
+        { id:'s2',  category:'tech-ia', isLogo:true, title:'Hipertextual: Cómo los modelos de lenguaje están redefiniendo la búsqueda en internet', url:'https://hipertextual.com/', source:'Hipertextual', published:n(1.5), summary:'Análisis profundo de cómo GPT, Gemini y Claude están desplazando a los buscadores tradicionales.', image:cb('hipertextual.com') },
+        { id:'s3',  category:'tech-ia', isLogo:true, title:'Platzi: Aprende a construir agentes de IA con Python desde cero — Guía 2026', url:'https://platzi.com/blog/', source:'Platzi Blog', published:n(2.5), summary:'El equipo de Platzi publica la ruta de aprendizaje más actualizada para construir agentes autónomos.', image:cb('platzi.com') },
+        { id:'s4',  category:'tech-ia', isLogo:true, title:'Genbeta: Las mejores extensiones de IA para VS Code que debes instalar hoy', url:'https://www.genbeta.com/', source:'Genbeta', published:n(3.5), summary:'Copilot, Codeium, Tabnine y más: comparativa honesta de asistentes de código.', image:cb('genbeta.com') },
+        { id:'n6',  category:'tech-ia', isLogo:true, title:'DotCSV: El estado actual de la IA generativa — Lo que nadie te está contando', url:'https://www.youtube.com/@DotCSV', source:'DotCSV (YouTube)', published:n(6), summary:'Carlos Santana analiza sin hype el impacto real de los modelos generativos en ciencia, arte e industria.', image:YT },
+        { id:'n3',  category:'tech-ia', isLogo:true, title:'HolaMundo: Aprende Git y GitHub desde cero — La guía definitiva en español', url:'https://www.youtube.com/@HolaMundoDev', source:'HolaMundo (YouTube)', published:n(8), summary:'Canal de desarrollo moderno con proyectos reales, desde JavaScript hasta arquitecturas cloud.', image:YT },
+
+        /* EDUCACIÓN */
+        { id:'s10', category:'educacion', isLogo:true, title:'SEP: Nueva guía de planeación didáctica para Cultura Digital — Descarga oficial', url:'https://www.gob.mx/sep', source:'SEP México', published:n(4), summary:'La SEP publica los lineamientos actualizados para la planeación por competencias en el MCCEMS 2025.', image:cb('gob.mx') },
+        { id:'s11', category:'educacion', isLogo:true, title:'Educación 3.0: 7 estrategias con IA para el aula de bachillerato', url:'https://www.educaciontrespuntocero.com/', source:'Educación 3.0', published:n(7), summary:'Propuestas prácticas respaldadas por evidencia para integrar IA generativa en el aula.', image:cb('educaciontrespuntocero.com') },
+        { id:'e1',  category:'educacion', isLogo:true, title:'Observatorio Tec: Las 10 tendencias educativas que transformarán el aula en 2026', url:'https://observatorio.tec.mx/', source:'Observatorio Tec de Monterrey', published:n(11), summary:'Análisis de innovaciones pedagógicas, tecnologías emergentes y nuevos modelos de aprendizaje.', image:cb('tec.mx') },
+        { id:'s16', category:'educacion', isLogo:true, title:'CuriosaMente: ¿Cómo aprende el cerebro? Neurociencia aplicada al aprendizaje', url:'https://www.youtube.com/@curiosamente', source:'CuriosaMente (YouTube)', published:n(19), summary:'El canal más visto en español explica cómo la memoria, la atención y el sueño afectan el aprendizaje.', image:YT },
+
+        /* ACADEMIA */
+        { id:'a1',  category:'academia', isLogo:true, title:'Google Scholar: Artículos científicos de acceso abierto', url:'https://scholar.google.com/', source:'Google Scholar', published:n(2), summary:'El mayor índice de literatura académica: papers, citas y revistas arbitradas en todas las disciplinas.', image:cb('google.com') },
+        { id:'a2',  category:'academia', isLogo:true, title:'Redalyc: Red de Revistas Científicas de América Latina en Acceso Abierto', url:'https://www.redalyc.org/', source:'Redalyc', published:n(4), summary:'Miles de artículos arbitrados de las mejores revistas latinoamericanas.', image:cb('redalyc.org') },
+        { id:'a3',  category:'academia', isLogo:true, title:'Dialnet: El mayor portal de difusión de la producción científica hispana', url:'https://dialnet.unirioja.es/', source:'Dialnet', published:n(6), summary:'Base de datos de acceso abierto con más de 12 millones de documentos académicos en español.', image:cb('unirioja.es') },
+        { id:'a4',  category:'academia', isLogo:true, title:'SciELO: Biblioteca científica electrónica iberoamericana', url:'https://scielo.org/es/', source:'SciELO', published:n(8), summary:'Modelo cooperativo de publicación electrónica de revistas iberoamericanas de acceso abierto.', image:cb('scielo.org') },
+
+        /* COACHING */
+        { id:'s17', category:'coaching', isLogo:true, title:'Xavier Pirla: Los 6 principios de influencia aplicados al liderazgo', url:'https://www.youtube.com/@Xavier_Pirla', source:'Xavier Pirla (YouTube)', published:n(6), summary:'El experto adapta los principios de Cialdini al contexto de la gestión de equipos.', image:YT },
+        { id:'s18', category:'coaching', isLogo:true, title:'Eduardo Navas: Sistema de coaching para equipos de alto rendimiento', url:'https://www.youtube.com/@Eduardonavascoach', source:'Eduardo Navas (YouTube)', published:n(11), summary:'Metodología práctica para implementar sesiones de coaching individual y grupal.', image:YT },
+
+        /* PSICOLOGÍA */
+        { id:'s19', category:'psicologia', isLogo:true, title:'Farid Dieck: La trampa del perfeccionismo — Por qué te frena y cómo salir', url:'https://www.youtube.com/@FaridDieckOficial', source:'Farid Dieck (YouTube)', published:n(8), summary:'Análisis psicológico del perfeccionismo disfuncional y herramientas concretas para superarlo.', image:YT },
+        { id:'s20', category:'psicologia', isLogo:true, title:'Psyciencia: Terapia de Aceptación y Compromiso (ACT) — Evidencia y aplicaciones', url:'https://www.psyciencia.com/', source:'Psyciencia', published:n(14), summary:'Revisión de la evidencia científica detrás de ACT y cómo aplicarla en la vida cotidiana.', image:cb('psyciencia.com') },
+
+        /* STARTUPS */
+        { id:'s21', category:'startup', isLogo:true, title:'Moris Dieck: Cómo invertir en ETFs de IA desde México — Guía práctica 2026', url:'https://www.youtube.com/@MorisDieck', source:'Moris Dieck (YouTube)', published:n(5), summary:'El youtuber de finanzas personales explica cómo diversificar hacia tecnología e IA.', image:YT },
+        { id:'s22', category:'startup', isLogo:true, title:'Juan Guáqueta: Tendencias de inversión en startups latinoamericanas 2026-2027', url:'https://www.youtube.com/@JGuaqueta', source:'Juan Guáqueta (YouTube)', published:n(10), summary:'Análisis del ecosistema emprendedor de LATAM: sectores con más tracción y fondos activos.', image:YT },
+    ];
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────────
+loadStudentConfig();
+loadFeeds();
+</script>
+</body>
+</html>

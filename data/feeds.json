@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "generated": "",
+    "total": 0,
+    "note": "Ejecuta scripts/fetch_feeds.py o activa el GitHub Action para obtener noticias en vivo."
+  },
+  "items": []
+}

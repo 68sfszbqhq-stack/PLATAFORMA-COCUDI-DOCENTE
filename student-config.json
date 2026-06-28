@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "template_author": "José Roberto Mendoza Mendoza",
+    "template_institution": "IBERO Puebla",
+    "template_subject": "Cultura Digital — MCCEMS SEP 2025",
+    "template_url": "https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla",
+    "created": "",
+    "last_saved": ""
+  },
+  "github": {
+    "username": "",
+    "repo": "",
+    "branch": "main"
+  },
+  "student": {
+    "name": "Tu Nombre Completo",
+    "institution": "Tu Institución Educativa",
+    "semester": "1er Semestre",
+    "group": "Grupo A",
+    "email": "",
+    "teacher": "José Roberto Mendoza Mendoza",
+    "photo": null
+  },
+  "appearance": {
+    "wallpaper": null,
+    "wallpaper_mode": "gradient",
+    "primary_color": "#E12828",
+    "secondary_color": "#111111",
+    "gradient_start": "#1a1a2e",
+    "gradient_end": "#16213e",
+    "quote": "La tecnología es más poderosa cuando empodera a las personas.",
+    "quote_author": ""
+  },
+  "ple": {
+    "title": "Mi PLE — Cultura Digital",
+    "context": "",
+    "purpose": "",
+    "assessment": "",
+    "comments": "",
+    "ecosystem": {
+      "busco":    { "description": "", "tools": [] },
+      "organizo": { "description": "", "tools": [] },
+      "creo":     { "description": "", "tools": [] },
+      "colaboro": { "description": "", "tools": [] },
+      "comparto": { "description": "", "tools": [] },
+      "publico":  { "description": "", "tools": [] }
+    },
+    "topics": [
+      {
+        "id": "cd1-ciudadania",
+        "title": "Ciudadanía Digital y Ética en la Red",
+        "semester": 1,
+        "active": true,
+        "purposes": [
+          "Reconocer los derechos y responsabilidades como ciudadano digital.",
+          "Identificar normas de netiqueta y convivencia ética en el ciberespacio.",
+          "Distinguir el impacto social y cultural de las TICCAD en la vida cotidiana."
+        ],
+        "resources": [
+          { "name": "Platzi – ¿Qué es la transformación digital?", "type": "platzi", "url": "https://www.youtube.com/watch?v=NeQ4eE1QVVU" },
+          { "name": "SEP – Cultura digital en el bachillerato (MCCEMS)", "type": "sep", "url": "https://www.youtube.com/watch?v=RRu6jhMfVkw" }
+        ]
+      },
+      {
+        "id": "cd1-seguridad",
+        "title": "Seguridad Digital e Identidad en Línea",
+        "semester": 1,
+        "active": true,
+        "purposes": [
+          "Comprender qué es la huella digital y cómo protegerla.",
+          "Aplicar prácticas de higiene digital: contraseñas, privacidad, phishing.",
+          "Reconocer el ciberacoso, el sexting y riesgos en redes sociales."
+        ],
+        "resources": [
+          { "name": "Platzi – Cómo protegerte en internet", "type": "platzi", "url": "https://www.youtube.com/watch?v=Jm9qKz7Kq7c" },
+          { "name": "OSI – Oficina de Seguridad del Internauta", "type": "web", "url": "https://www.osi.es" }
+        ]
+      },
+      {
+        "id": "cd1-hardware",
+        "title": "Hardware, Software y Evolución Tecnológica",
+        "semester": 1,
+        "active": true,
+        "purposes": [
+          "Identificar los componentes de hardware y software de los dispositivos actuales.",
+          "Reconocer la historia de las computadoras y su evolución.",
+          "Distinguir entre software libre y software privativo."
+        ],
+        "resources": [
+          { "name": "YouTube – Historia de las computadoras (Crash Course)", "type": "yt", "url": "https://www.youtube.com/watch?v=O5nskjZ_GoI" },
+          { "name": "Capacítate – Cómputo Básico", "type": "cpe", "url": "https://capacitateparaelempleo.org" }
+        ]
+      },
+      {
+        "id": "cd2-colaboracion",
+        "title": "Aprendizaje Colaborativo y Herramientas Digitales",
+        "semester": 2,
+        "active": true,
+        "purposes": [
+          "Usar herramientas digitales libres para crear y colaborar.",
+          "Trabajar en equipo mediante entornos digitales de edición simultánea.",
+          "Producir documentos y presentaciones de forma colaborativa en la nube."
+        ],
+        "resources": [
+          { "name": "YouTube – Herramientas digitales para clase", "type": "yt", "url": "https://www.youtube.com/watch?v=untJB8_9dLw" },
+          { "name": "Cryptpad – Colaboración sin vigilancia", "type": "web", "url": "https://cryptpad.fr" }
+        ]
+      },
+      {
+        "id": "cd2-datos",
+        "title": "Gestión de Datos e Información Digital",
+        "semester": 2,
+        "active": true,
+        "purposes": [
+          "Organizar y procesar información utilizando hojas de cálculo.",
+          "Distinguir entre dato, información y conocimiento digital.",
+          "Evaluar la confiabilidad y veracidad de fuentes en internet."
+        ],
+        "resources": [
+          { "name": "YouTube – Fake News y verificación de información", "type": "yt", "url": "https://www.youtube.com/watch?v=WpVHaTDLwRE" },
+          { "name": "Capacítate – Manejo de Datos con Excel", "type": "cpe", "url": "https://capacitateparaelempleo.org/categoria/tecnologia" }
+        ]
+      },
+      {
+        "id": "cd2-contenido",
+        "title": "Creación de Contenidos y Marca Personal Digital",
+        "semester": 2,
+        "active": true,
+        "purposes": [
+          "Producir contenidos digitales con responsabilidad y creatividad.",
+          "Construir una identidad digital profesional y positiva en redes.",
+          "Conocer los derechos de autor, licencias Creative Commons."
+        ],
+        "resources": [
+          { "name": "Platzi – Crea tu marca personal desde cero", "type": "platzi", "url": "https://www.youtube.com/watch?v=6bxdFfFGHyM" },
+          { "name": "YouTube – Licencias Creative Commons", "type": "yt", "url": "https://www.youtube.com/watch?v=HRoM9PEDfaM" }
+        ]
+      },
+      {
+        "id": "cd3-pensamiento",
+        "title": "Pensamiento Computacional y Programación Básica",
+        "semester": 3,
+        "active": true,
+        "purposes": [
+          "Aplicar el pensamiento computacional para resolver problemas reales.",
+          "Comprender los fundamentos de algoritmos, variables, ciclos y funciones.",
+          "Construir programas simples usando entornos visuales o lenguajes básicos."
+        ],
+        "resources": [
+          { "name": "Platzi – Curso de Programación Básica (gratis)", "type": "platzi", "url": "https://platzi.com/cursos/programacion-basica/" },
+          { "name": "Code.org – Introducción a la Ciencia Computacional", "type": "web", "url": "https://code.org" }
+        ]
+      },
+      {
+        "id": "cd3-redes",
+        "title": "Cómo Funciona Internet y las Redes Digitales",
+        "semester": 3,
+        "active": true,
+        "purposes": [
+          "Explicar cómo funciona internet: protocolos TCP/IP, DNS, servidores.",
+          "Distinguir entre la web superficial, la web profunda y sus implicaciones.",
+          "Comprender el Internet de las Cosas (IoT) y la inteligencia artificial básica."
+        ],
+        "resources": [
+          { "name": "YouTube – Cómo funciona el internet (Platzi)", "type": "yt", "url": "https://www.youtube.com/watch?v=_9-NtYAP6uc" },
+          { "name": "Platzi – Fundamentos de Redes e Internet", "type": "platzi", "url": "https://platzi.com/cursos/redes/" }
+        ]
+      },
+      {
+        "id": "cd3-difusion",
+        "title": "Difusión del Conocimiento y Ciudadanía Digital Avanzada",
+        "semester": 3,
+        "active": true,
+        "purposes": [
+          "Construir y publicar conocimiento en plataformas digitales abiertas.",
+          "Usar herramientas de IA generativa de forma crítica y responsable.",
+          "Reflexionar sobre la soberanía tecnológica y el futuro del trabajo digital."
+        ],
+        "resources": [
+          { "name": "Platzi – Inteligencia Artificial para todos", "type": "platzi", "url": "https://www.youtube.com/watch?v=Jm9qKz7Kq7c" },
+          { "name": "YouTube – El futuro del trabajo y las habilidades digitales", "type": "yt", "url": "https://www.youtube.com/watch?v=7Pq-S557XQU" }
+        ]
+      }
+    ]
+  },
+  "pln": {
+    "categories_active": ["tech-ia", "educacion", "academia"],
+    "custom_items": []
+  }
+}

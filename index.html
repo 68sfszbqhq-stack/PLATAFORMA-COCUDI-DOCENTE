@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi PLN — Cultura Digital MCCEMS</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary:    #E12828;
+  --primary-dk: #B71C1C;
+  --nav-h:      52px;
+  --foot-h:     44px;
+  --panel-h:    calc(100vh - var(--nav-h) - var(--foot-h));
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;background:#f0f0eb;color:#111;height:100vh;overflow:hidden;display:flex;flex-direction:column}
+
+/* ── NAVBAR ── */
+#top-nav{height:var(--nav-h);background:rgba(10,10,10,0.96);display:flex;align-items:center;justify-content:space-between;padding:0 20px;flex-shrink:0;border-bottom:2px solid rgba(225,40,40,0.3);box-shadow:0 3px 18px rgba(0,0,0,0.4)}
+.nav-logo{font-size:0.72rem;font-weight:900;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.5)}
+.nav-actions{display:flex;gap:8px;align-items:center}
+.nav-btn{font-size:0.7rem;font-weight:800;padding:6px 12px;border-radius:8px;text-decoration:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;display:flex;align-items:center;gap:5px;transition:all 0.18s}
+.nav-btn-ghost{background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.7)}
+.nav-btn-ghost:hover{background:rgba(255,255,255,0.15);color:white}
+.nav-btn-primary{background:var(--primary);color:white}
+.nav-btn-primary:hover{background:var(--primary-dk)}
+#save-status{font-size:0.65rem;color:rgba(255,255,255,0.4);font-weight:600}
+
+/* ── MAIN SPLIT ── */
+#app{display:grid;grid-template-columns:42% 58%;height:var(--panel-h);overflow:hidden}
+
+/* ── LEFT: PREVIEW ── */
+#preview{overflow-y:auto;background:#e8e8e3;border-right:1px solid #d0d0cb}
+.prev-section{border-bottom:3px solid transparent;transition:border-color 0.3s}
+.prev-section.active-prev{border-left:4px solid var(--primary)}
+
+/* preview: portada */
+#prev-portada{
+  min-height:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:32px 24px;text-align:center;position:relative;overflow:hidden;
+  background:linear-gradient(135deg,#1a1a2e,#16213e);
+}
+#prev-portada-bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0.35}
+#prev-portada-content{position:relative;z-index:1}
+#prev-foto{width:80px;height:80px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,0.4);margin-bottom:12px;display:none}
+#prev-foto-ph{width:80px;height:80px;border-radius:50%;background:rgba(255,255,255,0.12);border:3px solid rgba(255,255,255,0.25);display:flex;align-items:center;justify-content:center;margin:0 auto 12px;font-size:2rem;color:rgba(255,255,255,0.4)}
+#prev-name{font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:900;color:white;margin-bottom:4px}
+#prev-inst{font-size:0.75rem;font-weight:600;color:rgba(255,255,255,0.65);margin-bottom:10px}
+#prev-quote{font-size:0.72rem;font-style:italic;color:rgba(255,255,255,0.55);max-width:300px;line-height:1.5}
+
+/* preview: contexto */
+#prev-contexto{padding:18px}
+.prev-card-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.prev-card{background:white;border-radius:12px;padding:14px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.prev-card-label{font-size:0.6rem;font-weight:900;text-transform:uppercase;letter-spacing:0.08em;color:var(--primary);margin-bottom:6px}
+.prev-card-text{font-size:0.72rem;color:#555;line-height:1.5;min-height:36px}
+
+/* preview: ecosistema */
+#prev-eco{padding:18px}
+.eco-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.eco-node{background:white;border-radius:12px;padding:10px 8px;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,0.06);cursor:pointer}
+.eco-node-icon{font-size:1.2rem;margin-bottom:4px}
+.eco-node-label{font-size:0.6rem;font-weight:800;text-transform:uppercase;letter-spacing:0.06em;color:#555}
+.eco-node-count{font-size:0.58rem;color:#aaa;margin-top:2px}
+
+/* preview: PLN temas */
+#prev-pln{padding:18px}
+.prev-topic{background:white;border-radius:10px;padding:10px 14px;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 1px 4px rgba(0,0,0,0.05)}
+.prev-topic-title{font-size:0.75rem;font-weight:700;color:#222;flex:1}
+.prev-res-count{font-size:0.6rem;background:#f3f3f0;color:#777;padding:2px 7px;border-radius:10px;font-weight:700}
+
+/* preview: feed */
+#prev-feed{padding:18px}
+.prev-feed-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.prev-feed-card{background:white;border-radius:10px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,0.05)}
+.prev-feed-cat{font-size:0.55rem;font-weight:900;text-transform:uppercase;color:white;background:var(--primary);padding:2px 6px;border-radius:4px;display:inline-block;margin-bottom:5px}
+.prev-feed-title{font-size:0.7rem;font-weight:700;color:#222;line-height:1.3}
+.prev-feed-src{font-size:0.6rem;color:#aaa;margin-top:4px}
+.prev-feed-add{background:#f7f7f5;border:2px dashed #ddd;border-radius:10px;padding:14px;display:flex;align-items:center;justify-content:center;color:#bbb;font-size:0.75rem;font-weight:600}
+
+/* ── RIGHT: BUILDER ── */
+#builder{overflow-y:auto;background:white;display:flex;flex-direction:column}
+
+/* step indicator */
+#step-bar{padding:16px 24px 0;flex-shrink:0}
+.step-indicator{display:flex;align-items:center;gap:0;margin-bottom:16px}
+.step-dot{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:900;cursor:pointer;transition:all 0.2s;flex-shrink:0}
+.step-dot.done{background:var(--primary);color:white}
+.step-dot.current{background:#111;color:white;box-shadow:0 0 0 3px rgba(225,40,40,0.25)}
+.step-dot.pending{background:#f0f0eb;color:#aaa}
+.step-line{flex:1;height:2px;background:#f0f0eb}
+.step-line.done{background:var(--primary)}
+.step-title{font-size:0.65rem;font-weight:700;color:#888;margin-top:5px;text-align:center;white-space:nowrap}
+.step-dots-wrap{display:flex;flex-direction:column;align-items:center}
+
+/* step content */
+#step-content{flex:1;padding:0 24px 24px}
+.step-panel{display:none}
+.step-panel.active{display:block}
+.step-heading{font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:900;color:#111;margin-bottom:4px}
+.step-sub{font-size:0.77rem;color:#888;margin-bottom:22px;line-height:1.5}
+
+/* form elements */
+.f-group{margin-bottom:16px}
+.f-label{display:block;font-size:0.72rem;font-weight:700;color:#444;margin-bottom:5px}
+.f-hint{font-size:0.65rem;color:#aaa;margin-top:3px}
+.f-input{width:100%;padding:9px 13px;border:1.5px solid #e5e7eb;border-radius:10px;font-size:0.83rem;font-family:'Inter',sans-serif;outline:none;transition:border-color 0.2s;background:white}
+.f-input:focus{border-color:var(--primary)}
+textarea.f-input{resize:vertical;min-height:72px;line-height:1.55}
+select.f-input{cursor:pointer}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.f-row-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+
+/* photo / file drop */
+.drop-zone{border:2px dashed #e5e7eb;border-radius:12px;padding:22px;text-align:center;cursor:pointer;transition:all 0.2s;background:#fafafa}
+.drop-zone:hover,.drop-zone.drag{border-color:var(--primary);background:#fff5f5}
+.drop-zone i{font-size:1.6rem;color:#ccc;margin-bottom:8px;display:block}
+.drop-zone p{font-size:0.75rem;color:#999;font-weight:600}
+.drop-zone small{font-size:0.65rem;color:#bbb}
+#foto-preview{width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid var(--primary);margin:0 auto 8px;display:none}
+
+/* color pickers row */
+.color-row{display:flex;gap:10px;align-items:center;margin-top:6px}
+.color-btn{width:36px;height:36px;border-radius:8px;border:2px solid #e5e7eb;cursor:pointer;overflow:hidden;flex-shrink:0}
+.color-btn input[type=color]{width:200%;height:200%;margin:-50%;border:none;cursor:pointer;padding:0}
+.color-label{font-size:0.72rem;color:#666;font-weight:600}
+
+/* radio group */
+.radio-group{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.radio-chip{display:flex;align-items:center;gap:6px;padding:7px 14px;border:1.5px solid #e5e7eb;border-radius:20px;cursor:pointer;font-size:0.75rem;font-weight:700;color:#555;transition:all 0.18s}
+.radio-chip:has(input:checked){border-color:var(--primary);color:var(--primary);background:#fff5f5}
+.radio-chip input{display:none}
+
+/* ecosystem nodes */
+.eco-builder-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:20px}
+.eco-builder-node{border:1.5px solid #e5e7eb;border-radius:14px;overflow:hidden}
+.eco-node-header{padding:10px 14px;display:flex;align-items:center;gap:8px;cursor:pointer;background:#fafafa;transition:background 0.18s}
+.eco-node-header:hover{background:#f3f3f0}
+.eco-node-header .node-icon{font-size:1.1rem}
+.eco-node-header .node-name{font-size:0.77rem;font-weight:800;color:#222;flex:1}
+.eco-node-header .node-chevron{color:#aaa;font-size:0.7rem;transition:transform 0.2s}
+.eco-node-header.open .node-chevron{transform:rotate(180deg)}
+.eco-node-body{display:none;padding:12px 14px;border-top:1px solid #f0f0f0}
+.eco-node-body.open{display:block}
+.eco-tool-item{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid #f5f5f5}
+.eco-tool-name{flex:1;font-size:0.75rem;font-weight:600;color:#333}
+.eco-tool-url{font-size:0.65rem;color:#aaa;truncate:true;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.eco-del{background:none;border:none;color:#ccc;cursor:pointer;font-size:0.8rem;padding:2px 5px;border-radius:5px;transition:color 0.15s}
+.eco-del:hover{color:#E12828}
+.eco-add-row{display:flex;gap:6px;margin-top:8px}
+.eco-add-row .f-input{flex:1;padding:7px 10px;font-size:0.75rem}
+.eco-add-btn{background:var(--primary);color:white;border:none;padding:7px 12px;border-radius:8px;font-size:0.72rem;font-weight:800;cursor:pointer;font-family:'Inter',sans-serif;flex-shrink:0}
+.eco-add-btn:hover{background:var(--primary-dk)}
+
+/* PLN topics */
+.sem-tabs{display:flex;gap:0;border-bottom:2px solid #f0f0f0;margin-bottom:16px}
+.sem-tab{padding:8px 16px;font-size:0.72rem;font-weight:800;cursor:pointer;border-bottom:3px solid transparent;color:#888;transition:all 0.18s;margin-bottom:-2px}
+.sem-tab.active{color:var(--primary);border-bottom-color:var(--primary)}
+.topic-accordion{border:1.5px solid #e5e7eb;border-radius:12px;margin-bottom:10px;overflow:hidden}
+.topic-acc-header{padding:12px 16px;display:flex;align-items:center;gap:10px;cursor:pointer;background:#fafafa}
+.topic-acc-header:hover{background:#f3f3f0}
+.topic-toggle{position:relative;width:36px;height:20px;flex-shrink:0}
+.topic-toggle input{opacity:0;width:0;height:0}
+.toggle-track{position:absolute;inset:0;border-radius:20px;background:#e5e7eb;transition:background 0.2s;cursor:pointer}
+.topic-toggle input:checked + .toggle-track{background:var(--primary)}
+.toggle-track::after{content:'';position:absolute;top:3px;left:3px;width:14px;height:14px;border-radius:50%;background:white;transition:transform 0.2s;box-shadow:0 1px 3px rgba(0,0,0,0.2)}
+.topic-toggle input:checked + .toggle-track::after{transform:translateX(16px)}
+.topic-acc-title{flex:1;font-size:0.8rem;font-weight:700;color:#222}
+.topic-acc-sem{font-size:0.6rem;padding:2px 7px;border-radius:6px;font-weight:800;color:white}
+.sem1-badge{background:#1A7A4A}
+.sem2-badge{background:#1565C0}
+.sem3-badge{background:#8E44AD}
+.topic-acc-chevron{color:#aaa;font-size:0.7rem;transition:transform 0.2s}
+.topic-acc-header.open .topic-acc-chevron{transform:rotate(180deg)}
+.topic-acc-body{display:none;padding:12px 16px;border-top:1px solid #f0f0f0}
+.topic-acc-body.open{display:block}
+.res-item{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid #f5f5f5}
+.res-badge{font-size:0.55rem;font-weight:900;padding:2px 6px;border-radius:4px;color:white;flex-shrink:0}
+.badge-yt{background:#CC0000}
+.badge-platzi{background:#98CA3F}
+.badge-sep{background:#1A7A4A}
+.badge-web{background:#6366F1}
+.badge-libro{background:#B7950B}
+.badge-tiktok{background:#111}
+.badge-cpe{background:#0078D4}
+.res-name{flex:1;font-size:0.75rem;font-weight:600;color:#333}
+.res-link{color:#aaa;font-size:0.8rem;transition:color 0.15s;text-decoration:none}
+.res-link:hover{color:var(--primary)}
+.add-res-row{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.add-res-row .f-input{flex:1;min-width:100px;padding:7px 10px;font-size:0.75rem}
+.add-res-row .eco-add-btn{white-space:nowrap}
+
+/* feed step */
+.cat-toggle-row{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;background:#fafafa;border:1.5px solid #e5e7eb;border-radius:10px;margin-bottom:8px}
+.cat-toggle-label{display:flex;align-items:center;gap:8px;font-size:0.8rem;font-weight:700;color:#222}
+.cat-toggle-sub{font-size:0.65rem;color:#aaa;font-weight:500;margin-top:1px}
+.sw{position:relative;width:40px;height:22px;flex-shrink:0}
+.sw input{opacity:0;width:0;height:0}
+.sw-track{position:absolute;inset:0;border-radius:22px;background:#e5e7eb;cursor:pointer;transition:background 0.2s}
+.sw input:checked + .sw-track{background:var(--primary)}
+.sw-track::after{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:white;transition:transform 0.2s;box-shadow:0 1px 3px rgba(0,0,0,0.2)}
+.sw input:checked + .sw-track::after{transform:translateX(18px)}
+.feed-card-list{margin-top:12px}
+.feed-item{display:flex;align-items:flex-start;gap:10px;padding:10px;background:#fafafa;border:1px solid #eee;border-radius:10px;margin-bottom:8px}
+.feed-item-body{flex:1;min-width:0}
+.feed-item-title{font-size:0.78rem;font-weight:700;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.feed-item-meta{font-size:0.65rem;color:#999;margin-top:2px}
+.feed-del{background:#fee2e2;border:none;color:#dc2626;padding:4px 9px;border-radius:7px;font-size:0.65rem;font-weight:800;cursor:pointer;font-family:'Inter',sans-serif;flex-shrink:0;transition:background 0.15s}
+.feed-del:hover{background:#dc2626;color:white}
+.add-feed-form{background:#fafafa;border:1.5px solid #e5e7eb;border-radius:12px;padding:14px;margin-top:12px}
+.add-feed-form-title{font-size:0.72rem;font-weight:900;text-transform:uppercase;color:#888;margin-bottom:10px;letter-spacing:0.06em}
+
+/* step 7: GitHub */
+.gh-step-card{background:#fafafa;border:1.5px solid #e5e7eb;border-radius:14px;padding:16px;margin-bottom:12px}
+.gh-step-num{width:28px;height:28px;border-radius:50%;background:var(--primary);color:white;font-size:0.7rem;font-weight:900;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.gh-step-row{display:flex;gap:12px;align-items:flex-start}
+.gh-step-body{flex:1}
+.gh-step-title{font-size:0.85rem;font-weight:800;color:#111;margin-bottom:4px}
+.gh-step-desc{font-size:0.75rem;color:#666;line-height:1.55;margin-bottom:10px}
+.gh-link-btn{display:inline-flex;align-items:center;gap:6px;background:#111;color:white;padding:7px 14px;border-radius:9px;font-size:0.72rem;font-weight:800;text-decoration:none;transition:background 0.18s}
+.gh-link-btn:hover{background:#333}
+.gh-connected{background:#f0fdf4;border:1.5px solid #86efac;border-radius:14px;padding:20px;margin-bottom:16px;text-align:center}
+.gh-connected-icon{font-size:2rem;color:#22c55e;margin-bottom:8px}
+.gh-connected-name{font-size:0.9rem;font-weight:800;color:#111;margin-bottom:4px}
+.gh-connected-sub{font-size:0.75rem;color:#666}
+.gh-save-btn{width:100%;padding:14px;background:#22c55e;color:white;border:none;border-radius:12px;font-size:0.9rem;font-weight:900;cursor:pointer;font-family:'Inter',sans-serif;display:flex;align-items:center;justify-content:center;gap:8px;transition:background 0.18s;margin-top:14px}
+.gh-save-btn:hover{background:#16a34a}
+.gh-save-btn:disabled{background:#aaa;cursor:not-allowed}
+.gh-last-saved{font-size:0.68rem;color:#888;text-align:center;margin-top:8px}
+.gh-live-link{display:inline-flex;align-items:center;gap:5px;font-size:0.75rem;font-weight:700;color:var(--primary);text-decoration:none;margin-top:10px}
+.gh-disconnect{font-size:0.68rem;color:#aaa;cursor:pointer;text-decoration:underline;margin-top:12px;display:inline-block}
+.gh-disconnect:hover{color:#E12828}
+
+/* step nav buttons */
+.step-nav{display:flex;gap:10px;padding:16px 24px;border-top:1px solid #f0f0f0;flex-shrink:0;background:white;position:sticky;bottom:0}
+.btn-prev{flex:0 0 auto;background:#f3f4f6;color:#444;border:none;padding:10px 18px;border-radius:10px;font-size:0.8rem;font-weight:800;cursor:pointer;font-family:'Inter',sans-serif;transition:background 0.18s}
+.btn-prev:hover{background:#e5e7eb}
+.btn-next{flex:1;background:var(--primary);color:white;border:none;padding:10px;border-radius:10px;font-size:0.8rem;font-weight:800;cursor:pointer;font-family:'Inter',sans-serif;transition:background 0.18s}
+.btn-next:hover{background:var(--primary-dk)}
+
+/* section headers in preview */
+.prev-sec-header{padding:12px 18px 6px;font-size:0.62rem;font-weight:900;text-transform:uppercase;letter-spacing:0.08em;color:#aaa;display:flex;align-items:center;gap:6px}
+
+/* ── FOOTER ── */
+#footer{height:var(--foot-h);background:#111;display:flex;align-items:center;justify-content:center;text-align:center;flex-shrink:0;border-top:1px solid rgba(255,255,255,0.06)}
+#footer p{font-size:0.62rem;color:rgba(255,255,255,0.35);letter-spacing:0.04em}
+#footer a{color:rgba(255,255,255,0.5);text-decoration:none;font-weight:700}
+#footer a:hover{color:rgba(255,255,255,0.8)}
+
+/* ── SETUP MODAL ── */
+#setup-overlay{position:fixed;inset:0;z-index:900;background:rgba(0,0,0,0.7);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;padding:20px}
+#setup-modal{background:white;border-radius:24px;width:100%;max-width:540px;max-height:90vh;overflow-y:auto;box-shadow:0 32px 80px rgba(0,0,0,0.4);animation:fadeUp 0.3s ease}
+@keyframes fadeUp{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}
+.setup-hero{background:linear-gradient(135deg,#1a1a2e,#16213e);padding:32px 28px 24px;border-radius:24px 24px 0 0;text-align:center}
+.setup-hero-icon{font-size:2.4rem;margin-bottom:10px}
+.setup-hero h1{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:900;color:white;margin-bottom:6px}
+.setup-hero p{font-size:0.78rem;color:rgba(255,255,255,0.65);line-height:1.55}
+.setup-body{padding:28px}
+.setup-credits{background:#fff5f5;border:1px solid rgba(225,40,40,0.2);border-radius:12px;padding:14px;margin-bottom:22px;font-size:0.75rem;color:#555;line-height:1.6;text-align:center}
+.setup-credits strong{color:var(--primary)}
+.setup-step-panel{display:none}
+.setup-step-panel.active{display:block}
+.setup-step-title{font-size:1rem;font-weight:800;color:#111;margin-bottom:4px}
+.setup-step-sub{font-size:0.75rem;color:#888;margin-bottom:20px;line-height:1.5}
+.setup-btn{width:100%;padding:12px;background:var(--primary);color:white;border:none;border-radius:12px;font-size:0.85rem;font-weight:900;cursor:pointer;font-family:'Inter',sans-serif;margin-top:8px;transition:background 0.18s}
+.setup-btn:hover{background:var(--primary-dk)}
+.setup-skip{display:block;text-align:center;font-size:0.7rem;color:#aaa;cursor:pointer;margin-top:12px;text-decoration:underline}
+.setup-skip:hover{color:#555}
+.gh-info-box{background:#fafafa;border:1px solid #e5e7eb;border-radius:10px;padding:14px;margin-bottom:12px}
+.gh-info-title{font-size:0.72rem;font-weight:800;color:#111;margin-bottom:4px;display:flex;align-items:center;gap:6px}
+.gh-info-steps{font-size:0.72rem;color:#555;line-height:1.8;padding-left:16px}
+.gh-info-steps li{margin-bottom:2px}
+
+/* ── TOAST ── */
+#toast{position:fixed;bottom:70px;right:20px;z-index:1000;background:#111;color:white;padding:10px 18px;border-radius:10px;font-size:0.78rem;font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,0.3);transform:translateY(12px);opacity:0;transition:all 0.25s;pointer-events:none}
+#toast.show{transform:translateY(0);opacity:1}
+
+/* ── RESPONSIVE ── */
+@media(max-width:768px){
+  #app{grid-template-columns:1fr}
+  #preview{display:none}
+  body{overflow:auto}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════════ SETUP MODAL ═══════════════ -->
+<div id="setup-overlay">
+<div id="setup-modal">
+  <div class="setup-hero">
+    <div class="setup-hero-icon">🎓</div>
+    <h1>Bienvenido a tu PLN<br>Cultura Digital</h1>
+    <p>Construye tu Entorno Personal de Aprendizaje paso a paso.<br>Todo se guarda en tu propio GitHub.</p>
+  </div>
+  <div class="setup-body">
+    <div class="setup-credits">
+      Plantilla diseñada por <strong>José Roberto Mendoza Mendoza</strong><br>
+      IBERO Puebla · Cultura Digital MCCEMS SEP 2025
+    </div>
+
+    <!-- Setup Step A: Identidad básica -->
+    <div class="setup-step-panel active" id="ss-a">
+      <div class="setup-step-title">¿Cómo te llamas?</div>
+      <div class="setup-step-sub">Estos datos aparecerán en tu PLE. Podrás cambiarlos después.</div>
+      <div class="f-group">
+        <label class="f-label">Tu nombre completo</label>
+        <input type="text" class="f-input" id="ss-name" placeholder="ej. María García López">
+      </div>
+      <div class="f-row">
+        <div class="f-group">
+          <label class="f-label">Institución</label>
+          <input type="text" class="f-input" id="ss-inst" placeholder="ej. IBERO Puebla">
+        </div>
+        <div class="f-group">
+          <label class="f-label">Semestre</label>
+          <select class="f-input" id="ss-sem">
+            <option value="1er Semestre">1er Semestre</option>
+            <option value="2do Semestre">2do Semestre</option>
+            <option value="3er Semestre">3er Semestre</option>
+            <option value="4to Semestre">4to Semestre</option>
+            <option value="5to Semestre">5to Semestre</option>
+            <option value="6to Semestre">6to Semestre</option>
+          </select>
+        </div>
+      </div>
+      <button class="setup-btn" onclick="setupNext('a','b')">Continuar <i class="fas fa-arrow-right"></i></button>
+      <span class="setup-skip" onclick="skipSetup()">Saltar configuración inicial y empezar</span>
+    </div>
+
+    <!-- Setup Step B: GitHub -->
+    <div class="setup-step-panel" id="ss-b">
+      <div class="setup-step-title">Conecta tu GitHub</div>
+      <div class="setup-step-sub">Tu PLN se guardará en un repositorio tuyo. Sigue estos pasos:</div>
+      <div class="gh-info-box">
+        <div class="gh-info-title"><span style="background:#24292f;color:white;padding:2px 7px;border-radius:4px;font-size:0.6rem">1</span> Crea tu cuenta en GitHub (gratis)</div>
+        <a href="https://github.com/join" target="_blank" class="gh-link-btn" style="margin-top:8px;margin-bottom:0"><i class="fab fa-github"></i> Ir a github.com/join</a>
+      </div>
+      <div class="gh-info-box">
+        <div class="gh-info-title"><span style="background:#24292f;color:white;padding:2px 7px;border-radius:4px;font-size:0.6rem">2</span> Haz fork de la plantilla</div>
+        <p style="font-size:0.72rem;color:#666;margin:6px 0 8px">Esto crea una copia en tu cuenta para que puedas editarla.</p>
+        <a href="https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla/fork" target="_blank" class="gh-link-btn"><i class="fas fa-code-branch"></i> Hacer fork ahora</a>
+      </div>
+      <div class="gh-info-box">
+        <div class="gh-info-title"><span style="background:#24292f;color:white;padding:2px 7px;border-radius:4px;font-size:0.6rem">3</span> Activa GitHub Pages en tu fork</div>
+        <ol class="gh-info-steps">
+          <li>Entra a tu fork → pestaña <strong>Settings</strong></li>
+          <li>Menú lateral → <strong>Pages</strong></li>
+          <li>Source → <strong>Deploy from a branch</strong></li>
+          <li>Branch → <strong>main</strong> → carpeta <strong>/ (root)</strong></li>
+          <li>Clic en <strong>Save</strong></li>
+        </ol>
+      </div>
+      <button class="setup-btn" onclick="setupNext('b','c')">Ya lo hice <i class="fas fa-arrow-right"></i></button>
+      <span class="setup-skip" onclick="skipSetup()">Hacer esto después</span>
+    </div>
+
+    <!-- Setup Step C: Token -->
+    <div class="setup-step-panel" id="ss-c">
+      <div class="setup-step-title">Crea tu token de acceso</div>
+      <div class="setup-step-sub">El token permite que la app guarde cambios en tu repo automáticamente. Es como tu contraseña de GitHub pero solo para este proyecto.</div>
+      <div class="gh-info-box">
+        <div class="gh-info-title">Cómo crear tu token</div>
+        <ol class="gh-info-steps">
+          <li>Haz clic en el botón de abajo</li>
+          <li>En <strong>Note</strong> escribe: <em>PLN Cultura Digital</em></li>
+          <li>En <strong>Expiration</strong> elige <strong>No expiration</strong></li>
+          <li>En <strong>Scopes</strong> activa <strong>repo</strong></li>
+          <li>Clic en <strong>Generate token</strong></li>
+          <li>Copia el token (empieza con <em>ghp_</em>) y pégalo abajo</li>
+        </ol>
+        <a href="https://github.com/settings/tokens/new?scopes=repo&description=PLN-Cultura-Digital" target="_blank" class="gh-link-btn" style="margin-top:10px"><i class="fas fa-key"></i> Crear mi token</a>
+      </div>
+      <div class="f-group" style="margin-top:14px">
+        <label class="f-label">Tu nombre de usuario GitHub</label>
+        <input type="text" class="f-input" id="ss-ghuser" placeholder="ej. mariagarcia123">
+      </div>
+      <div class="f-group">
+        <label class="f-label">Nombre del repo (tu fork se llama igual que la plantilla)</label>
+        <input type="text" class="f-input" id="ss-ghrepo" placeholder="PLN-CD-Plantilla" value="PLN-CD-Plantilla">
+      </div>
+      <div class="f-group">
+        <label class="f-label">Tu Personal Access Token</label>
+        <input type="password" class="f-input" id="ss-token" placeholder="ghp_xxxxxxxxxxxxxxxxxx">
+      </div>
+      <button class="setup-btn" id="ss-connect-btn" onclick="setupConnect()"><i class="fas fa-plug"></i> Conectar con GitHub</button>
+      <span class="setup-skip" onclick="skipSetup()">Conectar más tarde</span>
+    </div>
+
+    <!-- Setup Step D: Done -->
+    <div class="setup-step-panel" id="ss-d">
+      <div style="text-align:center;padding:10px 0">
+        <div style="font-size:3rem;margin-bottom:12px">🎉</div>
+        <div class="setup-step-title">¡Todo listo!</div>
+        <p style="font-size:0.78rem;color:#666;margin:8px 0 24px;line-height:1.6">Tu PLN está conectado a GitHub.<br>Ahora construye tu PLE paso a paso.</p>
+        <button class="setup-btn" onclick="closeSetup()">Empezar a construir mi PLN <i class="fas fa-rocket"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ═══════════════ NAVBAR ═══════════════ -->
+<nav id="top-nav">
+  <span class="nav-logo"><i class="fas fa-network-wired" style="color:var(--primary);margin-right:6px"></i>PLN Cultura Digital</span>
+  <div style="display:flex;align-items:center;gap:10px">
+    <span id="save-status"></span>
+    <a href="pln-feed.html" target="_blank" class="nav-btn nav-btn-ghost"><i class="fas fa-newspaper"></i> Mi Feed</a>
+    <button class="nav-btn nav-btn-primary" onclick="publishToGitHub()" id="publish-btn"><i class="fas fa-cloud-upload-alt"></i> Guardar en GitHub</button>
+  </div>
+</nav>
+
+<!-- ═══════════════ APP (split panel) ═══════════════ -->
+<div id="app">
+
+  <!-- LEFT: PREVIEW -->
+  <div id="preview">
+
+    <!-- Portada -->
+    <div class="prev-section" id="ps-portada">
+      <div id="prev-portada">
+        <div id="prev-portada-bg"></div>
+        <div id="prev-portada-content">
+          <div id="prev-foto-ph"><i class="fas fa-user"></i></div>
+          <img id="prev-foto" src="" alt="">
+          <div id="prev-name">Tu Nombre Completo</div>
+          <div id="prev-inst">Tu Institución · 1er Semestre</div>
+          <div id="prev-quote" style="margin-top:10px">"La tecnología es más poderosa cuando empodera a las personas."</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contexto -->
+    <div class="prev-section" id="ps-contexto">
+      <div class="prev-sec-header"><i class="fas fa-book-open" style="color:var(--primary)"></i> Contexto Académico</div>
+      <div style="padding:0 18px 18px">
+        <div class="prev-card-grid">
+          <div class="prev-card"><div class="prev-card-label">Contexto</div><div class="prev-card-text" id="pc-context">Describe el contexto de la asignatura...</div></div>
+          <div class="prev-card"><div class="prev-card-label">Propósito</div><div class="prev-card-text" id="pc-purpose">¿Para qué construiste tu PLE?</div></div>
+          <div class="prev-card"><div class="prev-card-label">Valoración</div><div class="prev-card-text" id="pc-assessment">¿Qué aprendiste al construirlo?</div></div>
+          <div class="prev-card"><div class="prev-card-label">Comentarios</div><div class="prev-card-text" id="pc-comments">Comentarios adicionales...</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ecosistema -->
+    <div class="prev-section" id="ps-eco">
+      <div class="prev-sec-header"><i class="fas fa-circle-nodes" style="color:var(--primary)"></i> Ecosistema Digital</div>
+      <div style="padding:0 18px 18px">
+        <div class="eco-grid" id="prev-eco-grid"></div>
+      </div>
+    </div>
+
+    <!-- PLN temas -->
+    <div class="prev-section" id="ps-pln">
+      <div class="prev-sec-header"><i class="fas fa-graduation-cap" style="color:var(--primary)"></i> Red PLN — Temas MCCEMS</div>
+      <div style="padding:0 18px 18px" id="prev-pln-list"></div>
+    </div>
+
+    <!-- Feed -->
+    <div class="prev-section" id="ps-feed">
+      <div class="prev-sec-header"><i class="fas fa-newspaper" style="color:var(--primary)"></i> PLN Feed</div>
+      <div style="padding:0 18px 18px">
+        <div class="prev-feed-grid" id="prev-feed-grid"></div>
+      </div>
+    </div>
+
+  </div><!-- /preview -->
+
+  <!-- RIGHT: BUILDER -->
+  <div id="builder">
+    <div id="step-bar">
+      <div class="step-indicator" id="step-indicator"></div>
+    </div>
+    <div id="step-content">
+
+      <!-- ─── PASO 1: Identidad ─── -->
+      <div class="step-panel" id="step-1">
+        <div class="step-heading">Mi Identidad</div>
+        <div class="step-sub">Esta información aparece en la portada de tu PLE.</div>
+        <div class="f-group">
+          <label class="f-label">Nombre completo</label>
+          <input type="text" class="f-input" id="s1-name" placeholder="ej. María García López" oninput="s1Update()">
+        </div>
+        <div class="f-row">
+          <div class="f-group">
+            <label class="f-label">Institución</label>
+            <input type="text" class="f-input" id="s1-inst" placeholder="ej. IBERO Puebla" oninput="s1Update()">
+          </div>
+          <div class="f-group">
+            <label class="f-label">Semestre</label>
+            <select class="f-input" id="s1-sem" onchange="s1Update()">
+              <option>1er Semestre</option><option>2do Semestre</option><option>3er Semestre</option>
+              <option>4to Semestre</option><option>5to Semestre</option><option>6to Semestre</option>
+            </select>
+          </div>
+        </div>
+        <div class="f-row">
+          <div class="f-group">
+            <label class="f-label">Grupo</label>
+            <input type="text" class="f-input" id="s1-group" placeholder="ej. Grupo A" oninput="s1Update()">
+          </div>
+          <div class="f-group">
+            <label class="f-label">Email institucional</label>
+            <input type="email" class="f-input" id="s1-email" placeholder="tu@escuela.mx" oninput="s1Update()">
+          </div>
+        </div>
+        <div class="f-group">
+          <label class="f-label">Foto de perfil</label>
+          <div class="drop-zone" id="foto-drop" onclick="document.getElementById('foto-input').click()" ondragover="ev.preventDefault()" ondrop="handleDrop(ev,'photo')">
+            <img id="foto-preview" src="" alt="">
+            <i class="fas fa-user-circle" id="foto-icon"></i>
+            <p>Haz clic o arrastra tu foto aquí</p>
+            <small>JPG, PNG · máx 5 MB</small>
+          </div>
+          <input type="file" id="foto-input" accept="image/*" style="display:none" onchange="handleFileInput(this,'photo')">
+        </div>
+      </div>
+
+      <!-- ─── PASO 2: Apariencia ─── -->
+      <div class="step-panel" id="step-2">
+        <div class="step-heading">Mi Apariencia</div>
+        <div class="step-sub">Personaliza el fondo, colores y la cita de tu portada.</div>
+        <div class="f-group">
+          <label class="f-label">Tipo de fondo</label>
+          <div class="radio-group">
+            <label class="radio-chip"><input type="radio" name="bg-mode" value="gradient" checked onchange="s2BgMode(this)"> <i class="fas fa-palette"></i> Gradiente</label>
+            <label class="radio-chip"><input type="radio" name="bg-mode" value="solid" onchange="s2BgMode(this)"> <i class="fas fa-square"></i> Color sólido</label>
+            <label class="radio-chip"><input type="radio" name="bg-mode" value="image" onchange="s2BgMode(this)"> <i class="fas fa-image"></i> Mi imagen</label>
+          </div>
+        </div>
+        <div id="bg-gradient-fields">
+          <label class="f-label">Colores del gradiente</label>
+          <div class="color-row">
+            <div class="color-btn"><input type="color" id="s2-g1" value="#1a1a2e" oninput="s2Update()"></div>
+            <i class="fas fa-arrow-right" style="color:#ccc"></i>
+            <div class="color-btn"><input type="color" id="s2-g2" value="#16213e" oninput="s2Update()"></div>
+            <span class="color-label">De izquierda a derecha</span>
+          </div>
+        </div>
+        <div id="bg-solid-fields" style="display:none">
+          <label class="f-label">Color de fondo</label>
+          <div class="color-row"><div class="color-btn"><input type="color" id="s2-solid" value="#1a1a2e" oninput="s2Update()"></div></div>
+        </div>
+        <div id="bg-image-fields" style="display:none">
+          <div class="drop-zone" id="wall-drop" onclick="document.getElementById('wall-input').click()">
+            <i class="fas fa-image"></i>
+            <p>Haz clic o arrastra tu imagen de fondo</p>
+            <small>JPG, PNG · recomendado 1920×1080</small>
+          </div>
+          <input type="file" id="wall-input" accept="image/*" style="display:none" onchange="handleFileInput(this,'wallpaper')">
+        </div>
+        <div class="f-group" style="margin-top:16px">
+          <label class="f-label">Color principal (botones, badges)</label>
+          <div class="color-row">
+            <div class="color-btn"><input type="color" id="s2-primary" value="#E12828" oninput="s2PrimaryUpdate(this)"></div>
+            <span class="color-label">Se aplica en toda la plantilla</span>
+          </div>
+        </div>
+        <div class="f-group">
+          <label class="f-label">Cita favorita</label>
+          <textarea class="f-input" id="s2-quote" rows="2" placeholder="Escribe tu cita o frase motivacional..." oninput="s2Update()"></textarea>
+        </div>
+        <div class="f-group">
+          <label class="f-label">Autor de la cita</label>
+          <input type="text" class="f-input" id="s2-author" placeholder="ej. Steve Jobs" oninput="s2Update()">
+        </div>
+      </div>
+
+      <!-- ─── PASO 3: Portada y contexto ─── -->
+      <div class="step-panel" id="step-3">
+        <div class="step-heading">Mi Portada y Contexto</div>
+        <div class="step-sub">Describe tu asignatura y el propósito de tu PLE. Escribe con tus propias palabras.</div>
+        <div class="f-group">
+          <label class="f-label">Título de tu PLE</label>
+          <input type="text" class="f-input" id="s3-title" placeholder="ej. Mi PLE — Cultura Digital II" oninput="s3Update()">
+        </div>
+        <div class="f-group">
+          <label class="f-label">Contexto de la asignatura</label>
+          <textarea class="f-input" id="s3-context" rows="3" placeholder="Describe de qué trata Cultura Digital, para quién se imparte y qué busca lograr en los estudiantes." oninput="s3Update()"></textarea>
+        </div>
+        <div class="f-group">
+          <label class="f-label">Propósito de tu PLE</label>
+          <textarea class="f-input" id="s3-purpose" rows="3" placeholder="¿Para qué construiste este PLE? ¿Cómo te ayuda en tu aprendizaje y desarrollo digital?" oninput="s3Update()"></textarea>
+        </div>
+        <div class="f-group">
+          <label class="f-label">Valoración personal</label>
+          <textarea class="f-input" id="s3-assessment" rows="3" placeholder="¿Qué aprendiste al construir tu PLE? ¿Cómo ha impactado tu proceso de aprendizaje?" oninput="s3Update()"></textarea>
+        </div>
+        <div class="f-group">
+          <label class="f-label">Comentarios adicionales <span style="color:#bbb;font-weight:400">(opcional)</span></label>
+          <textarea class="f-input" id="s3-comments" rows="2" placeholder="Otras reflexiones o comentarios sobre tu proceso..." oninput="s3Update()"></textarea>
+        </div>
+      </div>
+
+      <!-- ─── PASO 4: Ecosistema ─── -->
+      <div class="step-panel" id="step-4">
+        <div class="step-heading">Mi Ecosistema Digital</div>
+        <div class="step-sub">¿Qué herramientas digitales usas para cada actividad? Agrega las que ya conoces.</div>
+        <div class="eco-builder-grid" id="eco-builder"></div>
+      </div>
+
+      <!-- ─── PASO 5: PLN temas ─── -->
+      <div class="step-panel" id="step-5">
+        <div class="step-heading">Mi Red PLN — Temas MCCEMS</div>
+        <div class="step-sub">Agrega recursos digitales a cada tema del programa. Activa solo los semestres que corresponden.</div>
+        <div class="sem-tabs">
+          <div class="sem-tab active" onclick="showSem(1,this)">Cultura Digital I</div>
+          <div class="sem-tab" onclick="showSem(2,this)">Cultura Digital II</div>
+          <div class="sem-tab" onclick="showSem(3,this)">Cultura Digital III</div>
+        </div>
+        <div id="pln-acc-sem1"></div>
+        <div id="pln-acc-sem2" style="display:none"></div>
+        <div id="pln-acc-sem3" style="display:none"></div>
+      </div>
+
+      <!-- ─── PASO 6: PLN Feed ─── -->
+      <div class="step-panel" id="step-6">
+        <div class="step-heading">Mi PLN Feed</div>
+        <div class="step-sub">Activa las categorías que te interesan y agrega tus propias tarjetas de recursos.</div>
+        <div id="cat-toggles"></div>
+        <div style="margin-top:18px">
+          <div class="add-feed-form">
+            <div class="add-feed-form-title"><i class="fas fa-plus"></i> Agregar tarjeta personal</div>
+            <div class="f-group"><label class="f-label">Título</label><input type="text" class="f-input" id="fi-title" placeholder="ej. midudev — React 19 desde cero"></div>
+            <div class="f-row">
+              <div class="f-group"><label class="f-label">URL</label><input type="url" class="f-input" id="fi-url" placeholder="https://..."></div>
+              <div class="f-group"><label class="f-label">Fuente</label><input type="text" class="f-input" id="fi-source" placeholder="ej. YouTube"></div>
+            </div>
+            <div class="f-group"><label class="f-label">Resumen <span style="color:#bbb;font-weight:400">(opcional)</span></label><textarea class="f-input" id="fi-summary" rows="2" placeholder="De qué trata este recurso..."></textarea></div>
+            <div class="f-group" style="display:flex;align-items:center;gap:8px">
+              <input type="checkbox" id="fi-direct" style="width:16px;height:16px;accent-color:var(--primary)">
+              <label for="fi-direct" class="f-label" style="margin:0;cursor:pointer">Abrir directamente (sin lector)</label>
+            </div>
+            <div style="display:flex;gap:8px;margin-top:4px">
+              <select class="f-input" id="fi-cat" style="flex:1">
+                <option value="tech-ia">Tech / IA</option>
+                <option value="educacion">Educación</option>
+                <option value="academia">Academia</option>
+                <option value="coaching">Coaching</option>
+                <option value="psicologia">Psicología</option>
+                <option value="startup">Startups</option>
+              </select>
+              <button class="eco-add-btn" onclick="addFeedCard()"><i class="fas fa-plus"></i> Agregar</button>
+            </div>
+          </div>
+          <div id="custom-feed-list" class="feed-card-list"></div>
+        </div>
+      </div>
+
+      <!-- ─── PASO 7: GitHub ─── -->
+      <div class="step-panel" id="step-7">
+        <div class="step-heading">Publicar en GitHub</div>
+        <div class="step-sub">Guarda todo tu trabajo en tu repositorio GitHub para que sea visible en línea.</div>
+        <div id="gh-not-connected">
+          <div class="gh-step-card"><div class="gh-step-row"><div class="gh-step-num">1</div><div class="gh-step-body"><div class="gh-step-title">Crea tu cuenta en GitHub</div><div class="gh-step-desc">Es gratis y solo toma un minuto.</div><a href="https://github.com/join" target="_blank" class="gh-link-btn"><i class="fab fa-github"></i> github.com/join</a></div></div></div>
+          <div class="gh-step-card"><div class="gh-step-row"><div class="gh-step-num">2</div><div class="gh-step-body"><div class="gh-step-title">Haz fork de esta plantilla</div><div class="gh-step-desc">Fork = copiar la plantilla a tu cuenta.</div><a href="https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla/fork" target="_blank" class="gh-link-btn"><i class="fas fa-code-branch"></i> Hacer fork</a></div></div></div>
+          <div class="gh-step-card"><div class="gh-step-row"><div class="gh-step-num">3</div><div class="gh-step-body"><div class="gh-step-title">Activa GitHub Pages</div><div class="gh-step-desc">Settings → Pages → Branch: main → Save</div></div></div></div>
+          <div class="gh-step-card"><div class="gh-step-row"><div class="gh-step-num">4</div><div class="gh-step-body"><div class="gh-step-title">Crea tu token de acceso</div><div class="gh-step-desc">Activa el scope <strong>repo</strong> al crearlo.</div><a href="https://github.com/settings/tokens/new?scopes=repo&description=PLN-Cultura-Digital" target="_blank" class="gh-link-btn"><i class="fas fa-key"></i> Crear token</a></div></div></div>
+          <div style="margin-top:16px">
+            <div class="f-group"><label class="f-label">Tu usuario de GitHub</label><input type="text" class="f-input" id="gh-user" placeholder="tuusuario"></div>
+            <div class="f-group"><label class="f-label">Nombre de tu repo (fork)</label><input type="text" class="f-input" id="gh-repo" placeholder="PLN-CD-Plantilla"></div>
+            <div class="f-group"><label class="f-label">Tu Personal Access Token</label><input type="password" class="f-input" id="gh-token" placeholder="ghp_xxxxxxxxxx"></div>
+            <button class="setup-btn" onclick="connectGitHub()"><i class="fas fa-plug"></i> Conectar con GitHub</button>
+          </div>
+        </div>
+        <div id="gh-connected" style="display:none">
+          <div class="gh-connected">
+            <div class="gh-connected-icon"><i class="fab fa-github"></i></div>
+            <div class="gh-connected-name" id="gh-connected-name">usuario/repo</div>
+            <div class="gh-connected-sub">Conectado correctamente</div>
+          </div>
+          <button class="gh-save-btn" id="gh-save-btn" onclick="publishToGitHub()"><i class="fas fa-cloud-upload-alt"></i> Guardar todo en mi GitHub</button>
+          <div class="gh-last-saved" id="gh-last-saved"></div>
+          <div style="text-align:center">
+            <a class="gh-live-link" id="gh-live-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Ver mi sitio en vivo</a>
+            <br>
+            <span class="gh-disconnect" onclick="disconnectGitHub()">Desconectar</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /step-content -->
+
+    <!-- Step nav buttons -->
+    <div class="step-nav" id="step-nav">
+      <button class="btn-prev" id="btn-prev" onclick="prevStep()" style="display:none"><i class="fas fa-arrow-left"></i> Anterior</button>
+      <button class="btn-next" id="btn-next" onclick="nextStep()">Siguiente <i class="fas fa-arrow-right"></i></button>
+    </div>
+  </div><!-- /builder -->
+
+</div><!-- /app -->
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer id="footer">
+  <p>🎓 Plantilla PLN Cultura Digital &nbsp;·&nbsp; Creada por <strong>José Roberto Mendoza Mendoza</strong> &nbsp;·&nbsp; IBERO Puebla &nbsp;·&nbsp; MCCEMS SEP 2025 &nbsp;·&nbsp; <a href="https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla" target="_blank">Ver plantilla original</a></p>
+</footer>
+<div id="toast"></div>
+
+<script>
+// ═══════════════════════════════════════════
+// CONFIG
+// ═══════════════════════════════════════════
+let config = {};
+const LS_KEY = 'pln_student_config';
+let currentStep = 1;
+const TOTAL_STEPS = 7;
+
+const ECO_NODES = [
+  { key:'busco',    icon:'🔍', label:'Busco' },
+  { key:'organizo', icon:'📁', label:'Organizo' },
+  { key:'creo',     icon:'🎨', label:'Creo' },
+  { key:'colaboro', icon:'👥', label:'Colaboro' },
+  { key:'comparto', icon:'📤', label:'Comparto' },
+  { key:'publico',  icon:'🌐', label:'Publico' },
+];
+
+const CATS_CONFIG = {
+  'tech-ia':   { label:'Tech / IA',   color:'#C0392B' },
+  'educacion': { label:'Educación',   color:'#1A7A4A' },
+  'academia':  { label:'Academia',    color:'#5C3A6B' },
+  'coaching':  { label:'Coaching',    color:'#E67E22' },
+  'psicologia':{ label:'Psicología',  color:'#8E44AD' },
+  'startup':   { label:'Startups',    color:'#117A65' },
+};
+
+const SEM_LABELS = { 1:'Cultura Digital I', 2:'Cultura Digital II', 3:'Cultura Digital III' };
+const SEM_COLORS = { 1:'sem1-badge', 2:'sem2-badge', 3:'sem3-badge' };
+
+// ═══════════════════════════════════════════
+// LOAD / SAVE
+// ═══════════════════════════════════════════
+async function loadConfig() {
+  const stored = localStorage.getItem(LS_KEY);
+  if (stored) {
+    try { config = JSON.parse(stored); } catch { config = {}; }
+  }
+  if (!config || !config.student) {
+    try {
+      const r = await fetch('student-config.json?t=' + Date.now());
+      config = await r.json();
+    } catch {
+      config = buildDefaultConfig();
+    }
+  }
+  applyConfigToForms();
+  renderAll();
+  // Check if setup needed
+  if (!config.student || !config.student.name || config.student.name === 'Tu Nombre Completo') {
+    document.getElementById('setup-overlay').style.display = 'flex';
+  } else {
+    document.getElementById('setup-overlay').style.display = 'none';
+  }
+  // Restore GitHub state
+  if (config.github && config.github.username && sessionStorage.getItem('gh_token')) {
+    updateGhConnectedUI();
+  }
+}
+
+function saveConfig() {
+  localStorage.setItem(LS_KEY, JSON.stringify(config));
+  updateSaveStatus('Guardado localmente');
+  renderAll();
+}
+
+function buildDefaultConfig() {
+  return {
+    _meta: { version:'1.0', template_author:'José Roberto Mendoza Mendoza', template_institution:'IBERO Puebla', template_subject:'Cultura Digital — MCCEMS SEP 2025', template_url:'https://github.com/68sfszbqhq-stack/PLN-CD-Plantilla', created: new Date().toISOString(), last_saved:'' },
+    github: { username:'', repo:'', branch:'main' },
+    student: { name:'Tu Nombre Completo', institution:'Tu Institución', semester:'1er Semestre', group:'Grupo A', email:'', teacher:'José Roberto Mendoza Mendoza', photo:null },
+    appearance: { wallpaper:null, wallpaper_mode:'gradient', primary_color:'#E12828', secondary_color:'#111111', gradient_start:'#1a1a2e', gradient_end:'#16213e', quote:'La tecnología es más poderosa cuando empodera a las personas.', quote_author:'' },
+    ple: { title:'Mi PLE — Cultura Digital', context:'', purpose:'', assessment:'', comments:'', ecosystem:{ busco:{description:'',tools:[]}, organizo:{description:'',tools:[]}, creo:{description:'',tools:[]}, colaboro:{description:'',tools:[]}, comparto:{description:'',tools:[]}, publico:{description:'',tools:[]} }, topics: getDefaultTopics() },
+    pln: { categories_active:['tech-ia','educacion','academia'], custom_items:[] }
+  };
+}
+
+function getDefaultTopics() {
+  return [
+    { id:'cd1-ciudadania', title:'Ciudadanía Digital y Ética en la Red', semester:1, active:true, purposes:['Reconocer los derechos y responsabilidades como ciudadano digital.','Identificar normas de netiqueta y convivencia ética en el ciberespacio.'], resources:[{name:'Platzi – ¿Qué es la transformación digital?',type:'platzi',url:'https://www.youtube.com/watch?v=NeQ4eE1QVVU'},{name:'SEP – Cultura digital en el bachillerato (MCCEMS)',type:'sep',url:'https://www.youtube.com/watch?v=RRu6jhMfVkw'}] },
+    { id:'cd1-seguridad', title:'Seguridad Digital e Identidad en Línea', semester:1, active:true, purposes:['Comprender qué es la huella digital y cómo protegerla.','Aplicar prácticas de higiene digital: contraseñas, privacidad, phishing.'], resources:[{name:'Platzi – Cómo protegerte en internet',type:'platzi',url:'https://www.youtube.com/watch?v=Jm9qKz7Kq7c'},{name:'OSI – Oficina de Seguridad del Internauta',type:'web',url:'https://www.osi.es'}] },
+    { id:'cd1-hardware', title:'Hardware, Software y Evolución Tecnológica', semester:1, active:true, purposes:['Identificar los componentes de hardware y software.','Reconocer la historia de las computadoras y su evolución.'], resources:[{name:'YouTube – Historia de las computadoras',type:'yt',url:'https://www.youtube.com/watch?v=O5nskjZ_GoI'}] },
+    { id:'cd2-colaboracion', title:'Aprendizaje Colaborativo y Herramientas Digitales', semester:2, active:true, purposes:['Usar herramientas digitales libres para crear y colaborar.','Trabajar en equipo mediante entornos digitales.'], resources:[{name:'Cryptpad – Colaboración sin vigilancia',type:'web',url:'https://cryptpad.fr'}] },
+    { id:'cd2-datos', title:'Gestión de Datos e Información Digital', semester:2, active:true, purposes:['Organizar y procesar información con hojas de cálculo.','Evaluar la confiabilidad de fuentes en internet.'], resources:[{name:'YouTube – Fake News y verificación',type:'yt',url:'https://www.youtube.com/watch?v=WpVHaTDLwRE'}] },
+    { id:'cd2-contenido', title:'Creación de Contenidos y Marca Personal Digital', semester:2, active:true, purposes:['Producir contenidos digitales con responsabilidad.','Construir una identidad digital positiva.'], resources:[{name:'Platzi – Crea tu marca personal',type:'platzi',url:'https://www.youtube.com/watch?v=6bxdFfFGHyM'}] },
+    { id:'cd3-pensamiento', title:'Pensamiento Computacional y Programación Básica', semester:3, active:true, purposes:['Aplicar el pensamiento computacional para resolver problemas.','Construir programas simples.'], resources:[{name:'Code.org – Ciencia Computacional',type:'web',url:'https://code.org'}] },
+    { id:'cd3-redes', title:'Cómo Funciona Internet y las Redes Digitales', semester:3, active:true, purposes:['Explicar cómo funciona internet: TCP/IP, DNS, servidores.','Comprender el IoT y la IA básica.'], resources:[{name:'YouTube – Cómo funciona el internet',type:'yt',url:'https://www.youtube.com/watch?v=_9-NtYAP6uc'}] },
+    { id:'cd3-difusion', title:'Difusión del Conocimiento y Ciudadanía Digital Avanzada', semester:3, active:true, purposes:['Construir y publicar conocimiento en plataformas abiertas.','Usar IA generativa de forma crítica.'], resources:[{name:'YouTube – Futuro del trabajo digital',type:'yt',url:'https://www.youtube.com/watch?v=7Pq-S557XQU'}] },
+  ];
+}
+
+// ═══════════════════════════════════════════
+// APPLY CONFIG TO FORMS
+// ═══════════════════════════════════════════
+function applyConfigToForms() {
+  const s = config.student || {};
+  const a = config.appearance || {};
+  const p = config.ple || {};
+  setValue('s1-name', s.name); setValue('s1-inst', s.institution);
+  setSelect('s1-sem', s.semester); setValue('s1-group', s.group);
+  setValue('s1-email', s.email);
+  if (s.photo) { document.getElementById('foto-preview').src = s.photo; document.getElementById('foto-preview').style.display='block'; document.getElementById('foto-icon').style.display='none'; }
+
+  setRadio('bg-mode', a.wallpaper_mode || 'gradient');
+  setColor('s2-g1', a.gradient_start); setColor('s2-g2', a.gradient_end);
+  setColor('s2-solid', a.gradient_start);
+  setColor('s2-primary', a.primary_color);
+  setValue('s2-quote', a.quote); setValue('s2-author', a.quote_author);
+  s2BgMode({ value: a.wallpaper_mode || 'gradient' });
+
+  setValue('s3-title', p.title); setValue('s3-context', p.context);
+  setValue('s3-purpose', p.purpose); setValue('s3-assessment', p.assessment);
+  setValue('s3-comments', p.comments);
+
+  setValue('gh-user', config.github?.username);
+  setValue('gh-repo', config.github?.repo);
+
+  buildEcoForm();
+  buildPlnAccordion(1); buildPlnAccordion(2); buildPlnAccordion(3);
+  buildCatToggles();
+  renderCustomFeedList();
+}
+
+function setValue(id, val) { const el=document.getElementById(id); if(el && val) el.value=val; }
+function setSelect(id, val) { const el=document.getElementById(id); if(el && val) { for(let o of el.options) if(o.value===val){o.selected=true;break;} } }
+function setColor(id, val) { const el=document.getElementById(id); if(el && val) el.value=val; }
+function setRadio(name, val) { document.querySelectorAll(`input[name="${name}"]`).forEach(r=>{ if(r.value===val) r.checked=true; }); }
+
+// ═══════════════════════════════════════════
+// STEP NAVIGATION
+// ═══════════════════════════════════════════
+function buildStepIndicator() {
+  const labels = ['Identidad','Apariencia','Contexto','Ecosistema','Red PLN','Feed','GitHub'];
+  let html = '';
+  for (let i=1; i<=TOTAL_STEPS; i++) {
+    const cls = i < currentStep ? 'done' : i===currentStep ? 'current' : 'pending';
+    html += `<div class="step-dots-wrap">
+      <div class="step-dot ${cls}" onclick="goToStep(${i})" title="${labels[i-1]}">
+        ${i < currentStep ? '<i class="fas fa-check" style="font-size:0.6rem"></i>' : i}
+      </div>
+    </div>`;
+    if (i < TOTAL_STEPS) {
+      html += `<div class="step-line ${i < currentStep ? 'done' : ''}"></div>`;
+    }
+  }
+  document.getElementById('step-indicator').innerHTML = html;
+}
+
+function goToStep(n) {
+  currentStep = Math.max(1, Math.min(TOTAL_STEPS, n));
+  document.querySelectorAll('.step-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('step-' + currentStep).classList.add('active');
+  // Highlight preview section
+  document.querySelectorAll('.prev-section').forEach(s => s.classList.remove('active-prev'));
+  const map = {1:'ps-portada',2:'ps-portada',3:'ps-contexto',4:'ps-eco',5:'ps-pln',6:'ps-feed',7:null};
+  if (map[currentStep]) document.getElementById(map[currentStep])?.classList.add('active-prev');
+  // Nav buttons
+  document.getElementById('btn-prev').style.display = currentStep > 1 ? 'block' : 'none';
+  document.getElementById('btn-next').textContent = currentStep === TOTAL_STEPS ? '✅ Finalizar' : 'Siguiente ›';
+  buildStepIndicator();
+  // Scroll builder to top
+  document.getElementById('builder').scrollTop = 0;
+}
+
+function nextStep() { if (currentStep < TOTAL_STEPS) goToStep(currentStep+1); }
+function prevStep() { if (currentStep > 1) goToStep(currentStep-1); }
+
+// ═══════════════════════════════════════════
+// STEP 1 — IDENTIDAD
+// ═══════════════════════════════════════════
+function s1Update() {
+  if (!config.student) config.student = {};
+  config.student.name        = document.getElementById('s1-name').value || 'Tu Nombre';
+  config.student.institution = document.getElementById('s1-inst').value || 'Tu Institución';
+  config.student.semester    = document.getElementById('s1-sem').value;
+  config.student.group       = document.getElementById('s1-group').value;
+  config.student.email       = document.getElementById('s1-email').value;
+  saveConfig();
+}
+
+// ═══════════════════════════════════════════
+// STEP 2 — APARIENCIA
+// ═══════════════════════════════════════════
+function s2BgMode(el) {
+  const mode = el.value || el;
+  document.getElementById('bg-gradient-fields').style.display = mode==='gradient' ? 'block' : 'none';
+  document.getElementById('bg-solid-fields').style.display    = mode==='solid'    ? 'block' : 'none';
+  document.getElementById('bg-image-fields').style.display    = mode==='image'    ? 'block' : 'none';
+  if (!config.appearance) config.appearance = {};
+  config.appearance.wallpaper_mode = typeof mode === 'string' ? mode : mode.value;
+  s2Update();
+}
+function s2Update() {
+  if (!config.appearance) config.appearance = {};
+  const mode = config.appearance.wallpaper_mode || 'gradient';
+  config.appearance.gradient_start = document.getElementById('s2-g1').value;
+  config.appearance.gradient_end   = document.getElementById('s2-g2').value;
+  config.appearance.quote          = document.getElementById('s2-quote').value;
+  config.appearance.quote_author   = document.getElementById('s2-author').value;
+  saveConfig();
+}
+function s2PrimaryUpdate(el) {
+  if (!config.appearance) config.appearance = {};
+  config.appearance.primary_color = el.value;
+  document.documentElement.style.setProperty('--primary', el.value);
+  saveConfig();
+}
+
+// ═══════════════════════════════════════════
+// STEP 3 — CONTEXTO
+// ═══════════════════════════════════════════
+function s3Update() {
+  if (!config.ple) config.ple = {};
+  config.ple.title      = document.getElementById('s3-title').value;
+  config.ple.context    = document.getElementById('s3-context').value;
+  config.ple.purpose    = document.getElementById('s3-purpose').value;
+  config.ple.assessment = document.getElementById('s3-assessment').value;
+  config.ple.comments   = document.getElementById('s3-comments').value;
+  saveConfig();
+}
+
+// ═══════════════════════════════════════════
+// STEP 4 — ECOSISTEMA
+// ═══════════════════════════════════════════
+function buildEcoForm() {
+  const container = document.getElementById('eco-builder');
+  if (!container) return;
+  container.innerHTML = ECO_NODES.map(node => {
+    const eco = config.ple?.ecosystem?.[node.key] || { description:'', tools:[] };
+    const tools = eco.tools || [];
+    const toolsHTML = tools.map((t,i) => `
+      <div class="eco-tool-item">
+        <span class="eco-tool-name">${eh(t.name)}</span>
+        <span class="eco-tool-url">${eh(t.url)}</span>
+        <button class="eco-del" onclick="deleteEcoTool('${node.key}',${i})" title="Eliminar">✕</button>
+      </div>
+    `).join('');
+    return `
+      <div class="eco-builder-node">
+        <div class="eco-node-header" onclick="toggleEcoNode(this)" id="eco-hdr-${node.key}">
+          <span class="node-icon">${node.icon}</span>
+          <span class="node-name">${node.label}</span>
+          <span style="font-size:0.6rem;color:#aaa;margin-right:4px">${tools.length} herramienta${tools.length!==1?'s':''}</span>
+          <i class="fas fa-chevron-down node-chevron"></i>
+        </div>
+        <div class="eco-node-body" id="eco-body-${node.key}">
+          <textarea class="f-input" rows="2" placeholder="Describe cómo usas estas herramientas para ${node.label.toLowerCase()}..." oninput="updateEcoDesc('${node.key}',this.value)" style="font-size:0.75rem;margin-bottom:8px">${eh(eco.description)}</textarea>
+          ${toolsHTML}
+          <div class="eco-add-row">
+            <input type="text" class="f-input" id="eco-name-${node.key}" placeholder="Nombre (ej. Notion)">
+            <input type="url" class="f-input" id="eco-url-${node.key}" placeholder="URL">
+            <button class="eco-add-btn" onclick="addEcoTool('${node.key}')">+ Add</button>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function toggleEcoNode(hdr) {
+  hdr.classList.toggle('open');
+  const key = hdr.id.replace('eco-hdr-','');
+  document.getElementById('eco-body-' + key).classList.toggle('open');
+}
+
+function updateEcoDesc(key, val) {
+  if (!config.ple.ecosystem[key]) config.ple.ecosystem[key] = { description:'', tools:[] };
+  config.ple.ecosystem[key].description = val;
+  saveConfig();
+}
+
+function addEcoTool(key) {
+  const name = document.getElementById('eco-name-' + key).value.trim();
+  const url  = document.getElementById('eco-url-'  + key).value.trim();
+  if (!name) return;
+  if (!config.ple.ecosystem[key]) config.ple.ecosystem[key] = { description:'', tools:[] };
+  config.ple.ecosystem[key].tools.push({ name, url });
+  saveConfig();
+  buildEcoForm();
+  // Re-open the node
+  setTimeout(() => {
+    const hdr = document.getElementById('eco-hdr-' + key);
+    if (hdr && !hdr.classList.contains('open')) toggleEcoNode(hdr);
+  }, 50);
+}
+
+function deleteEcoTool(key, idx) {
+  config.ple.ecosystem[key].tools.splice(idx, 1);
+  saveConfig();
+  buildEcoForm();
+}
+
+// ═══════════════════════════════════════════
+// STEP 5 — PLN TEMAS
+// ═══════════════════════════════════════════
+function buildPlnAccordion(sem) {
+  const container = document.getElementById('pln-acc-sem' + sem);
+  if (!container) return;
+  const topics = (config.ple?.topics || []).filter(t => t.semester === sem);
+  const semBadge = SEM_COLORS[sem];
+  container.innerHTML = topics.map(topic => {
+    const resHTML = (topic.resources || []).map((r,i) => `
+      <div class="res-item">
+        <span class="res-badge badge-${r.type}">${r.type.toUpperCase()}</span>
+        <span class="res-name">${eh(r.name)}</span>
+        <a href="${eh(r.url)}" target="_blank" class="res-link"><i class="fas fa-external-link-alt"></i></a>
+        <button class="eco-del" onclick="deleteResource('${topic.id}',${i})">✕</button>
+      </div>
+    `).join('');
+    return `
+      <div class="topic-accordion" id="tacc-${topic.id}">
+        <div class="topic-acc-header" onclick="toggleTopicAcc(this)" id="thdr-${topic.id}">
+          <label class="topic-toggle" onclick="event.stopPropagation()">
+            <input type="checkbox" ${topic.active ? 'checked' : ''} onchange="toggleTopic('${topic.id}',this.checked)">
+            <span class="toggle-track"></span>
+          </label>
+          <span class="topic-acc-title">${eh(topic.title)}</span>
+          <span class="topic-acc-sem ${semBadge}">${SEM_LABELS[sem].split(' ').pop()}</span>
+          <i class="fas fa-chevron-down topic-acc-chevron"></i>
+        </div>
+        <div class="topic-acc-body" id="tbody-${topic.id}">
+          ${resHTML}
+          <div class="add-res-row" style="margin-top:10px">
+            <input type="text" class="f-input" id="rn-${topic.id}" placeholder="Nombre del recurso">
+            <input type="url"  class="f-input" id="ru-${topic.id}" placeholder="https://...">
+            <select class="f-input" id="rt-${topic.id}" style="max-width:90px">
+              <option value="yt">YouTube</option><option value="platzi">Platzi</option>
+              <option value="sep">SEP</option><option value="web">Web</option>
+              <option value="libro">Libro</option><option value="tiktok">TikTok</option>
+              <option value="cpe">Capacítate</option>
+            </select>
+            <button class="eco-add-btn" onclick="addResource('${topic.id}')">+ Add</button>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function toggleTopicAcc(hdr) {
+  hdr.classList.toggle('open');
+  const id = hdr.id.replace('thdr-','');
+  document.getElementById('tbody-' + id)?.classList.toggle('open');
+}
+
+function toggleTopic(id, active) {
+  const topic = config.ple.topics.find(t => t.id === id);
+  if (topic) { topic.active = active; saveConfig(); }
+}
+
+function addResource(topicId) {
+  const name = document.getElementById('rn-' + topicId).value.trim();
+  const url  = document.getElementById('ru-' + topicId).value.trim();
+  const type = document.getElementById('rt-' + topicId).value;
+  if (!name || !url) return;
+  const topic = config.ple.topics.find(t => t.id === topicId);
+  if (topic) { topic.resources.push({ name, url, type }); saveConfig(); }
+  const sem = topic.semester;
+  buildPlnAccordion(sem);
+  setTimeout(() => {
+    const hdr = document.getElementById('thdr-' + topicId);
+    if (hdr && !hdr.classList.contains('open')) toggleTopicAcc(hdr);
+  }, 50);
+}
+
+function deleteResource(topicId, idx) {
+  const topic = config.ple.topics.find(t => t.id === topicId);
+  if (topic) { topic.resources.splice(idx,1); saveConfig(); buildPlnAccordion(topic.semester); }
+}
+
+function showSem(n, tabEl) {
+  [1,2,3].forEach(i => {
+    document.getElementById('pln-acc-sem' + i).style.display = i===n ? 'block' : 'none';
+  });
+  document.querySelectorAll('.sem-tab').forEach(t => t.classList.remove('active'));
+  tabEl.classList.add('active');
+}
+
+// ═══════════════════════════════════════════
+// STEP 6 — PLN FEED
+// ═══════════════════════════════════════════
+function buildCatToggles() {
+  const container = document.getElementById('cat-toggles');
+  if (!container) return;
+  const active = config.pln?.categories_active || [];
+  container.innerHTML = Object.entries(CATS_CONFIG).map(([key, cat]) => `
+    <div class="cat-toggle-row">
+      <div class="cat-toggle-label">
+        <span style="width:10px;height:10px;border-radius:50%;background:${cat.color};display:inline-block"></span>
+        <div>
+          <div>${cat.label}</div>
+          <div class="cat-toggle-sub">Activar esta categoría en tu feed</div>
+        </div>
+      </div>
+      <label class="sw">
+        <input type="checkbox" ${active.includes(key)?'checked':''} onchange="toggleCat('${key}',this.checked)">
+        <span class="sw-track"></span>
+      </label>
+    </div>
+  `).join('');
+}
+
+function toggleCat(key, active) {
+  if (!config.pln) config.pln = { categories_active:[], custom_items:[] };
+  if (active && !config.pln.categories_active.includes(key)) config.pln.categories_active.push(key);
+  else config.pln.categories_active = config.pln.categories_active.filter(c => c !== key);
+  saveConfig();
+}
+
+function addFeedCard() {
+  const title  = document.getElementById('fi-title').value.trim();
+  const url    = document.getElementById('fi-url').value.trim();
+  const source = document.getElementById('fi-source').value.trim();
+  const summary= document.getElementById('fi-summary').value.trim();
+  const direct = document.getElementById('fi-direct').checked;
+  const cat    = document.getElementById('fi-cat').value;
+  if (!title || !url) { showToast('El título y la URL son obligatorios.'); return; }
+  if (!config.pln) config.pln = { categories_active:[], custom_items:[] };
+  config.pln.custom_items.unshift({ id:'custom-'+Date.now(), title, url, source:source||'Mi recurso', summary, direct, category:cat, published:new Date().toISOString() });
+  ['fi-title','fi-url','fi-source','fi-summary'].forEach(id => { const el=document.getElementById(id); if(el) el.value=''; });
+  document.getElementById('fi-direct').checked = false;
+  saveConfig();
+  renderCustomFeedList();
+}
+
+function deleteFeedCard(id) {
+  config.pln.custom_items = config.pln.custom_items.filter(i => i.id !== id);
+  saveConfig();
+  renderCustomFeedList();
+}
+
+function renderCustomFeedList() {
+  const container = document.getElementById('custom-feed-list');
+  if (!container) return;
+  const items = config.pln?.custom_items || [];
+  if (!items.length) { container.innerHTML='<p style="font-size:0.75rem;color:#bbb;text-align:center;padding:16px">Aún no has agregado tarjetas personales.</p>'; return; }
+  container.innerHTML = items.map(item => {
+    const cat = CATS_CONFIG[item.category] || { label:item.category, color:'#666' };
+    return `
+      <div class="feed-item">
+        <div class="feed-item-body">
+          <div style="margin-bottom:3px"><span style="font-size:0.55rem;font-weight:900;background:${cat.color};color:white;padding:2px 6px;border-radius:4px">${cat.label}</span></div>
+          <div class="feed-item-title">${eh(item.title)}</div>
+          <div class="feed-item-meta">${eh(item.source)} · ${timeAgo(item.published)}</div>
+        </div>
+        <button class="feed-del" onclick="deleteFeedCard('${item.id}')">✕</button>
+      </div>
+    `;
+  }).join('');
+}
+
+// ═══════════════════════════════════════════
+// GITHUB API
+// ═══════════════════════════════════════════
+async function connectGitHub() {
+  const username = document.getElementById('gh-user').value.trim();
+  const repo     = document.getElementById('gh-repo').value.trim();
+  const token    = document.getElementById('gh-token').value.trim();
+  if (!username || !repo || !token) { showToast('Completa todos los campos de GitHub.'); return; }
+  showToast('Verificando conexión...');
+  try {
+    const r = await fetch(`https://api.github.com/repos/${username}/${repo}`, {
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' }
+    });
+    if (!r.ok) throw new Error((await r.json()).message || 'Error de conexión');
+    config.github = { username, repo, branch:'main' };
+    sessionStorage.setItem('gh_token', token);
+    saveConfig();
+    updateGhConnectedUI();
+    showToast('✅ Conectado a GitHub correctamente');
+  } catch(e) {
+    showToast('❌ ' + e.message);
+  }
+}
+
+function updateGhConnectedUI() {
+  const { username, repo } = config.github || {};
+  if (!username) return;
+  document.getElementById('gh-not-connected').style.display = 'none';
+  document.getElementById('gh-connected').style.display = 'block';
+  document.getElementById('gh-connected-name').textContent = `${username}/${repo}`;
+  const liveUrl = `https://${username}.github.io/${repo}`;
+  document.getElementById('gh-live-link').href = liveUrl;
+  if (config._meta?.last_saved) {
+    document.getElementById('gh-last-saved').textContent = 'Último guardado: ' + new Date(config._meta.last_saved).toLocaleString('es-MX');
+  }
+}
+
+function disconnectGitHub() {
+  sessionStorage.removeItem('gh_token');
+  document.getElementById('gh-not-connected').style.display = 'block';
+  document.getElementById('gh-connected').style.display = 'none';
+}
+
+async function publishToGitHub() {
+  const token = sessionStorage.getItem('gh_token');
+  const { username, repo, branch } = config.github || {};
+  if (!token || !username || !repo) {
+    goToStep(7);
+    showToast('Primero conecta tu GitHub en el Paso 7.');
+    return;
+  }
+  const btn = document.getElementById('publish-btn');
+  const saveBtn = document.getElementById('gh-save-btn');
+  if (btn) { btn.disabled=true; btn.innerHTML='<i class="fas fa-spinner fa-spin"></i> Guardando...'; }
+  if (saveBtn) { saveBtn.disabled=true; saveBtn.innerHTML='<i class="fas fa-spinner fa-spin"></i> Subiendo a GitHub...'; }
+  try {
+    const apiBase = `https://api.github.com/repos/${username}/${repo}`;
+    let sha;
+    try {
+      const getRes = await fetch(`${apiBase}/contents/student-config.json`, {
+        headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' }
+      });
+      if (getRes.ok) { const d = await getRes.json(); sha = d.sha; }
+    } catch {}
+    config._meta.last_saved = new Date().toISOString();
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(config, null, 2))));
+    const body = { message:`PLN actualizado — ${config.student?.name || 'alumno'}`, content, branch: branch||'main' };
+    if (sha) body.sha = sha;
+    const putRes = await fetch(`${apiBase}/contents/student-config.json`, {
+      method:'PUT',
+      headers:{ 'Authorization':`Bearer ${token}`, 'Content-Type':'application/json', 'Accept':'application/vnd.github+json' },
+      body: JSON.stringify(body)
+    });
+    if (!putRes.ok) throw new Error((await putRes.json()).message);
+    saveConfig();
+    updateGhConnectedUI();
+    showToast('✅ Guardado en GitHub · Sitio actualizando en ~30 seg');
+  } catch(e) {
+    showToast('❌ Error: ' + e.message);
+  } finally {
+    if (btn) { btn.disabled=false; btn.innerHTML='<i class="fas fa-cloud-upload-alt"></i> Guardar en GitHub'; }
+    if (saveBtn) { saveBtn.disabled=false; saveBtn.innerHTML='<i class="fas fa-cloud-upload-alt"></i> Guardar todo en mi GitHub'; }
+  }
+}
+
+// ═══════════════════════════════════════════
+// IMAGE UPLOAD
+// ═══════════════════════════════════════════
+function handleDrop(ev, field) {
+  ev.preventDefault();
+  const file = ev.dataTransfer?.files?.[0];
+  if (file && file.type.startsWith('image/')) handleImageFile(file, field);
+}
+function handleFileInput(input, field) {
+  const file = input.files?.[0];
+  if (file) handleImageFile(file, field);
+}
+function handleImageFile(file, field) {
+  const reader = new FileReader();
+  reader.onload = e => {
+    if (field === 'photo') {
+      config.student.photo = e.target.result;
+      const prev = document.getElementById('foto-preview');
+      prev.src = e.target.result; prev.style.display='block';
+      document.getElementById('foto-icon').style.display='none';
+    } else {
+      config.appearance.wallpaper = e.target.result;
+      config.appearance.wallpaper_mode = 'image';
+      setRadio('bg-mode','image');
+      s2BgMode({ value:'image' });
+    }
+    saveConfig();
+  };
+  reader.readAsDataURL(file);
+}
+// Set up drag events
+['foto-drop','wall-drop'].forEach(id => {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.addEventListener('dragover', e => { e.preventDefault(); el.classList.add('drag'); });
+  el.addEventListener('dragleave', () => el.classList.remove('drag'));
+  el.addEventListener('drop', e => { el.classList.remove('drag'); });
+});
+
+// ═══════════════════════════════════════════
+// RENDER PREVIEW
+// ═══════════════════════════════════════════
+function renderAll() {
+  renderPortada();
+  renderContexto();
+  renderEcosistema();
+  renderPLN();
+  renderFeed();
+  applyPrimaryColor();
+}
+
+function applyPrimaryColor() {
+  const c = config.appearance?.primary_color || '#E12828';
+  document.documentElement.style.setProperty('--primary', c);
+  const dk = adjustColor(c, -20);
+  document.documentElement.style.setProperty('--primary-dk', dk);
+}
+
+function adjustColor(hex, amt) {
+  const c = parseInt(hex.slice(1),16);
+  const r = Math.max(0,Math.min(255,((c>>16)&255)+amt));
+  const g = Math.max(0,Math.min(255,((c>>8)&255)+amt));
+  const b = Math.max(0,Math.min(255,(c&255)+amt));
+  return '#'+[r,g,b].map(x=>x.toString(16).padStart(2,'0')).join('');
+}
+
+function renderPortada() {
+  const s = config.student || {};
+  const a = config.appearance || {};
+  document.getElementById('prev-name').textContent = s.name || 'Tu Nombre Completo';
+  document.getElementById('prev-inst').textContent = [s.institution, s.semester].filter(Boolean).join(' · ') || 'Tu Institución · 1er Semestre';
+  document.getElementById('prev-quote').textContent = (a.quote ? `"${a.quote}"` : '') + (a.quote_author ? ` — ${a.quote_author}` : '');
+  // Background
+  const portada = document.getElementById('prev-portada');
+  const bg = document.getElementById('prev-portada-bg');
+  if (a.wallpaper_mode === 'image' && a.wallpaper) {
+    bg.style.backgroundImage = `url(${a.wallpaper})`;
+    bg.style.opacity = '0.6';
+    portada.style.background = '#000';
+  } else if (a.wallpaper_mode === 'solid') {
+    portada.style.background = a.gradient_start || '#1a1a2e';
+    bg.style.backgroundImage = '';
+  } else {
+    portada.style.background = `linear-gradient(135deg,${a.gradient_start||'#1a1a2e'},${a.gradient_end||'#16213e'})`;
+    bg.style.backgroundImage = '';
+  }
+  // Photo
+  const foto = document.getElementById('prev-foto');
+  const fotoPh = document.getElementById('prev-foto-ph');
+  if (s.photo) { foto.src = s.photo; foto.style.display='block'; fotoPh.style.display='none'; }
+  else { foto.style.display='none'; fotoPh.style.display='flex'; }
+}
+
+function renderContexto() {
+  const p = config.ple || {};
+  const set = (id, val) => { const el=document.getElementById(id); if(el) el.textContent = val || el.getAttribute('placeholder') || '...'; };
+  document.getElementById('pc-context').textContent    = p.context    || 'Describe el contexto de la asignatura...';
+  document.getElementById('pc-purpose').textContent    = p.purpose    || '¿Para qué construiste tu PLE?';
+  document.getElementById('pc-assessment').textContent = p.assessment || '¿Qué aprendiste al construirlo?';
+  document.getElementById('pc-comments').textContent   = p.comments   || 'Comentarios adicionales...';
+}
+
+function renderEcosistema() {
+  const eco = config.ple?.ecosystem || {};
+  document.getElementById('prev-eco-grid').innerHTML = ECO_NODES.map(node => {
+    const n = eco[node.key] || { tools:[] };
+    return `<div class="eco-node">
+      <div class="eco-node-icon">${node.icon}</div>
+      <div class="eco-node-label">${node.label}</div>
+      <div class="eco-node-count">${(n.tools||[]).length} herramienta${(n.tools||[]).length!==1?'s':''}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderPLN() {
+  const topics = config.ple?.topics || [];
+  document.getElementById('prev-pln-list').innerHTML = topics.filter(t => t.active).map(t => `
+    <div class="prev-topic">
+      <span class="prev-topic-title">${eh(t.title)}</span>
+      <span class="prev-res-count">${(t.resources||[]).length} recursos</span>
+    </div>
+  `).join('') || '<p style="font-size:0.75rem;color:#bbb;text-align:center;padding:12px">Activa temas en el Paso 5</p>';
+}
+
+function renderFeed() {
+  const items = config.pln?.custom_items || [];
+  const grid = document.getElementById('prev-feed-grid');
+  const cards = items.slice(0,3).map(item => {
+    const cat = CATS_CONFIG[item.category] || { label:item.category, color:'#666' };
+    return `<div class="prev-feed-card">
+      <div class="prev-feed-cat" style="background:${cat.color}">${cat.label}</div>
+      <div class="prev-feed-title">${eh(item.title)}</div>
+      <div class="prev-feed-src">${eh(item.source)}</div>
+    </div>`;
+  });
+  cards.push('<div class="prev-feed-add"><i class="fas fa-plus" style="margin-right:5px"></i> Agregar tarjeta</div>');
+  grid.innerHTML = cards.join('');
+}
+
+// ═══════════════════════════════════════════
+// SETUP MODAL
+// ═══════════════════════════════════════════
+function setupNext(from, to) {
+  if (from === 'a') {
+    const name = document.getElementById('ss-name').value.trim();
+    if (!name) { alert('Por favor ingresa tu nombre.'); return; }
+    if (!config.student) config.student = {};
+    config.student.name        = name;
+    config.student.institution = document.getElementById('ss-inst').value.trim() || 'Mi Institución';
+    config.student.semester    = document.getElementById('ss-sem').value;
+    // Sync to step 1 form
+    setValue('s1-name', config.student.name);
+    setValue('s1-inst', config.student.institution);
+    setSelect('s1-sem', config.student.semester);
+    saveConfig();
+  }
+  document.getElementById('ss-' + from).classList.remove('active');
+  document.getElementById('ss-' + to).classList.add('active');
+}
+
+async function setupConnect() {
+  const username = document.getElementById('ss-ghuser').value.trim();
+  const repo     = document.getElementById('ss-ghrepo').value.trim();
+  const token    = document.getElementById('ss-token').value.trim();
+  if (!username || !token) { alert('Ingresa tu usuario y token de GitHub.'); return; }
+  const btn = document.getElementById('ss-connect-btn');
+  btn.textContent = 'Verificando...'; btn.disabled = true;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${username}/${repo||'PLN-CD-Plantilla'}`, {
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' }
+    });
+    if (!r.ok) throw new Error((await r.json()).message);
+    config.github = { username, repo: repo||'PLN-CD-Plantilla', branch:'main' };
+    sessionStorage.setItem('gh_token', token);
+    saveConfig();
+    updateGhConnectedUI();
+    setupNext('c','d');
+  } catch(e) {
+    alert('No se pudo conectar: ' + e.message + '\n\nVerifica tu usuario, repo y token.');
+  } finally {
+    btn.textContent = 'Conectar con GitHub'; btn.disabled = false;
+  }
+}
+
+function skipSetup() {
+  const name = document.getElementById('ss-name')?.value.trim();
+  if (name && config.student) config.student.name = name;
+  closeSetup();
+}
+
+function closeSetup() {
+  document.getElementById('setup-overlay').style.display = 'none';
+  renderAll();
+}
+
+// ═══════════════════════════════════════════
+// UTILITIES
+// ═══════════════════════════════════════════
+function eh(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function timeAgo(iso) {
+  if (!iso) return '';
+  const d = (Date.now() - new Date(iso)) / 1000;
+  if (d < 3600)   return Math.floor(d/60)    + ' min';
+  if (d < 86400)  return Math.floor(d/3600)  + ' h';
+  if (d < 604800) return Math.floor(d/86400) + ' d';
+  return Math.floor(d/604800) + ' sem';
+}
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3500);
+}
+function updateSaveStatus(msg) {
+  const el = document.getElementById('save-status');
+  if (el) { el.textContent = msg; setTimeout(()=>el.textContent='',3000); }
+}
+
+// ═══════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════
+loadConfig().then(() => {
+  goToStep(1);
+});
+</script>
+</body>
+</html>
