@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated": "2026-07-04T19:20:33.970599+00:00",
-    "total": 173
+    "generated": "2026-07-05T03:49:59.983696+00:00",
+    "total": 183
   },
   "items": [
     {
@@ -12,7 +12,7 @@
       "category": "startup",
       "summary": "Descubre cómo los emprendedores más astutos están utilizando estrategias basadas en la ciencia —e incluso la inteligencia artificial— para tomar menos decisiones, pero más inteligentes, y recuperar su energía mental. The…",
       "image": null,
-      "published": "2026-07-04T19:20:32.521914+00:00",
+      "published": "2026-07-05T03:49:58.462944+00:00",
       "score": null,
       "tags": []
     },
@@ -24,7 +24,7 @@
       "category": "startup",
       "summary": "En 2025, Estados Unidos sumó más de 440,000 nuevos millonarios, y gran parte de su riqueza tiene poco que ver con sus trabajos principales. The post En Estados Unidos se crean 1,200 nuevos millonarios cada día: esto es l…",
       "image": null,
-      "published": "2026-07-04T19:20:32.521555+00:00",
+      "published": "2026-07-05T03:49:58.462371+00:00",
       "score": null,
       "tags": []
     },
@@ -36,7 +36,7 @@
       "category": "startup",
       "summary": "Los dueños de PyMEs están dejando de usar la inteligencia artificial como una herramienta para pasar a gestionarla como una fuerza laboral, con agentes de IA que se encargan de operaciones centrales como el servicio al c…",
       "image": null,
-      "published": "2026-07-04T19:20:32.521167+00:00",
+      "published": "2026-07-05T03:49:58.461527+00:00",
       "score": null,
       "tags": []
     },
@@ -48,7 +48,7 @@
       "category": "startup",
       "summary": "La inteligencia artificial nos está forzando a evolucionar y a colaborar con las máquinas para seguir siendo relevantes. The post La IA no te está quitando el trabajo. Te está obligando a evolucionar appeared first on En…",
       "image": null,
-      "published": "2026-07-04T19:20:32.520825+00:00",
+      "published": "2026-07-05T03:49:58.460690+00:00",
       "score": null,
       "tags": []
     },
@@ -60,7 +60,7 @@
       "category": "startup",
       "summary": "Los contratiempos dan espacio para la reinvención. Aquí te explicamos cómo usar la resiliencia para convertir los finales en comienzos. The post Cuando la vida se derrumba, los emprendedores reconstruyen: 6 lecciones sob…",
       "image": null,
-      "published": "2026-07-04T19:20:32.520461+00:00",
+      "published": "2026-07-05T03:49:58.459882+00:00",
       "score": null,
       "tags": []
     },
@@ -72,7 +72,7 @@
       "category": "startup",
       "summary": "Estas son las noticias más relevantes de la semana que termina. The post Los humanos veteranos le ayudaron a la IA de Ford y otras noticias destacadas de la semana appeared first on Entrepreneur en Espanol .",
       "image": null,
-      "published": "2026-07-04T19:20:32.519055+00:00",
+      "published": "2026-07-05T03:49:58.455692+00:00",
       "score": null,
       "tags": []
     },
@@ -84,7 +84,7 @@
       "category": "startup",
       "summary": "El Answer Engine Optimization (optimización para motores de respuesta) no es SEO con otro nombre. Es la diferencia entre posicionarte para una frase y ser la respuesta que tu comprador realmente recibe. The post Deja de …",
       "image": null,
-      "published": "2026-07-04T19:20:32.518711+00:00",
+      "published": "2026-07-05T03:49:58.455214+00:00",
       "score": null,
       "tags": []
     },
@@ -96,7 +96,7 @@
       "category": "startup",
       "summary": "El liderazgo en inteligencia artificial dependerá cada vez más de la capacidad para construir redes de socios, integrar soluciones y acelerar su adopción en las empresas. The post Cómo Microsoft está librando la batalla …",
       "image": null,
-      "published": "2026-07-04T19:20:32.518322+00:00",
+      "published": "2026-07-05T03:49:58.454676+00:00",
       "score": null,
       "tags": []
     },
@@ -108,7 +108,7 @@
       "category": "startup",
       "summary": "Los líderes de opinión suelen caer en cámaras de eco, especialmente en plataformas como LinkedIn, donde los algoritmos refuerzan puntos de vista familiares y limitan la exposición a ideas diversas. The post Los líderes d…",
       "image": null,
-      "published": "2026-07-04T19:20:32.517948+00:00",
+      "published": "2026-07-05T03:49:58.454152+00:00",
       "score": null,
       "tags": []
     },
@@ -120,7 +120,115 @@
       "category": "startup",
       "summary": "No te preocupes por que la IA reemplace tu talento. Aquí te explico cómo puedes aprovecharla para potenciar su valor. The post Así es como estoy usando la IA para hacer crecer mi negocio y empoderar (no reemplazar) a mi …",
       "image": null,
-      "published": "2026-07-04T19:20:32.517512+00:00",
+      "published": "2026-07-05T03:49:58.453469+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "46f36e8f592874",
+      "title": "Operativo 'No inglés': Las marcas se cambian de nombre para apoyar a México",
+      "url": "https://expansion.mx/mercadotecnia/2026/07/04/operativo-no-ingles-marcas-se-cambian-nombre-apoyo-seleccion",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "Previo al duelo entre México e Inglaterra de este domingo, marcas como HEB, Tim Hortons o American Eagle 'mexicanizaron' su nombre en redes sociales para mostrar su apoyo al equipo tricolor.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/4c9323a/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F09%2F2b%2Fa314e38940f593259c2ca95bc6f1%2Fdiseno-sin-titulo-3.png",
+      "published": "2026-07-05T00:48:26+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "cbbaab3fda1965",
+      "title": "Google Maps prepara un cambio que podría hacerte pedir comida sin salir de la app",
+      "url": "https://www.merca20.com/google-maps-prepara-un-cambio-que-podria-hacerte-pedir-comida-sin-salir-de-la-app/?utm_source=rss&utm_medium=rss&utm_campaign=google-maps-prepara-un-cambio-que-podria-hacerte-pedir-comida-sin-salir-de-la-app",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Si Google concreta esta función, Maps dejará de ser únicamente la aplicación que indica cómo llegar a un restaurante.",
+      "image": "https://files.merca20.com/uploads/2025/03/bigstock-Sankt-petersburg-Russia-Apri-235853137.jpg",
+      "published": "2026-07-05T00:06:41+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "8d083b15bab381",
+      "title": "Partidos del Mundial 5 de julio: México vs. Inglaterra, ¿dónde ver los encuentros?",
+      "url": "https://expansion.mx/tendencias/2026/07/04/partidos-del-mundial-5-de-julio-mexico-vs-inglaterra-donde-ver-los-encuentros",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "No solo México buscará el sexto partido, también la selección de Brasil buscará un lugar en los cuartos de final al medirse con Noruega; consulta dónde verlos.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/bb4e9ae/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F49%2F9e%2F94c02c774478be014710bab9303a%2Fafp-20260701-b8vb4bl-v1-midres-fblwc2026match79mexecu.jpg",
+      "published": "2026-07-05T00:00:17+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "a59b0417bbace6",
+      "title": "Gana dinero en X: Elon Musk lanza una nueva función que te permitirá generar miles de dólares",
+      "url": "https://www.merca20.com/gana-dinero-en-x-elon-musk-lanza-una-nueva-funcion-que-te-permitira-generar-miles-de-dolares/?utm_source=rss&utm_medium=rss&utm_campaign=gana-dinero-en-x-elon-musk-lanza-una-nueva-funcion-que-te-permitira-generar-miles-de-dolares",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Se trata de un movimiento para competir directamente con gigantes como YouTube, Twitch, TikTok e Instagram, donde los videos en vivo se han convertido en uno de los formatos más rentables para creadores, marcas y anuncia…",
+      "image": "https://files.merca20.com/uploads/2026/02/ELON-MUSK-X-OFFICE.jpg",
+      "published": "2026-07-04T23:45:18+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "58e2c8780319aa",
+      "title": "Estados Unidos lanza 250,000 monedas conmemorativas en su 250 aniversario",
+      "url": "https://expansion.mx/economia/2026/07/04/estados-unidos-lanza-250-000-monedas-conmemorativas-en-su-250-aniversario",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "El presidente Trump ordenó también la emisión de billetes con su firma y la del secretario del Tesoro, Scott Bessent, con motivo de la independencia del país.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/c513b23/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F0b%2F85%2F2c0880224b588b09db95319f2b80%2Fmonedas-conmemorativas-eu.jpg",
+      "published": "2026-07-04T23:44:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "bfd53a3abbba6f",
+      "title": "¿Qué debo conectar primero, el celular o el cargador? Así puedes evitar picos de tensión",
+      "url": "https://www.merca20.com/que-debo-conectar-primero-el-celular-o-el-cargador-asi-puedes-evitar-picos-de-tension/?utm_source=rss&utm_medium=rss&utm_campaign=que-debo-conectar-primero-el-celular-o-el-cargador-asi-puedes-evitar-picos-de-tension",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Una práctica tan cotidiana como conectar el teléfono celular al tomacorriente puede afectar la vida útil del dispositivo",
+      "image": "https://files.merca20.com/uploads/2026/07/conectar-el-celular-Gemini-AI.jpg",
+      "published": "2026-07-04T22:58:47+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "152476a7be0800",
+      "title": "Sam’s Club aprovecha la euforia por México y remata Jersey Adidas local: con tecnología Climacool",
+      "url": "https://www.merca20.com/sams-club-aprovecha-la-euforia-por-mexico-y-remata-jersey-adidas-local-con-tecnologia-climacool/?utm_source=rss&utm_medium=rss&utm_campaign=sams-club-aprovecha-la-euforia-por-mexico-y-remata-jersey-adidas-local-con-tecnologia-climacool",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "La cadena comercial puso en oferta la playera oficial, equipada con la tecnología Climacool de Adidas, diseñada para mejorar la ventilación y ofrecer mayor comodidad tanto para la práctica deportiva como para el uso coti…",
+      "image": "https://files.merca20.com/uploads/2026/06/SAMS-NUEVO-LOGO-E-IMAGEN-2026-3.jpg",
+      "published": "2026-07-04T22:30:38+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "babac9df1278a8",
+      "title": "A 10 días de los terremotos, Venezuela acumula cerca de 3,000 muertos",
+      "url": "https://expansion.mx/mundo/2026/07/04/a-10-dias-de-los-terremotos-venezuela-acumula-cerca-de-3-000-muertos",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "Las labores de rescate de personas se reduce en la medida que rescatistas extranjeros preparan su regreso a casa; la ONU estima cerca de 50,000 desaparecidos.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/1947ef1/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F42%2Fed%2Fa53ace074fb2931e84f0f6afc871%2Fafp-20260704-b99x6mp-v1-midres-venezuelaearthquakeaftermath.jpg",
+      "published": "2026-07-04T21:26:16+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7560264f5ef9fb",
+      "title": "Lo que dice esta carta OFICIAL que podría dejar sin licencia a miles de conductores",
+      "url": "https://www.merca20.com/lo-que-dice-esta-carta-oficial-que-podria-dejar-sin-licencia-a-miles-de-conductores/?utm_source=rss&utm_medium=rss&utm_campaign=lo-que-dice-esta-carta-oficial-que-podria-dejar-sin-licencia-a-miles-de-conductores",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Se sabe que 11 mil licencias quedan en pausa administrativa… por una razón que aún no se explica del todo.",
+      "image": "https://files.merca20.com/uploads/2025/01/AUTOS-EN-CDMX.jpg",
+      "published": "2026-07-04T21:23:24+00:00",
       "score": null,
       "tags": []
     },
@@ -137,6 +245,18 @@
       "tags": []
     },
     {
+      "id": "a56a17bb589426",
+      "title": "Representantes de Hamás y Hezbolá asisten a funeral de Jamenei",
+      "url": "https://expansion.mx/mundo/2026/07/04/representantes-de-hamas-y-hezbola-asisten-a-funeral-de-jamenei",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "El evento, que se extenderá por seis días, pretende ser una demostración de fuerza en plena negociación diplomática entre Estados Unidos e Irán, tras la firma de un acuerdo de fin al conflicto.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/fd87497/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Faf%2F1e%2F6e0271b142e6ab7337826186f6e5%2Fafp-20260704-b9944cq-v1-midres-iranusisraelwarfuneral.jpg",
+      "published": "2026-07-04T19:02:01+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "1a553aed412ecc",
       "title": "Las 5 mejores series de ciencia ficción canceladas con una sola temporada en Netflix",
       "url": "https://hipertextual.com/cine-television/las-5-mejores-series-de-ciencia-ficcion-canceladas-con-una-sola-temporada-en-netflix/",
@@ -145,6 +265,18 @@
       "summary": "Netflix tiene una mano larga e implacable para cancelar series sin que nunca esté muy claro el motivo. Algo que demostró la abrupta cancelación de The Boroughs: Jubilación rebelde. Una decisión que se ha convertido en la…",
       "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/06/Ciencia-ficci%C2%B4pn-series.jpg?fit=1024%2C819&quality=70&strip=all&ssl=1",
       "published": "2026-07-04T19:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "d29292e65724cc",
+      "title": "Banco del Bienestar aumenta su capital en 4,245 millones de pesos",
+      "url": "https://expansion.mx/economia/2026/07/04/banco-del-bienestar-aumenta-su-capital-en-4-245-millones-de-pesos",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "La Secretaría de Hacienda aprobó en el Diario Oficial de la Federación el fortalecimiento del capital social del banco y pasó de 18,538 millones de pesos a 22,783 millones.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/df515fa/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Ff3%2Fa4%2Ff00cf0e04ff38dc8d20aab1e5b16%2F1-banco-bienestar-923071-inauguracion-banco-bienestar-constituyentes-2-web.jpg",
+      "published": "2026-07-04T18:34:48+00:00",
       "score": null,
       "tags": []
     },
@@ -289,6 +421,18 @@
       "summary": "Si usas Claude Code a diario, sabes lo frustrante que puede ser llegar al límite de uso en medio de una sesión de trabajo. Un nuevo gadget llamado codeMeter quiere resolver eso de una forma que no habíamos visto antes. E…",
       "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/codeMeter_Claude.jpg?fit=1024%2C640&quality=70&strip=all&ssl=1",
       "published": "2026-07-04T16:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5ef5a42f1f69a8",
+      "title": "¿Quién es el dueño del Madison Square Garden? El empresario detrás del recinto donde se casa Taylor Swift",
+      "url": "https://expansion.mx/empresas/2026/07/04/el-dueno-del-madison-square-garden-boda-taylor-swift",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "Desde el primer espectáculo en 1968 hasta convertirse en uno de los recintos más codiciados del mundo, el Madison Square Garden forma parte de un conglomerado multimillonario.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/6e19d5f/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Ffd%2Fd1%2Fa3c6cb49466f80d67f226b0347ba%2Fmadison-square-garden-boda-de-taylor-swift.jpg",
+      "published": "2026-07-04T15:49:24+00:00",
       "score": null,
       "tags": []
     },
@@ -677,18 +821,6 @@
       "tags": []
     },
     {
-      "id": "dd141bb1d0efd0",
-      "title": "Cómo los medios digitales redefinieron la experiencia del aficionado durante el Mundial",
-      "url": "https://www.merca20.com/como-los-medios-digitales-redefinieron-la-experiencia-del-aficionado-durante-el-mundial/?utm_source=rss&utm_medium=rss&utm_campaign=como-los-medios-digitales-redefinieron-la-experiencia-del-aficionado-durante-el-mundial",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "En algunos mercados, las transmisiones digitales ya rivalizan con la televisión tradicional e incluso la superan en ciertos segmentos jóvenes.",
-      "image": "https://files.merca20.com/uploads/2026/07/bigstock-Digital-Marketing-Branding-Str-86292839.jpg",
-      "published": "2026-07-03T23:35:38+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "f8d31d1bf26997",
       "title": "¿Cuánto valían los Rolex que recibió el Tri y por qué los regresaron al influencer estadounidense?",
       "url": "https://expansion.mx/tendencias/2026/07/03/cuanto-valen-relojes-rolex-que-recibio-el-tri",
@@ -797,18 +929,6 @@
       "tags": []
     },
     {
-      "id": "d7e85c8531faa0",
-      "title": "La reputación ya no depende solo de la publicidad: el nuevo rol entre marketing y comunicación",
-      "url": "https://www.merca20.com/la-reputacion-ya-no-depende-solo-de-la-publicidad-el-nuevo-rol-entre-marketing-y-comunicacion/?utm_source=rss&utm_medium=rss&utm_campaign=la-reputacion-ya-no-depende-solo-de-la-publicidad-el-nuevo-rol-entre-marketing-y-comunicacion",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Marketing y comunicación necesitan trabajar a la vez para construir reputación y posicionamiento»",
-      "image": "https://files.merca20.com/uploads/2026/07/bigstock-Silhouette-Business-People-Cor-82214624.jpg",
-      "published": "2026-07-03T22:21:54+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "35e99a1768b99e",
       "title": "Demon Slayer: Infinity Castle llega al streaming en julio; se filtra su fecha oficial de lanzamiento",
       "url": "https://www.fayerwayer.com/entretenimiento/2026/07/03/demon-slayer-infinity-castle-llega-al-streaming-en-julio-se-filtra-su-fecha-oficial-de-lanzamiento/",
@@ -845,18 +965,6 @@
       "tags": []
     },
     {
-      "id": "9fa83db53e80ad",
-      "title": "Apple presentará 5 nuevos iPhone, incluido un plegable",
-      "url": "https://expansion.mx/tecnologia/2026/07/03/apple-lanzara-cinco-nuevos-iphone-incluido-plegable",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "La empresa de tecnología presentará una estrategia con sus nuevos modelos entre finales de 2026 y principios de 2027, incluido su primer teléfono plegable",
-      "image": "https://cdn-3.expansion.mx/dims4/default/503b30b/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fea%2F2f%2F8c9978344d42861728f8703b315b%2F5-gettyimages-2234545201.jpeg",
-      "published": "2026-07-03T22:00:36+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "b6c9a9ac98f8e4",
       "title": "La empresa detrás de Claude quiere desarrollar sus propios medicamentos con inteligencia artificial",
       "url": "https://hipertextual.com/inteligencia-artificial/anthropic-desarrollo-farmacos-inteligencia-artificial/",
@@ -881,90 +989,6 @@
       "tags": []
     },
     {
-      "id": "6649e508f7192f",
-      "title": "¿Por qué siguen creciendo los créditos hipotecarios aunque las tasas permanecen altas?",
-      "url": "https://expansion.mx/economia/2026/07/03/por-que-siguen-creciendo-creditos-hipotecarios",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "El sector financiero prevé un repunte en dicho sector rumbo al cierre de 2026, revirtiendo la tendencia negativa de inicio de año.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/192bab3/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F6f%2Fb6%2F09dd7fca45688269f9a2d28a42ae%2F1-renta-gettyimages-1520018218.jpeg",
-      "published": "2026-07-03T21:37:05+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "4a22c3b7c820ec",
-      "title": "Estos son los objetos originarios de México que se exhiben en el Museo Británico",
-      "url": "https://expansion.mx/tendencias/2026/07/03/objetos-originario-mexico-exhiben-en-el-museo-britanico",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "El British Museum alberga una colección de más de 8 millones de objetos procedentes de prácticamente todas las culturas y países del mundo.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/6c23bf9/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F2f%2Fd4%2F4c0743514e5a9668221e74c45238%2Fobjetos-mexico-museo-britanico.jpg",
-      "published": "2026-07-03T21:36:21+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "e7492b9a823868",
-      "title": "¿Quién es el dueño de Reforma 222, la plaza comercial más cercana al Ángel de la Independencia?",
-      "url": "https://expansion.mx/empresas/2026/07/03/quien-es-dueno-reforma-222-plaza-angel-independencia",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "El complejo que marcó la transformación de Paseo de la Reforma pertenece a una de las fibras inmobiliarias más grandes del país. Esta es la historia del proyecto y de la familia que lo controla.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/60fd0a5/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fca%2F1e%2Fa02e6d4c40f3b219fbf97bac2e06%2Frefoma-222-plaza-comercial.png",
-      "published": "2026-07-03T21:22:36+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "888e398742ffb7",
-      "title": "¿Por qué llegaron los trabajadores ingleses a jugar futbol en Pachuca hace 130 años?",
-      "url": "https://expansion.mx/tendencias/2026/07/03/mexico-vs-inglaterra-ingleses-fundaron-futbol-en-pachuca",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "El encuentro entre México e Inglaterra revive una historia que comenzó hace más de 130 años, cuando la comunidad minera de Cornwall convirtió a Pachuca en la cuna del futbol mexicano.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/4c4c132/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F78%2F85%2Fdc01dea2446688e96c5d307ee47c%2F2-afp-20260701-b8vb4bp-v3-highres-topshotfblwc2026match79mexecu.jpeg",
-      "published": "2026-07-03T21:09:19+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "1e75445905209a",
-      "title": "Probé los Soundcore C50i, la alternativa económica y de calidad a los Huawei FreeClip 2 y los Sony LinkBuds Clip",
-      "url": "https://expansion.mx/tecnologia/2026/07/03/soundcore-c50i-review-precio",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "Los Soundcore C50i, de Anker, se posicionan como una alternativa accesible a los Huawei FreeClip en el segmento de audífonos tipo arete para quienes buscan comodidad diaria sin el gasto premium.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/4f9bb6d/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F13%2F26%2F82ec836947b495671abe12b180d3%2Fwhatsapp-image-2026-07-03-at-2.10.10%20PM.jpeg",
-      "published": "2026-07-03T21:00:24+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "1aa40d92d68186",
-      "title": "El patrocinio que más puede presumir Gilberto Mora… y las redes ya lo notaron",
-      "url": "https://www.merca20.com/el-patrocinio-que-mas-puede-presumir-gilberto-mora-y-las-redes-ya-lo-notaron/?utm_source=rss&utm_medium=rss&utm_campaign=el-patrocinio-que-mas-puede-presumir-gilberto-mora-y-las-redes-ya-lo-notaron",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "La conversación que nació de forma espontánea en redes conecta con la iniciativa que impulsa el crecimiento de niñas y niños a través de la nutrición y el deporte.",
-      "image": "https://files.merca20.com/uploads/2026/07/WhatsApp-Image-2026-07-03-at-2.48.15-PM.jpeg",
-      "published": "2026-07-03T20:58:16+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "8cc74d6bcf40ec",
-      "title": "Asics remata tenis para correr Dynablast 5 color gris, con malla jacquard y suela antideslizante: gran amortiguación y estabilidad en la pisada",
-      "url": "https://www.merca20.com/asics-remata-tenis-para-correr-dynablast-5-color-gris-con-malla-jacquard-y-suela-antideslizante-gran-amortiguacion-y-estabilidad-en-la-pisada/?utm_source=rss&utm_medium=rss&utm_campaign=asics-remata-tenis-para-correr-dynablast-5-color-gris-con-malla-jacquard-y-suela-antideslizante-gran-amortiguacion-y-estabilidad-en-la-pisada",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Los tenis Asics DYNABLAST 5 están diseñados para personas que entrenan de forma constante y buscan mejor movilidad",
-      "image": "https://files.merca20.com/uploads/2026/07/tenis-Asics-Mercado-Libre.jpg",
-      "published": "2026-07-03T20:44:36+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "627e1c470ad547",
       "title": "Sony ya le encontró nuevo uso a su fábrica de discos de PlayStation",
       "url": "https://hipertextual.com/videojuegos/sony-fabrica-discos-juegos-playstation-austria/",
@@ -973,30 +997,6 @@
       "summary": "Esta semana, Sony se despachó con el anuncio de que a partir de 2028 no lanzará nuevos juegos de PlayStation en formato físico. Pero a pesar de que técnicamente faltan dos años y medio para que la medida entre en rigor, …",
       "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/juegos-PS5-scaled.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
       "published": "2026-07-03T20:40:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "bcea845d0e3341",
-      "title": "El Tec crea su propio ChatGPT para ordenar el uso de la IA en las aulas",
-      "url": "https://expansion.mx/carrera/2026/07/03/tec-monterrey-crea-propio-chatgpt",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "El Tec de Monterrey creó TecGPT y reunió a 57 universidades para definir cómo usar la inteligencia artificial en las aulas, ante una tecnología que ya usa la mayoría de estudiantes y profesores.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/7d684d5/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F4d%2F5c%2Fde24c5db4f3b906c33b74cbeddaf%2Fel-tec-crea-su-propio-chatgpt-para-ordenar-el-uso-de-la-ia-en-las-aulas.jpeg",
-      "published": "2026-07-03T20:18:11+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "f43f4986980f37",
-      "title": "Cuando la creatividad deja de ser un lujo y se convierte en una inversión medible",
-      "url": "https://www.merca20.com/cuando-la-creatividad-deja-de-ser-un-lujo-y-se-convierte-en-una-inversion-medible/?utm_source=rss&utm_medium=rss&utm_campaign=cuando-la-creatividad-deja-de-ser-un-lujo-y-se-convierte-en-una-inversion-medible",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Los presupuestos enfrentan mayor escrutinio y las decisiones creativas deben demostrar que generan valor económico.",
-      "image": "https://files.merca20.com/uploads/2026/01/creatividad-marketing-ia.jpg",
-      "published": "2026-07-03T20:14:26+00:00",
       "score": null,
       "tags": []
     },
@@ -2069,6 +2069,102 @@
       "tags": []
     },
     {
+      "id": "375543f10dadb8",
+      "title": "La importancia de los vínculos afectivos en el aula",
+      "url": "http://blog.tiching.com/la-importancia-los-vinculos-afectivos-aula/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "Las evidencias neuro-científicas de los últimos años confirman que sin vínculo afectivo no es posible el aprendizaje. Los niños y […]",
+      "image": null,
+      "published": "2021-06-03T14:00:18+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "30827e2938db33",
+      "title": "Click to English: un recurso visual para el inglés",
+      "url": "http://blog.tiching.com/click-to-english-recurso-visual-ingles/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "¿Qué es el CLICK? Es una presentación de Google Slides por la que se puede navegar con un simple clic. […]",
+      "image": null,
+      "published": "2021-05-20T14:00:56+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "1f4ddc6170c5ca",
+      "title": "La autonomía y la autorregulación para un aprendizaje activo en entornos online sobrevenidos",
+      "url": "http://blog.tiching.com/la-autonomia-y-la-autorregulacion-para-un-aprendizaje-activo-en-entornos-online-sobrevenidos/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "Cuando hablamos de aprendizaje activo hablamos, como dice Héctor Ruíz Martín, de un aprendizaje cognitivamente activo, más allá de aprender haciendo, […]",
+      "image": null,
+      "published": "2021-05-06T14:00:29+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "39f21b0066f705",
+      "title": "¿Conoces las ventajas de la Gamificación y las herramientas para iniciarte en ella?",
+      "url": "http://blog.tiching.com/conoces-las-ventajas-la-gamificacion-las-herramientas-iniciarte-2/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "En un mundo cada vez más globalizado y en el que se abren paso las nuevas tecnologías, están surgiendo nuevas […]",
+      "image": null,
+      "published": "2021-04-29T14:00:31+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7c25c9b27d8e08",
+      "title": "El papel del juego en el aprendizaje",
+      "url": "http://blog.tiching.com/el-papel-del-juego-en-el-aprendizaje/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La utilización del juego como metodología de formación en las aulas facilita el aprendizaje de la materia, permitiendo que el […]",
+      "image": null,
+      "published": "2021-04-15T14:00:09+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "a27c862780854e",
+      "title": "Teuvo Sankila: “Los docentes deberían poder elegir sus propias herramientas de trabajo y los materiales de aprendizaje”",
+      "url": "http://blog.tiching.com/teuvo-sankila/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "Entrevistamos a Teuvo Sankila, director de ediciones de Otava Learning y experto en el cambio educativo, para hablar sobre Tuhattaituri, […]",
+      "image": null,
+      "published": "2021-04-11T08:00:26+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e31f7e480ae193",
+      "title": "IX Edición de los Premios Nacionales de Cortometrajes de Educación Vial: ¡La seguridad vial sí es cosa de niños!",
+      "url": "http://blog.tiching.com/ix-edicion-de-los-premios-nacionales-de-cortometrajes-de-educacion-vial-la-seguridad-vial-si-es-cosa-de-ninos/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La seguridad vial es un factor fundamental en la vida de todos los ciudadanos, independientemente de su edad. Aunque los […]",
+      "image": null,
+      "published": "2021-04-07T14:00:20+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "ea1bfdcc24e134",
+      "title": "Evaluar para aprender: herramientas para la autoevaluación",
+      "url": "http://blog.tiching.com/evaluar-para-aprender-herramientas-para-la-autoevaluacion/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La autoevaluación está cobrando cada vez mayor importancia. ¡Te ofrecemos un excelente recurso gratuito elaborado por Tekman! El confinamiento simplemente […]",
+      "image": null,
+      "published": "2021-03-17T15:00:31+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "2f407c0af061b1",
       "title": "Protegido: Prueba de vídeo",
       "url": "https://intef.es/prueba-de-video/",
@@ -2077,6 +2173,30 @@
       "summary": "No hay extracto porque es una entrada protegida.",
       "image": null,
       "published": "2021-03-11T10:26:43+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "3e8a4e92c6ff20",
+      "title": "Proceso reflexivo en la formación de ciudadanía global pospandemia",
+      "url": "http://blog.tiching.com/proceso-reflexivo-la-formacion-ciudadania-global-pospandemia/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La propuesta de este artículo considera que las estrategias pedagógicas más que nunca deben tener presente el proceso reflexivo como […]",
+      "image": null,
+      "published": "2021-02-25T17:00:13+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "f160c4352a3034",
+      "title": "8 razones por las que aprender a tocar música desde pequeño es beneficioso",
+      "url": "http://blog.tiching.com/8-razones-las-aprender-tocar-musica-desde-pequeno-beneficioso/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "En este post, te presentaremos las 8 razones por las que aprender a tocar música desde pequeño resulta beneficioso. Aprender […]",
+      "image": null,
+      "published": "2021-02-11T15:00:26+00:00",
       "score": null,
       "tags": []
     }
