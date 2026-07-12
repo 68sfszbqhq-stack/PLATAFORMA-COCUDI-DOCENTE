@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated": "2026-07-12T03:23:27.101048+00:00",
-    "total": 158
+    "generated": "2026-07-12T08:23:35.920935+00:00",
+    "total": 173
   },
   "items": [
     {
@@ -12,7 +12,7 @@
       "category": "startup",
       "summary": "La inteligencia artificial está transformando cada rincón de la educación superior, desde las admisiones hasta la asesoría académica, más rápido de lo que las universidades pueden escribir reglas para regularla. The post…",
       "image": null,
-      "published": "2026-07-12T03:23:25.680788+00:00",
+      "published": "2026-07-12T08:23:34.488783+00:00",
       "score": null,
       "tags": []
     },
@@ -24,7 +24,7 @@
       "category": "startup",
       "summary": "Ganar dinero con tu pasión suena como un sueño imposible. La mayoría de los emprendedores piensan con lógica y prefieren ideas “prometedoras” en lugar de seguir sus hobbies. Aun así, decidí arriesgarme. The post No solo …",
       "image": null,
-      "published": "2026-07-12T03:23:25.680598+00:00",
+      "published": "2026-07-12T08:23:34.488405+00:00",
       "score": null,
       "tags": []
     },
@@ -36,7 +36,7 @@
       "category": "startup",
       "summary": "Los mejores fundadores no necesariamente son mejores prediciendo el futuro; son mejores dándole sentido a la incertidumbre. The post A los fundadores los pintan como visionarios, pero eso no es lo que realmente impulsa e…",
       "image": null,
-      "published": "2026-07-12T03:23:25.680401+00:00",
+      "published": "2026-07-12T08:23:34.488025+00:00",
       "score": null,
       "tags": []
     },
@@ -48,7 +48,7 @@
       "category": "startup",
       "summary": "¿Estás listo para poner en marcha tu próxima gran idea? Primero lee esto. The post Los emprendedores inteligentes no se lanzan al vacío sin antes mirar — Así es como debes abordar estratégicamente la creación de un negoc…",
       "image": null,
-      "published": "2026-07-12T03:23:25.680194+00:00",
+      "published": "2026-07-12T08:23:34.487612+00:00",
       "score": null,
       "tags": []
     },
@@ -60,7 +60,7 @@
       "category": "startup",
       "summary": "Un evento para emprendedores reunirá en San Francisco a fondos, aceleradoras y fundadores latinoamericanos, en un intento por abrir una vía directa hacia el capital de riesgo estadounidense en medio de la caída en las vi…",
       "image": null,
-      "published": "2026-07-12T03:23:25.679998+00:00",
+      "published": "2026-07-12T08:23:34.487185+00:00",
       "score": null,
       "tags": []
     },
@@ -72,7 +72,7 @@
       "category": "startup",
       "summary": "De forma innata, sabemos que la felicidad es efímera y que la plenitud debería ser nuestro verdadero objetivo a largo plazo. Pero, ¿qué constituye exactamente la plenitud y de qué manera puede aplicarse en el entorno emp…",
       "image": null,
-      "published": "2026-07-12T03:23:25.679418+00:00",
+      "published": "2026-07-12T08:23:34.479180+00:00",
       "score": null,
       "tags": []
     },
@@ -84,7 +84,7 @@
       "category": "startup",
       "summary": "La inteligencia artificial ya está presente en la mayoría de las empresas, pero pocas logran convertirla en resultados reales. The post La verdadera razón por la que la IA sigue sin transformar a muchas empresas appeared…",
       "image": null,
-      "published": "2026-07-12T03:23:25.679195+00:00",
+      "published": "2026-07-12T08:23:34.478782+00:00",
       "score": null,
       "tags": []
     },
@@ -96,7 +96,7 @@
       "category": "startup",
       "summary": "No hay un manual para emprender y el consejo de tu mamá, aunque bien intencionado, no contemplaba los retos reales de construir un negocio. The post 3 verdades que todo fundador aprende a la mala appeared first on Entrep…",
       "image": null,
-      "published": "2026-07-12T03:23:25.678994+00:00",
+      "published": "2026-07-12T08:23:34.478375+00:00",
       "score": null,
       "tags": []
     },
@@ -108,7 +108,7 @@
       "category": "startup",
       "summary": "El CEO de una compañía de activos digitales cuenta qué se necesita para emprender puertas adentro de un conglomerado con más de un siglo de historia. Incluidos los fracasos. The post ¿Cómo se lidera una fintech de cripto…",
       "image": null,
-      "published": "2026-07-12T03:23:25.678797+00:00",
+      "published": "2026-07-12T08:23:34.477978+00:00",
       "score": null,
       "tags": []
     },
@@ -120,7 +120,103 @@
       "category": "startup",
       "summary": "Descubre cinco poderosas frases que inspiran a emprendedores en cada etapa del viaje de una startup, desde la idea hasta el crecimiento. Una lectura obligada para fundadores que buscan motivación y claridad. The post Est…",
       "image": null,
-      "published": "2026-07-12T03:23:25.678567+00:00",
+      "published": "2026-07-12T08:23:34.477507+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "98a55a67688453",
+      "title": "Las ventas de coches eléctricos en Europa, en un revelador mapa con una península que arrasa. Spoiler: no es la Ibérica",
+      "url": "https://www.xataka.com/movilidad/ventas-coches-electricos-europa-revelador-mapa-peninsula-que-arrasa-spoiler-no-iberica",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Si mañana se estropease tu coche y tuvieras que comprarte uno nuevo, la pregunta del millón es: ¿sería un coche de combustión, un híbrido o un eléctrico? Obviamente, también hay otra alternativa respetable y con mucho se…",
+      "image": "https://i.blogs.es/eb83b0/cohes-ele/1024_2000.jpeg",
+      "published": "2026-07-12T08:01:57+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "ec8c5401ed8fb7",
+      "title": "Ni Quick Share, ni AirDrop: esta app para transferir archivos es gratis, multiplataforma y funciona mucho más rápido",
+      "url": "https://hipertextual.com/software/blip-app-transferir-archivos/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Desde que se abrió la interoperabilidad entre Quick Share y AirDrop, muchos han celebrado disponer de una mayor versatilidad al momento de transferir archivos entre distintos dispositivos sin importar la marca o el siste…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/Blip-portada.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
+      "published": "2026-07-12T08:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "3922c20291dded",
+      "title": "Hemos construido tantas presas en los últimos 190 años que no solo hemos cambiado la duración del día: también hemos cambiado el eje de rotación",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/hemos-construido-tantas-presas-ultimos-190-anos-que-no-solo-hemos-cambiado-duracion-dia-tambien-hemos-cambiado-eje-rotacion-1",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Hace un par de décadas, científicos del Jet Propulsion Lab de la NASA estimaron que el llenado de la presa de las Tres Gargantas, el descomunal proyecto hidroeléctrico de China, implicaba el movimiento de una masa de agu…",
+      "image": "https://i.blogs.es/8dcccf/presa-pakistan/1024_2000.jpeg",
+      "published": "2026-07-12T07:31:57+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "58c543d5984ac6",
+      "title": "Este truco reduce hasta un 70% el gasto al usar inteligencia artificial para programar",
+      "url": "https://hipertextual.com/inteligencia-artificial/pxpipe-reduce-tokens-claude-code/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Reducir la factura de tokens en Claude Code puede sonar a algo reservado solo para expertos o ingenieros de software. Un proyecto de código abierto llamado pxpipe demuestra que no es así, ya que cualquiera puede gastar m…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/04/claude-code-app-portada.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
+      "published": "2026-07-12T07:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "a773fce572ffc1",
+      "title": "Apple demanda a OpenAI por robar secretos comerciales: \"Lol, tengo acceso\", el mensaje del ingeniero que destapó el escándalo",
+      "url": "https://www.xataka.com/empresas-y-economia/historica-demanda-apple-a-openai-lol-tengo-acceso-mensaje-ingeniero-que-destapo-escandalo",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Este fin de semana ha explotado un culebrón que amenaza seriamente el primer hardware Made in OpenAI, deja en mal lugar a un ingeniero con una dilatada y exitosa carrera como Tan Tang (24 años en Apple y VP de diseño de …",
+      "image": "https://i.blogs.es/f0cd18/juicio/1024_2000.jpeg",
+      "published": "2026-07-12T06:40:01+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "021e04811c9b12",
+      "title": "¿Cuánto cuesta la batería de un carro eléctrico? La pieza que elevó el precio de Olinia",
+      "url": "https://expansion.mx/empresas/2026/07/12/cuanto-cuesta-la-bateria-para-auto-electrico",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "Detrás del componente más importante de un vehículo eléctrico hay materiales estratégicos, procesos industriales complejos y costos que, en algunos casos, superan el valor del Olinia.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/25c5523/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fd8%2Fab%2Fea21d5f7485d9b3c90fe432b891b%2Fcuanto-cuesta-la-bateria-de-un-carro-electrico.png",
+      "published": "2026-07-12T06:30:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "882b66cd46e4af",
+      "title": "El emulador de PS5 SharpEmu recibe importantes mejoras, ¿emulación de GTA VI en PC?",
+      "url": "https://www.muycomputer.com/2026/07/12/el-emulador-de-ps5-sharpemu-recibe-importantes-mejoras-emulacion-de-gta-vi-en-pc/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "El primer emulador de PS5 llegó hace unos años, pero la carrera para mejorar la emulación de dicha consola en PC lleva mucho tiempo bastante parada, lo que significa que en realidad las opciones que tenemos hoy en día no…",
+      "image": null,
+      "published": "2026-07-12T06:13:59+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7cc3a9b22b6fc8",
+      "title": "Así quedaron las semifinales del Mundial 2026: ¿cuándo se juegan y si van por TV abierta?",
+      "url": "https://expansion.mx/tendencias/2026/07/11/semifinales-mundial-2026-fechas-horarios-tv-abierta",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "Francia, España, Inglaterra y Argentina ya están entre las cuatro mejores selecciones del Mundial 2026. Consulta los horarios de las semifinales, dónde verlas y cuándo se jugará la final.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/6ecfd90/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F87%2F42%2Fd40f6a24433eaef10334321b674b%2Fsemifinales-mundial-2026.png",
+      "published": "2026-07-12T03:46:22+00:00",
       "score": null,
       "tags": []
     },
@@ -402,7 +498,7 @@
     },
     {
       "id": "49247437da5ffb",
-      "title": "El calor cambia tu humor. Un egipcio lo entendió hace 40 años y diseñó un pueblo que “sudaba” para enfriarse",
+      "title": "Egipto llevaba décadas enfriando casas sin enchufarlas a la red. El resto del mundo acaba de empezar a mirar esa idea",
       "url": "https://www.xataka.com/magnet/calor-cambia-tu-humor-egipcio-entendio-hace-40-anos-diseno-pueblo-que-sudaba-para-enfriarse",
       "source": "Xataka",
       "category": "tech-ia",
@@ -522,7 +618,7 @@
     },
     {
       "id": "78a88fb1670018",
-      "title": "Acabamos de descubrir el auténtico \"Inditex\" vikingo: una colosal fábrica textil de hace mil años con su propio Amancio Ortega",
+      "title": "Los vikingos ya tenían su \"Inditex\": una colosal fábrica textil de hace mil años con su propio Amancio Ortega",
       "url": "https://www.xataka.com/magnet/acabamos-descubrir-autentico-inditex-vikingo-colosal-fabrica-textil-hace-mil-anos-su-propio-amancio-ortega",
       "source": "Xataka",
       "category": "tech-ia",
@@ -642,7 +738,7 @@
     },
     {
       "id": "e6f3a38291071e",
-      "title": "El Reino Unido tiene fama de nublado, pero no es el cielo más gris de Europa: el mapa de la NASA que reúne 25 años de nubes",
+      "title": "Ni Londres ni el Reino Unido: el mapa de la NASA que revela dónde está el cielo más gris de Europa",
       "url": "https://www.xataka.com/ecologia-y-naturaleza/reino-unido-tiene-fama-nublado-no-cielo-gris-europa-mapa-nasa-que-reune-25-anos-nubes",
       "source": "Xataka",
       "category": "tech-ia",
@@ -666,7 +762,7 @@
     },
     {
       "id": "152371068287ae",
-      "title": "Las costas andaluzas se están llenando de un alga invasora. Resulta que es útil para algo: hacer el pescado más saludable",
+      "title": "De plaga en el Sur de España a \"súper alimento\" para peces: ya sabemos qué hacer con 60.000 toneladas de alga asiática invasora",
       "url": "https://www.xataka.com/ecologia-y-naturaleza/costas-andaluzas-se-estan-llenando-alga-invasora-resulta-que-util-para-algo-hacer-pescado-saludable",
       "source": "Xataka",
       "category": "tech-ia",
@@ -685,18 +781,6 @@
       "summary": "Avatar: The Last Airbender Season 3 has wrapped filming, and Netflix is revealing more details about the continuation of the story",
       "image": "https://files.merca20.com/uploads/2026/05/Avatar-The-Last-Airbender-Season-2.jpg",
       "published": "2026-07-11T13:16:19+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "0b1e26cfa281b9",
-      "title": "La regla de los dos dedos para la crema solar no falla, pero esta experta la ha llevado al siguiente nivel",
-      "url": "https://www.xataka.com/medicina-y-salud/regla-dos-dedos-para-crema-solar-no-falla-esta-experta-ha-llevado-al-siguiente-nivel",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "A estas alturas de la película, todos tenemos clara la importancia de usar protector solar. Bueno, quizás todos menos Marcos Llorente . La cuestión es que, por mucho que entendamos que debemos protegernos de las radiacio…",
-      "image": "https://i.blogs.es/ed5b5a/crema-solar-facial/1024_2000.jpeg",
-      "published": "2026-07-11T13:01:57+00:00",
       "score": null,
       "tags": []
     },
@@ -725,30 +809,6 @@
       "tags": []
     },
     {
-      "id": "d47d0bfd7b1671",
-      "title": "Bernardo Rodilla, experto en retail: \"Mercadona ya no compite solo con Carrefour, lo hace con el restaurante de la esquina y McDonald´s\"",
-      "url": "https://www.xataka.com/magnet/bernardo-rodilla-experto-retail-mercadona-no-compite-solo-carrefour-hace-restaurante-esquina-mcdonald-s",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Si vas a la web de la RAE y buscas la definición de \"supermercado\" verás que sus académicos lo describen básicamente como una tienda a la que uno va para llenar su cesta con comida, bebidas, productos de limpieza y demás…",
-      "image": "https://i.blogs.es/a06b96/portadabonilla/1024_2000.jpeg",
-      "published": "2026-07-11T12:31:56+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "16768649762435",
-      "title": "China tardó una década en frenar el carbón a base de megaproyectos renovables. Le ha bastado un año para reactivarlo",
-      "url": "https://www.xataka.com/energia/china-tardo-decada-frenar-carbon-a-base-megaproyectos-renovables-le-ha-bastado-ano-para-reactivarlo",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Desde hace años China es la absoluta referencia en energías renovables: han conseguido tirar por los suelos los precios de las placas solares , monta parques eólicos en alta mar o colosales parques fotovoltaicos florecen…",
-      "image": "https://i.blogs.es/55ce94/chichi/1024_2000.jpeg",
-      "published": "2026-07-11T12:01:57+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "9dc88073cf9823",
       "title": "Las 5 grandes series que debes ver si quieres sacarle el jugo a Apple TV",
       "url": "https://hipertextual.com/cine-television/las-5-grandes-series-que-debes-ver-si-quieres-sacarle-el-jugo-a-apple-tv/",
@@ -773,6 +833,18 @@
       "tags": []
     },
     {
+      "id": "96cd65de478108",
+      "title": "Instagram recula con su nueva función de IA tras las críticas",
+      "url": "https://www.muycomputer.com/2026/07/11/instagram-recula-con-su-nueva-funcion-de-ia-tras-las-criticas/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Instagram ha decidido retirar una de sus funciones más controvertidas de inteligencia artificial apenas unos días después de presentarla. La herramienta permitía generar imágenes utilizando como referencia cualquier cuen…",
+      "image": null,
+      "published": "2026-07-11T10:47:34+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "62889a5243658b",
       "title": "Alternativas a Google para buscar en internet sin ayuda de la IA",
       "url": "https://hipertextual.com/guias/alternativas-google-buscadores-sin-ia-inteligencia-artificial/",
@@ -793,6 +865,18 @@
       "summary": "Que PlayStation abandone el lanzamiento de juegos en disco desde 2028 sigue dando que hablar. El descontento de los jugadores es más que palpable, con absoluta razón. Y ha llegado a tal calibre que se ha transformado en …",
       "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/PS5-juego-1.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
       "published": "2026-07-11T08:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5cc4e2d9a49bbb",
+      "title": "Ford Ranger PHEV: cimas",
+      "url": "https://www.muycomputer.com/2026/07/11/ford-ranger-phev-cimas/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "You can’t stop what’s coming Ellis, No Country for Old Men (2007) Una rendija de luz, un corte crudo en la oscuridad. Entreabro los ojos para que esa hendidura en la noche que ha aparecido repentinamente no me deslumbre.…",
+      "image": null,
+      "published": "2026-07-11T07:02:30+00:00",
       "score": null,
       "tags": []
     },
@@ -869,30 +953,6 @@
       "tags": []
     },
     {
-      "id": "1009a22ec0ca3b",
-      "title": "Tras los incidentes en el Interoceánico, la carga ferroviaria exige reglas para convivir con los trenes de pasajeros",
-      "url": "https://expansion.mx/empresas/2026/07/10/trenes-pasajeros-carga-operacion-industria-ferroviaria",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "Aunque la industria celebra que se construyan vías dedicadas, advierte riesgos durante las obras y pide fortalecer la regulación para garantizar una convivencia segura y eficiente.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/a4b6037/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fe5%2F34%2F4e7735f248da9beeaa7ed656c98f%2F4-ferromex-ferrovalle-tlalnepantla-afp-20250809-697l2nt-v1-highres-mexicoeconomytrains.jpeg",
-      "published": "2026-07-10T22:28:20+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "2d377a1eb6f942",
-      "title": "¿Cuánto cuesta estudiar Derecho en las universidades privadas mejor ranqueadas de México?",
-      "url": "https://expansion.mx/carrera/2026/07/10/costo-universidades-privadas-carrera-derecho",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "Las instituciones privadas con mayor reconocimiento académico también concentran algunas de las colegiaturas más altas del país.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/66369aa/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Ff1%2F7b%2F360bb4f343248d3c0b6f974eb3f9%2Falumnos.JPG",
-      "published": "2026-07-10T21:46:58+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "c6799a2da0a694",
       "title": "Esta función de Windows 11 puede consumir toda tu memoria RAM sin avisarte",
       "url": "https://hipertextual.com/software/windows-11-phone-link-consumo-ram/",
@@ -929,18 +989,6 @@
       "tags": []
     },
     {
-      "id": "34c18eef479586",
-      "title": "Motorola está por lanzar su móvil más potente y llegará con una batería que dura tres días",
-      "url": "https://hipertextual.com/mobile/motorola-edge-70-max-snapdragon-bateria/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Motorola tiene un nuevo as bajo la manga y esta vez no apunta a la gama de entrada. El fabricante está a punto de presentar el nuevo Edge 70 Max, un móvil que llegará con un potente procesador de Qualcomm y una batería d…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/motorola-edge-70-max.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
-      "published": "2026-07-10T19:28:41+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "e99868fd0e6275",
       "title": "Alerta de ciberseguridad: ESET revela cómo Cuevana 3 y Magis TV usan permisos ocultos para robar tus datos",
       "url": "https://www.fayerwayer.com/entretenimiento/2026/07/10/alerta-de-ciberseguridad-eset-revela-como-cuevana-3-y-magis-tv-usan-permisos-ocultos-para-robar-tus-datos/",
@@ -949,6 +997,18 @@
       "summary": "La promesa de series y anime gratis en Cuevana 3 o Magis TV esconde un negocio de malware. ESET advierte sobre el robo de contraseñas de Gmail y bancos.",
       "image": "https://www.fayerwayer.com/resizer/v2/3WXDB7C7V5DALBD5RCMLHK6DI4.jpg?auth=5469aad274383096ebbf51be712763999871148b93804ca6fdc547209d61f744&smart=true&width=6547&height=4365",
       "published": "2026-07-10T18:31:21+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "ff27651af4db3e",
+      "title": "OpenAI cerrará ChatGPT Atlas y trasladará sus funciones a ChatGPT",
+      "url": "https://www.muycomputer.com/2026/07/10/openai-cerrara-chatgpt-atlas-y-trasladara-sus-funciones-a-chatgpt/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Hace apenas unas horas, OpenAI presentaba ChatGPT Work como una de las grandes novedades de su nueva estrategia para convertir ChatGPT en una plataforma de productividad capaz de ir mucho más allá de un simple asistente …",
+      "image": null,
+      "published": "2026-07-10T18:23:42+00:00",
       "score": null,
       "tags": []
     },
@@ -977,14 +1037,14 @@
       "tags": []
     },
     {
-      "id": "bf23aa5257d799",
-      "title": "Disney+ podría lanzar un plan gratuito para competir con YouTube",
-      "url": "https://hipertextual.com/cine-television/disney-plus-plan-gratuito-competir-youtube/",
-      "source": "Hipertextual",
+      "id": "ccbe7a201ccea2",
+      "title": "Disney+ podría ofrecer una modalidad gratuita para recuperar usuarios",
+      "url": "https://www.muycomputer.com/2026/07/10/disney-podria-ofrecer-una-modalidad-gratuita-para-recuperar-usuarios/",
+      "source": "Muycomputer",
       "category": "tech-ia",
-      "summary": "Disney+ estaría preparando uno de los cambios más importantes en su estrategia desde su lanzamiento. La compañía evalúa ofrecer contenido de forma completamente gratuita dentro de su plataforma. La medida buscaría repele…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/08/disney-plus-scaled.jpg?fit=1024%2C571&quality=70&strip=all&ssl=1",
-      "published": "2026-07-10T17:51:13+00:00",
+      "summary": "Hace no tantos años, el streaming prometía simplificar la forma en que consumíamos cine y series. Una única suscripción daba acceso a miles de contenidos y parecía la alternativa definitiva a la televisión tradicional. S…",
+      "image": null,
+      "published": "2026-07-10T17:12:32+00:00",
       "score": null,
       "tags": []
     },
@@ -1037,6 +1097,30 @@
       "tags": []
     },
     {
+      "id": "bfeba6aac47a18",
+      "title": "Qué tipo de actualizaciones recibe Windows 11: todo lo que debes saber explicado de forma sencilla",
+      "url": "https://www.muycomputer.com/2026/07/10/que-tipo-de-actualizaciones-recibe-windows-11-todo-lo-que-debes-saber-explicado-de-forma-sencilla/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Windows 11 recibe actualizaciones con frecuencia, y por desgracia muchas de ellas suelen acabar dando problemas de cierta gravedad, lo que ha generado mucha polémica y ha disparado las críticas contra Microsoft. Ya sabem…",
+      "image": null,
+      "published": "2026-07-10T13:03:55+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "81006d092a4155",
+      "title": "Suciedad y refrigeración: cómo afecta el polvo a tu PC",
+      "url": "https://www.muycomputer.com/2026/07/10/suciedad-y-refrigeracion-como-afecta-el-polvo-a-tu-pc/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Un PC bien refrigerado debe ser capaz de mantener sin problemas unas temperaturas de trabajo totalmente seguras, incluso con el calor veraniego que está azotando a Europa desde hace semanas. Sin embargo, la situación pue…",
+      "image": null,
+      "published": "2026-07-10T12:01:56+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "0781f6967c175c",
       "title": "¿Cómo asegurar la integridad académica en tiempos de IA?",
       "url": "https://observatorio.tec.mx/como-asegurar-la-integridad-academica-en-tiempos-de-ia/",
@@ -1045,6 +1129,66 @@
       "summary": "En un mundo académico con más estuidantes que profesores haciendo uso de sistemas de inteligencia artificial, resulta más difícil garantizar la calidad y la integridad académicas. Por esa razón, es fundamental comprender…",
       "image": null,
       "published": "2026-07-10T11:35:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "d1eb8e3cb3eaf6",
+      "title": "Las mejores ofertas de la semana: ¡Especial PcDays de PcComponentes! (actualizada)",
+      "url": "https://www.muycomputer.com/2026/07/10/las-mejores-ofertas-de-la-semana-hoy-especial-pcdays-de-pccomponentes/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Nos vamos de compras como cada viernes con nuestro especial de ofertas. Una selección variada de tecnología y electrónica donde te ofrecemos los mejores descuentos disponibles y que hoy pone el foco en los PcDays de PcCo…",
+      "image": null,
+      "published": "2026-07-10T11:03:59+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "742505a9f3cbbb",
+      "title": "SEGA hizo una inversión en NVIDIA que hoy valdría 2 billones de dólares",
+      "url": "https://www.muycomputer.com/2026/07/10/sega-hizo-una-inversion-en-nvidia-que-hoy-valdria-2-billones-de-dolares/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "SEGA salvó a NVIDIA de una situación de quiebra en la era de la Dreamcast, una historia muy curiosa que ya os contamos en su momento en este artículo, y que dejó patente la relación de profunda amistad que tenían en aque…",
+      "image": null,
+      "published": "2026-07-10T09:17:16+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "ba15de98525843",
+      "title": "Promoción de verano 2026: claves de Windows 11 desde 14 € con las ofertas de GVGMall",
+      "url": "https://www.muycomputer.com/2026/07/10/canva-pro-desde-9-euros-y-windows-11-pro-por-22-euros-trabaja-y-crea-como-un-profesional-sin-riesgos/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Este verano es el momento perfecto para poner tu PC al día. Si llevas tiempo pensando en actualizar tu ordenador, ahora puedes hacerlo gastando mucho menos. Aprovecha la promoción de verano de GVGmall y consigue claves d…",
+      "image": null,
+      "published": "2026-07-10T07:58:25+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "b2d7ddda439dd2",
+      "title": "Xbox ha diezmado id Software, despreciando el id Tech 8 a favor del Unreal Engine 5",
+      "url": "https://www.muycomputer.com/2026/07/10/xbox-ha-diezmado-id-software-despreciando-el-id-tech-8-a-favor-del-unreal-engine-5/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "La información de que Xbox, en su intento de reinicio completo de la división, había reducido drásticamente la estructura de id Software apareció ayer, pero he querido esperar a tener una fuente de confianza, y detalles …",
+      "image": null,
+      "published": "2026-07-10T07:30:02+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "c7537940ed34cb",
+      "title": "GPT-5.6 ya está disponible y llega acompañado de ChatGPT Work",
+      "url": "https://www.muycomputer.com/2026/07/10/gpt-5-6-ya-esta-disponible-y-llega-acompanado-de-chatgpt-work/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Hace apenas dos semanas, OpenAI sorprendía al anunciar GPT-5.6, pero también por una decisión poco habitual: limitar inicialmente su acceso a un reducido grupo de organizaciones autorizadas por el Gobierno de Estados Uni…",
+      "image": null,
+      "published": "2026-07-10T06:03:18+00:00",
       "score": null,
       "tags": []
     },
@@ -1117,6 +1261,42 @@
       "summary": "Un reportaje reciente de BBC News Mundo narra el caso de Lowri Denman, una mujer galesa de 42 años a quien se le diagnosticaron 38 quistes cerebrales causados por Taenia…",
       "image": null,
       "published": "2026-07-09T21:43:58+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "464b15a2117516",
+      "title": "WhatsApp quiere que no vuelvas a olvidar ningún cumpleaños",
+      "url": "https://www.muycomputer.com/2026/07/09/whatsapp-quiere-que-no-vuelvas-a-olvidar-ningun-cumpleanos/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Seguro que alguna vez te has acordado del cumpleaños de un amigo cuando ya era demasiado tarde o, peor aún, después de ver cómo otras personas ya le habían felicitado. Es una situación mucho más habitual de lo que parece…",
+      "image": null,
+      "published": "2026-07-09T18:17:37+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "58f2bd0a261d79",
+      "title": "La IA cambiará la forma en que Microsoft protege Windows",
+      "url": "https://www.muycomputer.com/2026/07/09/la-ia-cambiara-la-forma-en-que-microsoft-protege-windows/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Microsoft ha anunciado una importante evolución en su estrategia de seguridad para Windows que tendrá una consecuencia muy visible para los usuarios: el sistema operativo recibirá un mayor número de actualizaciones de se…",
+      "image": null,
+      "published": "2026-07-09T16:47:25+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "6b86b3b5b26f7b",
+      "title": "Zen 6 supera en un 29% en monohilo a Zen 5 en las primeras pruebas",
+      "url": "https://www.muycomputer.com/2026/07/09/zen-6-supera-en-un-29-en-monohilo-a-zen-5-en-las-primeras-pruebas/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Zen 6 es la próxima arquitectura CPU de AMD, que será utilizada tanto en los procesadores Ryzen y Threadripper de nueva generación como en los futuros EPYC para servidores y centros de datos, y también en las próximas AP…",
+      "image": null,
+      "published": "2026-07-09T14:01:47+00:00",
       "score": null,
       "tags": []
     },
