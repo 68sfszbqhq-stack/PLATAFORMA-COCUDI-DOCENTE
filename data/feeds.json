@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated": "2026-07-21T08:35:32.186336+00:00",
-    "total": 180
+    "generated": "2026-07-21T14:01:38.649097+00:00",
+    "total": 190
   },
   "items": [
     {
@@ -12,7 +12,7 @@
       "category": "startup",
       "summary": "La abogada y presentadora colombiana Gabriela Tafur levantó $5 millones de dólares para Idilio TV, su plataforma de micronovelas verticales. Su tesis: que el melodrama latinoamericano puede enfrentar a los gigantes chino…",
       "image": null,
-      "published": "2026-07-21T08:35:30.637195+00:00",
+      "published": "2026-07-21T14:01:37.241705+00:00",
       "score": null,
       "tags": []
     },
@@ -24,7 +24,7 @@
       "category": "startup",
       "summary": "La cartera vencida del crédito al consumo en México alcanzó cifras récord en 2026. La verdadera solución está en repensar cómo se originan los créditos desde el inicio. The post El verdadero problema no es cobrar tarde. …",
       "image": null,
-      "published": "2026-07-21T08:35:30.636803+00:00",
+      "published": "2026-07-21T14:01:37.241332+00:00",
       "score": null,
       "tags": []
     },
@@ -36,7 +36,7 @@
       "category": "startup",
       "summary": "No tienes un problema de ejecución. Tienes un problema de claridad. The post ¿Por qué la ejecución se siente más difícil de lo que debería? La fricción invisible que está frenando a tu equipo appeared first on Entreprene…",
       "image": null,
-      "published": "2026-07-21T08:35:30.636409+00:00",
+      "published": "2026-07-21T14:01:37.240949+00:00",
       "score": null,
       "tags": []
     },
@@ -48,7 +48,7 @@
       "category": "startup",
       "summary": "La inteligencia artificial está en todos lados, y si has dedicado algo de tiempo a evaluar herramientas para tu negocio, ya sabes que la distancia entre la promesa y el resultado real es considerable. The post 15 herrami…",
       "image": null,
-      "published": "2026-07-21T08:35:30.636003+00:00",
+      "published": "2026-07-21T14:01:37.240573+00:00",
       "score": null,
       "tags": []
     },
@@ -60,7 +60,7 @@
       "category": "startup",
       "summary": "A medida que la IA se vuelve impulsada por la voz, tu capacidad para comunicarte con claridad y autenticidad —no qué tan bien escribes— se convierte en tu mayor activo como líder. The post La buena escritura ha muerto. A…",
       "image": null,
-      "published": "2026-07-21T08:35:30.635585+00:00",
+      "published": "2026-07-21T14:01:37.240181+00:00",
       "score": null,
       "tags": []
     },
@@ -72,7 +72,7 @@
       "category": "startup",
       "summary": "El oráculo de Delfos y la IA tienen algo en común: ambos prometen revelar lo que aún no es visible. David Mahbub, cofundador de MACH9, lo llama \"IA como revelación\": una forma de detectar tendencias antes de que exploten…",
       "image": null,
-      "published": "2026-07-21T08:35:30.635070+00:00",
+      "published": "2026-07-21T14:01:37.239692+00:00",
       "score": null,
       "tags": []
     },
@@ -84,7 +84,7 @@
       "category": "startup",
       "summary": "Rodearte de otros fundadores en una situación similar mejora la calidad de tus decisiones en entornos de alta incertidumbre. The post Si intentas hacerlo todo solo, estás saboteando tu startup — por qué necesitas amigos …",
       "image": null,
-      "published": "2026-07-21T08:35:30.633813+00:00",
+      "published": "2026-07-21T14:01:37.238308+00:00",
       "score": null,
       "tags": []
     },
@@ -96,7 +96,7 @@
       "category": "startup",
       "summary": "La fatiga del fundador se acumula en silencio, pero los hábitos y la estructura correctos pueden prevenirla. The post 1 de cada 3 emprendedores sufre agotamiento: esto es lo que hacen diferente quienes no lo padecen appe…",
       "image": null,
-      "published": "2026-07-21T08:35:30.633420+00:00",
+      "published": "2026-07-21T14:01:37.237852+00:00",
       "score": null,
       "tags": []
     },
@@ -108,7 +108,7 @@
       "category": "startup",
       "summary": "Dreaming Hands, el proyecto premiado por Dior y la UNESCO que empodera a mujeres indígenas mediante capacitación digital y acceso al mercado, transformando su artesanía en autonomía financiera. The post El proyecto que a…",
       "image": null,
-      "published": "2026-07-21T08:35:30.633037+00:00",
+      "published": "2026-07-21T14:01:37.237457+00:00",
       "score": null,
       "tags": []
     },
@@ -120,19 +120,403 @@
       "category": "startup",
       "summary": "Los mejores líderes saben que el servicio al cliente no es un departamento: es una cultura. Una empresa me lo demostró, y eso reafirmó todas mis creencias sobre liderazgo auténtico. The post La clave de una cultura que p…",
       "image": null,
-      "published": "2026-07-21T08:35:30.632597+00:00",
+      "published": "2026-07-21T14:01:37.236981+00:00",
       "score": null,
       "tags": []
     },
     {
-      "id": "a3bfac4ee6dc37",
-      "title": "España ha ganado el Mundial. Buena suerte buscando el vídeo exacto de ese momentazo que quieres volver a ver",
-      "url": "https://www.xataka.com/internet-y-television/espana-ha-ganado-mundial-buena-suerte-buscando-video-exacto-ese-momentazo-que-quieres-volver-a-ver",
+      "id": "51364a12bc35ae",
+      "title": "Anthropic saca la chequera: pagará una fortuna a autores por usar sus libros sin permiso para entrenar a Claude",
+      "url": "https://hipertextual.com/inteligencia-artificial/anthropic-pago-resarcimiento-milmillonario-claude/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Anthropic desembolsará una verdadera fortuna para resarcir a un grupo de autores, tras una demanda por usar sus libros sin permiso para entrenar a Claude. Un tribunal estadounidense aprobó el monto que la empresa está di…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/04/Claude-Widget-iPhone.jpg?fit=1024%2C683&quality=70&strip=all&ssl=1",
+      "published": "2026-07-21T13:40:14+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5aa8e286e92904",
+      "title": "HP Instant Ink frente a compra de cartuchos: ¿qué ventajas ofrece?",
+      "url": "https://www.muycomputer.com/2026/07/21/hp-instant-ink-frente-a-compra-de-cartuchos-que-ventajas-ofrece/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Las impresoras de tinta basadas en cartuchos llevan con nosotros muchos, muchos años. Puede que pienses que es imposible innovar y mejorar las posibilidades de este tipo de impresión, pero la verdad es que con HP Instant…",
+      "image": null,
+      "published": "2026-07-21T13:31:34+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "b7c11f31709b87",
+      "title": "1.297 partidos en 24 horas: hay gente jugando durante horas para alimentar las casas de apuestas online",
+      "url": "https://www.xataka.com/magnet/1-297-partidos-24-horas-hay-gente-jugando-durante-horas-para-alimentar-casas-apuestas-online",
       "source": "Xataka",
       "category": "tech-ia",
-      "summary": "España vuelve a ser campeona del mundo. Y una de las cuestiones que me ha asaltado esta mañana ha sido lo complicado que resulta, paradójicamente, encontrar momentos concretos de este Mundial 2026 en contraposición a lo …",
-      "image": "https://i.blogs.es/c54c69/fifa/1024_2000.jpeg",
-      "published": "2026-07-21T08:31:15+00:00",
+      "summary": "A las 4:30 de la madrugada, un portero del \"Ámsterdam\" sale del campo para recuperar un balón perdido en la cancha de al lado. En la sala contigua, separada de la anterior simplemente por una cortina, se juega otro parti…",
+      "image": "https://i.blogs.es/b20415/unknown/1024_2000.jpeg",
+      "published": "2026-07-21T13:31:15+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "600eec001e5bce",
+      "title": "Vigilancia 360° de alta resolución y sin pagar suscripciones: la Reolink OMVI 3i WiFi llega a España",
+      "url": "https://www.xataka.com/seleccion/vigilancia-360-alta-resolucion-pagar-suscripciones-reolink-omvi-3i-wifi-llega-a-espana",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "A la hora de proteger la vivienda o el negocio con sistemas de videovigilancia, uno de los dilemas habituales es elegir entre una cámara de gran angular que cubra mucho espacio o una con movimiento pan-tilt que permita h…",
+      "image": "https://i.blogs.es/fca0aa/camara-de-vigilancia-reolink-omvi-3i-wifi/1024_2000.png",
+      "published": "2026-07-21T13:15:15+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5f97ff3e22d020",
+      "title": "Las pantallas OLED se fabricaban igual desde hace años. Lenovo y TCL acaban de romper esa norma",
+      "url": "https://www.xataka.com/ordenadores/pantallas-oled-se-fabricaban-igual-hace-anos-lenovo-tcl-acaban-romper-esa-norma",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Lenovo ha presentado el Legion R9000P , un portátil gaming de 16 pulgadas que se convierte en el primer equipo del mercado en incorporar una pantalla OLED fabricada mediante impresión por inyección de tinta (Inkjet Print…",
+      "image": "https://i.blogs.es/85ceb6/lenovo-destacada/1024_2000.jpeg",
+      "published": "2026-07-21T13:01:15+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "9167dbbb50cf04",
+      "title": "Se acabó fumar en las terrazas: la nueva ley pone fin a uno de los últimos subterfugios del tabaco en España",
+      "url": "https://www.xataka.com/medicina-y-salud/se-acabo-fumar-terrazas-nueva-ley-pone-fin-a-uno-ultimos-subterfugios-tabaco-espana",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Algunas costumbres sobreviven por pura inercia. En España, una de ellas consiste en salir a una terraza, pedir una caña y asumir que alguien, tarde o temprano, encenderá un cigarrillo a medio metro de tu mesa. Da igual q…",
+      "image": "https://i.blogs.es/751bdb/pexels-helenalopes-4279114/1024_2000.jpeg",
+      "published": "2026-07-21T12:21:59+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "ed466fc0d38da6",
+      "title": "¿Los termos Stanley y las herramientas Stanley son de la misma empresa? La historia detrás de una confusión mundial",
+      "url": "https://www.merca20.com/stanley-es-la-misma-marca-termos-herramientas/?utm_source=rss&utm_medium=rss&utm_campaign=stanley-es-la-misma-marca-termos-herramientas",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Comparten nombre y reconocimiento mundial, pero detrás de ambas existe una historia que pocos consumidores conocen y que terminó llegando a los tribunales.",
+      "image": "https://files.merca20.com/uploads/2026/07/stanley-es-la-misma-marca.jpg",
+      "published": "2026-07-21T12:15:24+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "9650685a96b066",
+      "title": "Cómo comunicar confianza en cada etapa de la venta: el enfoque comercial de REMAX",
+      "url": "https://www.merca20.com/como-comunicar-confianza-en-cada-etapa-de-la-venta-el-enfoque-comercial-de-remax/?utm_source=rss&utm_medium=rss&utm_campaign=como-comunicar-confianza-en-cada-etapa-de-la-venta-el-enfoque-comercial-de-remax",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Bajo esa filosofía, REMAX promueve un modelo de atención donde la comunicación ocupa un lugar central",
+      "image": "https://files.merca20.com/uploads/2026/07/enfoque-comercial-remax.jpg",
+      "published": "2026-07-21T12:10:50+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "d51f5c35cea335",
+      "title": "El Gobierno aprueba la nueva Ley Antitabaco: prohibido fumar y vapear en los coches de empresa y multas de 200 euros",
+      "url": "https://www.xataka.com/movilidad/gobierno-aprueba-nueva-ley-antitabaco-prohibido-fumar-vapear-coches-empresa-multas-200-euros",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "16 años después, la Ley Antitabaco se actualiza después de años de rumores . Lo hace con cambios sustanciales como la equiparación de los vapeadores con el cigarrillo tradicional. Y también con cambios que afectan a la m…",
+      "image": "https://i.blogs.es/2a4d8f/chosen0-bhihnewccg8-unsplash/1024_2000.jpeg",
+      "published": "2026-07-21T12:10:38+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "38962c3caecc23",
+      "title": "Ocho funciones de Windows que puedes desactivar para mejorar la seguridad de un PC",
+      "url": "https://www.muycomputer.com/2026/07/21/ocho-funciones-de-windows-que-puedes-desactivar-para-mejorar-la-seguridad-de-un-pc/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "La seguridad de un PC no solo depende del uso de un determinado software antivirus. El sentido común forma parte de cualquier manual de ciberseguridad y ya hemos hablando de la importancia crítica de extremar la navegaci…",
+      "image": null,
+      "published": "2026-07-21T12:03:07+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "80419a630d6b39",
+      "title": "\"China ha alcanzado a EEUU en IA de frontera\": Kimi K3 dispara la alarma en Silicon Valley",
+      "url": "https://www.xataka.com/robotica-e-ia/china-ha-alcanzado-a-eeuu-ia-frontera-kimi-k3-dispara-alarma-silicon-valley",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Kimi K3 acaba de desmontar una idea que llevaba muchos meses instalada entre los analistas: los laboratorios chinos de inteligencia artificial (IA) iban, como mínimo, entre seis y ocho meses por detrás de sus rivales est…",
+      "image": "https://i.blogs.es/847715/kimik3china/1024_2000.jpeg",
+      "published": "2026-07-21T12:01:15+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7da2752327adce",
+      "title": "PEDIGREE apaga su publicidad por el Día Mundial del Perro y convierte la inversión en alimento para refugios",
+      "url": "https://www.merca20.com/pedigree-apaga-su-publicidad-por-el-dia-mundial-del-perro-y-convierte-la-inversion-en-alimento-para-refugios/?utm_source=rss&utm_medium=rss&utm_campaign=pedigree-apaga-su-publicidad-por-el-dia-mundial-del-perro-y-convierte-la-inversion-en-alimento-para-refugios",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "En entrevista con Merca2.0, María E. Rodríguez, directora de Marketing de Mars Pet Nutrition, explicó que PEDIGREE busca contribuir a disminuir el número de animales en situación de calle.",
+      "image": "https://files.merca20.com/uploads/2026/07/pedigree-mars-pet-nutrition-maria-e-r.jpg",
+      "published": "2026-07-21T12:00:31+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7b0e8684c3613b",
+      "title": "La Odisea 2026 logra algo que cambia el papel de IMAX en la industria del cine",
+      "url": "https://www.merca20.com/la-odisea-2026-imax-record-taquilla/?utm_source=rss&utm_medium=rss&utm_campaign=la-odisea-2026-imax-record-taquilla",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "El estreno de la nueva película de Christopher Nolan dejó cifras inéditas y muestra una estrategia que podría influir en el futuro de los grandes lanzamientos cinematográficos.",
+      "image": "https://files.merca20.com/uploads/2025/12/La-Odisea-Nolan.jpg",
+      "published": "2026-07-21T11:57:38+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "d523ae307722ca",
+      "title": "Hunter dio un paso inesperado que cambia el rumbo de una marca histórica",
+      "url": "https://www.merca20.com/colaboracion-marcas-hunter-dunlop-botas-seguridad/?utm_source=rss&utm_medium=rss&utm_campaign=colaboracion-marcas-hunter-dunlop-botas-seguridad",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Una alianza lleva a una de las marcas más reconocidas del calzado a un mercado completamente distinto y con una nueva oportunidad de crecimiento.",
+      "image": "https://files.merca20.com/uploads/2026/07/colaboracion-de-marcas-hunter-dunlop.jpg",
+      "published": "2026-07-21T11:47:55+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "9ddb52d185a1b6",
+      "title": "En China coger un taxi ya sale más barato que utilizar tu propio vehículo por un motivo: coches eléctricos",
+      "url": "https://www.xataka.com/energia/china-coger-taxi-sale-barato-que-utilizar-tu-propio-vehiculo-motivo-coches-electricos",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "China está viviendo una situación peculiar: por sus calles, ya es más barato moverse en taxi que en coche particular. Según los últimos datos del Ministerio de Transportes recogidos por la agencia Reuters, l os viajes en…",
+      "image": "https://i.blogs.es/674148/pexels-teresa-wang-2156262362-34236811/1024_2000.jpeg",
+      "published": "2026-07-21T11:45:14+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "8acdcfc1709b1f",
+      "title": "Disney encontró una nueva forma de llevar a Mickey y Minnie a la vida diaria",
+      "url": "https://www.merca20.com/rastreadores-bluetooth-disney-life360-mickey-minnie/?utm_source=rss&utm_medium=rss&utm_campaign=rastreadores-bluetooth-disney-life360-mickey-minnie",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Una alianza entre una empresa tecnológica y Disney lleva a dos de sus personajes más famosos a una categoría que gana terreno entre las familias.",
+      "image": "https://files.merca20.com/uploads/2026/07/Mickey_Mouse_Life360_Trackers.jpg",
+      "published": "2026-07-21T11:33:17+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "d2352a21bb1410",
+      "title": "Marvel lo confirma: el Doctor Doom de Robert Downey Jr. es más poderoso que Thanos",
+      "url": "https://hipertextual.com/cine-television/marvel-lo-confirma-el-doctor-doom-de-robert-downey-jr-es-mas-poderoso-que-thanos/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "El Doctor Doom de Robert Downey Jr. se ha convertido oficialmente en el villano más poderoso del Universo Cinematográfico de Marvel. El personaje debutó brevemente en la escena post-créditos de Los 4 Fantásticos: Primero…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/Doctor-Doom-Marvel-Avengers-Doomsday.jpg?fit=1024%2C614&quality=70&strip=all&ssl=1",
+      "published": "2026-07-21T11:32:38+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7c71bddcfede45",
+      "title": "La UE ha golpeado a AliExpress con una multa récord. Y deja claro que la próxima puede ser aún mayor",
+      "url": "https://www.xataka.com/empresas-y-economia/ue-ha-golpeado-a-aliexpress-multa-record-deja-claro-que-proxima-puede-ser-mayor",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "La Comisión Europea ha multado a AliExpress con 550 millones de euros por permitir la venta de productos ilegales, inseguros y falsificados en su plataforma. Es la sanción más alta jamás impuesta bajo la Ley de Servicios…",
+      "image": "https://i.blogs.es/8cde15/xataka-aliexpress/1024_2000.jpeg",
+      "published": "2026-07-21T11:31:14+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "930a04c741a22b",
+      "title": "Android 17 llega hoy a los primeros móviles Motorola: lista completa y cómo actualizar ya",
+      "url": "https://hipertextual.com/mobile/android-17-llega-hoy-a-los-primeros-moviles-motorola-lista-completa-y-como-actualizar-ya/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Samsung, Xiaomi y Google no son las únicas marcas que están actualizando sus móviles a Android 17. Motorola también se una a la lista y a partir de hoy varios de sus smartphones empiezan a recibir la nueva versión del si…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/05/android-17-header.jpg?fit=1024%2C684&quality=70&strip=all&ssl=1",
+      "published": "2026-07-21T11:19:03+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5a9f8d8401f92f",
+      "title": "Marruecos tiene un plan para ganar más de 1.000 hectáreas en el Sáhara con un objetivo: convertirlas en cultivos de regadío",
+      "url": "https://www.xataka.com/magnet/marruecos-tiene-plan-para-ganar-1-000-hectareas-sahara-objetivo-convertirlas-cultivos-regadio",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "El Gobierno marroquí quiere reforzar su peso en el Sáhara apostando por su músculo agrícola, un doble objetivo para el que está buscando aliados. Su Agencia para el Desarrollo Agrícola (ADA) acaba de lanzar una convocato…",
+      "image": "https://i.blogs.es/c076ce/50515146883_6ac3578686_3k/1024_2000.jpeg",
+      "published": "2026-07-21T11:01:15+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "b9509ea79e77d7",
+      "title": "Apple la lía con iOS 27. Acaba de revelar el secreto mejor guardado de su próximo iPhone estrella",
+      "url": "https://hipertextual.com/apple/apple-la-lia-con-ios-27-acaba-de-revelar-el-secreto-mejor-guardado-de-su-proximo-iphone-estrella/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Apple acaba de cometer un error de novato. La última beta de iOS 27 (el SO que se lanzará oficialmente en septiembre) tiene información en clave que revela uno de los acontecimientos históricos de la compañía. Ese mismo …",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/06/iphone-18-pro-.jpg?fit=1024%2C708&quality=70&strip=all&ssl=1",
+      "published": "2026-07-21T10:53:17+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "f4336473932087",
+      "title": "El Ojo 2026 abre inscripciones: fechas, premios, categorías y novedades de la próxima edición",
+      "url": "https://www.merca20.com/el-ojo-2026-inscripciones-fechas-premios-categorias/?utm_source=rss&utm_medium=rss&utm_campaign=el-ojo-2026-inscripciones-fechas-premios-categorias",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "El Ojo 2026 abrió oficialmente las inscripciones para su edición número 29. Conoce las fechas, categorías, premios, novedades y cómo participar en el principal festival de creatividad de Iberoamérica.",
+      "image": "https://files.merca20.com/uploads/2026/07/Captura-de-pantalla_21-7-2026_7416_www.instagram.com_.jpeg",
+      "published": "2026-07-21T10:43:28+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "614e22073dab00",
+      "title": "Así es el Galaxy Watch Ultra2 de Samsung",
+      "url": "https://www.muycomputer.com/2026/07/21/asi-es-el-galaxy-watch-ultra2-de-samsung/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "Samsung celebrará mañana su Unpacked de verano para presentar su nueva generación de móviles inteligentes y otros dispositivos. Entre ellos destaca el Galaxy Watch Ultra2 del que ya disponemos imágenes oficiales, especif…",
+      "image": null,
+      "published": "2026-07-21T10:31:58+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "8a997450f17d47",
+      "title": "\"Podría debilitar la competitividad de EEUU\": Kimi K3 obliga a Trump a retomar su plan para frenar la IA china",
+      "url": "https://www.xataka.com/robotica-e-ia/podria-debilitar-competitividad-eeuu-kimi-k3-obliga-a-trump-a-retomar-su-plan-para-frenar-ia-china",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Al Gobierno de Trump le gusta vetar cosas. Ahora parecen querer hacerlo con los modelos de IA de empresas chinas, que se están volviendo cada vez más competitivos. El lanzamiento de Kimi K3 parece haber sido el detonante…",
+      "image": "https://i.blogs.es/27d929/mano-china-eeuu-veto/1024_2000.jpeg",
+      "published": "2026-07-21T10:31:15+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "f86b00d53500f8",
+      "title": "Tres meses a mitad de precio: vuelve la promo estrella de Movistar Plus para ver el inicio de LaLiga, de la Champions y más",
+      "url": "https://www.xataka.com/seleccion/tres-meses-a-mitad-precio-vuelve-promo-estrella-movistar-plus-para-ver-inicio-laliga-champions",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Cuando una plataforma de streaming lanza nueva promo, siempre merece la pena echarle un vistazo. Movistar Plus ha arrancado desde hace unos minutos una que, si bien es cierto que no es nueva, sí que es su promo estrella:…",
+      "image": "https://i.blogs.es/2c3da9/promo-a-mitad-de-precio-movistar-plus/1024_2000.jpeg",
+      "published": "2026-07-21T10:15:15+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "56cb8c2d2c436a",
+      "title": "Priscillia Choy Sze Mun, experta en células madre: \"El ejercicio le indica a los músculos que se limpien y se reinicien\"",
+      "url": "https://www.xataka.com/medicina-y-salud/priscillia-choy-sze-mun-experta-celulas-madre-ejercicio-le-indica-a-musculos-que-se-limpien-se-reinicien",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Los efectos del ejercicio físico para las personas mayores están más que demostrados . Les ayuda a mejorar su salud cardiovascular, mejora la movilidad, reduce las fracturas y, en general, aporta un largo etcétera de ben…",
+      "image": "https://i.blogs.es/8af9de/ejercicio-fisico-en-personas-mayores/1024_2000.jpeg",
+      "published": "2026-07-21T10:01:15+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "cd734f8224d109",
+      "title": "Calendario escolar SEP 2026-2027: Los cuatro puentes de noviembre que tendrán los alumnos de preescolar, primaria y secundaria",
+      "url": "https://www.merca20.com/calendario-escolar-sep-2026-2027-los-cuatro-puentes-de-noviembre-que-tendran-los-alumnos-de-preescolar-primaria-y-secundaria/?utm_source=rss&utm_medium=rss&utm_campaign=calendario-escolar-sep-2026-2027-los-cuatro-puentes-de-noviembre-que-tendran-los-alumnos-de-preescolar-primaria-y-secundaria",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "La Secretaría de Educación Pública (SEP) publicó en el Diario Oficial de la Federación (DOF) el calendario oficial 2026-2027, en el que noviembre tendrá cuatro fines de semana largos para millones de estudiantes.",
+      "image": "https://files.merca20.com/uploads/2026/07/clases-2026-2027-noviembre.jpg",
+      "published": "2026-07-21T09:56:57+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "b9dc65f233d210",
+      "title": "Por la cara, tu Amazon Fire TV HD acaba de mejorar sin que te des cuenta. Te cuento cómo",
+      "url": "https://hipertextual.com/tecnologia/por-la-cara-tu-amazon-fire-tv-hd-acaba-de-mejorar-sin-que-te-des-cuenta-te-cuento-como/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Amazon acaba de desplegar una actualización en los Amazon Fire TV que los mejora sin que tengas que hacer nada. La compañía anunció este cambio hace meses durante el CES de Las Vegas, y no ha sido hasta ahora cuando lo e…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/Amazon-Fire-TV.jpg?fit=1024%2C642&quality=70&strip=all&ssl=1",
+      "published": "2026-07-21T09:38:36+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "91ab99a3539e60",
+      "title": "Manuel Hernández, abogado: \"En las herencias es un error no pedir los certificados de seguros de vida del causante\"",
+      "url": "https://www.xataka.com/legislacion-y-derechos/manuel-hernandez-abogado-herencias-error-no-pedir-certificados-seguros-vida-causante",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Cuando muere un familiar, al dolor de la pérdida se une una avalancha de trámites legales y administrativos que deben cumplirse en un determinado orden. Por eso, entre el duelo y el papeleo, hay un documento que corre un…",
+      "image": "https://i.blogs.es/70d1ad/herencias-y-seguros-de-vida/1024_2000.jpeg",
+      "published": "2026-07-21T09:31:14+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "192e292bfaf56d",
+      "title": "\"Si buscas algo nuevo y emocionante, aquí lo tienes\": Christopher Nolan explica por qué rodó ‘La Odisea’ en IMAX",
+      "url": "https://www.xataka.com/cine-y-tv/buscas-algo-nuevo-emocionante-aqui-tienes-christopher-nolan-explica-que-rodo-odisea-imax",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Christopher Nolan no ha elegido el formato IMAX de 65 mm para ‘La Odisea’ como un simple alarde técnico. En realidad para este director es una herramienta narrativa al servicio de una historia de escala mitológica . El p…",
+      "image": "https://i.blogs.es/baf891/laodisseafinal/1024_2000.jpeg",
+      "published": "2026-07-21T09:15:15+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "39677c92fee710",
+      "title": "El precio de la memoria DDR5 alcanza el máximo histórico en julio: la situación es insostenible",
+      "url": "https://www.muycomputer.com/2026/07/21/el-precio-de-la-memoria-ddr5-alcanza-el-maximo-historico-en-julio-la-situacion-es-insostenible/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "El precio de la memoria DDR5 alcanzó un nuevo máximo histórico en julio confirmando que el MEMOpocalipsis está lejos de finalizar. La situación es ya insostenible y hace inviable que los consumidores actualicen sus PCs o…",
+      "image": null,
+      "published": "2026-07-21T09:03:07+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "76c03442de0792",
+      "title": "La colonia noruega que ha tomado un pueblo de Alicante y tiene hasta su propia constitución: L'Alfas del Pi",
+      "url": "https://www.xataka.com/magnet/alicante-colonia-nordica-celebra-su-propia-constitucion-l-alfas-pi-tiene-20-000-habitantes-30-noruegos",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "La Avenida del Albir huele a salitre y a arenque marinado. Hay brunost en el supermercado, ese curioso queso marrón de noruegos. También hay bolsas de salmiakki, el regaliz salado finlandés. Un hombre rubio camina con un…",
+      "image": "https://i.blogs.es/df95d3/noruegos-2/1024_2000.jpeg",
+      "published": "2026-07-21T09:01:15+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7fb05eff2bc6ff",
+      "title": "La unión de Warner Bros. y Paramount, paralizada por la justicia",
+      "url": "https://hipertextual.com/cine-television/la-union-de-warner-bros-y-paramount-paralizada-por-la-justicia/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "La compra de Warner Bros. por parte de Paramount acaba de ser paralizada de manera totalmente imprevista. La operación lleva meses causando un enorme revuelo en toda la industria por las consecuencias que podría tener ta…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/02/Paramount-Skydance-Warner-Bros.jpg?fit=1024%2C614&quality=70&strip=all&ssl=1",
+      "published": "2026-07-21T08:43:10+00:00",
       "score": null,
       "tags": []
     },
@@ -145,30 +529,6 @@
       "summary": "Si llevas tiempo utilizando Google Fotos, sabrás que la compañía hace tiempo quitó una de las mejores funciones de la app. Cambió la búsqueda tradicional por 'Ask Photos', una búsqueda basada en IA que prometía ser más p…",
       "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/Google-Fotos.jpg?fit=1024%2C683&quality=70&strip=all&ssl=1",
       "published": "2026-07-21T08:22:06+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "dfccab7fc3828b",
-      "title": "Leroy Merlin rebaja este aire portátil sin obras con el que aliviar las olas de calor este verano (y también el frío del invierno)",
-      "url": "https://www.xataka.com/seleccion/leroy-merlin-rebaja-este-aire-portatil-obras-que-aliviar-olas-calor-este-verano-tambien-frio-invierno",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Si estás buscando una forma rápida de climatizar tu casa sin meterte en líos de obras ni tener que llamar a instaladores, Leroy Merlin acaba de rebajar uno de esos dispositivos de climatización que no solo te salva el ve…",
-      "image": "https://i.blogs.es/b3d940/aire-acondicionado-portatil-leroy-merlin-1-/1024_2000.jpeg",
-      "published": "2026-07-21T08:15:15+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "4c58e26e7549b1",
-      "title": "Una antigua necrópolis de Inglaterra ha revelado cuál fue el gran arma de Roma en Britania. Y tiene poco que ver con su ejército",
-      "url": "https://www.xataka.com/magnet/antigua-necropolis-inglaterra-ha-revelado-cual-fue-gran-arma-roma-britania-tiene-poco-que-ver-su-ejercito",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "El Imperio romano se fraguó con espadas, estrategia y hordas de legionarios, pero la ciudad eterna disponía de un recurso aún más efectivo que su poderío militar: su magnetismo. En ocasiones, antes que los soldados, lo q…",
-      "image": "https://i.blogs.es/37893f/britaniaportada/1024_2000.jpeg",
-      "published": "2026-07-21T08:01:15+00:00",
       "score": null,
       "tags": []
     },
@@ -221,6 +581,18 @@
       "tags": []
     },
     {
+      "id": "7b2f9c589c3d4c",
+      "title": "La IA de código abierto alcanza a ChatGPT y Gemini; estos son los 20 modelos más poderosos de 2026",
+      "url": "https://www.merca20.com/la-ia-de-codigo-abierto-alcanza-a-chatgpt-y-gemini-estos-son-los-20-modelos-mas-poderosos-de-2026/?utm_source=rss&utm_medium=rss&utm_campaign=la-ia-de-codigo-abierto-alcanza-a-chatgpt-y-gemini-estos-son-los-20-modelos-mas-poderosos-de-2026",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "De acuerdo con los datos de Artificial Analysis publicados por Statista, 2026 confirma que la diferencia entre la inteligencia artificial propietaria y la de pesos abiertos es cada vez menor",
+      "image": "https://files.merca20.com/uploads/2026/07/inteligencia-artificial-2026.jpg",
+      "published": "2026-07-21T07:40:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "8874c807ef5e9c",
       "title": "Lenovo lanza el portátil económico Lecoo Pro 14",
       "url": "https://www.muycomputer.com/2026/07/21/lenovo-lanza-el-portatil-economico-lecoo-pro-14/",
@@ -229,18 +601,6 @@
       "summary": "Lenovo ha presentado la versión renovada del Lecoo Pro 14, un modelo 2026 que estará disponible con procesadores Intel y AMD y que destaca por un precio relativamente económico para como está la situación del mercado tec…",
       "image": null,
       "published": "2026-07-21T07:34:11+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "67286f38a3054b",
-      "title": "Si siempre te lavas los dientes después de comer, la ciencia tiene algo que decirte: lo estás haciendo mal",
-      "url": "https://www.xataka.com/medicina-y-salud/siempre-te-lavas-dientes-despues-comer-ciencia-tiene-algo-que-decirte-estas-haciendo-mal",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "\"Casi todo el mundo se cepilla los dientes\", concluyó un grupo de investigadores de la Universidad de Gottemburgo en 2012. El problema es que \"solo uno de cada diez lo hace bien\". Los resultados se circunscribían a Sueci…",
-      "image": "https://i.blogs.es/5fea6f/pexels-photo-7622548/1024_2000.jpeg",
-      "published": "2026-07-21T07:31:15+00:00",
       "score": null,
       "tags": []
     },
@@ -293,18 +653,6 @@
       "tags": []
     },
     {
-      "id": "5a5f9e3bb5797f",
-      "title": "Aprender a criar también es aprender a romper ciclos",
-      "url": "https://www.merca20.com/aprender-a-criar-tambien-es-aprender-a-romper-ciclos/?utm_source=rss&utm_medium=rss&utm_campaign=aprender-a-criar-tambien-es-aprender-a-romper-ciclos",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Quizá el mayor acto de ternura no sea evitar que nuestras hijas e hijos se equivoquen, sino mostrarles, con el ejemplo, que las personas adultas también podemos aprender, cambiar y construir relaciones donde el respeto n…",
-      "image": "https://files.merca20.com/uploads/2024/07/DIRK-GLAS-Save-the-Children-lislas-merca20-com-Correo-de-katedranet-com-bn.jpg",
-      "published": "2026-07-21T06:21:48+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "0815930cee73a0",
       "title": "GTA elevado al cubo: tres juegos en uno",
       "url": "https://www.muycomputer.com/2026/07/21/gta-elevado-al-cubo-tres-juegos-en-uno/",
@@ -313,18 +661,6 @@
       "summary": "La comunidad de GTA lleva décadas creando modificaciones sorprendentes, pero pocas alcanzan el nivel de absurdo técnico que acaba de demostrar Dryxio. El modder ha conseguido ejecutar GTA: Vice City dentro de GTA III, mi…",
       "image": null,
       "published": "2026-07-21T06:04:58+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "b50eb96989565d",
-      "title": "Cuando la IA se equivoca, nosotros seguimos confiando: un estudio revela que ya no sabemos decir \"no lo sé\"",
-      "url": "https://www.xataka.com/robotica-e-ia/cuando-ia-se-equivoca-nosotros-seguimos-confiando-estudio-revela-que-no-sabemos-decir-no-se",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Noto que cada vez nos cuesta más decir “no lo sé”. Igual se trata de uno de los actos más honestos que puede hacer una persona y, en cambio, con la llegada de la IA y con toda la información a nuestro alcance, da la sens…",
-      "image": "https://i.blogs.es/7a41aa/ia-debate/1024_2000.jpeg",
-      "published": "2026-07-21T06:01:15+00:00",
       "score": null,
       "tags": []
     },
@@ -497,54 +833,6 @@
       "tags": []
     },
     {
-      "id": "c36456cd3eab0b",
-      "title": "El truco de la cuchara en la ventana que miles usan para reducir la humedad en casa",
-      "url": "https://www.merca20.com/el-truco-de-la-cuchara-en-la-ventana-que-miles-usan-para-reducir-la-humedad-en-casa/?utm_source=rss&utm_medium=rss&utm_campaign=el-truco-de-la-cuchara-en-la-ventana-que-miles-usan-para-reducir-la-humedad-en-casa",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Este sencillo método casero busca disminuir la condensación en las ventanas y prevenir la aparición de moho y malos olores.",
-      "image": "https://files.merca20.com/uploads/2026/07/cucharas.jpg",
-      "published": "2026-07-20T23:45:34+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "63a52524b1bffb",
-      "title": "Mattel remata muñeca Kpop Demon Hunters de Netflix, personaje Zoey Huntr/x: es pieza única",
-      "url": "https://www.merca20.com/mattel-remata-muneca-kpop-demon-hunters-de-netflix-personaje-zoey-huntr-x-es-pieza-unica/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-remata-muneca-kpop-demon-hunters-de-netflix-personaje-zoey-huntr-x-es-pieza-unica",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "La muñeca Zoey Huntr/x de K-Pop Demon Hunters cuenta con vestuario y accesorios de la película de Netflix, ideal para fans y coleccionistas",
-      "image": "https://files.merca20.com/uploads/2026/07/muneca-Zoey-Kpop-Demon-Hunters-Mercado-Libre.jpg",
-      "published": "2026-07-20T23:43:14+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "0f56b17634a2a1",
-      "title": "Cómo PepsiCo mantiene vivas a Manzanita Sol, Mirinda y 7Up sin perder su esencia",
-      "url": "https://www.merca20.com/como-pepsico-mantiene-vivas-a-manzanita-sol-mirinda-y-7up-sin-perder-su-esencia/?utm_source=rss&utm_medium=rss&utm_campaign=como-pepsico-mantiene-vivas-a-manzanita-sol-mirinda-y-7up-sin-perder-su-esencia",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "México lidera el consumo mundial de refresco justo cuando el IEPS se disparó. Berenice Lozano (PepsiCo) explica cómo Manzanita Sol, Mirinda y 7Up evolucionan sin perder su esencia.",
-      "image": "https://files.merca20.com/uploads/2007/04/manzanita5_04_04_07.jpg",
-      "published": "2026-07-20T23:41:41+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "61fce80c9f2236",
-      "title": "El nuevo lujo de las marcas: tener una comunidad que las defienda",
-      "url": "https://www.merca20.com/el-nuevo-lujo-de-las-marcas-tener-una-comunidad-que-las-defienda/?utm_source=rss&utm_medium=rss&utm_campaign=el-nuevo-lujo-de-las-marcas-tener-una-comunidad-que-las-defienda",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Eso significa que una comunidad activa deja de ser un activo de marketing para convertirse también en un activo de descubrimiento digital.",
-      "image": "https://files.merca20.com/uploads/2026/07/bigstock-community-unity-people-and-s-81500219.jpg",
-      "published": "2026-07-20T23:19:53+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "532e66ed7e23f5",
       "title": "Adiós a los fallos: X (Twitter) reconstruye su app de Android desde cero",
       "url": "https://hipertextual.com/mobile/x-twitter-nueva-app-android-actualizacion/",
@@ -565,18 +853,6 @@
       "summary": "Las carreras relacionadas con educación y nutrición tienen de los salarios más bajos de México, aunque cada año miles de jóvenes compiten por estudiarlas en instituciones públicas.",
       "image": "https://cdn-3.expansion.mx/dims4/default/d50b229/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F52%2F2b%2Fe1be266e475db9c6cd71af1accb8%2Fistock-2149269779.jpg",
       "published": "2026-07-20T23:14:30+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "ddcfee209e8f44",
-      "title": "México regresa al Top 10 del ranking FIFA tras su histórica actuación en el Mundial 2026",
-      "url": "https://www.merca20.com/mexico-regresa-al-top-10-del-ranking-fifa-tras-su-historica-actuacion-en-el-mundial-2026/?utm_source=rss&utm_medium=rss&utm_campaign=mexico-regresa-al-top-10-del-ranking-fifa-tras-su-historica-actuacion-en-el-mundial-2026",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "El Tri volvió a colocarse entre las 10 mejores selecciones del mundo luego de cuatro años, impulsado por su desempeño en la Copa del Mundo 2026.",
-      "image": "https://files.merca20.com/uploads/2026/07/Mexico3.jpg",
-      "published": "2026-07-20T23:07:25+00:00",
       "score": null,
       "tags": []
     },
@@ -617,18 +893,6 @@
       "tags": []
     },
     {
-      "id": "1484a6ce629d52",
-      "title": "Carl’s Jr. Is Giving You a Chance to Win $85,000: Here’s How to Enter",
-      "url": "https://www.merca20.com/carls-jr-is-giving-you-a-chance-to-win-85000-heres-how-to-enter/?utm_source=rss&utm_medium=rss&utm_campaign=carls-jr-is-giving-you-a-chance-to-win-85000-heres-how-to-enter",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Carl's Jr. Is Celebrating 85 Years With a Big Social Media Contest for All Its Customers Across the United States",
-      "image": "https://files.merca20.com/uploads/2026/07/Carls-Jr.jpg",
-      "published": "2026-07-20T22:53:43+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "767a4c7b6ec892",
       "title": "Trump impone arancel de 50% a la mayoría de las importaciones de Canadá",
       "url": "https://altonivel.com.mx/trump-impone-arancel-de-50-a-la-mayoria-de-las-importaciones-de-canada/",
@@ -637,30 +901,6 @@
       "summary": "La medida excluye energía y minerales críticos, pero aumenta la presión comercial sobre Canadá mientras inician las revisiones del T-MEC. The post Trump impone arancel de 50% a la mayoría de las importaciones de Canadá a…",
       "image": "https://altonivel.com.mx/wp-content/uploads/2025/06/negociacion-comercial-canada-estados-unidos.webp",
       "published": "2026-07-20T22:51:10+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "84d702b755501f",
-      "title": "Cuáles son las propiedades curativas de tomar licuado de papaya con avena",
-      "url": "https://www.merca20.com/cuales-son-las-propiedades-curativas-de-tomar-licuado-de-papaya-con-avena/?utm_source=rss&utm_medium=rss&utm_campaign=cuales-son-las-propiedades-curativas-de-tomar-licuado-de-papaya-con-avena",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Gracias a su combinación de fibra, vitaminas y antioxidantes, este licuado puede favorecer la digestión, la salud intestinal y el control del colesterol.",
-      "image": "https://files.merca20.com/uploads/2026/07/papaya-con-avena.jpg",
-      "published": "2026-07-20T22:42:53+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "f95b98d2cc8ab9",
-      "title": "Por qué la economía de las mascotas explica uno de los mayores cambios del consumo global",
-      "url": "https://www.merca20.com/por-que-la-economia-de-las-mascotas-explica-uno-de-los-mayores-cambios-del-consumo-global/?utm_source=rss&utm_medium=rss&utm_campaign=por-que-la-economia-de-las-mascotas-explica-uno-de-los-mayores-cambios-del-consumo-global",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "El crecimiento del mercado de mascotas ya no responde únicamente al aumento del número de animales de compañía, sino al incremento del gasto por mascota.",
-      "image": "https://files.merca20.com/uploads/2026/01/Mascotas.jpg",
-      "published": "2026-07-20T22:41:34+00:00",
       "score": null,
       "tags": []
     },
@@ -745,18 +985,6 @@
       "summary": "La demanda de productos personalizados impulsa un cambio en la industria de la impresión, que apuesta por tirajes cortos, inteligencia artificial y automatización para fabricar piezas únicas.",
       "image": "https://cdn-3.expansion.mx/dims4/default/16117b3/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fbd%2Fff%2F750f8ffb4da491a34e4c5cdb80b1%2Fimg-8371.jpeg",
       "published": "2026-07-20T21:55:15+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "8a8479194653f7",
-      "title": "Japón no necesitaba otro portaaviones para mover ficha. Su siguiente paso militar empieza con Vietnam",
-      "url": "https://www.xataka.com/magnet/japon-no-necesitaba-otro-portaaviones-para-mover-ficha-su-siguiente-paso-militar-empieza-vietnam",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Japón se ha pasado décadas midiendo cada gesto militar con una cautela casi quirúrgica. No por falta de industria, tecnología o capacidad, sino por el peso de su historia reciente y por los límites políticos que han marc…",
-      "image": "https://i.blogs.es/9b43a8/japon-embarcacion-vietman/1024_2000.jpeg",
-      "published": "2026-07-20T21:50:20+00:00",
       "score": null,
       "tags": []
     },
@@ -857,18 +1085,6 @@
       "tags": []
     },
     {
-      "id": "54a43982a063ae",
-      "title": "NVIDIA ha encontrado una forma de contener el consumo de los centros de datos de IA: líquido más caliente que un jacuzzi",
-      "url": "https://www.xataka.com/robotica-e-ia/nvidia-ha-encontrado-forma-contener-consumo-centros-datos-ia-liquido-caliente-que-jacuzzi",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Durante años, hemos asociado los centros de datos eficientes con salas frías, pasillos de aire helado y máquinas rugiendo para mantener los servidores bajo control. La expansión de la inteligencia artificial está obligan…",
-      "image": "https://i.blogs.es/0f37fc/refrigeracion-caliente-nvidia/1024_2000.jpeg",
-      "published": "2026-07-20T19:31:15+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "b70ba519abfb73",
       "title": "Sheinbaum busca acuerdos de largo plazo en la revisión del T-MEC tras reunión con Trump",
       "url": "https://altonivel.com.mx/sheinbaum-busca-acuerdos-de-largo-plazo-en-la-revision-del-t-mec-tras-reunion-con-trump/",
@@ -893,18 +1109,6 @@
       "tags": []
     },
     {
-      "id": "2b87c08adbbc35",
-      "title": "Japón tiene tres líneas rojas sobre las armas nucleares. Una de ellas ya no parece tan intocable",
-      "url": "https://www.xataka.com/magnet/japon-tiene-tres-lineas-rojas-armas-nucleares-ellas-no-parece-intocable",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Japón tiene una relación con las armas nucleares que ningún otro país puede contar en primera persona. Hiroshima y Nagasaki no son solo dos nombres en los libros de historia , sino el origen de una identidad política con…",
-      "image": "https://i.blogs.es/c178db/ministro-defensa-japones-declaraciones-nuclear/1024_2000.jpeg",
-      "published": "2026-07-20T19:01:15+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "67aff5c2aeaa7a",
       "title": "El Mundial 2026 rompe récords: Las impresionantes cifras de Meta que lo convierten evento más viral de la historia",
       "url": "https://www.fayerwayer.com/entretenimiento/2026/07/20/el-mundial-2026-rompe-records-las-impresionantes-cifras-de-meta-que-lo-convierten-evento-mas-viral-de-la-historia/",
@@ -913,18 +1117,6 @@
       "summary": "Meta revela las cifras históricas del Mundial 2026 en redes sociales. El portero Vozinha sumó más de 28 millones de seguidores y Argentina-Egipto rompió...",
       "image": "https://www.fayerwayer.com/resizer/v2/2VNOJ22KJNDABDZMWXUCFWYVMA.jpg?auth=6d4892b4ab55d7f60f210a96ad60110e02b9e7788c1f8e07e3f19ca6e5a3abf3&smart=true&width=4000&height=2667",
       "published": "2026-07-20T19:01:09+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "b0de01e5e232da",
-      "title": "Si Renfe pierde viajeros en media distancia es por un motivo simple: \"El ciudadano quiere un tren que pase a su hora y no se averíe\"",
-      "url": "https://www.xataka.com/movilidad/renfe-pierde-viajeros-media-distancia-motivo-simple-ciudadano-quiere-tren-que-pase-a-su-hora-no-se-averie",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Con el Gobierno tratando de impulsar los viajes en tren los servicios de Cercanías, media distancia convencional y larga distancia de alta velocidad perdieron viajeros. Eso es lo que nos dice el informe de la CNMC, que t…",
-      "image": "https://i.blogs.es/fe2df5/renfe_449_md_-46435681354-/1024_2000.jpeg",
-      "published": "2026-07-20T18:31:15+00:00",
       "score": null,
       "tags": []
     },
@@ -953,18 +1145,6 @@
       "tags": []
     },
     {
-      "id": "7e3428c0b72464",
-      "title": "La teoría decía que Ozempic iba a acabar con los ultraprocesados. La realidad es que los ha reinventado",
-      "url": "https://www.xataka.com/medicina-y-salud/teoria-decia-que-ozempic-iba-a-acabar-ultraprocesados-realidad-que-ha-reinventado",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Quien creyera que la fiebre del Ozempic iba a suponer un duro golpe para los fabricantes de productos ultraprocesados estaba muy equivocado. Y es que, como bien ha explicado recientemente en la SER la experta en tecnolog…",
-      "image": "https://i.blogs.es/8e7cca/alimentos-glp-friendly/1024_2000.jpeg",
-      "published": "2026-07-20T18:01:15+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "234ba2dcb9ef3a",
       "title": "Cazando estafadores: Cómo configurar el blindaje anti-spam de Google en tu celular en menos de dos minutos",
       "url": "https://www.fayerwayer.com/internet/2026/07/20/cazando-estafadores-como-configurar-el-blindaje-anti-spam-de-google-en-tu-celular-en-menos-de-dos-minutos/",
@@ -989,18 +1169,6 @@
       "tags": []
     },
     {
-      "id": "8e98ab9996a7bc",
-      "title": "José Rodríguez, experto en Verifactu: \"Los negocios más tradicionales o antiguos son los que más complicado lo tienen\"",
-      "url": "https://www.xataka.com/legislacion-y-derechos/jose-rodriguez-experto-verifactu-negocios-tradicionales-antiguos-que-complicado-tienen",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "El pasado 1 de enero de 2026 debía entrar en vigor Verifactu, el nuevo sistema de facturación de la Agencia Tributaria . Empresas, autónomos, los softwares de facturación... todos llevaban meses preparándose, pero el Gob…",
-      "image": "https://i.blogs.es/4595b1/verifactu-experto/1024_2000.jpeg",
-      "published": "2026-07-20T17:01:15+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "c863954558da3b",
       "title": "Ni limpia ni cocina, solo te escucha: Así funciona el nuevo e inquietante robot humanoide de UBTech con piel biomimética",
       "url": "https://www.fayerwayer.com/internet/2026/07/20/ni-limpia-ni-cocina-solo-te-escucha-asi-funciona-el-nuevo-e-inquietante-robot-humanoide-de-ubtech-con-piel-biomimetica/",
@@ -1021,18 +1189,6 @@
       "summary": "Project Indigo amplía su propuesta con AI Playground, un nuevo espacio experimental que permite editar fotografías con inteligencia artificial, eliminar distracciones, modificar su estilo y recibir recomendaciones sobre …",
       "image": null,
       "published": "2026-07-20T16:47:06+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "a994b13db22d6e",
-      "title": "Las rejas de las casas han pasado de moda: la nueva tendencia que promete ser más segura y elegante",
-      "url": "https://www.xataka.com/seguridad/rejas-casas-han-pasado-moda-nueva-tendencia-que-promete-ser-segura-elegante",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Durante décadas, las rejas de hierro se popularizaron como una solución eficaz contra robos e intrusiones, sobre todo en plantas bajas o en casas con ventanas accesibles desde la calle. Aunque para gustos no hay nada esc…",
-      "image": "https://i.blogs.es/89e9cc/ventana-vidrio/1024_2000.jpeg",
-      "published": "2026-07-20T16:45:15+00:00",
       "score": null,
       "tags": []
     },
@@ -1073,30 +1229,6 @@
       "tags": []
     },
     {
-      "id": "ab86fe1b99b961",
-      "title": "La juguetería más mítica de Málaga echa el cierre tras casi un siglo: \"los niños ya no juegan\"",
-      "url": "https://www.xataka.com/magnet/jugueteria-mitica-malaga-echa-cierre-casi-siglo-ninos-no-juegan",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Antes de que existieran los carritos de Amazon y los vídeos de unboxing, muchas infancias se construyeron pegadas al cristal. Un sábado cualquiera, los chiquillos se amontonaban frente al escaparate de la juguetería, con…",
-      "image": "https://i.blogs.es/fca536/carrion-2/1024_2000.jpeg",
-      "published": "2026-07-20T16:31:15+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "2aefa9e488a53d",
-      "title": "En la final del Mundial también se enfrentaron Palestina contra Israel. Y terminó ganando Palestina 1 a 0",
-      "url": "https://www.xataka.com/magnet/final-mundial-tambien-se-enfrentaron-palestina-israel-termino-ganando-palestina-1-a-0",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Sobre el césped del MetLife Stadium corrían los jugadores de las selecciones española y argentina, pero hubo quien ayer vivió la final del Mundial como un pulso entre dos protagonistas distintos, con resonancias geopolít…",
-      "image": "https://i.blogs.es/c557d2/portadamundialpolitica/1024_2000.jpeg",
-      "published": "2026-07-20T16:01:14+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "5326a8dd126019",
       "title": "SICT construirá 2,313 km de carreteras y nuevas rutas de trenes",
       "url": "https://altonivel.com.mx/sict-nuevas-carreteras-rutas-trenes-mexico/",
@@ -1105,18 +1237,6 @@
       "summary": "La SICT construirá y modernizará 2,313 kilómetros de carreteras, 618 puentes y cuatro corredores ferroviarios que conectarán el centro, el Bajío y el norte de México. The post SICT construirá 2,313 km de carreteras y nue…",
       "image": "https://altonivel.com.mx/wp-content/uploads/2026/07/sict-nuevas-carreteras.webp",
       "published": "2026-07-20T15:47:31+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "ac5c1972821a1c",
-      "title": "Los ordenadores tardaron 15 años en mejorar la productividad de las empresas. La IA puede tardar más por un motivo: el sabotaje",
-      "url": "https://www.xataka.com/robotica-e-ia/ordenadores-tardaron-15-anos-mejorar-productividad-empresas-ia-puede-tardar-motivo-sabotaje",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "No paramos de escuchar que la IA va a sustituir a los empleados en sus puestos de trabajo y que eso supondrá un apocalipsis en el mercado laboral. Si bien es cierto que se avecina un cambio de paradigma, incluso las voce…",
-      "image": "https://i.blogs.es/dfae2f/flipsnack-yqstew_jsta-unsplash/1024_2000.jpeg",
-      "published": "2026-07-20T15:45:15+00:00",
       "score": null,
       "tags": []
     },
@@ -1145,18 +1265,6 @@
       "tags": []
     },
     {
-      "id": "e0d182ea79c197",
-      "title": "‘Las hijas de la criada’ llega a Prime Video y Antena 3: la serie del Premio Planeta 2023 se verá gratis en septiembre",
-      "url": "https://hipertextual.com/cine-television/las-hijas-de-la-criada-llega-a-prime-video-y-antena-3-la-serie-del-premio-planeta-2023-se-vera-gratis-en-septiembre/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Prime Video ha puesto en circulación una de esas adaptaciones que llegan con dos avales muy claros antes incluso de que el espectador vea el primer episodio. Por un lado, una novela que ganó el Premio Planeta en 2023 y q…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/731582837_18458518336116336_2283354113220851958_n.jpeg?fit=1024%2C639&quality=70&strip=all&ssl=1",
-      "published": "2026-07-20T14:42:45+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "b02d9273ce947e",
       "title": "Hutíes anuncian bloqueo marítimo contra Arabia Saudí y elevan el riesgo para el petróleo",
       "url": "https://altonivel.com.mx/huties-anuncian-bloqueo-maritimo-contra-arabia-saudi-y-elevan-el-riesgo-para-el-petroleo/",
@@ -1181,30 +1289,6 @@
       "tags": []
     },
     {
-      "id": "d8e4b8c1899ce1",
-      "title": "‘EA Sports FC’, el oráculo futbolero por excelencia: predijo al campeón del mundo por quinta vez consecutiva",
-      "url": "https://hipertextual.com/videojuegos/ea-sports-fc-predijo-espana-campeon-del-mundo-quinta-vez-consecutiva/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "El gol de Ferrán Torres en el inicio del segundo tiempo extra contra Argentina no solo permitió la coronación de España como campeón del mundo. También extendió la racha de EA Sports FC, que por quinto Mundial consecutiv…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/Espana-EA-FC26.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
-      "published": "2026-07-20T13:47:29+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "0c9fb8c6b69b94",
-      "title": "¡Por fin! Mira el épico tráiler de ‘Avengers: Doomsday’ con el Doctor Doom como gran amenaza",
-      "url": "https://hipertextual.com/cine-television/por-fin-mira-el-epico-trailer-de-avengers-doomsday-con-el-doctor-doom-como-gran-amenaza/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Ha tardado en llegar, pero ya está aquí. Marvel ha liberado el tráiler de Avengers: Doomsday. La próxima gran película de la saga llegará a los cines el mes de diciembre y, tras meses proyectando el avance en exclusiva p…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/Avengers-Doomsday-trailer-oficial.jpg?fit=1024%2C614&quality=70&strip=all&ssl=1",
-      "published": "2026-07-20T13:11:54+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "1812e28475f696",
       "title": "FRITZ!OS 8.20: un sistema operativo inteligente que marca la diferencia",
       "url": "https://www.muycomputer.com/2026/07/20/fritzos-8-20-un-sistema-operativo-inteligente-que-marca-la-diferencia/",
@@ -1213,18 +1297,6 @@
       "summary": "Detrás de los routers FRITZ!Box hay un director de orquesta muy importante, FRITZ!OS 8.20. Este sistema operativo inteligente es uno de los pilares fundamentales de la compañía alemana, ya que no solo permite unificar un…",
       "image": null,
       "published": "2026-07-20T13:02:53+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "4cabe8de9aa44a",
-      "title": "Kevin Feige confirma que Marvel lleva años intentando fichar a esta estrella de las secuelas de ‘Star Wars’: «Siempre nos rechaza»",
-      "url": "https://hipertextual.com/cine-television/kevin-feige-confirma-que-marvel-lleva-anos-intentando-fichar-a-esta-estrella-de-las-secuelas-de-star-wars-siempre-nos-rechaza/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Aunque Avengers: Doomsday está a la vuelta de la esquina, Kevin Feige tiene claro que el Universo Cinematográfico de Marvel tiene que seguir mirando hacia adelante. La exitosa franquicia se encamina al final de su Saga d…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2025/02/Diseno-sin-titulo-119.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
-      "published": "2026-07-20T12:37:56+00:00",
       "score": null,
       "tags": []
     },
@@ -1249,30 +1321,6 @@
       "summary": "La evolución de los mini PCs ha sido tan grande durante los últimos años que se han convertido en equipos muy versátiles que realmente pueden ofrecer un alto nivel de rendimiento, manteniendo un formato compacto y sin co…",
       "image": null,
       "published": "2026-07-20T11:01:19+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "65c72e45e59131",
-      "title": "Anthropic lanza Fable 5 a más usuarios de Claude: quién puede acceder a partir de hoy",
-      "url": "https://hipertextual.com/tecnologia/anthropic-lanza-fable-5-a-mas-usuarios-de-claude-quien-puede-acceder-a-partir-de-hoy/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Fable 5, uno del los modelos más potentes de Anthropic, lleva semanas creando un quebradero de cabeza a los usuarios de Claude, quienes han visto cómo después de la eliminación de la restricción por parte de Estados Unid…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/06/claude-fable-5-jailbreak.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
-      "published": "2026-07-20T11:00:09+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "6959f6f58be192",
-      "title": "Por fin, Android Auto. Google Maps le ha copiado la función a Waze que TODO el mundo quería",
-      "url": "https://hipertextual.com/tecnologia/por-fin-android-auto-google-maps-le-ha-copiado-la-funcion-a-waze-que-todo-el-mundo-queria/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Parece que Google ha entendido que los usuarios Google Maps y Android Auto llevamos años pidiendo una de las funciones estrella de Waze. Todo apunta a que más pronto que tarde vas a poder disfrutar de algo que es básico …",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2025/05/Android-Auto-1-scaled.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
-      "published": "2026-07-20T10:23:49+00:00",
       "score": null,
       "tags": []
     },
@@ -1325,6 +1373,18 @@
       "tags": []
     },
     {
+      "id": "7e97d40c279f83",
+      "title": "Olvídate de ti: Vive desde el centro",
+      "url": "https://www.infocop.es/olvidate-de-ti-vive-desde-el-centro/",
+      "source": "Infocop",
+      "category": "psicologia",
+      "summary": "Jenny Moix Editorial: Ónfalo 212 páginas El ónfalo de la portada simboliza el centro del universo. Según la mitología, Zeus dejó volar dos águilas desde extremos opuestos del cosmos y ambas se encontraron en Delfos, dond…",
+      "image": null,
+      "published": "2026-07-20T04:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "ee47a84a03d6a6",
       "title": "El ICS publica el temario específico de Psicología General Sanitaria para la convocatoria 100-2025 de los procesos selectivos por concurso-oposición",
       "url": "https://www.infocop.es/el-ics-publica-el-temario-especifico-de-psicologia-general-sanitaria-para-la-convocatoria-100-2025-de-los-procesos-selectivos-por-concurso-oposicion/",
@@ -1357,54 +1417,6 @@
       "summary": "La evidencia muestra que las conductas problemáticas antes de acceder a un puesto policial permiten anticipar con notable precisión el riesgo de mala conducta una vez incorporado/a al cuerpo (...) La entrada Un estudio a…",
       "image": null,
       "published": "2026-07-20T04:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "c15fc3f76a4241",
-      "title": "Los mejores contenidos de la semana en MuyComputer (DXXXIII)",
-      "url": "https://www.muycomputer.com/2026/07/19/los-mejores-contenidos-de-la-semana-en-muycomputer-dxxxiii/",
-      "source": "Muycomputer",
-      "category": "tech-ia",
-      "summary": "Cerramos domingo con el recopilatorio de los mejores contenidos que hemos publicado en MC a lo largo de la semana y que puedes revisar de un vistazo en esta selección con lo más relevante: Tiny11 25H2 reduce Windows 11 a…",
-      "image": null,
-      "published": "2026-07-19T19:22:16+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "14b1f2238abac3",
-      "title": "Gears of War 2 llega a PC con un port no oficial",
-      "url": "https://www.muycomputer.com/2026/07/19/gears-of-war-2-llega-a-pc-con-un-port-no-oficial/",
-      "source": "Muycomputer",
-      "category": "tech-ia",
-      "summary": "Gears of War 2 ha llegado a PC casi 18 años después de su estreno, aunque no de la forma que muchos jugadores habrían esperado. Un proyecto comunitario llamado Gears of War 2: Hollow ha publicado una adaptación no oficia…",
-      "image": null,
-      "published": "2026-07-19T18:06:03+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "61753af1620c70",
-      "title": "ChatGPT amplía sus controles parentales",
-      "url": "https://www.muycomputer.com/2026/07/19/chatgpt-amplia-sus-controles-parentales/",
-      "source": "Muycomputer",
-      "category": "tech-ia",
-      "summary": "ChatGPT ampliará sus controles parentales para avisar a padres y tutores cuando la cuenta vinculada de un adolescente haya sido desactivada por infringir las políticas de OpenAI relacionadas con amenazas o actos de viole…",
-      "image": null,
-      "published": "2026-07-19T16:22:59+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "906e75406d8f0b",
-      "title": "Google Search preocupa por su IA para menores",
-      "url": "https://www.muycomputer.com/2026/07/19/google-search-preocupa-por-su-ia-para-menores/",
-      "source": "Muycomputer",
-      "category": "tech-ia",
-      "summary": "Google ha integrado la inteligencia artificial generativa en su buscador hasta convertirla en una parte prácticamente inevitable de la experiencia, también para los menores que lo utilizan en el colegio o para hacer los …",
-      "image": null,
-      "published": "2026-07-19T14:11:25+00:00",
       "score": null,
       "tags": []
     },
@@ -1523,18 +1535,6 @@
       "source": "Infocop",
       "category": "psicologia",
       "summary": "Desde mayo, Castilla-La Mancha cuenta con un Programa de Apoyo Psicológico Dirigido a Personas con Enfermedades Raras y sus Familias (...) La entrada El COPCLM cuenta con un programa de apoyo psicológico dirigido a perso…",
-      "image": null,
-      "published": "2026-07-17T04:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "65b6a63a33cb96",
-      "title": "El COP Madrid celebra la Jornada Psicología de la Intervención Social: aportaciones, competencias y experiencias prácticas",
-      "url": "https://www.infocop.es/el-cop-madrid-celebra-la-jornada-psicologia-de-la-intervencion-social-aportaciones-competencias-y-experiencias-practicas/",
-      "source": "Infocop",
-      "category": "psicologia",
-      "summary": "La Sección de Psicología de la Intervención Social del COP Madrid celebró la Jornada Psicología de la Intervención Social: aportaciones, competencias y experiencias prácticas (...) La entrada El COP Madrid celebra la Jor…",
       "image": null,
       "published": "2026-07-17T04:00:00+00:00",
       "score": null,
@@ -2153,6 +2153,102 @@
       "tags": []
     },
     {
+      "id": "375543f10dadb8",
+      "title": "La importancia de los vínculos afectivos en el aula",
+      "url": "http://blog.tiching.com/la-importancia-los-vinculos-afectivos-aula/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "Las evidencias neuro-científicas de los últimos años confirman que sin vínculo afectivo no es posible el aprendizaje. Los niños y […]",
+      "image": null,
+      "published": "2021-06-03T14:00:18+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "30827e2938db33",
+      "title": "Click to English: un recurso visual para el inglés",
+      "url": "http://blog.tiching.com/click-to-english-recurso-visual-ingles/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "¿Qué es el CLICK? Es una presentación de Google Slides por la que se puede navegar con un simple clic. […]",
+      "image": null,
+      "published": "2021-05-20T14:00:56+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "1f4ddc6170c5ca",
+      "title": "La autonomía y la autorregulación para un aprendizaje activo en entornos online sobrevenidos",
+      "url": "http://blog.tiching.com/la-autonomia-y-la-autorregulacion-para-un-aprendizaje-activo-en-entornos-online-sobrevenidos/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "Cuando hablamos de aprendizaje activo hablamos, como dice Héctor Ruíz Martín, de un aprendizaje cognitivamente activo, más allá de aprender haciendo, […]",
+      "image": null,
+      "published": "2021-05-06T14:00:29+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "39f21b0066f705",
+      "title": "¿Conoces las ventajas de la Gamificación y las herramientas para iniciarte en ella?",
+      "url": "http://blog.tiching.com/conoces-las-ventajas-la-gamificacion-las-herramientas-iniciarte-2/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "En un mundo cada vez más globalizado y en el que se abren paso las nuevas tecnologías, están surgiendo nuevas […]",
+      "image": null,
+      "published": "2021-04-29T14:00:31+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7c25c9b27d8e08",
+      "title": "El papel del juego en el aprendizaje",
+      "url": "http://blog.tiching.com/el-papel-del-juego-en-el-aprendizaje/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La utilización del juego como metodología de formación en las aulas facilita el aprendizaje de la materia, permitiendo que el […]",
+      "image": null,
+      "published": "2021-04-15T14:00:09+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "a27c862780854e",
+      "title": "Teuvo Sankila: “Los docentes deberían poder elegir sus propias herramientas de trabajo y los materiales de aprendizaje”",
+      "url": "http://blog.tiching.com/teuvo-sankila/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "Entrevistamos a Teuvo Sankila, director de ediciones de Otava Learning y experto en el cambio educativo, para hablar sobre Tuhattaituri, […]",
+      "image": null,
+      "published": "2021-04-11T08:00:26+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e31f7e480ae193",
+      "title": "IX Edición de los Premios Nacionales de Cortometrajes de Educación Vial: ¡La seguridad vial sí es cosa de niños!",
+      "url": "http://blog.tiching.com/ix-edicion-de-los-premios-nacionales-de-cortometrajes-de-educacion-vial-la-seguridad-vial-si-es-cosa-de-ninos/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La seguridad vial es un factor fundamental en la vida de todos los ciudadanos, independientemente de su edad. Aunque los […]",
+      "image": null,
+      "published": "2021-04-07T14:00:20+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "ea1bfdcc24e134",
+      "title": "Evaluar para aprender: herramientas para la autoevaluación",
+      "url": "http://blog.tiching.com/evaluar-para-aprender-herramientas-para-la-autoevaluacion/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La autoevaluación está cobrando cada vez mayor importancia. ¡Te ofrecemos un excelente recurso gratuito elaborado por Tekman! El confinamiento simplemente […]",
+      "image": null,
+      "published": "2021-03-17T15:00:31+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "2f407c0af061b1",
       "title": "Protegido: Prueba de vídeo",
       "url": "https://intef.es/prueba-de-video/",
@@ -2161,6 +2257,30 @@
       "summary": "No hay extracto porque es una entrada protegida.",
       "image": null,
       "published": "2021-03-11T10:26:43+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "3e8a4e92c6ff20",
+      "title": "Proceso reflexivo en la formación de ciudadanía global pospandemia",
+      "url": "http://blog.tiching.com/proceso-reflexivo-la-formacion-ciudadania-global-pospandemia/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La propuesta de este artículo considera que las estrategias pedagógicas más que nunca deben tener presente el proceso reflexivo como […]",
+      "image": null,
+      "published": "2021-02-25T17:00:13+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "f160c4352a3034",
+      "title": "8 razones por las que aprender a tocar música desde pequeño es beneficioso",
+      "url": "http://blog.tiching.com/8-razones-las-aprender-tocar-musica-desde-pequeno-beneficioso/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "En este post, te presentaremos las 8 razones por las que aprender a tocar música desde pequeño resulta beneficioso. Aprender […]",
+      "image": null,
+      "published": "2021-02-11T15:00:26+00:00",
       "score": null,
       "tags": []
     }
