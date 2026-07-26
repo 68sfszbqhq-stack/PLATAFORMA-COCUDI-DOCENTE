@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-07-26T08:32:23.434103+00:00",
+    "generated": "2026-07-26T13:38:07.853096+00:00",
     "total": 182
   },
   "items": [
@@ -12,7 +12,7 @@
       "category": "startup",
       "summary": "Estas ocho reglas prácticas muestran cómo acelerar la confianza en el equipo para tomar mejores decisiones, reducir la dependencia del líder y operar con mayor autonomía. The post Construí una empresa sólida que funciona…",
       "image": null,
-      "published": "2026-07-26T08:32:22.083117+00:00",
+      "published": "2026-07-26T13:38:06.449033+00:00",
       "score": null,
       "tags": []
     },
@@ -24,7 +24,7 @@
       "category": "startup",
       "summary": "Por qué el ensayo mental y emocional, y no solo la estrategia, determina cómo se desempeñan los fundadores cuando están bajo presión. The post La mayoría de los emprendedores nunca practican esta habilidad — y por eso en…",
       "image": null,
-      "published": "2026-07-26T08:32:22.082617+00:00",
+      "published": "2026-07-26T13:38:06.448547+00:00",
       "score": null,
       "tags": []
     },
@@ -36,7 +36,7 @@
       "category": "startup",
       "summary": "Si te corrieron otra vez, vale la pena reflexionar antes de buscar tu próximo empleo. Aquí hay cinco preguntas honestas que debes hacerte. The post Si te siguen despidiendo de tu puesto directivo, es momento de hacerte e…",
       "image": null,
-      "published": "2026-07-26T08:32:22.082135+00:00",
+      "published": "2026-07-26T13:38:06.448030+00:00",
       "score": null,
       "tags": []
     },
@@ -48,7 +48,7 @@
       "category": "startup",
       "summary": "La irrupción de plataformas capaces de eludir la autenticación multifactorial, convierte la suplantación de identidad en un negocio masivo al alcance de cualquiera por solo $120 dólares. The post El “Phishing como Servic…",
       "image": null,
-      "published": "2026-07-26T08:32:22.081627+00:00",
+      "published": "2026-07-26T13:38:06.447550+00:00",
       "score": null,
       "tags": []
     },
@@ -60,7 +60,7 @@
       "category": "startup",
       "summary": "En una cultura que premia el agotamiento como si fuera compromiso, el verdadero desgaste no siempre viene del exceso de trabajo, sino de vivir desconectados de quienes somos. The post Nadie va a aplaudir tu agotamiento. …",
       "image": null,
-      "published": "2026-07-26T08:32:22.081145+00:00",
+      "published": "2026-07-26T13:38:06.447022+00:00",
       "score": null,
       "tags": []
     },
@@ -72,7 +72,7 @@
       "category": "startup",
       "summary": "Cumplir más de lo que prometes genera confianza duradera y te diferencia de la competencia. Establece expectativas realistas y luego supéralas de forma constante. The post Cómo superar constantemente las expectativas de …",
       "image": null,
-      "published": "2026-07-26T08:32:22.080570+00:00",
+      "published": "2026-07-26T13:38:06.445541+00:00",
       "score": null,
       "tags": []
     },
@@ -84,7 +84,7 @@
       "category": "startup",
       "summary": "El incidente sacudió a los investigadores de inteligencia artificial en toda la industria. The post OpenAI perdió el control de su IA durante una prueba de seguridad y esta hackeó a otra empresa: “Profundamente preocupan…",
       "image": null,
-      "published": "2026-07-26T08:32:22.079290+00:00",
+      "published": "2026-07-26T13:38:06.445029+00:00",
       "score": null,
       "tags": []
     },
@@ -96,7 +96,7 @@
       "category": "startup",
       "summary": "La brecha no es técnica, sino experiencial: se construye a través de la práctica constante de enseñarle a sistemas imperfectos cómo funciona realmente tu negocio, y se hace agranda cada semana que esperas. The post Los l…",
       "image": null,
-      "published": "2026-07-26T08:32:22.078795+00:00",
+      "published": "2026-07-26T13:38:06.444536+00:00",
       "score": null,
       "tags": []
     },
@@ -108,7 +108,7 @@
       "category": "startup",
       "summary": "El fallido proyecto de fibra óptica mediante un cable submarino entre Valparaíso y Hong Kong terminó exponiendo la fragilidad institucional de la región frente a la disputa global por el control de los activos que sostie…",
       "image": null,
-      "published": "2026-07-26T08:32:22.078260+00:00",
+      "published": "2026-07-26T13:38:06.443995+00:00",
       "score": null,
       "tags": []
     },
@@ -120,7 +120,211 @@
       "category": "startup",
       "summary": "Cuando la persona más confiable del equipo se convierte en el cuello de botella, el crecimiento se detiene. The post ¿Tu necesidad de control está frenando a tu equipo? Así puedes evitarlo appeared first on Entrepreneur …",
       "image": null,
-      "published": "2026-07-26T08:32:22.077734+00:00",
+      "published": "2026-07-26T13:38:06.443456+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e6eb811afb7b4d",
+      "title": "Ya es oficial: Samsung presenta un nuevo SSD con interfaz PCIe 4.0 que llega en plena crisis de precios para la memoria",
+      "url": "https://www.xataka.com/seleccion/oficial-samsung-presenta-nuevo-ssd-interfaz-pcie-4-0-que-llega-plena-crisis-precios-para-memoria",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "No es el mejor momento para comprar un SSD por sus precios altísimos , pero eso no ha evitado que Samsung estrene un nuevo modelo. Se trata del SSD 990, una propuesta que está orientada a usuarios que buscan un rendimien…",
+      "image": "https://i.blogs.es/11a555/ssd-900-samsung/1024_2000.jpeg",
+      "published": "2026-07-26T13:16:26+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5247a13b36db03",
+      "title": "La cara oculta del ahorro energético: la España rural se está tiñendo de azul de noche",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/imagenes-satelitales-peninsula-iberica-han-descubierto-que-espana-rural-se-esta-tinendo-azul-noche",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "En 2023, los datos del satélite chino SDGSAT-1 posibilitaron que el proyecto RALAN-Map EU, de la Universidad Complutense de Madrid y el International Research Center of Big Data for Sustainable Development Goals, elabora…",
+      "image": "https://i.blogs.es/8a9478/kevin-clyde-berbano-5_4ahtf-6na-unsplash/1024_2000.jpeg",
+      "published": "2026-07-26T13:00:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "baf3a7cc7ff118",
+      "title": "Esta brutal película de terror ya está en HBO Max y apenas se estrenó este año",
+      "url": "https://hipertextual.com/cine-television/esta-brutal-pelicula-de-terror-ya-esta-en-hbo-max-y-apenas-se-estreno-este-ano/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Si lo tuyo es el miedo, hay buenas noticias para ti: una brutal película de terror de este año ya está en HBO. Lo que solo corrobora un punto. El último lustro ha sido de enorme éxito para el género. Algo que demuestra é…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2025/10/10-peliculas-de-terror.jpg?fit=1024%2C819&quality=70&strip=all&ssl=1",
+      "published": "2026-07-26T13:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "9f69fbc1c14be8",
+      "title": "En 1994 los arqueólogos descubrieron un barco del XVII hundido con más de 400 monedas de oro. Al fin han resuelto su gran misterio",
+      "url": "https://www.xataka.com/magnet/1994-arqueologos-descubrieron-barco-xvii-hundido-400-monedas-oro-al-fin-han-resuelto-su-gran-misterio",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "La sorpresa llegó a mediados de los 90 . Un grupo de buceadores británicos exploraba las aguas de la bahía de Salcombe , en Devon, cuando se encontraron con los restos de una embarcación del siglo XVII. A simple vista el…",
+      "image": "https://i.blogs.es/3180d4/portadapiezasoro/1024_2000.png",
+      "published": "2026-07-26T12:30:26+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "8d903a3d187ee3",
+      "title": "Qué es Canva, cómo funciona y cómo usarlo para crear un diseño",
+      "url": "https://www.xataka.com/basics/que-canva-como-funciona-como-usarlo-para-crear-diseno-1",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Vamos a explicarte qué es Canva, cómo funciona y cómo usarlo para crear un diseño. Se trata de una de las webs de edición y diseño más populares que hay, famosa por su enorme flexibilidad y por incluir herramientas de in…",
+      "image": "https://i.blogs.es/198b15/canva/1024_2000.jpeg",
+      "published": "2026-07-26T12:00:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e951c9f18fddb4",
+      "title": "Las 7 mejores películas que puedes ver ahora mismo en Netflix",
+      "url": "https://hipertextual.com/cine-television/las-7-mejores-peliculas-que-puedes-ver-ahora-mismo-en-netflix/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "A estas alturas de la década, es obvio que Netflix revolucionó la industria del entretenimiento. Todo, al introducir un modelo de negocio basado en la accesibilidad total y la personalización masiva. Pero además, reinven…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/Peliculas-Netflix.jpg?fit=1024%2C819&quality=70&strip=all&ssl=1",
+      "published": "2026-07-26T12:00:06+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "9143c5ff483dee",
+      "title": "El 'prompt injection' ya tiene su propio contraataque: inyectar falsas instrucciones también a los hackers",
+      "url": "https://www.xataka.com/robotica-e-ia/prompt-injection-tiene-su-propio-contraataque-inyectar-falsas-instrucciones-tambien-a-hackers",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Durante los últimos dos años, el prompt injection ha sido el arma favorita de los ciberatacantes contra sistemas de inteligencia artificial. Este método pasa por esconder una instrucción maliciosa dentro de un correo, un…",
+      "image": "https://i.blogs.es/c97359/original/1024_2000.jpeg",
+      "published": "2026-07-26T11:30:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "2cc049046cae37",
+      "title": "No sabemos si la música pop actual es mejor o peor que la de 1960, pero sí sabemos algo: es mucho más deprimente",
+      "url": "https://www.xataka.com/magnet/no-sabemos-musica-pop-actual-mejor-peor-que-1960-sabemos-algo-mucho-deprimente",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "¿Qué dice de ti la música que escuchas? ¿Y qué dice de nosotros, como sociedad, la música que se publica? Un grupo de científicos de la Universidad Queen Mary de Londres (QMUL) ha intentado responder esas y otras cuestio…",
+      "image": "https://i.blogs.es/4ee3d9/spencer-davis-nafhflv5cqu-unsplash/1024_2000.jpeg",
+      "published": "2026-07-26T11:00:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e682150eabb594",
+      "title": "Cinco errores que comete ‘La Odisea’ en su adaptación",
+      "url": "https://hipertextual.com/cine-television/cinco-errores-que-comete-la-odisea-en-su-adaptacion/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "A menos que vivas bajo una piedra, lo sabes. La Odisea de Christopher Nolan se convirtió en un inmediato y rotundo éxito. No solo de crítica, en la que logró más de 90 % de reseñas positivas en el agregador Rotten Tomato…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/La-Odisea-de-Christopher-Nolan.jpg?fit=1024%2C614&quality=70&strip=all&ssl=1",
+      "published": "2026-07-26T11:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "417768742d296f",
+      "title": "Hollywood ha llevado a la extenuación el filón de los superhéroes. Ahora le llega el turno al terror y a los youtubers",
+      "url": "https://www.xataka.com/cine-y-tv/hollywood-ha-llevado-a-extenuacion-filon-superheroes-ahora-le-llega-turno-al-terror-a-youtubers",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "La industria del cine siempre está buscando su nuevo gran filón y parece que, cuando una fórmula empieza a dar señales de agotamiento, aparece un género dispuesto a recoger el testigo: el terror . Los superhéroes ya son …",
+      "image": "https://i.blogs.es/58ff85/hollywood-backrooms-youtubers/1024_2000.jpeg",
+      "published": "2026-07-26T10:16:26+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "132249567986ee",
+      "title": "Incendios forestales: las mejores herramientas para estar informado",
+      "url": "https://www.muycomputer.com/2026/07/26/incendios-forestales-las-mejores-herramientas-para-estar-informado/",
+      "source": "Muycomputer",
+      "category": "tech-ia",
+      "summary": "España se quema. Como cada verano, estamos viviendo la tragedia de los incendios forestales, y ya sea que cualquier de ellos amenace o haya amenazado lo nuestro, o simplemente por empatía y un poco de conciencia social, …",
+      "image": null,
+      "published": "2026-07-26T10:03:32+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "0f3984830c3fc8",
+      "title": "Una startup ha creado una máquina que fabrica gasolina con aire, agua y electricidad. Es su apuesta para salvar al motor de combustión",
+      "url": "https://www.xataka.com/movilidad/startup-ha-creado-maquina-que-fabrica-gasolina-aire-agua-electricidad-su-apuesta-para-salvar-al-motor-combustion",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Aircela, una startup de Nueva York, ha enseñado al mundo una máquina capaz de fabricar gasolina utilizando únicamente aire, agua y electricidad renovable. El dispositivo, que no es precisamente pequeño, ya se ha mostrado…",
+      "image": "https://i.blogs.es/a2d094/aircela-destacada/1024_2000.jpeg",
+      "published": "2026-07-26T10:00:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "1fe33ba4feac7a",
+      "title": "El colapso de la Steam Deck: por qué la consola portátil más deseada se desploma en ventas",
+      "url": "https://hipertextual.com/videojuegos/steam-deck-hunde-ventas-que-esta-pasando/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Desde su llegada al mercado, la Steam Deck se convirtió en el modelo de referencia dentro del mercado de las consolas portátiles. Pese a no ser el inventor del factor de forma, Valve madrugó a varios fabricantes con un d…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/edgar-almeida-ODDeVEZGEfs-unsplash-scaled.jpg?fit=1024%2C683&quality=70&strip=all&ssl=1",
+      "published": "2026-07-26T10:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "3472f20b9655f7",
+      "title": "\"El mundo no se da cuenta de cuánto depende la industria de la IA de los científicos de China\" Jensen Huang, CEO de Nvidia",
+      "url": "https://www.xataka.com/empresas-y-economia/mundo-no-se-da-cuenta-cuanto-depende-industria-ia-cientificos-china-jensen-huang-ceo-nvidia",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Cuando alguien tan importante para la tecnología como Jensen Huang habla, sube el pan. El CEO de Nvidia es una persona que, si bien no es conocida por dar titulares tan polémicos como su colega Elon Musk, sí que dice cos…",
+      "image": "https://i.blogs.es/2707a3/china/1024_2000.jpeg",
+      "published": "2026-07-26T09:30:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "9a22a6503e21c3",
+      "title": "Google se está haciendo de oro apostando por sus rivales. Algunos ya le dan más beneficio que su propio negocio",
+      "url": "https://www.xataka.com/empresas-y-economia/google-se-esta-haciendo-oro-apostando-sus-rivales-algunos-le-dan-beneficio-que-su-propio-negocio",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Alphabet publicó hace unos días sus últimos resultados trimestrales , unos resultados que rompen todos sus récords con 112.100 millones de dólares de beneficio neto, un 298% más que hace un año. La sorpresa está en el or…",
+      "image": "https://i.blogs.es/12a31e/google-pasta/1024_2000.jpeg",
+      "published": "2026-07-26T09:00:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "4bff87c58b666b",
+      "title": "Este es el mejor ajuste de Android Auto que te recomiendo activar",
+      "url": "https://hipertextual.com/tecnologia/este-es-el-mejor-ajuste-de-android-auto-que-te-recomiendo-activar/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Android Auto es una maravilla, pero no es perfecto. Si llevas tiempo utilizándolo, sabrás que Google tiene que mejorar algunas zonas de la interfaz, aunque también es posible que no conozcas uno de los ajustes ocultos má…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2025/03/android-auto-scaled.jpg?fit=1024%2C637&quality=70&strip=all&ssl=1",
+      "published": "2026-07-26T09:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "8d868a34c39363",
+      "title": "Samsung Galaxy Watch Ultra2 vs Apple Watch Ultra 3: en qué se parecen (y en qué no) más allá de compartir apellido",
+      "url": "https://www.xataka.com/seleccion/samsung-galaxy-watch-ultra2-vs-apple-watch-ultra-3-que-se-parecen-que-no-alla-compartir-apellido",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Ahora que Samsung ha presentado la nueva generación de sus smartwatch , viene bien que nos paremos un momento para compararlos con sus iguales en la competencia. En este artículo vamos a comenzar con el mejor modelo de l…",
+      "image": "https://i.blogs.es/08c418/samsung-galaxy-watch-ultra2-vs-apple-watch-ultra-3/1024_2000.jpeg",
+      "published": "2026-07-26T08:30:27+00:00",
       "score": null,
       "tags": []
     },
@@ -473,18 +677,6 @@
       "tags": []
     },
     {
-      "id": "611c91a17a2af7",
-      "title": "Claude Code estrena una función que te ayuda a desarrollar mejores apps para iPhone",
-      "url": "https://hipertextual.com/inteligencia-artificial/claude-code-simulador-ios-apps/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Claude Code ha sumado una función que acerca la inteligencia artificial al desarrollo real de aplicaciones para el iPhone. La herramienta de programación de Anthropic ahora puede probar y ejecutar apps de iOS directament…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/claude-code.ios_-scaled.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
-      "published": "2026-07-25T18:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "ec0a7a6bd1a612",
       "title": "Nu México operará como banco a partir del 6 de agosto: ¿Qué pasará con tu dinero?",
       "url": "https://altonivel.com.mx/nu-mexico-banco-6-agosto-migracion-app-spei/",
@@ -545,18 +737,6 @@
       "tags": []
     },
     {
-      "id": "18b625d10ba4c3",
-      "title": "Con esta app puedes usar Android con una sola mano sin renunciar a una pantalla grande",
-      "url": "https://hipertextual.com/guias/usar-android-con-una-sola-mano-quick-cursor/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Los teléfonos móviles se pueden utilizar de muchas maneras. Pero el tamaño de sus pantallas complica cada vez más su manejo con una sola mano. En modelos antiguos, aún era posible alcanzar las cuatro esquinas con el dedo…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/06/samsung-galaxy-a55-005.jpg?fit=1024%2C723&quality=70&strip=all&ssl=1",
-      "published": "2026-07-25T17:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "365ecf70543ab9",
       "title": "WWE SummerSlam 2026: Full match card",
       "url": "https://www.merca20.com/wwe-summerslam-2026-full-match-card/?utm_source=rss&utm_medium=rss&utm_campaign=wwe-summerslam-2026-full-match-card",
@@ -593,18 +773,6 @@
       "tags": []
     },
     {
-      "id": "c076880ecb0e60",
-      "title": "Adelgazar con Ozempic está vaciando los cuerpos. La industria de la belleza ya sabe cómo llenarlos: con grasa de cadáver",
-      "url": "https://www.xataka.com/medicina-y-salud/adelgazar-ozempic-esta-vaciando-cuerpos-industria-belleza-sabe-como-llenarlos-grasa-cadaver",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Si alguna vez has perdido peso, seguro que te has encontrado en esta situación: la báscula marca menos kilos y el pantalón te queda más suelto, pero has perdido volumen en zonas inesperadas (e indeseadas) mientras que ot…",
-      "image": "https://i.blogs.es/3920b1/diete/1024_2000.jpeg",
-      "published": "2026-07-25T16:30:27+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "f7f8bc3a030fa3",
       "title": "T-Fal remata batería de cocina Vital de 10 piezas en 1300 pesitos: con termo señal y antiadherente Easy Plus",
       "url": "https://www.merca20.com/t-fal-remata-bateria-de-cocina-vital-de-10-piezas-en-1300-pesitos-con-termo-senal-y-antiadherente-easy-plus/?utm_source=rss&utm_medium=rss&utm_campaign=t-fal-remata-bateria-de-cocina-vital-de-10-piezas-en-1300-pesitos-con-termo-senal-y-antiadherente-easy-plus",
@@ -613,30 +781,6 @@
       "summary": "La batería de cocina T-Fal Vital está diseñada para ofrecer un equilibrio entre resistencia, funcionalidad y facilidad de uso",
       "image": "https://files.merca20.com/uploads/2026/07/bateria-de-cocina-Vital-T-Fal-Mercado-Libre.jpg",
       "published": "2026-07-25T16:20:23+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "848760eadfe9a1",
-      "title": "El váter de Adriano revela un nuevo secreto sobre la durabilidad del hormigón romano",
-      "url": "https://www.xataka.com/magnet/vater-adriano-revela-nuevo-secreto-durabilidad-hormigon-romano",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Una de los secretos mejor guardados del Imperio Romano es qué tenía de especial su hormigón para que el Panteón de Agripa lleve 2.000 años ahí (y lo que le queda). De vez en cuando la ciencia y la arqueología cree descub…",
-      "image": "https://i.blogs.es/cd1e08/ps---plantilla-portadas-xtk/1024_2000.jpeg",
-      "published": "2026-07-25T16:00:27+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "ed9c8e4662850b",
-      "title": "Xiaomi pone a la venta su nueva maquinilla de afeitar: inteligente, para cualquier tipo de barba y más barata que las de Braun y Gillette",
-      "url": "https://hipertextual.com/tecnologia/xiaomi-pone-a-la-venta-su-nueva-maquinilla-de-afeitar-inteligente-para-cualquier-tipo-de-barba-y-mas-barata-que-las-de-braun-y-gillette/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Xiaomi no para de anunciar nuevos productos, y su última incorporación en su catálogo de dispositivos para el cuidado personal se ha convertido directamente en la mejor opción para el afeitado de la barba. Se trata de la…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/maquina-afeitar-xiaomi.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
-      "published": "2026-07-25T16:00:00+00:00",
       "score": null,
       "tags": []
     },
@@ -653,18 +797,6 @@
       "tags": []
     },
     {
-      "id": "22ada519c55e02",
-      "title": "Es uno de los libros más enigmáticos del mundo y lo hizo un esquizofrénico que nunca salió del manicomio",
-      "url": "https://www.xataka.com/magnet/uno-libros-enigmaticos-mundo-hizo-esquizofrenico-que-nunca-salio-manicomio",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "En 1921 un psiquiatra suizo publicó un libro con un título que sonaba a contradicción: uno de sus internos, un enfermo mental, era un artista. Y a partir de ese oxímoron se fundó una disciplina entera. El aludido, Adolf …",
-      "image": "https://i.blogs.es/102f13/d7b6b1c747a0e046ef1061eacc4645b1/1024_2000.jpeg",
-      "published": "2026-07-25T15:30:27+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "6039ccd90f15c4",
       "title": "Velada del año VI:  Cartelera completa de todos los combates y dónde ver desde México",
       "url": "https://www.merca20.com/velada-del-ano-vi-cartelera-completa-de-todos-los-combates-y-donde-ver-desde-mexico/?utm_source=rss&utm_medium=rss&utm_campaign=velada-del-ano-vi-cartelera-completa-de-todos-los-combates-y-donde-ver-desde-mexico",
@@ -673,18 +805,6 @@
       "summary": "Conoce todos los combates que habrán en la Velada del año 6 de Ibai Llanos",
       "image": "https://files.merca20.com/uploads/2026/03/Velada-del-ano-6.jpg",
       "published": "2026-07-25T15:03:28+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "50a324a71f4ce1",
-      "title": "Un grupo de astronautas sin formación médica se ha hecho la primera radiografía en órbita del mundo: es un avance brutal",
-      "url": "https://www.xataka.com/espacio/grupo-astronautas-formacion-medica-se-ha-hecho-primera-radiografia-orbita-mundo-eso-cambia-muchas-cosas",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Durante más de sesenta años, los astronautas solo han tenido una herramienta para diagnosticar posibles lesiones en órbita: el ecógrafo. Ahora, por primera vez, una tripulación ha conseguido tomar radiografías de diagnós…",
-      "image": "https://i.blogs.es/41a316/radiografia/1024_2000.jpeg",
-      "published": "2026-07-25T15:00:27+00:00",
       "score": null,
       "tags": []
     },
@@ -701,18 +821,6 @@
       "tags": []
     },
     {
-      "id": "1177e00027d41c",
-      "title": "Tu cuerpo llevaba miles de años regulando la temperatura solo. Hasta que llegó el aire acondicionado y le dijo \"tú tranqui, ya me encargo yo\" (no sale bien)",
-      "url": "https://www.xataka.com/medicina-y-salud/tu-cuerpo-llevaba-miles-anos-regulando-temperatura-solo-que-llego-aire-acondicionado-le-dijo-tu-tranqui-me-encargo-yo-no-sale-bien",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "El aire acondicionado es nuestro mejor amigo en verano. Sin embargo, igual que no estamos pegados 24/7 a nuestros mejores amigos, tampoco deberíamos hacerlo con el aire acondicionado . Con tu amigo no es bueno porque te …",
-      "image": "https://i.blogs.es/b3aae4/aire-acondicionado/1024_2000.jpeg",
-      "published": "2026-07-25T14:30:27+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "ef48628235987b",
       "title": "Borges, Ramón y Cajal y la condena de no poder olvidar",
       "url": "https://www.psyciencia.com/borges-ramon-y-cajal-y-la-condena-de-no-poder-olvidar/",
@@ -725,42 +833,6 @@
       "tags": []
     },
     {
-      "id": "c0935f24bb1fbd",
-      "title": "La avispa invasora que caza abejas para alimentar a sus crías ya está en toda Andalucía, y no es la única",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/avispa-que-caza-abejas-para-alimentar-a-sus-crias-esta-andalucia-no-unica",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Andalucía, tierra de avispas (invasoras). Por si no hubiera suficiente con la temible avispa asiática ( Vespa velutina ) y el avispón bicolor (Vespa bicolor), se una a la tríada el avispón oriental ( Vespa orientalis ) c…",
-      "image": "https://i.blogs.es/f1d177/avispooon/1024_2000.jpeg",
-      "published": "2026-07-25T14:00:27+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "8568408d883ebc",
-      "title": "LG está instalando un polémico spyware en los PC de sus usuarios sin avisar: así puedes eliminarlo",
-      "url": "https://hipertextual.com/tecnologia/spyware-monitores-lg-windows-11-como-eliminarlo/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Si has comprado un monitor LG, es probable que esté instalando spyware sin que lo sepas apenas lo conectas al ordenador. El fabricante ha quedado al centro de una polémica tras aprovecharse de una función legítima de Win…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/lg-monitor.jpg?fit=1024%2C683&quality=70&strip=all&ssl=1",
-      "published": "2026-07-25T14:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "ff41a1615da939",
-      "title": "LG xboom Rock, análisis: pequeño, matón y sorprendentemente resistente a las inclemencias del verano",
-      "url": "https://www.xataka.com/analisis/lg-xboom-rock-analisis-caracteristicas-precio-especificaciones",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "En casa, ya he comentado en alguna ocasión que tengo bastantes altavoces inteligentes distribuidos por distintas habitaciones. Por eso, cuando me preguntaron si quería probar un altavoz Bluetooth clásico , no lo dudé. Al…",
-      "image": "https://i.blogs.es/48ffd8/20260724_120716/1024_2000.jpeg",
-      "published": "2026-07-25T13:30:27+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "59fa27626ddd56",
       "title": "WhatsApp estrena cuatro novedades muy útiles",
       "url": "https://www.muycomputer.com/2026/07/25/whatsapp-estrena-cuatro-novedades-muy-utiles/",
@@ -769,66 +841,6 @@
       "summary": "WhatsApp está ampliando su presencia más allá del smartphone con un nuevo paquete de funciones que afecta a varios de los dispositivos y servicios desde los que utilizamos habitualmente la aplicación. Entre las novedades…",
       "image": null,
       "published": "2026-07-25T13:17:39+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "0b68acfbffc329",
-      "title": "Whoop y Google tienen nuevo rival: así es la nueva Garmin CIRQA, una pulsera de actividad sin pantalla que no necesita suscripción",
-      "url": "https://www.xataka.com/seleccion/whoop-google-tienen-nuevo-rival-asi-nueva-garmin-cirqa-pulsera-actividad-pantalla-que-no-necesita-suscripcion",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Sin pantalla: Garmin ya ha hecho oficial su nueva CIRQA. Esta pulsera de actividad llega para competir directamente con Whoop y con la FitBit Air de Google en un sector que cada vez tiene más tirón. Su propuesta juega co…",
-      "image": "https://i.blogs.es/15fc0e/garmin-cirqa-portada/1024_2000.jpeg",
-      "published": "2026-07-25T13:16:27+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "3617682a69824a",
-      "title": "Llevamos miles de años usando protector solar, aunque al principio no sabíamos que lo necesitábamos",
-      "url": "https://www.xataka.com/medicina-y-salud/llevamos-miles-anos-usando-protector-solar-al-principio-no-sabiamos-que-necesitabamos",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Hoy en día somos bastante conscientes de la importancia del protector solar . En el pasado no lo tenían tan claro, pero igualmente lo usaban. Normalmente, se empleaban sustancias para aclarar la piel o evitar que se oscu…",
-      "image": "https://i.blogs.es/aad85b/protector-solar-historia/1024_2000.jpeg",
-      "published": "2026-07-25T13:00:28+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "a85310b5ead049",
-      "title": "Tres razones para ver ‘Stuart no consigue salvar el universo’",
-      "url": "https://hipertextual.com/cine-television/tres-razones-para-ver-stuart-no-consigue-salvar-el-universo/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Stuart no consigue salvar el universo es probablemente la serie que no sabías que necesitabas, pero que amarás. Eso, debido a que este spin-off de la ya clásica The Big Bang Theory no solo es un homenaje para fanáticos d…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/HBO-estrena-Stuart-no-consigue-salvar-el-universo-el-nuevo-spin-off-de-%E2%80%98The-Big-Bang-Theory-.jpg?fit=1024%2C580&quality=70&strip=all&ssl=1",
-      "published": "2026-07-25T13:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "08abda0aca36f2",
-      "title": "Hace 1.500 años falleció una niña en Mérida. Su lápida es toda una rareza para los arqueólogos: saben el día exacto de su muerte",
-      "url": "https://www.xataka.com/magnet/hace-1-500-anos-fallecio-nina-merida-su-lapida-toda-rareza-para-arqueologos-saben-dia-exacto-su-muerte",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "La imagen que ves sobre estas líneas es la Basílica de Santa Eulalia de Mérida y, a su lado, la cripta paleocristiana que alberga en su interior. Junto a ella acaban de encontrar una lápida funeraria. No es raro: el ento…",
-      "image": "https://i.blogs.es/2c65a1/euli/1024_2000.jpeg",
-      "published": "2026-07-25T12:30:27+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "130cca90b86f3b",
-      "title": "La energía de las olas es la asignatura pendiente de las renovables. Dos plantas en Escocia y Portugal quieren cambiarlo",
-      "url": "https://www.xataka.com/energia/energia-olas-nunca-ha-logrado-despegar-a-grande-dos-plantas-portugal-escocia-estan-a-punto-cambiarlo",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Mientras que hay energías renovables como la solar o la eólica que están acelerando la descarbonización, hay otras que siguen siendo un melón por abrir como la undimotriz . El potencial de las olas es enorme, como bien s…",
-      "image": "https://i.blogs.es/3185af/corpo/1024_2000.jpeg",
-      "published": "2026-07-25T12:00:27+00:00",
       "score": null,
       "tags": []
     },
@@ -1441,18 +1453,6 @@
       "summary": "Las últimas horas han dejado dos incidentes de seguridad diferentes, pero relacionados con una misma cuestión: qué ocurre cuando ChatGPT y otros sistemas de OpenAI dejan de limitarse a responder preguntas y reciben capac…",
       "image": null,
       "published": "2026-07-23T17:33:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "8996648c0ce6d1",
-      "title": "Legion C700, otra consola portátil de la mano de Lenovo",
-      "url": "https://www.muycomputer.com/2026/07/23/legion-c700-otra-consola-portatil-de-la-mano-de-lenovo/",
-      "source": "Muycomputer",
-      "category": "tech-ia",
-      "summary": "Lenovo ha anunciado el lanzamiento de la Legion C700, otra alternativa para el animadísimo mercado de consolas portátiles. Desarrollada junto a Tencent, se comercializará en China en agosto, pero a buen seguro llegará al…",
-      "image": null,
-      "published": "2026-07-23T12:34:14+00:00",
       "score": null,
       "tags": []
     },
