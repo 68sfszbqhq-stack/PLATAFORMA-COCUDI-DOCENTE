@@ -1,45 +1,9 @@
 {
   "meta": {
-    "generated": "2026-08-05T19:40:48.191477+00:00",
-    "total": 196
+    "generated": "2026-08-06T02:51:44.387472+00:00",
+    "total": 198
   },
   "items": [
-    {
-      "id": "2243555ef329c3",
-      "title": "Los mejores líderes no dirigen solo con autoridad: aquí te decimos qué es lo que hacen",
-      "url": "https://spanish.entrepreneur.com/emprendedores/los-mejores-lideres-no-dirigen-solo-con-autoridad-aqui-te-decimos-que-es-lo-que-hacen",
-      "source": "Entrepreneur ES",
-      "category": "startup",
-      "summary": "¿Qué pasaría si el movimiento más inteligente de un líder no fuera elegir un bando, sino establecer límites y dejar que el equipo gestione lo que sucede entre ellos? The post Los mejores líderes no dirigen solo con autor…",
-      "image": null,
-      "published": "2026-08-05T19:40:46.713306+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "b926b4723827cb",
-      "title": "3 formas en que los emprendedores pueden convertir la incertidumbre económica en su mayor oportunidad",
-      "url": "https://spanish.entrepreneur.com/iniciar-un-negocio/3-formas-en-que-los-emprendedores-pueden-convertir-la-incertidumbre-economica-en-su-mayor-oportunidad",
-      "source": "Entrepreneur ES",
-      "category": "startup",
-      "summary": "La turbulencia económica está poniendo a prueba a los dueños de negocios en todas partes. Quienes actúen con intención hoy estarán en posición de prosperar —no solo de sobrevivir— en el año que viene. The post 3 formas e…",
-      "image": null,
-      "published": "2026-08-05T19:40:46.712809+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "9a8ee02b64d9ea",
-      "title": "El auge de los centros de datos dispara la demanda de electricistas en Estados Unidos",
-      "url": "https://spanish.entrepreneur.com/noticias/el-auge-de-los-centros-de-datos-dispara-la-demanda-de-electricistas-en-estados-unidos",
-      "source": "Entrepreneur ES",
-      "category": "startup",
-      "summary": "El auge de la construcción de centros de datos para la IA ha disparado la demanda de electricistas en Estados Unidos, generando salarios hasta 42% más altos que en oficios similares. The post El auge de los centros de da…",
-      "image": null,
-      "published": "2026-08-05T19:40:46.712334+00:00",
-      "score": null,
-      "tags": []
-    },
     {
       "id": "7c91a5a071897e",
       "title": "Existe una pequeña ventana para convertirse en la respuesta predeterminada en las búsquedas de IA. Aprovéchala",
@@ -48,7 +12,7 @@
       "category": "startup",
       "summary": "Así es como las brechas en las búsquedas de IA están transformando la manera en que las empresas construyen sus estrategias de contenido. The post Existe una pequeña ventana para convertirse en la respuesta predeterminad…",
       "image": null,
-      "published": "2026-08-05T19:40:46.711847+00:00",
+      "published": "2026-08-06T02:51:42.877441+00:00",
       "score": null,
       "tags": []
     },
@@ -60,7 +24,7 @@
       "category": "startup",
       "summary": "He pasado años ayudando a marcas a conseguir cobertura mediática y he aprendido que el triunfo no está en el titular, sino en lo que haces con él. Aquí te explico cómo lograr que tu marca siempre sea encontrada en la era…",
       "image": null,
-      "published": "2026-08-05T19:40:46.711355+00:00",
+      "published": "2026-08-06T02:51:42.877038+00:00",
       "score": null,
       "tags": []
     },
@@ -72,7 +36,7 @@
       "category": "startup",
       "summary": "En un entorno donde adquirir clientes es cada vez más caro, los negocios de servicios pueden crecer sin aumentar su base de clientes. The post No necesitas más clientes para hacer crecer tu negocio de servicios — solo co…",
       "image": null,
-      "published": "2026-08-05T19:40:46.710134+00:00",
+      "published": "2026-08-06T02:51:42.876657+00:00",
       "score": null,
       "tags": []
     },
@@ -84,7 +48,7 @@
       "category": "startup",
       "summary": "Así es como los líderes visionarios equilibran los datos con el juicio humano para construir capital de marca duradero, lealtad del cliente y reconocimiento genuino. The post Cómo recuperar la autenticidad en un mundo di…",
       "image": null,
-      "published": "2026-08-05T19:40:46.709642+00:00",
+      "published": "2026-08-06T02:51:42.876137+00:00",
       "score": null,
       "tags": []
     },
@@ -96,7 +60,7 @@
       "category": "startup",
       "summary": "La sociedad siempre ha sentido la necesidad de someter a un marco de justicia formal a cualquier entidad no humana cuya conducta altere el orden económico o social. The post Conoce al tribunal de los gólems que juzgará a…",
       "image": null,
-      "published": "2026-08-05T19:40:46.709081+00:00",
+      "published": "2026-08-06T02:51:42.875551+00:00",
       "score": null,
       "tags": []
     },
@@ -108,7 +72,7 @@
       "category": "startup",
       "summary": "El emprendedor del futuro no será quien más haga, sino quien mejor sepa detenerse para mirar con claridad. The post La reinvención del emprendedor: la inactividad como nuevo músculo productivo appeared first on Entrepren…",
       "image": null,
-      "published": "2026-08-05T19:40:46.708574+00:00",
+      "published": "2026-08-06T02:51:42.874089+00:00",
       "score": null,
       "tags": []
     },
@@ -120,19 +84,307 @@
       "category": "startup",
       "summary": "Los mejores líderes saben que el servicio al cliente no es un departamento: es una cultura. Una empresa me lo demostró, y eso reafirmó todas mis creencias sobre liderazgo auténtico. The post La clave de una cultura que p…",
       "image": null,
-      "published": "2026-08-05T19:40:46.707990+00:00",
+      "published": "2026-08-06T02:51:42.873716+00:00",
       "score": null,
       "tags": []
     },
     {
-      "id": "6f6839601b1380",
-      "title": "Disney agota los anuncios del Super Bowl 2027 antes del evento y logra un histórico impulso publicitario",
-      "url": "https://www.merca20.com/disney-agota-los-anuncios-del-super-bowl-2027-antes-del-evento-y-logra-un-historico-impulso-publicitario/?utm_source=rss&utm_medium=rss&utm_campaign=disney-agota-los-anuncios-del-super-bowl-2027-antes-del-evento-y-logra-un-historico-impulso-publicitario",
+      "id": "99ee48ee9a51f1",
+      "title": "Los dueños de Myspace dicen que lo traerán de vuelta de entre los muertos. Ya han perdido más $150 millones de dólares en el intento",
+      "url": "https://spanish.entrepreneur.com/noticias/los-duenos-de-myspace-dicen-que-lo-traeran-de-vuelta-de-entre-los-muertos-ya-han-perdido-mas-150-millones-de-dolares-en-el-intento",
+      "source": "Entrepreneur ES",
+      "category": "startup",
+      "summary": "Los hermanos Chris y Tim Vanderhook, cuya empresa compró Myspace en 2011, confirmaron en un documental que planean relanzar la plataforma. The post Los dueños de Myspace dicen que lo traerán de vuelta de entre los muerto…",
+      "image": null,
+      "published": "2026-08-06T02:51:42.873329+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "0be5ae1daae416",
+      "title": "La IA está rescatando las llamadas telefónicas: así puede ayudar un agente de voz a tu empresa",
+      "url": "https://spanish.entrepreneur.com/noticias/la-ia-esta-rescatando-las-llamadas-telefonicas-asi-puede-ayudar-un-agente-de-voz-a-tu-empresa",
+      "source": "Entrepreneur ES",
+      "category": "startup",
+      "summary": "La inteligencia artificial está dando un giro al protagonismo de las llamadas telefónicas en el mundo empresarial. The post La IA está rescatando las llamadas telefónicas: así puede ayudar un agente de voz a tu empresa a…",
+      "image": null,
+      "published": "2026-08-06T02:51:42.872896+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "737805dee53e23",
+      "title": "Construir un negocio con tu pareja puede romper tu relación — así evitamos que nos pasara",
+      "url": "https://spanish.entrepreneur.com/emprendedores/mi-esposo-y-yo-hemos-construido-varios-negocios-juntos-asi-logramos-que-funcione-en-la-vida-y-en-el-trabajo",
+      "source": "Entrepreneur ES",
+      "category": "startup",
+      "summary": "Construir un negocio juntos puede ser una ventaja… o un riesgo constante. Esto es lo que realmente necesitas para que funcione en la vida y en el trabajo. The post Construir un negocio con tu pareja puede romper tu relac…",
+      "image": null,
+      "published": "2026-08-06T02:51:42.872457+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "14cfaac458ba90",
+      "title": "Así es el entrenamiento que se hace un solo día y acaba con la obesidad abdominal: ¡no tienes que ir al gimnasio!",
+      "url": "https://www.merca20.com/asi-es-el-entrenamiento-que-se-hace-un-solo-dia-y-acaba-con-la-obesidad-abdominal-no-tienes-que-ir-al-gimnasio/?utm_source=rss&utm_medium=rss&utm_campaign=asi-es-el-entrenamiento-que-se-hace-un-solo-dia-y-acaba-con-la-obesidad-abdominal-no-tienes-que-ir-al-gimnasio",
       "source": "Merca 2.0",
       "category": "startup",
-      "summary": "La compañía agotó todos los espacios comerciales del Super Bowl LXI y confirmó un crecimiento de doble dígito en sus ventas publicitarias rumbo a 2027.",
-      "image": "https://files.merca20.com/uploads/2026/08/Super-Bowl-LXI.jpg",
-      "published": "2026-08-05T19:40:05+00:00",
+      "summary": "De acuerdo con investigadores, este entrenamiento favorece a personas con obesidad abdominal que no tienen suficiente tiempo para ejercitarse",
+      "image": "https://files.merca20.com/uploads/2026/08/ejercicio-Gemini-AI.jpg",
+      "published": "2026-08-05T23:36:05+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "058d518f74ce22",
+      "title": "Un repartidor de Little Debbie estafó a Walmart con entregas falsas y vendió la mercancía por su cuenta: ahora es acusado de fraude",
+      "url": "https://www.merca20.com/un-repartidor-de-little-debbie-estafo-a-walmart-con-entregas-falsas-y-vendio-la-mercancia-por-su-cuenta-ahora-es-acusado-de-fraude/?utm_source=rss&utm_medium=rss&utm_campaign=un-repartidor-de-little-debbie-estafo-a-walmart-con-entregas-falsas-y-vendio-la-mercancia-por-su-cuenta-ahora-es-acusado-de-fraude",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Fundada por McKee Foods, Little Debbie comercializa decenas de productos que forman parte del consumo cotidiano de millones de familias en Estados Unidos",
+      "image": "https://files.merca20.com/uploads/2026/08/Little-Debbie.jpg",
+      "published": "2026-08-05T23:35:56+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "dfc43ce8162fef",
+      "title": "Casio remata su reloj Illuminator en menos de 585 pesos; es minimalista y resistente al agua",
+      "url": "https://www.merca20.com/casio-remata-reloj-illuminator-en-menos-de-585-pesos-es-minimalista-y-resistente-al-agua/?utm_source=rss&utm_medium=rss&utm_campaign=casio-remata-reloj-illuminator-en-menos-de-585-pesos-es-minimalista-y-resistente-al-agua",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Uno de los artículos que actualmente tiene descuento en Amazon es el reloj Casio Illuminator",
+      "image": "https://files.merca20.com/uploads/2026/08/amazon-casio-illuminator.jpg",
+      "published": "2026-08-05T23:25:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "3c00e71dad34dc",
+      "title": "FDA confirma: investigan brote de salmonela ligado a jalapeños de México; hay 345 casos y Chipotle retira el producto",
+      "url": "https://www.merca20.com/fda-investiga-brote-de-salmonela-ligado-a-jalapenos-de-mexico-hay-345-casos-y-chipotle-retira-el-producto/?utm_source=rss&utm_medium=rss&utm_campaign=fda-investiga-brote-de-salmonela-ligado-a-jalapenos-de-mexico-hay-345-casos-y-chipotle-retira-el-producto",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "La FDA y los CDC investigan un brote de salmonela asociado con jalapeños procedentes de Sinaloa, México. Se han reportado 345 casos en 27 estados de EE.UU. y decenas de hospitalizaciones",
+      "image": "https://files.merca20.com/uploads/2026/08/jalapeno-outbreak-salmonela.jpg",
+      "published": "2026-08-05T23:20:29+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "b42bde2135a6d9",
+      "title": "Albert Einstein, físico alemán: “No intentes convertirte en un hombre de éxito, sino en un hombre de valor”",
+      "url": "https://www.merca20.com/albert-einstein-cientifico-no-intentes-convertirte-en-un-hombre-de-exito-sino-en-un-hombre-de-valor/?utm_source=rss&utm_medium=rss&utm_campaign=albert-einstein-cientifico-no-intentes-convertirte-en-un-hombre-de-exito-sino-en-un-hombre-de-valor",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "El físico alemán Albert Einstein fue un defensor de la paz, la cooperación internacional, la educación, los derechos civiles y la libertad de pensamiento.",
+      "image": "https://files.merca20.com/uploads/2026/08/albert-einstein_.jpg",
+      "published": "2026-08-05T23:15:37+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "241acc72c20969",
+      "title": "Por qué la publicidad local será una prioridad estratégica para las marcas",
+      "url": "https://www.merca20.com/por-que-la-publicidad-local-sera-una-prioridad-estrategica-para-las-marcas/?utm_source=rss&utm_medium=rss&utm_campaign=por-que-la-publicidad-local-sera-una-prioridad-estrategica-para-las-marcas",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "La segmentación por ubicación consistía en delimitar un radio alrededor de una tienda. Hoy el concepto es mucho más sofisticado.",
+      "image": "https://files.merca20.com/uploads/2026/08/bigstock-Bus-Station-Billboard-In-Rainy-369191419.jpg",
+      "published": "2026-08-05T23:05:30+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "8756a3cf29c0f2",
+      "title": "Así es el Hilux Toyota 2027: ficha técnica, lanzamiento y precio de la nueva pickup",
+      "url": "https://www.merca20.com/asi-es-el-hilux-toyota-2027-ficha-tecnica-lanzamiento-y-precio-de-la-nueva-pickup/?utm_source=rss&utm_medium=rss&utm_campaign=asi-es-el-hilux-toyota-2027-ficha-tecnica-lanzamiento-y-precio-de-la-nueva-pickup",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Toyota presentó oficialmente en Japón la nueva Hilux 2027, una pickup completamente rediseñada que conserva su ADN como vehículo de trabajo, pero incorpora una imagen más robusta, mejoras en el chasis, un interior más te…",
+      "image": "https://files.merca20.com/uploads/2026/08/tooyota-hilux-2027.jpg",
+      "published": "2026-08-05T22:52:47+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "ab65776d263e22",
+      "title": "Epson e ISLA están detrás del regreso del icónico meme de Shakira",
+      "url": "https://www.merca20.com/epson-e-isla-estan-detras-del-regreso-del-iconico-meme-de-shakira/?utm_source=rss&utm_medium=rss&utm_campaign=epson-e-isla-estan-detras-del-regreso-del-iconico-meme-de-shakira",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Shakira recreó, 29 años después, la fotografía de 1997 que se convirtió en uno de sus memes más reconocibles en internet.",
+      "image": "https://files.merca20.com/uploads/2026/08/ISLA-Epson-Shakira-e1785970229491.jpeg",
+      "published": "2026-08-05T22:51:26+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "4f0211e3819391",
+      "title": "¡Spidey is here!",
+      "url": "https://www.merca20.com/spidey-is-here/?utm_source=rss&utm_medium=rss&utm_campaign=spidey-is-here",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Después de haber creado un Branded Content como El Barrio de la Telaraña, una campaña Out of Home IA y un Fan Event en una telaraña gigante, para este miércoles 29 de Julio y su semana de estreno, la película Spider-Man:…",
+      "image": "https://files.merca20.com/uploads/2026/08/still-scaled.jpg",
+      "published": "2026-08-05T22:49:06+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "23c637088947c3",
+      "title": "Isopure y The Coffee revolucionan el café funcional con Protein Cold Foam",
+      "url": "https://www.merca20.com/isopure-y-the-coffee-revolucionan-el-cafe-funcional-con-protein-cold-foam/?utm_source=rss&utm_medium=rss&utm_campaign=isopure-y-the-coffee-revolucionan-el-cafe-funcional-con-protein-cold-foam",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "El lanzamiento de Isopure Protein Cold Foam convierte a México en un mercado estratégico para ambas compañías",
+      "image": "https://files.merca20.com/uploads/2026/06/isopure.jpg",
+      "published": "2026-08-05T22:47:22+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "d68dbf8afa786c",
+      "title": "Científicos creen que la materia oscura podría estar transformándose y cambiar lo que sabemos del universo",
+      "url": "https://www.merca20.com/cientificos-creen-que-la-materia-oscura-podria-estar-transformandose-y-cambiar-lo-que-sabemos-del-universo/?utm_source=rss&utm_medium=rss&utm_campaign=cientificos-creen-que-la-materia-oscura-podria-estar-transformandose-y-cambiar-lo-que-sabemos-del-universo",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Un nuevo estudio plantea que la materia oscura podría descomponerse en partículas vinculadas con la gravedad, una hipótesis que abriría una nueva vía para resolver uno de los mayores misterios de la física.",
+      "image": "https://files.merca20.com/uploads/2026/08/Materia-oscura1.jpg",
+      "published": "2026-08-05T22:45:32+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "ce910b2aaddb48",
+      "title": "Infancias ACT: Una clase con Geraldine Panelli",
+      "url": "https://www.psyciencia.com/infancias-act-una-clase-con-geraldine-panelli/",
+      "source": "Psyciencia",
+      "category": "psicologia",
+      "summary": "Si trabajas con niños o adolescentes, sabes lo que pasa: los protocolos que dominas con adultos no funcionan igual. El lenguaje es distinto, la atención dura menos, y la forma…",
+      "image": null,
+      "published": "2026-08-05T22:40:50+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7df0e245335d41",
+      "title": "México vs. Panamá: Dónde y a qué hora ver EN VIVO a la Selección Sub-20",
+      "url": "https://www.merca20.com/mexico-vs-panama-donde-y-a-que-hora-ver-en-vivo-a-la-seleccion-sub-20/?utm_source=rss&utm_medium=rss&utm_campaign=mexico-vs-panama-donde-y-a-que-hora-ver-en-vivo-a-la-seleccion-sub-20",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "El partido México vs. Panamá rumbo al Mundial Sub-20 se disputará esta noche en el Estadio Cuauhtémoc de Puebla",
+      "image": "https://files.merca20.com/uploads/2026/08/Mexico.jpg",
+      "published": "2026-08-05T22:33:58+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "2db11a5f95e65e",
+      "title": "Qué revela el avance de la Gen Z sobre el futuro del comercio electrónico",
+      "url": "https://www.merca20.com/que-revela-el-avance-de-la-gen-z-sobre-el-futuro-del-comercio-electronico/?utm_source=rss&utm_medium=rss&utm_campaign=que-revela-el-avance-de-la-gen-z-sobre-el-futuro-del-comercio-electronico",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Este cambio está acelerando la evolución del e-commerce hacia un modelo donde el contenido, la comunidad y la tecnología pesan tanto como el precio.",
+      "image": "https://files.merca20.com/uploads/2026/08/bigstock-Hands-holding-the-abbreviation-259085863.jpg",
+      "published": "2026-08-05T22:08:17+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "a5f8734f74580a",
+      "title": "El error del puerto y la estática: Los hábitos que están destruyendo tu memoria USB sin que lo sepas",
+      "url": "https://www.fayerwayer.com/internet/2026/08/05/el-error-del-aeropuerto-y-la-estatica-los-habitos-que-estan-destruyendo-tu-memoria-usb-sin-que-lo-sepas/",
+      "source": "FayerWayer",
+      "category": "tech-ia",
+      "summary": "A pesar de la masificación del almacenamiento en la nube, las memorias USB siguen siendo fundamentales para transportar datos.",
+      "image": "https://www.fayerwayer.com/resizer/v2/HNMA5LBJKNCHPC4LQBPWUW3S3Y.png?auth=c0c6ec47048bb8a8aa73458abff7c464018fde572ba8d644bb04e9e5325c2f7e&smart=true&width=1640&height=924",
+      "published": "2026-08-05T22:03:09+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "4a2fe54c75e784",
+      "title": "Chipotle Salmonella Outbreak: FDA Health Alert Regarding Jalapeños",
+      "url": "https://www.merca20.com/chipotle-salmonella-outbreak-fda-health-alert-regarding-jalapenos/?utm_source=rss&utm_medium=rss&utm_campaign=chipotle-salmonella-outbreak-fda-health-alert-regarding-jalapenos",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "The FDA and the CDC are investigating a Salmonella outbreak linked to jalapeños from Sinaloa, Mexico. There have been 345 reported cases across 27 U.S. states and dozens of hospitalizations.",
+      "image": "https://files.merca20.com/uploads/2026/08/jalapeno-outbreak-salmonela.jpg",
+      "published": "2026-08-05T22:00:32+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "2fe0a4a0816187",
+      "title": "‘KATSEYE: WILD HEARTS’: Release Date and Where to Watch the Movie",
+      "url": "https://www.merca20.com/katseye-wild-hearts-release-date-and-where-to-watch-the-movie/?utm_source=rss&utm_medium=rss&utm_campaign=katseye-wild-hearts-release-date-and-where-to-watch-the-movie",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "KATSEYE: WILD HEARTS, the group's first documentary, will open in select theaters worldwide with limited screenings",
+      "image": "https://files.merca20.com/uploads/2026/08/KATSEYE-WILD-HEARTS.jpg",
+      "published": "2026-08-05T21:43:20+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "36656573362ab5",
+      "title": "Microsoft ya tiene claro qué hacer para evitar que la IA se salga de control",
+      "url": "https://hipertextual.com/inteligencia-artificial/microsoft-hackeos-ia-autonoma-guia-contencion/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Si algo ha quedado claro en las últimas semanas es que la IA puede salirse de control en el momento menos indicado. La prueba más evidente es el hackeo de Hugging Face provocado por dos agentes que escaparon de su entorn…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/12/terminator.jpg?fit=1024%2C651&quality=70&strip=all&ssl=1",
+      "published": "2026-08-05T21:35:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "f0b9a0e37c45fa",
+      "title": "Dow Jones cierra en máximos por tercera sesión; Nasdaq cae 0.83% por SpaceX",
+      "url": "https://altonivel.com.mx/dow-jones-cierra-en-maximos-por-tercera-sesion-nasdaq-cae-0-83-por-spacex/",
+      "source": "Alto Nivel",
+      "category": "coaching",
+      "summary": "El Dow Jones ligó su tercer cierre récord consecutivo, mientras el Nasdaq cayó 0.83% por el desplome de SpaceX y las pérdidas de AMD tras sus reportes. The post Dow Jones cierra en máximos por tercera sesión; Nasdaq cae …",
+      "image": "https://altonivel.com.mx/wp-content/uploads/2025/01/indice-dow-jones.webp",
+      "published": "2026-08-05T20:39:26+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e488dc8d24a370",
+      "title": "‘Spider-Man: Brand New Day’ sigue imparable y ya es la película más taquillera de 2026",
+      "url": "https://hipertextual.com/cine-television/spider-man-brand-new-day-pelicula-mas-taquillera-2026/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Apenas 7 días ha necesitado Spider-Man: Brand New Day para convertirse en la película más taquillera de 2026. Lo nuevo de Marvel Studios lleva solo una semana en la cartelera, pero ya ha recaudado unos impactantes 1.155 …",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/06/Brand-New-Day-Spider-Man.jpg?fit=1024%2C614&quality=70&strip=all&ssl=1",
+      "published": "2026-08-05T20:39:21+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5c0662b55587c8",
+      "title": "IA, robots y negocios: esto verás en Emprendedor Summit 2026",
+      "url": "https://altonivel.com.mx/emprendedor-summit-2026-agenda/",
+      "source": "Alto Nivel",
+      "category": "coaching",
+      "summary": "El encuentro reunirá a representantes de Google Cloud, Red Hat, Oracle, Mercado Libre, TikTok, Uber Eats y compañías mexicanas. The post IA, robots y negocios: esto verás en Emprendedor Summit 2026 appeared first on Alto…",
+      "image": "https://altonivel.com.mx/wp-content/uploads/2026/08/emprendedor-summit-2026.webp",
+      "published": "2026-08-05T20:34:22+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7e8021c311cb95",
+      "title": "Alerta de seguridad de Estados Unidos frena exportaciones de aguacate desde Michoacán",
+      "url": "https://altonivel.com.mx/alerta-de-seguridad-de-estados-unidos-frena-exportaciones-de-aguacate-desde-michoacan/",
+      "source": "Alto Nivel",
+      "category": "coaching",
+      "summary": "Una alerta de seguridad de la Embajada de Estados Unidos suspendió las certificaciones de aguacate en Michoacán, lo que paralizó temporalmente las exportaciones al principal mercado del fruto. The post Alerta de segurida…",
+      "image": "https://altonivel.com.mx/wp-content/uploads/2024/06/aguacate-mexicano-jpg.avif",
+      "published": "2026-08-05T19:49:31+00:00",
       "score": null,
       "tags": []
     },
@@ -145,18 +397,6 @@
       "summary": "La presidenta Claudia Sheinbaum y el secretario de Estado del Vaticano, Pietro Parolin, dialogaron sobre inteligencia artificial, ética, paz y la visión humanitaria del papa León XIV. The post Sheinbaum y el Vaticano abo…",
       "image": "https://altonivel.com.mx/wp-content/uploads/2026/08/Sheinbaum-parolin.webp",
       "published": "2026-08-05T19:36:37+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "90e6f31c3700e1",
-      "title": "México figura entre los países que exportan la mitad de los bienes para construir la IA",
-      "url": "https://expansion.mx/economia/2026/08/05/mexico-exportaciones-inteligencia-artificial-banco-mundial",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "El Banco Mundial plantea que la mayor oportunidad para México no está en desarrollar modelos propios, sino en fortalecer su manufactura y acelerar la adopción de inteligencia artificial.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/1f60b5d/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F0c%2Fba%2F5c77706b46cb8a8a448acada90b2%2Fmanufactura-mexico-inteligencia-artificial.jpeg",
-      "published": "2026-08-05T19:33:50+00:00",
       "score": null,
       "tags": []
     },
@@ -185,30 +425,6 @@
       "tags": []
     },
     {
-      "id": "ed421f275598c1",
-      "title": "Feria y Festival Cultural Alfeñique 2026: Cartelera completa de artistas para el Día de Muertos",
-      "url": "https://www.merca20.com/feria-y-festival-cultural-alfenique-2026-cartelera-completa-de-artistas-para-el-dia-de-muertos/?utm_source=rss&utm_medium=rss&utm_campaign=feria-y-festival-cultural-alfenique-2026-cartelera-completa-de-artistas-para-el-dia-de-muertos",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "La Feria y Festival Cultural Alfeñique 2026 ya tiene cartelera oficial, ya que el municipio de Toluca presentó a los artistas que encabezarán los conciertos gratuitos",
-      "image": "https://files.merca20.com/uploads/2026/08/feria-toluca-dia-muertos-2026.jpg",
-      "published": "2026-08-05T19:23:09+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "6270100bfd3168",
-      "title": "¡Es oficial! Ya hay planes para Spider-Man 5 con Tom Holland: ¿Cuándo se estrena?",
-      "url": "https://www.merca20.com/es-oficial-ya-hay-planes-para-spider-man-5-con-tom-holland-cuando-se-estrena/?utm_source=rss&utm_medium=rss&utm_campaign=es-oficial-ya-hay-planes-para-spider-man-5-con-tom-holland-cuando-se-estrena",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Marvel Studios confirmó que existen planes para continuar desarrollando nuevas historias de Spider-Man, lo que ha emocionado a los fans",
-      "image": "https://files.merca20.com/uploads/2026/08/Spider-Man.jpg",
-      "published": "2026-08-05T19:15:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "0ea9a60cca8fc8",
       "title": "UNAM publica puntajes para el examen de control y rompe contrato con Territorium tras crisis por IA",
       "url": "https://altonivel.com.mx/unam-publica-puntajes-para-el-examen-de-control-y-rompe-contrato-con-territorium-tras-crisis-por-ia/",
@@ -217,18 +433,6 @@
       "summary": "La UNAM publicó los puntajes que definirán quiénes presentarán el examen presencial de control y anunció el fin de su contrato con Territorium Life, además de auditorías por las presuntas irregularidades detectadas. The …",
       "image": "https://altonivel.com.mx/wp-content/uploads/2026/08/UNAM.webp",
       "published": "2026-08-05T19:14:38+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "a4387cde58739c",
-      "title": "Revendedor se llevó todas las Oreo x BTS de Soriana y desató la furia del ARMY; ahora exigen límites de compra en Walmart y Oxxo",
-      "url": "https://www.merca20.com/revendedor-se-llevo-todas-las-oreo-x-bts-de-soriana-y-desato-la-furia-del-army-ahora-exigen-limites-de-compra-en-walmart-y-oxxo/?utm_source=rss&utm_medium=rss&utm_campaign=revendedor-se-llevo-todas-las-oreo-x-bts-de-soriana-y-desato-la-furia-del-army-ahora-exigen-limites-de-compra-en-walmart-y-oxxo",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "El grupo ARMYs Guadalajara hizo un llamado a los seguidores de BTS para no comprar a revendedores y pidió a cadenas como Soriana, Walmart, Oxxo y HEB establecer un límite de piezas por cliente para evitar que el fenómeno…",
-      "image": "https://files.merca20.com/uploads/2026/07/unnamed.jpg",
-      "published": "2026-08-05T19:14:33+00:00",
       "score": null,
       "tags": []
     },
@@ -293,18 +497,6 @@
       "tags": []
     },
     {
-      "id": "b22642c279310d",
-      "title": "Alerta en Chipotle: retiran jalapeños por posible salmonela mientras acelera su expansión a México",
-      "url": "https://www.merca20.com/alerta-en-chipotle-retiran-jalapenos-por-posible-salmonela-mientras-acelera-su-expansion-a-mexico/?utm_source=rss&utm_medium=rss&utm_campaign=alerta-en-chipotle-retiran-jalapenos-por-posible-salmonela-mientras-acelera-su-expansion-a-mexico",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "La cadena de comida rápida retiró preventivamente un lote de jalapeños en Estados Unidos tras una investigación por más de 100 casos de salmonela. El caso ocurre mientras la empresa confirma la apertura de su primer rest…",
-      "image": "https://files.merca20.com/uploads/2026/03/chipotle_2026-5.jpg",
-      "published": "2026-08-05T18:45:01+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "3d3fc9d0f92867",
       "title": "El negocio detrás de blindar la imagen digital de las empresas",
       "url": "https://ilifebelt.com/el-negocio-detras-de-blindar-la-imagen-digital-de-las-empresas/2026/08/",
@@ -341,18 +533,6 @@
       "tags": []
     },
     {
-      "id": "d66b6d14251416",
-      "title": "Elon Musk, empresario: “No confundan la escolarización con la educación. Yo no fui a Harvard, pero la gente que trabaja para mí sí”",
-      "url": "https://www.merca20.com/elon-musk-empresario-no-confundan-la-escolarizacion-con-la-educacion-yo-no-fui-a-harvard-pero-la-gente-que-trabaja-para-mi-si/?utm_source=rss&utm_medium=rss&utm_campaign=elon-musk-empresario-no-confundan-la-escolarizacion-con-la-educacion-yo-no-fui-a-harvard-pero-la-gente-que-trabaja-para-mi-si",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Elon Musk sigue alimentando el debate sobre qué valoran realmente las empresas: un currículum con nombres prestigiosos o la capacidad de resolver problemas reales",
-      "image": "https://files.merca20.com/uploads/2024/07/ELON-MUSK-2024-TESLA-GIGAFACTORY-.jpg",
-      "published": "2026-08-05T18:29:48+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "620fb5325e04a1",
       "title": "Alerta de seguridad de EU frena embarques de aguacate michoacano para exportación",
       "url": "https://expansion.mx/economia/2026/08/05/alerta-seguridad-michoacan-exportacion-aguacate",
@@ -361,66 +541,6 @@
       "summary": "La suspensión temporal de actividades del personal del USDA vuelve a afectar la operación exportadora del aguacate en el estado, un escenario que ya se presentó en 2022 y 2024 por incidentes de seguridad.",
       "image": "https://cdn-3.expansion.mx/dims4/default/b4dc523/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F36%2F85%2F5ef477e5481b9fc2df0df3f8cf8e%2F1049913-produccion-aguacate-web.jpg",
       "published": "2026-08-05T18:29:32+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "641f3bbe5a3415",
-      "title": "Daiso llega a México; la tienda japonesa que todos comparan con Prichos y refleja el auge del retail de descuentos",
-      "url": "https://www.merca20.com/daiso-llega-a-mexico-la-tienda-japonesa-que-todos-comparan-con-prichos-y-refleja-el-auge-del-retail-de-descuentos/?utm_source=rss&utm_medium=rss&utm_campaign=daiso-llega-a-mexico-la-tienda-japonesa-que-todos-comparan-con-prichos-y-refleja-el-auge-del-retail-de-descuentos",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "El concepto ya genera comparaciones con formatos conocidos por los consumidores mexicanos como Prichos, aunque Daiso llega con una propuesta inspirada en el modelo japonés de tiendas de precio único.",
-      "image": "https://files.merca20.com/uploads/2026/08/bigstock-Osaka-Japan-Nov-Vi-341327950.jpg",
-      "published": "2026-08-05T18:26:19+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "468fb10b0a636a",
-      "title": "CNMD 2026 confirma a sus primeros 10 speakers: Netflix, Airbnb, DiDi, BIC y General Motors estarán presentes",
-      "url": "https://www.merca20.com/cnmd-2026-confirma-a-sus-primeros-10-speakers-netflix-airbnb-didi-bic-y-general-motors-estaran-presentes/?utm_source=rss&utm_medium=rss&utm_campaign=cnmd-2026-confirma-a-sus-primeros-10-speakers-netflix-airbnb-didi-bic-y-general-motors-estaran-presentes",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "El Congreso Nacional de Marketing Digital 2026 se realizará el 18 y 19 de noviembre en Expo Santa Fe, CDMX",
-      "image": "https://files.merca20.com/uploads/2026/08/1200X675-ARTE-PARA-EDITORIAL.jpg",
-      "published": "2026-08-05T18:20:12+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "a8ffef48d3b64b",
-      "title": "Pensión del Bienestar 2026: ¿Cuánto debes pagar de comisión por retirar tu dinero en otros bancos?",
-      "url": "https://www.merca20.com/pension-del-bienestar-2026-cuanto-debes-pagar-de-comision-por-retirar-tu-dinero-en-otros-bancos/?utm_source=rss&utm_medium=rss&utm_campaign=pension-del-bienestar-2026-cuanto-debes-pagar-de-comision-por-retirar-tu-dinero-en-otros-bancos",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "El retiro de efectivo en cajeros que no pertenecen al Banco del Bienestar puede generar una comisión por el uso del servicio",
-      "image": "https://files.merca20.com/uploads/2026/08/cajero-Gemini-AI.jpg",
-      "published": "2026-08-05T18:16:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "015b4bd393f366",
-      "title": "Grupo Gigante revela cómo le fue a Toks, Office Depot y Panda Express; hay cierres y aperturas",
-      "url": "https://www.merca20.com/grupo-gigante-revela-como-le-fue-a-toks-office-depot-y-panda-express-hay-cierres-y-aperturas/?utm_source=rss&utm_medium=rss&utm_campaign=grupo-gigante-revela-como-le-fue-a-toks-office-depot-y-panda-express-hay-cierres-y-aperturas",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Grupo Gigante cerró el segundo trimestre de 2026 con movimientos en sus negocios de restaurantes y tiendas especializadas",
-      "image": "https://files.merca20.com/uploads/2026/08/grupo-gigante-informe-2026.jpg",
-      "published": "2026-08-05T18:15:44+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "7f68a5828a7040",
-      "title": "Red Dead Online llena agosto de recompensas triples, viajes rápidos gratis y grandes descuentos para coleccionistas",
-      "url": "https://www.merca20.com/red-dead-online-llena-agosto-de-recompensas-triples-viajes-rapidos-gratis-y-grandes-descuentos-para-coleccionistas/?utm_source=rss&utm_medium=rss&utm_campaign=red-dead-online-llena-agosto-de-recompensas-triples-viajes-rapidos-gratis-y-grandes-descuentos-para-coleccionistas",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Rockstar Games lanzó la actualización mensual de Red Dead Online con bonos de hasta triple de RDO$, XP y oro, además de recompensas exclusivas, prendas de regreso y descuentos en objetos para quienes exploren la frontera…",
-      "image": "https://files.merca20.com/uploads/2026/08/Red-Dead-Online.jpg",
-      "published": "2026-08-05T18:15:30+00:00",
       "score": null,
       "tags": []
     },
@@ -449,38 +569,14 @@
       "tags": []
     },
     {
-      "id": "cb131f63afb507",
-      "title": "Arabia Saudita toma el control de Electronic Arts: la dueña de EA Sports FC, Los Sims y Battlefield deja la bolsa",
-      "url": "https://www.merca20.com/arabia-saudita-toma-el-control-de-electronic-arts-la-duena-de-ea-sports-fc-los-sims-y-battlefield-deja-la-bolsa/?utm_source=rss&utm_medium=rss&utm_campaign=arabia-saudita-toma-el-control-de-electronic-arts-la-duena-de-ea-sports-fc-los-sims-y-battlefield-deja-la-bolsa",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "La compra por 55 mil millones de dólares ya se concretó. El Fondo de Inversión Pública de Arabia Saudita controlará el 93.4% de Electronic Arts, en una de las adquisiciones más grandes en la historia de los videojuegos.",
-      "image": "https://files.merca20.com/uploads/2025/09/Electronic-Arts-.jpg",
-      "published": "2026-08-05T17:45:54+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "6a98ff69895866",
-      "title": "¿Quién es Jeff Dean? El histórico líder de IA deja Google tras 27 años y la acción de Alphabet cae hasta 5%",
+      "title": "¿Quién es Jeff Dean? El histórico líder de IA deja Google tras 27 años y la acción de Alphabet cae 4%",
       "url": "https://altonivel.com.mx/quien-es-jeff-dean-el-historico-lider-de-ia-deja-alphabet-tras-27-anos-y-la-accion-cae-hasta-5/",
       "source": "Alto Nivel",
       "category": "coaching",
       "summary": "Las acciones de Alphabet cayeron hasta 5.4% después de que Jeff Dean, uno de los arquitectos de la inteligencia artificial de Google, anunciara su salida tras 27 años para fundar una startup enfocada en investigación cie…",
       "image": "https://altonivel.com.mx/wp-content/uploads/2025/04/google-alphabet.webp",
       "published": "2026-08-05T17:38:33+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "c98dd2b5a1d9fa",
-      "title": "La estrategia con el que Telcel y AT&T encuentran en el pospago su nuevo motor de crecimiento",
-      "url": "https://www.merca20.com/la-estrategia-con-el-que-telcel-y-att-encuentran-en-el-pospago-su-nuevo-motor-de-crecimiento/?utm_source=rss&utm_medium=rss&utm_campaign=la-estrategia-con-el-que-telcel-y-att-encuentran-en-el-pospago-su-nuevo-motor-de-crecimiento",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "El pospago se convirtió en una de las principales apuestas de crecimiento para ambas compañías.",
-      "image": "https://files.merca20.com/uploads/2026/08/bigstock-Woman-On-Phone-In-Cafe-4577734.jpg",
-      "published": "2026-08-05T17:35:58+00:00",
       "score": null,
       "tags": []
     },
@@ -533,18 +629,6 @@
       "tags": []
     },
     {
-      "id": "6f6c3837371f61",
-      "title": "Sam’s Club lanza su cuponera Regreso a Clases 2026 con ofertas y descuentos; vigente del 5 de agosto al 3 de septiembre",
-      "url": "https://www.merca20.com/sams-club-lanza-su-cuponera-regreso-a-clases-2026-con-ofertas-y-descuentos-vigente-del-5-de-agosto-al-3-de-septiembre/?utm_source=rss&utm_medium=rss&utm_campaign=sams-club-lanza-su-cuponera-regreso-a-clases-2026-con-ofertas-y-descuentos-vigente-del-5-de-agosto-al-3-de-septiembre",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "La nueva cuponera Regreso a Clases 2026 fue publicada en el portal oficial de Sam’s Club e incluye descuentos en artículos escolares, electrónicos, ropa, calzado y productos para el hogar",
-      "image": "https://files.merca20.com/uploads/2026/08/sams-club-cuponera-regreso-clases.jpg",
-      "published": "2026-08-05T17:18:53+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "b73a612fdbffd2",
       "title": "Los expertos coinciden: \"Las personas que no miran el cronómetro en el móvil y sí en el reloj no están anticuadas, quieren controlar las distracciones\"",
       "url": "https://www.xataka.com/seleccion/expertos-coinciden-personas-que-no-miran-cronometro-movil-reloj-no-estan-anticuadas-quieren-controlar-distracciones",
@@ -565,18 +649,6 @@
       "summary": "Las redes sociales están llenas de contenidos que parecen diseñados para irritarnos. Videos absurdamente provocadores, opiniones extremas, información presentada de manera tendenciosa o publicaciones que generan indignac…",
       "image": null,
       "published": "2026-08-05T17:12:05+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "ec89b1844f38c5",
-      "title": "Walmart busca gerentes, ingenieros y conductores y ofrece salarios que pueden superar los 1.8 millones de pesos al año",
-      "url": "https://www.merca20.com/walmart-busca-gerentes-ingenieros-y-conductores-y-ofrece-salarios-que-pueden-superar-los-1-8-millones-de-pesos-al-ano/?utm_source=rss&utm_medium=rss&utm_campaign=walmart-busca-gerentes-ingenieros-y-conductores-y-ofrece-salarios-que-pueden-superar-los-1-8-millones-de-pesos-al-ano",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Walmart moviliza cada año más de 100 mil millones de artículos a través de su cadena global de suministro",
-      "image": "https://files.merca20.com/uploads/2024/10/walmart-foto-laura-islas-2024.jpg",
-      "published": "2026-08-05T17:10:55+00:00",
       "score": null,
       "tags": []
     },
@@ -1073,6 +1145,18 @@
       "tags": []
     },
     {
+      "id": "a46d3eaa9ae150",
+      "title": "Caen 1.7 millones de líneas celulares por el registro obligatorio",
+      "url": "https://expansion.mx/empresas/2026/08/04/caen-millones-de-lineas-telefonicas-registro-obligatorio",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "El registro obligatorio provocó la eliminación de millones de líneas, aunque los ingresos de las empresas crecieron 5.3% gracias al mayor consumo de datos y a planes de mayor valor.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/752979f/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fea%2Fe8%2Fa9415c574b8eb298b5eb056b1689%2Fregistro-celulares-mexico-2026.jpg",
+      "published": "2026-08-05T00:49:50+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "ee8f0cec6ef277",
       "title": "Adiós a mirar la pantalla del celular: Los 5 grandes beneficios de los nuevos lentes con IA Meta Ray-Ban Display",
       "url": "https://www.fayerwayer.com/internet/2026/08/05/adios-a-mirar-la-pantalla-del-celular-los-5-grandes-beneficios-de-los-nuevos-lentes-con-ia-meta-ray-ban-display/",
@@ -1181,18 +1265,6 @@
       "tags": []
     },
     {
-      "id": "c3a10cfee90b83",
-      "title": "Un ingeniero de Microsoft ha conseguido jugar el Doom original dentro de Paint",
-      "url": "https://hipertextual.com/videojuegos/doom-microsoft-paint-doompaint/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Un ingeniero de Microsoft ha conseguido que Doom se ejecute dentro de Microsoft Paint. El mítico juego de id Software ha encontrado una nueva plataforma, esta vez en el editor de gráficos de Windows. Conocido como DoomPa…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2025/01/Doom-portada-scaled.jpg?fit=1024%2C640&quality=70&strip=all&ssl=1",
-      "published": "2026-08-04T21:12:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "7e3aa946590a81",
       "title": "Un nuevo modelo intenta predecir cuándo una persona está por perder el sentido de todo",
       "url": "https://www.psyciencia.com/un-nuevo-modelo-intenta-predecir-cuando-una-persona-esta-por-perder-el-sentido-de-todo/",
@@ -1241,18 +1313,6 @@
       "tags": []
     },
     {
-      "id": "0ddbdd0152ac95",
-      "title": "El estudio detrás del «FIFA» de Netflix, el desastroso juego oficial del Mundial, despide a casi todos sus empleados",
-      "url": "https://hipertextual.com/videojuegos/despiden-empleados-crearon-juego-oficial-mundial-2026-netflix/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Los empleados del estudio responsable de FIFA World Cup: Launch Edition, el juego oficial del Mundial 2026 que debutó en Netflix en junio, fueron despedidos casi en su totalidad. Según reporta GamesBeat, Refactor Games p…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/06/FIFA__NGC.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
-      "published": "2026-08-04T20:05:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "b32a9b84ac7634",
       "title": "CDMX amplía hasta septiembre los descuentos en predial, agua y multas: ¿cómo aprovecharlos?",
       "url": "https://altonivel.com.mx/cdmx-amplia-hasta-septiembre-los-descuentos-en-predial-agua-y-multas-como-aprovecharlos/",
@@ -1277,38 +1337,14 @@
       "tags": []
     },
     {
-      "id": "29ff9ce06b9e7b",
-      "title": "Sheinbaum firma decreto para ampliar la transparencia del Gobierno y limitar reservas de información",
-      "url": "https://altonivel.com.mx/sheinbaum-firma-decreto-para-ampliar-la-transparencia-del-gobierno-y-limitar-reservas-de-informacion/",
-      "source": "Alto Nivel",
-      "category": "coaching",
-      "summary": "El decreto amplía las obligaciones de transparencia del Gobierno federal con la publicación mensual de contratos, así como nuevos criterios para la difusión de auditorías y la reserva de información. The post Sheinbaum f…",
-      "image": "https://altonivel.com.mx/wp-content/uploads/2026/08/sheinbaum-transparencia.webp",
-      "published": "2026-08-04T19:26:50+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "6e6bcea0c37d6b",
-      "title": "Déficit comercial de Estados Unidos cae 5.6% en junio, pero persisten efectos de los aranceles",
-      "url": "https://altonivel.com.mx/deficit-comercial-de-estados-unidos-cae-5-6-en-junio-pero-persisten-efectos-de-los-aranceles/",
-      "source": "Alto Nivel",
-      "category": "coaching",
-      "summary": "El déficit comercial de Estados Unidos cayó a 73,300 mdd en junio gracias a una reducción de las importaciones. Aún así, México registró un déficit por 20,300 mdd en el mes. The post Déficit comercial de Estados Unidos c…",
-      "image": "https://altonivel.com.mx/wp-content/uploads/2025/05/importaciones-estados-unidos.webp",
-      "published": "2026-08-04T19:04:03+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "5f7d0147cc3c83",
-      "title": "Economía turística de México crece 0.1% anual en el primer trimestre de 2026",
-      "url": "https://altonivel.com.mx/economia-turistica-de-mexico-crece-0-1-anual-en-el-primer-trimestre-de-2026/",
-      "source": "Alto Nivel",
-      "category": "coaching",
-      "summary": "La economía turística de México creció 0.1% anual en el primer trimestre de 2026, apoyada por el consumo interno, mientras el gasto de turistas extranjeros mostró una caída. The post Economía turística de México crece 0.…",
-      "image": "https://altonivel.com.mx/wp-content/uploads/2025/09/turismo.webp",
-      "published": "2026-08-04T16:45:28+00:00",
+      "id": "94b9e3e3429ede",
+      "title": "¿Un astronauta en el Planeta Rojo? La explicación científica a la imagen del “hombre caminante” en Marte",
+      "url": "https://www.fayerwayer.com/espacio/2026/08/04/un-astronauta-en-el-planeta-rojo-la-explicacion-cientifica-a-la-imagen-del-hombre-caminante-en-marte/",
+      "source": "FayerWayer",
+      "category": "tech-ia",
+      "summary": "Sectores ligados a la ufología, liderados por Scott C. Waring, sostienen que se trata de vestigios de una civilización marciana antigua",
+      "image": "https://www.fayerwayer.com/resizer/v2/ZKGBCOFHDZBGTLR7ICIMFQSUEU.jpg?auth=0dab6e6f87aa28ef129e17ebf122eba7ce4007ce5eed7afb16787350f83f5214&smart=true&width=1920&height=1080",
+      "published": "2026-08-04T18:34:47+00:00",
       "score": null,
       "tags": []
     },
@@ -1457,26 +1493,14 @@
       "tags": []
     },
     {
-      "id": "6f086912796dd0",
-      "title": "El hallazgo de Minanbé: Tecnología LiDAR y machetes revelan un nuevo enclave maya en México",
-      "url": "https://www.fayerwayer.com/ciencia/2026/08/03/el-hallazgo-de-minanbe-tecnologia-lidar-y-machetes-revelan-un-nuevo-enclave-maya-en-mexico/",
+      "id": "b6a66bda5269a6",
+      "title": "¿El fin de los juegos de 100 millones de dólares? Por qué la India podría cambiar para siempre la industria de los videojuegos AAA",
+      "url": "https://www.fayerwayer.com/entretenimiento/2026/08/03/el-fin-de-los-juegos-de-100-millones-de-dolares-por-que-la-india-podria-cambiar-para-siempre-la-industria-de-los-videojuegos-aaa/",
       "source": "FayerWayer",
       "category": "tech-ia",
-      "summary": "Arqueólogos confirman el hallazgo de Minanbé en Campeche, una ciudad maya inexplorada con pirámides y monumentos intactos.",
-      "image": "https://www.fayerwayer.com/resizer/v2/B47ICIKRZBHHLMCQ2O2K5VTHEU.png?auth=921f732d164d308959814c70d111c5942bfe3244b9ac80f3ab880c49d559fc65&smart=true&width=1640&height=924",
-      "published": "2026-08-03T20:17:29+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "85746643ffbbf6",
-      "title": "Tu teléfono como un Kindle: Los ajustes de pantalla que mejoran la lectura en iOS y Android",
-      "url": "https://www.fayerwayer.com/moviles/2026/08/03/tu-telefono-como-un-kindle-los-ajustes-de-pantalla-que-mejoran-la-lectura-en-ios-y-android/",
-      "source": "FayerWayer",
-      "category": "tech-ia",
-      "summary": "Aunque las pantallas de los smartphones actuales destacan por su brillo y nitidez, no siempre son la opción más cómoda para lecturas extensas.",
-      "image": "https://www.fayerwayer.com/resizer/v2/SXC25F663RGTBN6JBGX4AJBVZM.png?auth=75c1f4669ac6d6860f01a7c6685b52c7d54ad2ee87353c1165ddd0c6a8dac01c&smart=true&width=1640&height=924",
-      "published": "2026-08-03T18:52:13+00:00",
+      "summary": "Los costes del desarrollo AAA en Occidente son insostenibles. Descubre cómo la India y sus estudios emergentes buscan transformar la producción.",
+      "image": "https://www.fayerwayer.com/resizer/v2/7C35ZVA46NHBHB7JWPCWLFR64I.png?auth=a514710aa051a3cf7b71db14cd8f975dbda1abec262c4ab62d696d84dd70f6ce&smart=true&width=1640&height=924",
+      "published": "2026-08-03T18:09:47+00:00",
       "score": null,
       "tags": []
     },
@@ -1501,6 +1525,18 @@
       "summary": "Que la psicoterapia funciona para la depresión ya no está en discusión. Cognitivo conductual, interpersonal, activación conductual: todas muestran efectos claros frente a condiciones control en el corto plazo. La…",
       "image": null,
       "published": "2026-08-03T14:05:46+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5e3af2676c308a",
+      "title": "Eclipse lunar en Chile: Fecha y mejores lugares para ver el fenómeno que teñirá la Luna de rojo",
+      "url": "https://www.fayerwayer.com/espacio/2026/08/03/eclipse-lunar-en-chile-fecha-y-mejores-lugares-para-ver-el-fenomeno-que-tenira-la-luna-de-rojo/",
+      "source": "FayerWayer",
+      "category": "tech-ia",
+      "summary": "De acuerdo con los reportes de la NASA, el evento también alcanzará partes de África, Europa y América del Norte.",
+      "image": "https://www.fayerwayer.com/resizer/v2/X7PXU4BJ3JAZNFOBPBIJVPLIVQ.jpg?auth=9d399258585ddfb3f4418bc950726e4373865943459f692a468070cb3e230413&smart=true&width=1920&height=1080",
+      "published": "2026-08-03T14:02:31+00:00",
       "score": null,
       "tags": []
     },
@@ -1897,18 +1933,6 @@
       "summary": "La neurociencia sigue cerrando la distancia entre lo que el cuerpo puede hacer y lo que la mente todavía quiere decir. Un nuevo estudio publicado en Nature Neuroscience presenta una…",
       "image": null,
       "published": "2026-07-22T22:17:49+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "72e97e8c03d830",
-      "title": "La mente no está en cada célula",
-      "url": "https://www.psyciencia.com/la-mente-no-esta-en-cada-celula/",
-      "source": "Psyciencia",
-      "category": "psicologia",
-      "summary": "Desde hace una década se ha propagado una idea de que la mente está en cada célula de nuestro cuerpo. Y en el diario El País se tomaron el trabajo…",
-      "image": null,
-      "published": "2026-07-22T19:13:15+00:00",
       "score": null,
       "tags": []
     },
