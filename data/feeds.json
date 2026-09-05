@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated": "2026-09-05T10:15:19.028866+00:00",
-    "total": 188
+    "generated": "2026-09-05T14:51:59.841769+00:00",
+    "total": 198
   },
   "items": [
     {
@@ -12,7 +12,7 @@
       "category": "startup",
       "summary": "El costo de preguntarle al mercado cayó y el canal ya existe en la región. Los estudios publicados este año señalan la importancia de revisar métricas de la calidad de los estudios antes de comprar. The post Investigar a…",
       "image": null,
-      "published": "2026-09-05T10:15:17.669000+00:00",
+      "published": "2026-09-05T14:51:58.335124+00:00",
       "score": null,
       "tags": []
     },
@@ -24,7 +24,7 @@
       "category": "startup",
       "summary": "El impacto mental en los emprendedores es real y no se habla lo suficiente de él. The post Cómo adaptar tu mentalidad para hacer que tu negocio genere más dinero appeared first on Entrepreneur en Espanol .",
       "image": null,
-      "published": "2026-09-05T10:15:17.668659+00:00",
+      "published": "2026-09-05T14:51:58.334673+00:00",
       "score": null,
       "tags": []
     },
@@ -36,7 +36,7 @@
       "category": "startup",
       "summary": "El éxito no se trata de tener la idea perfecta. Se trata de trabajar sin descanso, mantener el enfoque y ofrecer algo que la gente realmente necesite. The post 5 verdades sobre los negocios que me habría gustado saber an…",
       "image": null,
-      "published": "2026-09-05T10:15:17.668273+00:00",
+      "published": "2026-09-05T14:51:58.334197+00:00",
       "score": null,
       "tags": []
     },
@@ -48,7 +48,7 @@
       "category": "startup",
       "summary": "Encontrar las redes adecuadas puede ayudar a los líderes empresariales a vencer el aislamiento y mantener una ventaja competitiva. The post ¿Necesitas apoyo? Estas comunidades de fundadores te lo dan (con todo y una vent…",
       "image": null,
-      "published": "2026-09-05T10:15:17.667898+00:00",
+      "published": "2026-09-05T14:51:58.333751+00:00",
       "score": null,
       "tags": []
     },
@@ -60,7 +60,7 @@
       "category": "startup",
       "summary": "El desafío será demostrar que una estructura más pequeña puede soportar una compañía que, paradójicamente, quiere ser mucho más grande. The post Uber despedirá a 3,300 empleados para invertir en robotaxis, reparto y tran…",
       "image": null,
-      "published": "2026-09-05T10:15:17.667479+00:00",
+      "published": "2026-09-05T14:51:58.333262+00:00",
       "score": null,
       "tags": []
     },
@@ -72,7 +72,7 @@
       "category": "startup",
       "summary": "En un entorno donde la innovación y la tecnología se replican rápidamente, la credibilidad del liderazgo se ha convertido en una ventaja competitiva difícil de imitar. The post Cuando el liderazgo se convierte en ventaja…",
       "image": null,
-      "published": "2026-09-05T10:15:17.665960+00:00",
+      "published": "2026-09-05T14:51:58.331835+00:00",
       "score": null,
       "tags": []
     },
@@ -84,7 +84,7 @@
       "category": "startup",
       "summary": "No persigas la perfección como si fuera una ventaja competitiva. En un entorno donde la velocidad ya no es opcional, avanzar con criterio vale más que intentar hacerlo perfecto. The post La perfección toma tiempo, y el t…",
       "image": null,
-      "published": "2026-09-05T10:15:17.665554+00:00",
+      "published": "2026-09-05T14:51:58.331332+00:00",
       "score": null,
       "tags": []
     },
@@ -96,7 +96,7 @@
       "category": "startup",
       "summary": "La inteligencia artificial está aumentando la productividad individual, pero no necesariamente la de las empresas. The post La IA no está haciendo más productivas a las empresas: está revelando qué procesos están rotos a…",
       "image": null,
-      "published": "2026-09-05T10:15:17.665196+00:00",
+      "published": "2026-09-05T14:51:58.330866+00:00",
       "score": null,
       "tags": []
     },
@@ -108,7 +108,7 @@
       "category": "startup",
       "summary": "Asumir un rol activo desde el día uno permite a los fondos reducir el fracaso temprano, ayuda a controlar la gobernanza del negocio y permite multiplicar la eficiencia del capital invertido. The post De financiar a crear…",
       "image": null,
-      "published": "2026-09-05T10:15:17.664832+00:00",
+      "published": "2026-09-05T14:51:58.330331+00:00",
       "score": null,
       "tags": []
     },
@@ -120,7 +120,175 @@
       "category": "startup",
       "summary": "Estas cuatro metas pueden ayudar a los empresarios a construir negocios que crezcan sin depender de que ellos estén todo el tiempo ahí. The post 4 metas para alcanzar la libertad como emprendedor appeared first on Entrep…",
       "image": null,
-      "published": "2026-09-05T10:15:17.664403+00:00",
+      "published": "2026-09-05T14:51:58.329828+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e715ae1db70d42",
+      "title": "Tu smartwatch te está mintiendo sobre las calorías que quemas. Y cuanta más grasa corporal tienes, más te miente",
+      "url": "https://www.xataka.com/medicina-y-salud/tu-smartwatch-te-esta-mintiendo-calorias-que-quemas-cuanta-grasa-corporal-tienes-te-miente",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Los smartwatches son un complemento ideal cuando empiezas a hacer deporte. Te motivas contando los pasos, controlas tus pulsaciones, compruebas las calorías que consumes … Pero ojo con esto último. Y es que, si bien norm…",
+      "image": "https://i.blogs.es/9fa1db/smartwatch-calorias/1024_2000.jpeg",
+      "published": "2026-09-05T14:30:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e1339d52e9be77",
+      "title": "Esta ostra tropical fue la primera especie invasora del Mediterráneo. 150 años después, está colonizando España",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/esta-ostra-tropical-fue-primera-especie-invasora-mediterraneo-150-anos-despues-esta-colonizando-espana",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Como pasa con esta planta del mar Rojo , la apertura del canal de Suez en 1869 trajo otro polizón al mar Mediterráneo: la ostra perlífera Pinctada radiata . Con más de 150 años en el Mare Nostrum, ostenta un cuestionable…",
+      "image": "https://i.blogs.es/e39795/1-s2.0-s0141113626004538-ga1_lrg/1024_2000.jpeg",
+      "published": "2026-09-05T14:00:28+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "379e71302b5a91",
+      "title": "Esta película de Star Wars pasó sin pena ni gloria en su estreno, pero ahora deberías darle una oportunidad en Disney+",
+      "url": "https://hipertextual.com/cine-television/esta-pelicula-de-star-wars-paso-sin-pena-ni-gloria-en-su-estreno-pero-ahora-deberias-darle-una-oportunidad-en-disney/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Hace un par de décadas, que una película de Star Wars pasara sin pena ni gloria en su estreno parecía impensable. Pero fue precisamente lo que ocurrió con su más reciente estreno. Eso, a pesar de que Star Wars: The Manda…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/07/Star-Wars-Visions-El-Noveno-Jedi.jpg?fit=1024%2C614&quality=70&strip=all&ssl=1",
+      "published": "2026-09-05T14:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "fe799523bd26a6",
+      "title": "Berlín ha empezado a instalar cámaras de vigilancia con IA. Un artista alemán ha diseñado una camisa para esquivarla",
+      "url": "https://www.xataka.com/robotica-e-ia/berlin-ha-empezado-a-instalar-camaras-vigilancia-ia-artista-aleman-ha-disenado-camisa-para-esquivarla",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Cada vez hay más cámaras distribuidas a lo largo y ancho del espacio público, y algunas no se limitan a grabar: las hay que, además de ver, también reconocen. Y eso es una amenaza para la privacidad de la ciudadanía. Así…",
+      "image": "https://i.blogs.es/dd9acd/camiseta/1024_2000.jpeg",
+      "published": "2026-09-05T13:30:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e8b47289c1d76e",
+      "title": "No todos los teclados mecánicos hacen mucho ruido: este tiene un sonido muy agradable y es perfecto para gaming y productividad",
+      "url": "https://www.xataka.com/seleccion/no-todos-teclados-mecanicos-hacen-mucho-ruido-este-tiene-sonido-muy-agradable-perfecto-para-gaming-productividad",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Hace un par de años decidí dar el salto de los teclados de membrana a los mecánicos, y no fue un camino de rosas precisamente. Lo quería para trabajar y buscaba algo silencioso, o al menos que el ruido de cada tecla fues…",
+      "image": "https://i.blogs.es/593132/logitech-g-pro-x-tkl-lightspeed/1024_2000.jpeg",
+      "published": "2026-09-05T13:16:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e012aa53ea3a88",
+      "title": "Laura López Delgado, experta en la carrera espacial latinoamericana: “Tras las advertencias estadounidenses, algunos países han retirado acuerdos con China”",
+      "url": "https://www.xataka.com/espacio/laura-lopez-delgado-experta-carrera-espacial-latinoamericana-advertencias-estadounidenses-algunos-paises-han-retirado-acuerdos-china",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Si pensamos en la carrera espacial , nos vienen a la mente países como Estados Unidos , Rusia (antes la Unión Soviética) o China. También continentes completos, como Europa, cuyos esfuerzos en bloque llevan décadas dando…",
+      "image": "https://i.blogs.es/4494fb/carrera-espacial-latinoamericana/1024_2000.jpeg",
+      "published": "2026-09-05T13:00:28+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "545714c5601fe2",
+      "title": "¿No viste ‘Return to Silent Hill’? Te decimos en qué plataforma de streaming se acaba de estrenar",
+      "url": "https://hipertextual.com/cine-television/no-viste-return-to-silent-hill-te-decimos-en-que-plataforma-de-streaming-se-acaba-de-estrenar/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Return to Silent Hill es la más reciente adición a la longeva franquicia basada en el popular videojuego. Y a pesar de sus fallas, que las tiene, la cinta estrenada este año es mucho más que solo el intento de revitaliza…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/09/Terror-en-Silent-Hill-Regreso-al-infierno.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
+      "published": "2026-09-05T13:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "202b8f7e6cd14a",
+      "title": "La Generación Z ha convertido los memes virales en su mayor pesadilla. Y eso tiene un gran perjudicado: el baile",
+      "url": "https://www.xataka.com/magnet/generacion-z-ha-convertido-memes-virales-su-mayor-pesadilla-eso-tiene-gran-perjudicado-baile",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Su nombre quizás no te diga gran cosa (ahora), pero si en 2024 solías echar un ojo a las redes o leer la prensa es casi imposible que no hayas visto el vídeo más famoso de Rachael Louise Gunn , alias 'Raygun'. Su histori…",
+      "image": "https://i.blogs.es/150e69/ardian-lumi-6woj_wozqma-unsplash/1024_2000.jpeg",
+      "published": "2026-09-05T12:30:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "9daceccfb9f9dd",
+      "title": "Los árboles y la vegetación tienen un \"interruptor\" para hacer frente al calor. No siempre fue así",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/arboles-vegetacion-tienen-interruptor-para-hacer-frente-al-calor-no-siempre-fue-asi",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Está demostrado que los árboles ayudan a reducir la temperatura en las ciudades , pero ¿quién les ayuda a bajar su propia temperatura a ellos, que no tienen patitas? Porque a diferencia de los animales y los humanos, los…",
+      "image": "https://i.blogs.es/6bf1fe/sq-lim-zq8vbuh_c-e-unsplash/1024_2000.jpeg",
+      "published": "2026-09-05T12:00:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "23ac9459f0d8c2",
+      "title": "Esta rarísima película de terror desató polémica, críticas y hasta burlas, y ya está disponible en Movistar+",
+      "url": "https://hipertextual.com/cine-television/esta-rarisima-pelicula-de-terror-desato-polemica-criticas-y-hasta-burlas-y-ya-esta-disponible-en-movistar/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Rarísimas películas de terror abundan. Y el motivo es obvio. El cine de terror es pura experimentación. Y con frecuencia, ese es el motivo de su éxito. Y también, de su capacidad para sorprender. Algo que provoca que de …",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/09/Hellbo-El-hombre-retorcido-3-scaled.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
+      "published": "2026-09-05T12:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "c7aa1c9bc1c9fe",
+      "title": "Hay una crisis de la comprensión lectora entre los más jóvenes: eso está disparando su soledad y su ansiedad",
+      "url": "https://www.xataka.com/magnet/hay-crisis-comprension-lectora-jovenes-eso-esta-disparando-su-soledad-su-ansiedad",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "A finales de los 90 y principios de los 2000, se repetía en los medios la idea de que la juventud de esos años era “ la más preparada de la historia ”. Los porcentajes de acceso a la universidad estaban en sus ratios más…",
+      "image": "https://i.blogs.es/22c064/photo-1706114708146-d3e24abaa456/1024_2000.jpeg",
+      "published": "2026-09-05T11:30:27+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7ac9479116044e",
+      "title": "\"Cuanto más caro, más quieren la combustión\": en el camino al coche eléctrico, Audi ha descubierto una incómoda realidad",
+      "url": "https://www.xataka.com/movilidad/cuanto-caro-quieren-combustion-camino-al-coche-electrico-audi-ha-descubierto-incomoda-realidad",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Audi rebusca en su pasado para dar un nuevo impulso a su imagen de marca. Lo hace apuntando hacia arriba, hacia segmentos superiores para atrapar a una BMW y Mercedes que parecen haberles dejado atrás. Lo hacen aprovecha…",
+      "image": "https://i.blogs.es/3b2cb3/audi-ceo-cuanto-mas-caro-mas-combustion/1024_2000.jpeg",
+      "published": "2026-09-05T11:00:28+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "f6641016ea7a43",
+      "title": "Xiaomi ha lanzado un tendedero para la ropa que soluciona el mayor problema de TODOS los hogares en España",
+      "url": "https://hipertextual.com/tecnologia/xiaomi-ha-lanzado-un-tendedero-para-la-ropa-que-soluciona-el-mayor-problema-de-todos-los-hogares-en-espana/",
+      "source": "Hipertextual",
+      "category": "tech-ia",
+      "summary": "Xiaomi lo ha vuelto a hacer. No ha lanzado un móvil o unos auriculares impresionantes, sino un tendedero. Sí, para la ropa. Y cuando lo veas, probablemente vas a entender por qué en China está triunfando y vendiendo mile…",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/09/Xiaomi.jpg?fit=1024%2C672&quality=70&strip=all&ssl=1",
+      "published": "2026-09-05T11:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "70c6c21e3b35fc",
+      "title": "España lleva 13 años pagando por un almacén de gas que jamás llegó a almacenar nada, generó más de 1.000 terremotos y sufriremos hasta 2044",
+      "url": "https://www.xataka.com/magnet/espana-lleva-13-anos-pagando-almacen-gas-que-jamas-llego-a-almacenar-nada-genero-1-000-terremotos-sufriremos-2044",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "A 1.750 metros bajo el lecho marino, frente a Vinaròs, hay un almacén de gas que nunca ha vendido ni un solo metro cúbico. Cuatro gobiernos distintos, dos colores políticos y 4.700 millones de euros en total, según la pr…",
+      "image": "https://i.blogs.es/ecf9ee/portada/1024_2000.jpeg",
+      "published": "2026-09-05T10:30:27+00:00",
       "score": null,
       "tags": []
     },
@@ -221,30 +389,6 @@
       "tags": []
     },
     {
-      "id": "33f0d4284bec22",
-      "title": "Mejores tablets para estudiar: cuál comprar y siete modelos recomendados",
-      "url": "https://www.xataka.com/seleccion/mejores-tablets-estudiar-cual-comprar",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Con la vuelta a clase de los estudiantes, muchos pueden llegar a plantearse comprar un portátil para sus estudios . Esta siempre ha sido la opción más tradicional a la hora de buscar un dispositivo para estudiar. Sin emb…",
-      "image": "https://i.blogs.es/4fa573/una-tableta-con-una-imagen-de-una-barra-en-ella/1024_2000.jpeg",
-      "published": "2026-09-05T08:16:27+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "d8a599e040d188",
-      "title": "El mapa de los GLOF que hay en el mundo deja algo claro: hay 15 millones de personas bajo la amenaza de los lagos glaciares",
-      "url": "https://www.xataka.com/ecologia-y-naturaleza/mapa-glof-que-hay-mundo-deja-algo-claro-hay-15-millones-personas-amenaza-lagos-glaciares",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "La semana pasada Nepal recordó por las malas el poder de la naturaleza de forma trágica: con un desprendimiento de hielo y roca en el Himalaya que arrasó todo lo que tenía por delante. Sin ir más lejos, borró del mapa el…",
-      "image": "https://i.blogs.es/b4590b/mapa-glof/1024_2000.jpeg",
-      "published": "2026-09-05T08:00:28+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "4abfb2f0884a87",
       "title": "Usó un robot aspirador para grabar a su esposa infiel y terminó en la cárcel",
       "url": "https://hipertextual.com/tecnologia/robot-aspirador-graba-esposa-infidelidad-taiwan/",
@@ -253,18 +397,6 @@
       "summary": "Un hombre se valió de un robot aspirador para confirmar que su esposa le era infiel. El afectado utilizó la cámara integrada para grabar el momento exacto en que su pareja tenía intimidad con otra persona. Este vídeo ser…",
       "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/09/robot-aspirador-pareja.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
       "published": "2026-09-05T08:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "aeee3b53ca7a53",
-      "title": "Hace 60 años descubrimos un Dorado oculto en la selva de Perú. Ahora sabemos que en realidad era mucho más",
-      "url": "https://www.xataka.com/magnet/hace-60-anos-descubrimos-dorado-oculto-selva-peru-ahora-sabemos-que-realidad-era-mucho",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Entre los siglos VII y XVI los Andes nororientales de lo que hoy es Perú vieron prosperar una rica civilización que plantó cara a los incas: los chachapoyas , la \"gente del bosque nuboso\". Allí, a entre 2.000 y 3.000 met…",
-      "image": "https://i.blogs.es/f803de/portadabuena/1024_2000.jpeg",
-      "published": "2026-09-05T07:30:27+00:00",
       "score": null,
       "tags": []
     },
@@ -293,14 +425,26 @@
       "tags": []
     },
     {
-      "id": "066a0fee007931",
-      "title": "Hoy No Circula sabatino: qué autos pueden circular y cuáles descansan el 5 de septiembre",
-      "url": "https://www.xataka.com/mexico/hoy-no-circula-sabatino-que-autos-pueden-circular-cuales-descansan-5-septiembre",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Este fin de semana entra en funcionamiento una vez más la normativa del Hoy No Circula sabatino, la estrategia mediante la cual la Secretaría de Medio Ambiente de la Ciudad de México ( SEDEMA ) regula la movilidad vehicu…",
-      "image": "https://i.blogs.es/1e94d0/yulya-kleshcheva-tezgtqx5ooi-unsplash/1024_2000.jpeg",
-      "published": "2026-09-05T03:01:36+00:00",
+      "id": "240041ae7f77e2",
+      "title": "1.9 millones de líneas con terminación 1 quedaron suspendidas tras segunda fecha del registro telefónico",
+      "url": "https://expansion.mx/empresas/2026/09/04/1-9-millones-de-lineas-suspendidas-registro-telefonico",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "De las 11.4 millones de líneas con terminación 1 que existen en el país, 9.5 millones completaron su vinculación y 1.9 millones quedaron suspendidas.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/e63193c/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F5f%2F3a%2F45468a7d45b897a12b07c13a200c%2Fvinculacion-de-lineas-5.jpg",
+      "published": "2026-09-05T02:12:59+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "0d25549f851031",
+      "title": "Las gasolinas y diésel tendrán menos impuestos, pero precios no bajarán",
+      "url": "https://expansion.mx/economia/2026/09/04/gasolinas-impuesto-ieps-precio",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "Hacienda redujo las cuotas que cobra a los combustibles por el Impuesto Especial sobre Producción y Servicios (IEPS), para la semana del 5 al 11 de septiembre.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/a3f1b2a/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F2b%2F7e%2Feaa623af4290a711677665dad9e8%2Fgasolina-ieps-precios.jpeg",
+      "published": "2026-09-05T00:35:38+00:00",
       "score": null,
       "tags": []
     },
@@ -349,6 +493,18 @@
       "summary": "Sam’s Club informó a sus socios sobre el cierre temporal de su sucursal Patio Santa Fe, una de las tiendas de la cadena en la Ciudad de México",
       "image": "https://files.merca20.com/uploads/2026/09/CANVA-DE-ALT-SAMS-PATIO-SANTA-FE.jpg",
       "published": "2026-09-04T23:30:37+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "bdc1342b4e74c2",
+      "title": "Estadio Fray Nano, el parque de béisbol que pocos recuerdan en la CDMX",
+      "url": "https://expansion.mx/tendencias/2026/09/04/estadio-fray-nano-parque-beisbol-pocos-recuerdan-cdmx",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "El Fray Nano fue inaugurado en la década de los 50, y desde entonces se ha mantenido como uno de los inmuebles deportivos más importantes de la capital.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/fafeb89/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F9c%2F6c%2Fac85b6394aa88747e2574e7cc061%2Festadio-fray-nano-parque-beisbol-parque-cdmx-2.jpeg",
+      "published": "2026-09-04T23:28:49+00:00",
       "score": null,
       "tags": []
     },
@@ -449,6 +605,18 @@
       "tags": []
     },
     {
+      "id": "c2e9758d4b4d87",
+      "title": "Del Vocho al Jetta: la evolución de Volkswagen en México y su planta en Puebla",
+      "url": "https://expansion.mx/empresas/2026/09/04/vocho-jetta-evolucion-volkswagen-mexico-planta-puebla",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "Volkswagen llegó a México desde hace más de 70 años, y desde entonces ha generado un fuerte vínculo con los consumidores mexicanos.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/e5cb4e6/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fdd%2Fed%2F8fecf9d146449cd422fa4509de36%2Fvocho-jetta-historia-volkswagen-mexico-1.jpeg",
+      "published": "2026-09-04T21:16:23+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "d0be9a55da6025",
       "title": "Muere icónica voz de ‘Los Simpson’, ‘Scooby-Doo’ y ‘Attack on Titan’ ¿Cuál fue la causa de muerte?",
       "url": "https://www.fayerwayer.com/entretenimiento/2026/09/04/muere-iconica-voz-de-los-simpson-scooby-doo-y-attack-on-titan-cual-fue-la-causa-de-muerte/",
@@ -461,6 +629,18 @@
       "tags": []
     },
     {
+      "id": "38f285633c9a30",
+      "title": "¿Qué le pasa a tu celular al estar enchufado? Estos cargadores te dan todos los detalles",
+      "url": "https://expansion.mx/tecnologia/2026/09/04/que-le-pasa-a-tu-celular-al-estar-enchufado",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "Anker presentó en IFA 2026 las soluciones que buscan cambiar la forma en que cargamos nuestros dispositivos, con reconocimiento inteligente, gestión de temperatura y datos en tiempo real.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/592b1de/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F55%2F6f%2F80bb788f4239af2e89bb707ba012%2Fcagadores-anker-salud-bateria.jpg",
+      "published": "2026-09-04T21:00:34+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "b7052bb3f46341",
       "title": "Razer Clio X, el artículo que convierte tu silla gamer en un sistema de audio",
       "url": "https://www.merca20.com/razer-clio-x-el-articulo-que-convierte-tu-silla-gamer-en-un-sistema-de-audio/?utm_source=rss&utm_medium=rss&utm_campaign=razer-clio-x-el-articulo-que-convierte-tu-silla-gamer-en-un-sistema-de-audio",
@@ -469,6 +649,18 @@
       "summary": "Razer presentó un soporte para silla gamer con altavoces inalámbricos, THX Spatial Audio y hasta 40 horas de autonomía.",
       "image": "https://files.merca20.com/uploads/2026/09/Razer-THX.jpg",
       "published": "2026-09-04T20:55:35+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "4c7971f1166bcd",
+      "title": "Con apoyos del gobierno, la pensión mensual promedio en México es de 13 mil 745 pesos",
+      "url": "https://expansion.mx/economia/2026/09/04/con-apoyos-del-gobierno-la-pension-mensual-promedio-en-mexico-es-de-13-mil-745-pesos",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "Los apoyos públicos elevan 142.6% el ingreso de los pensionados beneficiados, de acuerdo con cifras del Segundo Informe de Gobierno.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/d450a02/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F74%2Fb3%2Fcbe0e461417c8d4110e1a81d6ba5%2Fpension-bienestar-30-a-64-anos.jpeg",
+      "published": "2026-09-04T20:48:29+00:00",
       "score": null,
       "tags": []
     },
@@ -545,18 +737,6 @@
       "tags": []
     },
     {
-      "id": "477cedb2613242",
-      "title": "La cinta magnética parecía una reliquia. En la era de la IA, la capacidad LTO ha vuelto a dispararse",
-      "url": "https://www.xataka.com/robotica-e-ia/cinta-magnetica-parecia-reliquia-era-ia-capacidad-lto-ha-vuelto-a-dispararse",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Si pensamos en almacenamiento sobre cinta, es fácil viajar varias décadas atrás, a salas llenas de grandes ordenadores, armarios técnicos y bobinas que giraban mientras aquellos sistemas procesaban cantidades de informac…",
-      "image": "https://i.blogs.es/02f60d/almacenamiento-en-cinta/1024_2000.jpeg",
-      "published": "2026-09-04T20:01:36+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "609a4dc24b6e87",
       "title": "Sheinbaum anuncia regreso de libros de matemáticas, historia y lectoescritura ante rezago educativo",
       "url": "https://www.altonivel.com.mx/sheinbaum-anuncia-regreso-libros-de-texto-matematicas-historia-lectoescritura-rezago-educativo-sep-mexico/",
@@ -625,18 +805,6 @@
       "summary": "Las tandas ofrecen disciplina para ahorrar, pero tienen costos: cero rendimiento, poca flexibilidad y riesgo de incumplimiento. The post ¿Por qué las tandas son una mala idea? Esto pasa con 500 pesos si ahorras durante 1…",
       "image": "https://www.altonivel.com.mx/wp-content/uploads/2025/01/que-es-una-tanda-png.webp",
       "published": "2026-09-04T19:36:40+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "3311a69502210b",
-      "title": "Hemos visto a los robots de Unitree dando saltos y volteretas y ya sabemos el motivo: su fundador se ha hecho millonario con ellos",
-      "url": "https://www.xataka.com/robotica-e-ia/hemos-visto-a-robots-unitree-dando-saltos-volteretas-sabemos-motivo-su-fundador-se-ha-hecho-millonario-ellos",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Llevamos meses viendo a los robots de Unitree bailar, dar patadas de kung-fu y saltar más alto que cualquier atleta . Cada vídeo se hacía viral y muchos nos preguntábamos para qué servía tanto espectáculo si estas máquin…",
-      "image": "https://i.blogs.es/fd3759/wang_xingxing/1024_2000.jpeg",
-      "published": "2026-09-04T19:31:36+00:00",
       "score": null,
       "tags": []
     },
@@ -725,18 +893,6 @@
       "tags": []
     },
     {
-      "id": "805bc24480d41a",
-      "title": "Algo ha quedado claro en IFA 2026: todos quieren un competidor Windows al MacBook Neo y estos son algunos de ellos",
-      "url": "https://www.xataka.com/ordenadores/algo-ha-quedado-claro-ifa-2026-todos-quieren-competidor-windows-al-macbook-neo-estos-algunos-ellos",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Hace exactamente seis meses, Apple presentó un portátil que, sobre el papel, hizo desconfiar a más de uno. El MacBook Neo llegaba como el portátil más asequible de la compañía y lo hacía con un A18 Pro , el chip que Appl…",
-      "image": "https://i.blogs.es/b0bf70/lenovo-ideapad-vibe/1024_2000.jpeg",
-      "published": "2026-09-04T19:01:36+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "d0deff3ca9ce86",
       "title": "Xiaomi quiere que tu casa y tu auto sepan qué hace tu celular",
       "url": "https://expansion.mx/tecnologia/2026/09/04/xiaomi-quiere-conocer-tu-casa-auto-y-celular",
@@ -761,18 +917,6 @@
       "tags": []
     },
     {
-      "id": "9575e39d749eab",
-      "title": "El Gobierno quiere de vuelta una indemnización millonaria que los mineros asturianos no quieren asumir",
-      "url": "https://www.xataka.com/energia/gobierno-quiere-vuelta-indemnizacion-millonaria-que-mineros-asturianos-no-quieren-asumir",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "La minería del carbón en España parecía un capítulo cerrado, sellado a golpe de normativas europeas y fondos para la transición ecológica. Sin embargo, el intento de reactivar la extracción en un yacimiento de Asturias h…",
-      "image": "https://i.blogs.es/18a30d/mina-asturias/1024_2000.jpeg",
-      "published": "2026-09-04T18:31:36+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "84b8d50d57f1b5",
       "title": "GPT-6 Astra ya es oficial: más autonomía, razonamiento y seguridad",
       "url": "https://www.muycomputer.com/2026/09/04/gpt-6-astra-ya-es-oficial-mas-autonomia-razonamiento-y-seguridad/",
@@ -781,18 +925,6 @@
       "summary": "GPT-6 Astra ya es oficial, y OpenAI lo presenta como el modelo más capaz que ha desplegado hasta ahora. La nueva generación pone el foco en algo que va bastante más allá de responder preguntas o razonar mejor: usar orden…",
       "image": null,
       "published": "2026-09-04T18:12:43+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "6697babc5af329",
-      "title": "La fusión de agujeros negros que rompió todas las reglas tenía truco: una lente gravitacional pudo haber inflado su tamaño",
-      "url": "https://www.xataka.com/espacio/fusion-agujeros-negros-que-rompio-todas-reglas-tenia-truco-lente-gravitacional-pudo-haber-inflado-su-tamano",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "En 2023 se detectó la mayor fusión de agujeros negros registrada hasta el momento. Fue, sin duda, colosal. Dos agujeros negros cuyas masas rozan el límite de lo que puede formarse a partir de una supernova se fusionaron …",
-      "image": "https://i.blogs.es/b91b4b/fusion-de-agujeros-negros/1024_2000.jpeg",
-      "published": "2026-09-04T18:01:37+00:00",
       "score": null,
       "tags": []
     },
@@ -817,18 +949,6 @@
       "summary": "La serie de Harry Potter de HBO es una de las producciones más esperadas del año y sus responsables no pierden el tiempo pensando en la temporada 2. Si bien la nueva adaptación live-action todavía no ha estrenado su temp…",
       "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/03/Harry-Potter-serie-primera-imagen.jpg?fit=1024%2C614&quality=70&strip=all&ssl=1",
       "published": "2026-09-04T17:53:28+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "df894d5f203212",
-      "title": "La espera termina, pero no para España: Xiaomi ya vende uno de sus productos estrella de 2026",
-      "url": "https://www.xataka.com/seleccion/espera-termina-no-para-espana-xiaomi-vende-uno-sus-productos-estrella-2026",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Xiaomi continúa ampliando los límites de su ecosistema conectado. La firma asiática ha iniciado la comercialización de su Xiaomi Smart Storage , una de sus soluciones de almacenamiento en red más ambiciosas hasta la fech…",
-      "image": "https://i.blogs.es/66ce6f/xiaomi-smart-storage/1024_2000.jpeg",
-      "published": "2026-09-04T17:45:36+00:00",
       "score": null,
       "tags": []
     },
@@ -929,30 +1049,6 @@
       "tags": []
     },
     {
-      "id": "3ec51a41f4af1b",
-      "title": "Volkswagen reducirá a la mitad su oferta de vehículos y recortará 75% las configuraciones hacia 2035",
-      "url": "https://expansion.mx/empresas/2026/09/04/volkswagen-recortara-a-la-mitad-su-oferta-de-vehiculos",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "El grupo alemán, que agrupa las marcas Volkswagen, Seat, Cupra, Audi y Porsche entre otras, eliminará gradualmente modelos y versiones de menor desempeño comercial para simplificar producción y mejorar su rentabilidad.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/20a45af/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F01%2F3f%2F92cadfda4781a754f9753258508d%2Fvolkswagen-reduce-oferta-modelos-2035.jpeg",
-      "published": "2026-09-04T14:36:19+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "4901003b469d69",
-      "title": "Braskem Idesa va por reestructura de deuda y asegura que mantendrá operaciones en México",
-      "url": "https://expansion.mx/empresas/2026/09/04/braskem-idesa-reestructura-deuda-mantendra-operacion-mexico",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "La intención es reducir la deuda en 920 millones de dólares para poder fortalecer la estructura financiera de la compañía.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/5e850a6/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F91%2Fdf%2Ff2306d1a4b47b5d29250386589ad%2Fdsc08478-medium.jpg",
-      "published": "2026-09-04T14:34:30+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "733ec6f82d6763",
       "title": "El brutal entrenamiento de Adria Arjona para ‘Superman: Man of Tomorrow’ que alimenta los rumores sobre Wonder Woman",
       "url": "https://hipertextual.com/cine-television/el-brutal-entrenamiento-de-adria-arjona-para-superman-man-of-tomorrow-que-alimenta-los-rumores-sobre-wonder-woman/",
@@ -1025,42 +1121,6 @@
       "tags": []
     },
     {
-      "id": "31ba17a02b024d",
-      "title": "Nicaragua: el fin de las elecciones libres",
-      "url": "https://expansion.mx/opinion/2026/09/04/nicaragua-el-fin-de-las-elecciones-libres",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "Ortega y Murillo avanzan hacia un sistema de poder familiar mientras la OEA enfrenta el reto de responder ante el cierre democrático de Nicaragua.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/cb51597/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F0f%2Fdc%2Fae6c71cd4e0e9a6bc33353ad6b5a%2Frosario-murillo-daniel-ortega.jpg",
-      "published": "2026-09-04T12:09:29+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "1f11cae6f44961",
-      "title": "Si todo urge, nada importa",
-      "url": "https://expansion.mx/opinion/2026/09/04/si-todo-urge-nada-importa",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "Cuando la agenda de los directivos se llena de pendientes inmediatos, las decisiones que pueden transformar el negocio terminan quedando fuera de la conversación.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/2b8b3cc/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fff%2F49%2F1dccc6614d1f8ae3a44e28c15c26%2Fcomo-prevenir-sindrome-burnout.jpg",
-      "published": "2026-09-04T12:08:34+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "a54d6fe6f4abcf",
-      "title": "La ventana de exposición ya se abrió",
-      "url": "https://expansion.mx/opinion/2026/09/04/la-ventana-de-exposicion-ya-se-abrio",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "¿Realmente necesitamos empezar a prepararnos para la criptografía post-cuántica o todavía podemos esperar? Esa conversación ya cambió.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/42f7b13/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F1d%2Fc8%2Fb8650d4248a0b9fb1e60b52c2965%2Fcomputo-cuantico.jpg",
-      "published": "2026-09-04T12:01:34+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "3ee210c977a877",
       "title": "Metro 2039: posibles requisitos en PC, utilizará trazado de rayos nativo",
       "url": "https://www.muycomputer.com/2026/09/04/metro-2039-posibles-requisitos-en-pc-utilizara-trazado-de-rayos-nativo/",
@@ -1069,18 +1129,6 @@
       "summary": "4A Games todavía no ha confirmado los requisitos mínimos y recomendados de Metro 2039, pero sabemos que este juego estará construido sobre el 4A Engine en una versión actualizada y mejorada, que utilizará trazado de rayo…",
       "image": null,
       "published": "2026-09-04T11:56:19+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "d946b135caffa5",
-      "title": "Los abogados ya buscan clientes en TikTok: las recomendaciones no son suficientes",
-      "url": "https://expansion.mx/tecnologia/2026/09/04/los-abogados-ya-buscan-clientes-en-tiktok",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "El sector legal comienza a trasladarse a espacios digitales. A pesar de ser un negocio que depende de recomendaciones personales, las plataformas permiten encontrar clientes, aunque las dudas persisten.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/a4357e2/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F94%2Fd1%2F64a597364ced8891f9c75fe35218%2Fabogados-clientes-redes-sociales-legalook.jpg",
-      "published": "2026-09-04T11:55:54+00:00",
       "score": null,
       "tags": []
     },
@@ -1213,18 +1261,6 @@
       "summary": "Si estás preparando tu Mac para la vuelta al cole recuerda que deberás contar con una suite de ofimática que tenga todo lo que necesitarás para afrontar cualquier desafío, y para ser más productivo. Office 365 es una de …",
       "image": null,
       "published": "2026-09-04T08:04:53+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "b11888daf9be9d",
-      "title": "Xiaomi lanza su nueva Smart Band 11 y vuelve a dejar en ridículo a todos los smartwatch",
-      "url": "https://hipertextual.com/tecnologia/xiaomi-lanza-su-nueva-smart-band-11-y-vuelve-a-dejar-en-ridiculo-a-todos-los-smartwatch/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "La nueva pulsera de Xiaomi se estaba haciendo de rogar. Ha pasado más de un año desde que el anterior modelo llegó a las manos de los usuarios, y muchos ya se estaban preguntando cuándo llegaría la nueva generación. Hoy …",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/09/Xiaomi-smart-band-11.jpg?fit=1024%2C680&quality=70&strip=all&ssl=1",
-      "published": "2026-09-04T07:37:22+00:00",
       "score": null,
       "tags": []
     },
@@ -1457,18 +1493,6 @@
       "tags": []
     },
     {
-      "id": "f879f50654e564",
-      "title": "OpenAI lanza GPT-6 Astra, su IA más potente, pero no te emociones todavía",
-      "url": "https://hipertextual.com/inteligencia-artificial/openai-lanza-gpt-6-astra-su-ia-mas-potente-pero-no-te-emociones-todavia/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "GPT-6 Astra, la IA más potente de OpenAI hasta la fecha, acaba de hacer su estreno oficial. Si bien la compañía anunció esta semana que iba a pisar el freno con el desarrollo de este modelo durante un par de semanas para…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/09/GPT-6-AStra-scaled.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
-      "published": "2026-09-03T20:18:48+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "6b85755415210b",
       "title": "Adiós al clásico de Apple: Filtran que el iPhone 18 Pro no se fabricará en color plata por primera vez en la historia",
       "url": "https://www.fayerwayer.com/moviles/2026/09/03/adios-al-clasico-de-apple-filtran-que-el-iphone-18-pro-no-se-fabricara-en-color-plata-por-primera-vez-en-la-historia/",
@@ -1481,18 +1505,6 @@
       "tags": []
     },
     {
-      "id": "0cd305ebc5da7d",
-      "title": "Lenovo estrena portátiles de colores con IA para competir con el MacBook Neo",
-      "url": "https://hipertextual.com/tecnologia/lenovo-ifa-2026-ideapad-vibe-ideacentre-aio/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "Lenovo ha llegado a la IFA 2026 con una de sus presentaciones más amplias de los últimos años. Sumado a los nuevos portátiles Yoga 9n con el chip RTX Spark, el fabricante anunció más ordenadores de consumo y una actualiz…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/09/lenovo-ideapad-vibe.jpg?fit=1024%2C569&quality=70&strip=all&ssl=1",
-      "published": "2026-09-03T19:22:18+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "7fe6d79a58187c",
       "title": "El Niño 2026 amenaza al Pacífico mexicano: ¿habrá más huracanes y lluvias intensas?",
       "url": "https://www.fayerwayer.com/ciencia/2026/09/03/el-nino-2026-amenaza-al-pacifico-mexicano-habra-mas-huracanes-y-lluvias-intensas/",
@@ -1501,18 +1513,6 @@
       "summary": "El Niño 2026 afecta al Pacífico mexicano y podría influir en huracanes y lluvias. Conoce qué estados están en riesgo y qué se espera para México",
       "image": "https://www.fayerwayer.com/resizer/v2/TDZ3HFN3JBC6VMSJMJ74KFTWJE.jpg?auth=caa7e6e491fb4a2a750827703ed68663984d8dc3ce61864a5a9064956c341907&smart=true&width=4500&height=3000",
       "published": "2026-09-03T19:19:34+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "efe03933f9b1e6",
-      "title": "Anker estrena nuevas baterías, auriculares y hasta un hub de IA local, y unifica todas sus marcas para iniciar una nueva era",
-      "url": "https://hipertextual.com/tecnologia/anker-anuncios-lanzamientos-ifa-2026/",
-      "source": "Hipertextual",
-      "category": "tech-ia",
-      "summary": "La IFA 2026 ha sido el escenario elegido por Anker para expandir su catálogo de productos, pero también para anunciar cambios a nivel de empresa. La compañía se ha dado cita en Berlín para introducir nuevas baterías, aur…",
-      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/09/Anker-MagGo-Power-Bank-Pro-2_7-1-scaled.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
-      "published": "2026-09-03T18:30:00+00:00",
       "score": null,
       "tags": []
     },
@@ -2249,6 +2249,102 @@
       "tags": []
     },
     {
+      "id": "375543f10dadb8",
+      "title": "La importancia de los vínculos afectivos en el aula",
+      "url": "http://blog.tiching.com/la-importancia-los-vinculos-afectivos-aula/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "Las evidencias neuro-científicas de los últimos años confirman que sin vínculo afectivo no es posible el aprendizaje. Los niños y […]",
+      "image": null,
+      "published": "2021-06-03T14:00:18+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "30827e2938db33",
+      "title": "Click to English: un recurso visual para el inglés",
+      "url": "http://blog.tiching.com/click-to-english-recurso-visual-ingles/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "¿Qué es el CLICK? Es una presentación de Google Slides por la que se puede navegar con un simple clic. […]",
+      "image": null,
+      "published": "2021-05-20T14:00:56+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "1f4ddc6170c5ca",
+      "title": "La autonomía y la autorregulación para un aprendizaje activo en entornos online sobrevenidos",
+      "url": "http://blog.tiching.com/la-autonomia-y-la-autorregulacion-para-un-aprendizaje-activo-en-entornos-online-sobrevenidos/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "Cuando hablamos de aprendizaje activo hablamos, como dice Héctor Ruíz Martín, de un aprendizaje cognitivamente activo, más allá de aprender haciendo, […]",
+      "image": null,
+      "published": "2021-05-06T14:00:29+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "39f21b0066f705",
+      "title": "¿Conoces las ventajas de la Gamificación y las herramientas para iniciarte en ella?",
+      "url": "http://blog.tiching.com/conoces-las-ventajas-la-gamificacion-las-herramientas-iniciarte-2/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "En un mundo cada vez más globalizado y en el que se abren paso las nuevas tecnologías, están surgiendo nuevas […]",
+      "image": null,
+      "published": "2021-04-29T14:00:31+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7c25c9b27d8e08",
+      "title": "El papel del juego en el aprendizaje",
+      "url": "http://blog.tiching.com/el-papel-del-juego-en-el-aprendizaje/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La utilización del juego como metodología de formación en las aulas facilita el aprendizaje de la materia, permitiendo que el […]",
+      "image": null,
+      "published": "2021-04-15T14:00:09+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "a27c862780854e",
+      "title": "Teuvo Sankila: “Los docentes deberían poder elegir sus propias herramientas de trabajo y los materiales de aprendizaje”",
+      "url": "http://blog.tiching.com/teuvo-sankila/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "Entrevistamos a Teuvo Sankila, director de ediciones de Otava Learning y experto en el cambio educativo, para hablar sobre Tuhattaituri, […]",
+      "image": null,
+      "published": "2021-04-11T08:00:26+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e31f7e480ae193",
+      "title": "IX Edición de los Premios Nacionales de Cortometrajes de Educación Vial: ¡La seguridad vial sí es cosa de niños!",
+      "url": "http://blog.tiching.com/ix-edicion-de-los-premios-nacionales-de-cortometrajes-de-educacion-vial-la-seguridad-vial-si-es-cosa-de-ninos/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La seguridad vial es un factor fundamental en la vida de todos los ciudadanos, independientemente de su edad. Aunque los […]",
+      "image": null,
+      "published": "2021-04-07T14:00:20+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "ea1bfdcc24e134",
+      "title": "Evaluar para aprender: herramientas para la autoevaluación",
+      "url": "http://blog.tiching.com/evaluar-para-aprender-herramientas-para-la-autoevaluacion/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La autoevaluación está cobrando cada vez mayor importancia. ¡Te ofrecemos un excelente recurso gratuito elaborado por Tekman! El confinamiento simplemente […]",
+      "image": null,
+      "published": "2021-03-17T15:00:31+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
       "id": "2f407c0af061b1",
       "title": "Protegido: Prueba de vídeo",
       "url": "https://intef.es/prueba-de-video/",
@@ -2257,6 +2353,30 @@
       "summary": "No hay extracto porque es una entrada protegida.",
       "image": null,
       "published": "2021-03-11T10:26:43+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "3e8a4e92c6ff20",
+      "title": "Proceso reflexivo en la formación de ciudadanía global pospandemia",
+      "url": "http://blog.tiching.com/proceso-reflexivo-la-formacion-ciudadania-global-pospandemia/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "La propuesta de este artículo considera que las estrategias pedagógicas más que nunca deben tener presente el proceso reflexivo como […]",
+      "image": null,
+      "published": "2021-02-25T17:00:13+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "f160c4352a3034",
+      "title": "8 razones por las que aprender a tocar música desde pequeño es beneficioso",
+      "url": "http://blog.tiching.com/8-razones-las-aprender-tocar-musica-desde-pequeno-beneficioso/",
+      "source": "Tiching Blog",
+      "category": "educacion",
+      "summary": "En este post, te presentaremos las 8 razones por las que aprender a tocar música desde pequeño resulta beneficioso. Aprender […]",
+      "image": null,
+      "published": "2021-02-11T15:00:26+00:00",
       "score": null,
       "tags": []
     }
