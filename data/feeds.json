@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated": "2026-09-13T20:32:08.835340+00:00",
-    "total": 183
+    "generated": "2026-09-14T04:09:02.834995+00:00",
+    "total": 173
   },
   "items": [
     {
@@ -12,7 +12,7 @@
       "category": "startup",
       "summary": "Después de dos años de pruebas de concepto con la inteligencia artificial, 2027 será el año en que las empresas tengan que demostrar un retorno de inversión real. The post De la teoría al ROI: Por qué la IA agéntica defi…",
       "image": null,
-      "published": "2026-09-13T20:32:07.455910+00:00",
+      "published": "2026-09-14T04:09:01.375094+00:00",
       "score": null,
       "tags": []
     },
@@ -24,7 +24,7 @@
       "category": "startup",
       "summary": "Al enfrentar la primera gran crisis de mi carrera como CEO, aprendí cómo la transparencia, la empatía y un liderazgo decisivo pueden transformar un mercado en crisis en uno próspero. The post Cómo sobreviví mi primera cr…",
       "image": null,
-      "published": "2026-09-13T20:32:07.455623+00:00",
+      "published": "2026-09-14T04:09:01.374739+00:00",
       "score": null,
       "tags": []
     },
@@ -36,7 +36,7 @@
       "category": "startup",
       "summary": "Una idea brillante es solo una pequeña parte de lo que hace exitosa a una empresa. El resto es tu capacidad para perseverar cuando las cosas no van como esperabas. The post El éxito no está en la idea, sino en la resilie…",
       "image": null,
-      "published": "2026-09-13T20:32:07.455345+00:00",
+      "published": "2026-09-14T04:09:01.374363+00:00",
       "score": null,
       "tags": []
     },
@@ -48,7 +48,7 @@
       "category": "startup",
       "summary": "La controversia rodea la afirmación de OpenAI de que a 10,000 agentes les tomó un fin de semana resolver uno de los seis problemas matemáticos de “un millón de dólares”. The post OpenAI dice que su IA acaba de resolver u…",
       "image": null,
-      "published": "2026-09-13T20:32:07.455038+00:00",
+      "published": "2026-09-14T04:09:01.373941+00:00",
       "score": null,
       "tags": []
     },
@@ -60,7 +60,7 @@
       "category": "startup",
       "summary": "Durante décadas construimos la industria de pagos alrededor de una pregunta bastante sencilla: ¿cuál es la mejor forma de mover dinero? The post El dinero ya no viaja por un solo camino: bienvenidos al mundo multi-rail a…",
       "image": null,
-      "published": "2026-09-13T20:32:07.454739+00:00",
+      "published": "2026-09-14T04:09:01.373555+00:00",
       "score": null,
       "tags": []
     },
@@ -72,7 +72,7 @@
       "category": "startup",
       "summary": "Domina estas tres sencillas técnicas para dejar una impresión duradera y amplificar tu impacto. The post El poder de tu personalidad: desarrolla estas 3 técnicas para lograr una influencia duradera appeared first on Entr…",
       "image": null,
-      "published": "2026-09-13T20:32:07.453413+00:00",
+      "published": "2026-09-14T04:09:01.371944+00:00",
       "score": null,
       "tags": []
     },
@@ -84,7 +84,7 @@
       "category": "startup",
       "summary": "Jacob Coxon dejó OpenAI por Anthropic debido a su reputación en el campo de la seguridad de IA. Ahora se retira de la industria. The post El investigador de Anthropic que renunció por miedo a la IA: “las cosas podrían sa…",
       "image": null,
-      "published": "2026-09-13T20:32:07.453106+00:00",
+      "published": "2026-09-14T04:09:01.371556+00:00",
       "score": null,
       "tags": []
     },
@@ -96,7 +96,7 @@
       "category": "startup",
       "summary": "El nuevo tráiler de Artificial, la película de Luca Guadagnino sobre la salida y regreso de Sam Altman a OpenAI, reabre un episodio que dejó más que drama corporativo… The post El drama de la salida de Sam Altman de Open…",
       "image": null,
-      "published": "2026-09-13T20:32:07.452809+00:00",
+      "published": "2026-09-14T04:09:01.371104+00:00",
       "score": null,
       "tags": []
     },
@@ -108,7 +108,7 @@
       "category": "startup",
       "summary": "El rechazo es parte esencial del camino de cualquier startup, pues ofrece valiosas lecciones sobre resiliencia, estrategia y crecimiento, fortaleciendo tanto a los emprendedores como a sus proyectos. The post Por qué el …",
       "image": null,
-      "published": "2026-09-13T20:32:07.452503+00:00",
+      "published": "2026-09-14T04:09:01.370692+00:00",
       "score": null,
       "tags": []
     },
@@ -120,7 +120,175 @@
       "category": "startup",
       "summary": "Hay algo empoderador — y, debo admitir, aterrador — en la idea de que nosotros mismos controlamos nuestras propias historias. Así es como ese sentido de propiedad impulsa la resiliencia. The post Aprendí el secreto de la…",
       "image": null,
-      "published": "2026-09-13T20:32:07.452150+00:00",
+      "published": "2026-09-14T04:09:01.370196+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "2b899361fea501",
+      "title": "Publicado el informe de la decimotercera evaluación de test editados en España, realizada por la Comisión de test del COP",
+      "url": "https://www.infocop.es/publicado-el-informe-de-la-decimotercera-evaluacion-de-test-editados-en-espana-realizada-por-la-comision-de-test-del-cop/",
+      "source": "Infocop",
+      "category": "psicologia",
+      "summary": "Como ya saben nuestros lectores, la Comisión Nacional de Test, perteneciente al Consejo General de la Psicología de España, elabora anualmente una evaluación de los test editados en nuestro país (...) La entrada Publicad…",
+      "image": null,
+      "published": "2026-09-14T04:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "4fb54d7f2b6b21",
+      "title": "Día Mundial de la Dermatitis Atópica 2026: visibilizar una carga que va más allá de la piel",
+      "url": "https://www.infocop.es/dia-mundial-de-la-dermatitis-atopica-2026-visibilizar-una-carga-que-va-mas-alla-de-la-piel/",
+      "source": "Infocop",
+      "category": "psicologia",
+      "summary": "La dermatitis atópica puede tener consecuencias que trascienden ampliamente sus manifestaciones cutáneas. Alteraciones del sueño, ansiedad, depresión, aislamiento y estigma forman parte de una carga que con frecuencia pe…",
+      "image": null,
+      "published": "2026-09-14T04:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "63079101db503e",
+      "title": "Guía de cuidado para profesionales que trabajan en contextos de violencia",
+      "url": "https://www.infocop.es/guia-de-cuidado-para-profesionales-que-trabajan-en-contextos-de-violencia/",
+      "source": "Infocop",
+      "category": "psicologia",
+      "summary": "La Guía de cuidado para profesionales que trabajan en contextos de violencia está destinada a quienes acompañan procesos humanos en contextos atravesados por el dolor, la injusticia o el trauma social. La entrada Guía de…",
+      "image": null,
+      "published": "2026-09-14T04:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "137c8ea7c2d536",
+      "title": "Prevención del suicidio en la infancia y la adolescencia: recomendaciones prácticas para familias y profesionales",
+      "url": "https://www.infocop.es/prevencion-del-suicidio-en-la-infancia-y-la-adolescencia-recomendaciones-practicas-para-familias-y-profesionales/",
+      "source": "Infocop",
+      "category": "psicologia",
+      "summary": "Fundación ANAR ha publicado una guía para prevenir y actuar ante el intento de suicidio en la infancia y la adolescencia, dirigida tanto a familias como a profesionales (...) La entrada Prevención del suicidio en la infa…",
+      "image": null,
+      "published": "2026-09-14T04:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "e713ef11f25f99",
+      "title": "Xbox vs PlayStation y Nintendo: el comercial del bebé que ganó Cannes y fue prohibido en TV",
+      "url": "https://www.merca20.com/xbox-playstation-nintendo-comercial-prohibido/?utm_source=rss&utm_medium=rss&utm_campaign=xbox-playstation-nintendo-comercial-prohibido",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Xbox lanzó en 2002 el polémico comercial “Champagne”: un bebé envejece en segundos antes de caer en una tumba. Recibió 136 quejas, fue retirado de la TV británica y ganó un Gold Lion en Cannes.",
+      "image": "https://files.merca20.com/uploads/2026/09/Xbox-lanzo-a-un-bebe-por-una-ventana-en-este-comercial-gano-un-Leon-de-Oro-en-Cannes-y-fue-prohibido-en-TV-.jpg",
+      "published": "2026-09-14T03:36:02+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "7c60d88f851c10",
+      "title": "2026 Emmy Awards: Where and What Time to Watch the LIVE Broadcast",
+      "url": "https://www.merca20.com/2026-emmy-awards-where-and-what-time-to-watch-the-live-broadcast/?utm_source=rss&utm_medium=rss&utm_campaign=2026-emmy-awards-where-and-what-time-to-watch-the-live-broadcast",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "The 2026 Emmy Awards will bring together some of the biggest names in television for a ceremony that promises plenty of memorable moments",
+      "image": "https://files.merca20.com/uploads/2026/09/Emmy-Awards.jpg",
+      "published": "2026-09-14T00:50:02+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "8f613efce116eb",
+      "title": "BTS Hits Theaters With Live Concert Broadcasts: Dates and How to Get Tickets",
+      "url": "https://www.merca20.com/bts-hits-theaters-with-live-concert-broadcasts-dates-and-how-to-get-tickets/?utm_source=rss&utm_medium=rss&utm_campaign=bts-hits-theaters-with-live-concert-broadcasts-dates-and-how-to-get-tickets",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "The South Korean group will bring part of its BTS World Tour ‘Arirang’ to movie theaters in several countries around the world",
+      "image": "https://files.merca20.com/uploads/2026/03/BTS-CONCIERTO-NETFLIX.jpg",
+      "published": "2026-09-14T00:30:36+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "4548d0c0078393",
+      "title": "La huelga de Monte de Piedad se acerca al año y ahora un sindicato pide terminarla",
+      "url": "https://expansion.mx/economia/2026/09/13/huelga-nacional-monte-de-piedad-sindicato-pide-terminarla",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "Mientras el sindicato mayoritario mantiene su postura sobre el conflicto laboral, otra organización de trabajadores pide levantar la huelga y regresar a las actividades.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/133e614/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F4f%2Fe3%2F5da5b9f9462ab27098e8c78be4c7%2F2-monte-piedad-huelga-1063552-continua-huelga-nacional-monte-de-piedad-web.jpeg",
+      "published": "2026-09-14T00:12:58+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "329e63498a67e2",
+      "title": "Premios Emmy 2026: Dónde y a qué hora ver la transmisión EN VIVO desde México",
+      "url": "https://www.merca20.com/premios-emmy-2026-donde-y-a-que-hora-ver-la-transmision-en-vivo-desde-mexico/?utm_source=rss&utm_medium=rss&utm_campaign=premios-emmy-2026-donde-y-a-que-hora-ver-la-transmision-en-vivo-desde-mexico",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Los Premios Emmy 2026 reunirán a grandes figuras de la pantalla, en una ceremonia que promete momentos memorables",
+      "image": "https://files.merca20.com/uploads/2025/07/2025-Emmy-Awards-Complete-list-of-nominees.jpg",
+      "published": "2026-09-13T23:36:59+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5512e87066e748",
+      "title": "La UNAM vuelve al Centro Histórico con un campus que reunirá más de 15 edificios",
+      "url": "https://expansion.mx/carrera/2026/09/13/unam-centro-historico-nuevo-campus-que-carreras-cuando-abre",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "El proyecto reunirá más de 15 edificios universitarios y tendrá como sede central al Antiguo Templo de San Agustín.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/5272afb/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F11%2Fd9%2Fd2d893f246369604375c0a6698bb%2Fdescarga.jpeg",
+      "published": "2026-09-13T23:31:07+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "2d4582ba6adb24",
+      "title": "BTS llega a Cinépolis y Cinemex con transmisiones en vivo de sus conciertos: fechas y cómo conseguir boletos",
+      "url": "https://www.merca20.com/bts-llega-a-cinepolis-y-cinemex-con-transmisiones-en-vivo-de-sus-conciertos-fechas-y-como-conseguir-boletos/?utm_source=rss&utm_medium=rss&utm_campaign=bts-llega-a-cinepolis-y-cinemex-con-transmisiones-en-vivo-de-sus-conciertos-fechas-y-como-conseguir-boletos",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "La agrupación surcoreana llevará parte de su BTS World Tour ‘Arirang’ hasta las salas de cines en varios países del mundo",
+      "image": "https://files.merca20.com/uploads/2026/03/BTS-CONCIERTO-NETFLIX.jpg",
+      "published": "2026-09-13T22:44:50+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "ff803bae45f847",
+      "title": "Chivas vs. Pumas: dónde y a qué hora ver el partido EN VIVO",
+      "url": "https://www.merca20.com/chivas-vs-pumas-donde-y-a-que-hora-ver-el-partido-en-vivo/?utm_source=rss&utm_medium=rss&utm_campaign=chivas-vs-pumas-donde-y-a-que-hora-ver-el-partido-en-vivo",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Chivas y Pumas se enfrentarán esta noche en el Estadio Akron, como parte de los duelos de la Jornada 8 de la Liga MX",
+      "image": "https://files.merca20.com/uploads/2026/04/Chivas-vs.-Pumas-Gemini-AI.jpg",
+      "published": "2026-09-13T22:00:02+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "bcac6e174c66b6",
+      "title": "Por qué recomiendan colgar una hoja de laurel en la puerta y para qué sirve",
+      "url": "https://www.merca20.com/por-que-recomiendan-colgar-una-hoja-de-laurel-en-la-puerta-y-para-que-sirve/?utm_source=rss&utm_medium=rss&utm_campaign=por-que-recomiendan-colgar-una-hoja-de-laurel-en-la-puerta-y-para-que-sirve",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Colgar una hoja de laurel en la puerta se considera, dentro de algunos rituales populares, una forma simbólica de protección",
+      "image": "https://files.merca20.com/uploads/2026/09/colgar-una-hoja-de-laurel-en-la-puerta-Gemini-AI.jpg",
+      "published": "2026-09-13T20:44:04+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "4117c2b819e965",
+      "title": "NFL México 2026: la lista de precios de los boletos para ver a los 49ers vs. Vikings",
+      "url": "https://expansion.mx/tendencias/2026/09/13/nfl-ciudad-de-mexico-boletos-precios-experiencias-vip",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "La venta de boletos comenzará el 14 de septiembre con American Express, seguirá con tarjeta Banorte el 17 y abrirá al público general el 22 de septiembre.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/b0a23d7/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcherry-brightspot.s3.amazonaws.com%2Fmedia%2F2014%2F11%2F16%2Fsan-francisco-49ers-nfl.jpg",
+      "published": "2026-09-13T20:35:02+00:00",
       "score": null,
       "tags": []
     },
@@ -193,6 +361,18 @@
       "summary": "La temporada 3 de ONE PIECE continuará con los últimos eventos, cuando Luffy y su tripulación aceptan ayudar a la princesa en su regreso",
       "image": "https://files.merca20.com/uploads/2026/01/One-Piece-temporada-2-1.jpg",
       "published": "2026-09-13T18:55:32+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "d0d51f345d9c26",
+      "title": "El CEO que desarrolla una rival de ChatGPT ahora pide “bajar el ritmo” de la IA",
+      "url": "https://expansion.mx/tecnologia/2026/09/13/ceo-desarrolla-rival-chatgpt-pide-bajar-ritmo-ia",
+      "source": "Expansión",
+      "category": "coaching",
+      "summary": "El CEO de Anthropic propone que las compañías de IA mantengan el desarrollo, pero a un ritmo que permita reforzar las pruebas y medidas de seguridad.",
+      "image": "https://cdn-3.expansion.mx/dims4/default/dd98fcd/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fc6%2Fc4%2Fe8b529e04be3954ab5e5864c398f%2Fclaude-mythos-ia-ciberseguridad.jpeg",
+      "published": "2026-09-13T18:48:06+00:00",
       "score": null,
       "tags": []
     },
@@ -581,18 +761,6 @@
       "tags": []
     },
     {
-      "id": "f32b89487b478a",
-      "title": "Sam’s Club vuelve a regalar papel higiénico Member’s Mark Ultra Strong de 40 rollos, si cumples este requisito",
-      "url": "https://www.merca20.com/sams-club-papel-higienico-gratis-members-mark-cupon-papelgratis/?utm_source=rss&utm_medium=rss&utm_campaign=sams-club-papel-higienico-gratis-members-mark-cupon-papelgratis",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Sam’s Club regala papel higiénico Member’s Mark Ultra Strong de 40 rollos en México. Conoce la compra mínima, cupón PAPELGRATIS y vigencia.",
-      "image": "https://files.merca20.com/uploads/2026/09/Sams-Club-vuelve-a-regalar-papel-higienico-Members-Mark-Ultra-Strong-de-40-rollos-si-cumples-este-requisito-.jpg",
-      "published": "2026-09-13T09:16:18+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "53c47237a9fab0",
       "title": "The Witcher IV: diez novedades que están confirmadas",
       "url": "https://www.muycomputer.com/2026/09/13/the-witcher-iv-diez-cosas-que-estan-confirmadas/",
@@ -617,18 +785,6 @@
       "tags": []
     },
     {
-      "id": "f446e2782fe294",
-      "title": "Resultados Liga MX y tabla de posiciones: Cruz Azul vence al América; así va la Jornada 8 y quién puede ser líder",
-      "url": "https://www.merca20.com/resultados-liga-mx-y-tabla-de-posiciones-cruz-azul-vence-al-america-asi-va-la-jornada-8-y-quien-puede-ser-lider/?utm_source=rss&utm_medium=rss&utm_campaign=resultados-liga-mx-y-tabla-de-posiciones-cruz-azul-vence-al-america-asi-va-la-jornada-8-y-quien-puede-ser-lider",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Resultados Liga MX y tabla de posiciones del Apertura 2026: Cruz Azul venció 4-3 al América, Toluca tomó el liderato y Chivas puede superarlo.",
-      "image": "https://files.merca20.com/uploads/2026/09/Resultados-Liga-MX-y-tabla-de-posiciones-Cruz-Azul-vence-al-America-asi-va-la-Jornada-8-y-quien-puede-ser-lider-2.jpg",
-      "published": "2026-09-13T08:56:49+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "2ccdd54d2ab5a0",
       "title": "La nueva IA de IBM y la NASA es de código abierto y promete revolucionar la exploración lunar",
       "url": "https://hipertextual.com/inteligencia-artificial/nasa-ibm-inteligencia-artificial-luna/",
@@ -637,42 +793,6 @@
       "summary": "La NASA e IBM han lanzado un nuevo modelo de inteligencia artificial que va a revolucionar el modo de explorar la Luna. El trabajo en conjunto entre la agencia especial estadounidense y la tecnológica ha arrojado como re…",
       "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/09/nasa-jlV2k_Fx0fc-unsplash-scaled.jpg?fit=1024%2C576&quality=70&strip=all&ssl=1",
       "published": "2026-09-13T08:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "889fa78ecc19fb",
-      "title": "Mientras Starbucks prepara su colección de Snoopy para Halloween, Costco ya tiene el Snoopy navideño en tiendas",
-      "url": "https://www.merca20.com/mientras-starbucks-prepara-su-coleccion-de-snoopy-para-halloween-costco-ya-tiene-el-snoopy-navideno-en-tiendas/?utm_source=rss&utm_medium=rss&utm_campaign=mientras-starbucks-prepara-su-coleccion-de-snoopy-para-halloween-costco-ya-tiene-el-snoopy-navideno-en-tiendas",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "El producto pertenece a la categoría de decoración navideña de Costco y forma parte de la oferta de temporada de la cadena.",
-      "image": "https://files.merca20.com/uploads/2026/09/SNOOPY-COSTCO-STRABUCKS.jpg",
-      "published": "2026-09-13T07:46:41+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "4cdc3a8eaf6048",
-      "title": "Soriana lanza folleto de Fiestas Patrias 2026 con descuentos de hasta 50%; estará vigente del 11 al 17 de septiembre",
-      "url": "https://www.merca20.com/soriana-lanza-folleto-de-fiestas-patrias-2026-con-descuentos-de-hasta-50-estara-vigente-del-11-al-17-de-septiembre/?utm_source=rss&utm_medium=rss&utm_campaign=soriana-lanza-folleto-de-fiestas-patrias-2026-con-descuentos-de-hasta-50-estara-vigente-del-11-al-17-de-septiembre",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Este 11 de septiembre, Soriana lanzó su nuevo folleto “En México Oferta Se Dice”, una campaña que se suma a las celebraciones de las Fiestas Patrias 2026 y que estará vigente hasta el jueves 17 de septiembre",
-      "image": "https://files.merca20.com/uploads/2026/09/soriana-fiestas-patrias-2026.jpg",
-      "published": "2026-09-13T07:22:49+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "5bf50ad6ac6397",
-      "title": "Liquidación extrema en Walmart: carriola Joie de $4,500 termina en solo $800, incluye silla para auto y protector solar, resistente al agua",
-      "url": "https://www.merca20.com/liquidacion-extrema-en-walmart-carriola-joie-de-4500-termina-en-solo-800-incluye-silla-para-auto-y-protector-solar-resistente-al-agua/?utm_source=rss&utm_medium=rss&utm_campaign=liquidacion-extrema-en-walmart-carriola-joie-de-4500-termina-en-solo-800-incluye-silla-para-auto-y-protector-solar-resistente-al-agua",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Consumidora encuentra en Walmart una carriola Joie Muze LX que, según relata, costaba $4,500 y logra comprarla por solo $800; mostró el ticket.",
-      "image": "https://files.merca20.com/uploads/2026/09/Liquidacion-extrema-en-Walmart-carriola-Joie-de-4500-termina-en-solo-800-incluye-silla-para-auto-y-protector-solar-resistente-al-agua-.jpg",
-      "published": "2026-09-13T07:10:15+00:00",
       "score": null,
       "tags": []
     },
@@ -689,18 +809,6 @@
       "tags": []
     },
     {
-      "id": "3a386c9d09b28c",
-      "title": "Quién es quién en Mal de amores de Netflix: Estos personajes sí existieron en la Revolución Mexicana",
-      "url": "https://www.merca20.com/mal-de-amores-netflix-personajes-reales-revolucion-mexicana/?utm_source=rss&utm_medium=rss&utm_campaign=mal-de-amores-netflix-personajes-reales-revolucion-mexicana",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "¿Madero y Aquiles Serdán existieron realmente? Conoce quién es quién en Mal de amores de Netflix y qué personajes pertenecen a la historia de México.",
-      "image": "https://files.merca20.com/uploads/2026/09/Quien-es-quien-en-Mal-de-amores-de-Netflix-Estos-personajes-si-existieron-en-la-Revolucion-Mexicana-.jpg",
-      "published": "2026-09-13T07:00:32+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "6126e6e3bb098d",
       "title": "9 usos prácticos del aprendizaje guiado de Gemini para aprender a hacer cualquier cosa",
       "url": "https://hipertextual.com/guias/ejemplos-usos-practicos-aprendizaje-guiado-gemini/",
@@ -709,18 +817,6 @@
       "summary": "Los asistentes de IA se han convertido en una inestimable ayuda para obtener respuestas a cualquier duda o inquietud que tengamos. Antes, lo que no sabías lo buscabas en Google o similares. Ahora, herramientas como ChatG…",
       "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/09/Robot-Profesor-Pizarra-Clase-Tutor.jpg?fit=1024%2C683&quality=70&strip=all&ssl=1",
       "published": "2026-09-13T07:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "f3be40b2817fe9",
-      "title": "Freidora de aire Oster de 25 litros se remata en $807 en Walmart; tiene 5 formas de cocinar y recubrimiento antiadherente DiamondForce",
-      "url": "https://www.merca20.com/freidora-de-aire-oster-de-25-litros-se-remata-en-walmart-en-807-tiene-5-formas-de-cocinar-y-recubrimiento-antiadherente-diamondforce/?utm_source=rss&utm_medium=rss&utm_campaign=freidora-de-aire-oster-de-25-litros-se-remata-en-walmart-en-807-tiene-5-formas-de-cocinar-y-recubrimiento-antiadherente-diamondforce",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Consumidora encuentra en Walmart un horno con freidora de aire Oster de 25 litros por $807; costaba $2,690. Conoce modelo, código y características.",
-      "image": "https://files.merca20.com/uploads/2026/09/El-horno-con-freidora-de-aire-Oster-de-25-litros-aparecio-en-el-verificador-de-Walmart-por-807-frente-a-los-2690-mostrados-inicialmente.-Foto-Instagram-de-@paolairaisrc-y-@alexvlogstc-.jpg",
-      "published": "2026-09-13T06:30:52+00:00",
       "score": null,
       "tags": []
     },
@@ -977,30 +1073,6 @@
       "tags": []
     },
     {
-      "id": "4af3a86edeb065",
-      "title": "¿Te piden descargar un app para un préstamo? ABM y Condusef suben alerta por intentos de fraude con malware",
-      "url": "https://expansion.mx/economia/2026/09/11/descargar-app-prestamo-abm-condusef-alerta-fraude",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "Advierten que los fraudes pueden comenzar con un SMS, correo, llamada o enlace falso que busca instalar programas maliciosos en el celular y obtener claves o códigos de seguridad",
-      "image": "https://cdn-3.expansion.mx/dims4/default/e19c77c/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fe7%2F20%2F452bd3c5493db9484f5ededf3f96%2Fevitar-fraudes-financieros-aplicaciones.jpg",
-      "published": "2026-09-11T21:37:31+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "cc8c97766ec20e",
-      "title": "El AIFA alcanza cifras récord en el periodo vacacional de verano",
-      "url": "https://expansion.mx/bespoke-ad/2026/09/11/el-aifa-alcanza-cifras-record-en-el-periodo-vacacional-de-verano",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "El Aeropuerto Internacional Felipe Ángeles (AIFA) registró su mayor actividad al movilizar a más de 1.4 millones de pasajeros en 10,201 vuelos.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/e79928a/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F85%2Feb%2Fbc86fdf34f50ac1632e6c9c5856b%2Faifa-record-historico-verano-2026.jpg",
-      "published": "2026-09-11T21:27:34+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "4479a4473f4915",
       "title": "¿Puedes perder la herencia por no cuidar a tus padres? Esto quieren cambiar en CDMX",
       "url": "https://www.altonivel.com.mx/puedes-perder-la-herencia-por-no-cuidar-a-tus-padres-esto-quieren-cambiar-en-cdmx/",
@@ -1009,18 +1081,6 @@
       "summary": "Una propuesta en el Congreso capitalino busca crear un registro de personas que hayan abandonado a adultos mayores y excluirlas de futuras herencias. The post ¿Puedes perder la herencia por no cuidar a tus padres? Esto q…",
       "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/09/cuidar-a-tu-padres.webp",
       "published": "2026-09-11T21:16:27+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "80d6908e62d2ca",
-      "title": "¿Game Pass o contratar apps por separado? Hicimos la cuenta de cuánto te costará ver la NFL en vivo en México",
-      "url": "https://expansion.mx/tendencias/2026/09/11/game-pass-apps-separado-cuanto-costara-ver-nfl-vivo-mexico",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "La NFL está de regreso, pero la forma de disfrutar del futbol americano en México ha cambiado. Estas son las opciones disponibles para los aficionados.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/ab98c73/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F8c%2F8b%2Ff9e615844f8998e81aadc39a841e%2Fgame-pass-apps-donde-ver-nfl-2026-1.jpeg",
-      "published": "2026-09-11T20:39:15+00:00",
       "score": null,
       "tags": []
     },
@@ -1069,18 +1129,6 @@
       "summary": "La Suprema Corte determinó que las autorizaciones para autoconsumo de cannabis pueden incluir su preparación en alimentos, siempre que no se comercialicen. The post La Suprema Corte permite preparar alimentos con cannabi…",
       "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/09/alimentos-con-cannabis.webp",
       "published": "2026-09-11T19:53:35+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "8e206513ed9a21",
-      "title": "JAC E10X se corona como el eléctrico más barato de México, y además te libra de la verificación para siempre",
-      "url": "https://expansion.mx/empresas/2026/09/11/jac-e10x-electrico-mas-barato-de-mexico",
-      "source": "Expansión",
-      "category": "coaching",
-      "summary": "La llegada de nuevos jugadores al mercado mexicano está cambiando la competencia por conquistar a quienes buscan dar el salto a la movilidad eléctrica.",
-      "image": "https://cdn-3.expansion.mx/dims4/default/ff9b997/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F5b%2F40%2F26db15984246abbb0fd9f1c21be5%2Fjac-e-10-x.jpeg",
-      "published": "2026-09-11T19:42:58+00:00",
       "score": null,
       "tags": []
     },
@@ -1445,18 +1493,6 @@
       "tags": []
     },
     {
-      "id": "c83a2ebe9a34ec",
-      "title": "La prevención del suicidio: avanzar desde la evidencia hacia la acción-Día Mundial para la Prevención del Suicidio",
-      "url": "https://www.infocop.es/la-prevencion-del-suicidio-avanzar-desde-la-evidencia-hacia-la-accion-dia-mundial-para-la-prevencion-del-suicidio/",
-      "source": "Infocop",
-      "category": "psicologia",
-      "summary": "Hoy, día 10 de septiembre, se celebra el Día Mundial para la Prevención del Suicidio, una jornada promovida por la IASP y la OMS, con el propósito de poner en la agenda pública el tema del suicidio (...) La entrada La pr…",
-      "image": null,
-      "published": "2026-09-10T04:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "e8edea7cced6c2",
       "title": "Quienes saben, supervisan sus casos",
       "url": "https://www.psyciencia.com/quienes-saben-supervisan-sus-casos/",
@@ -1549,42 +1585,6 @@
       "summary": "PISA 2025 revela que los alumnos utilizan cada vez más pantallas e inteligencia artificial, pero su uso excesivo o sin orientación puede distraer y dificultar el aprendizaje.",
       "image": null,
       "published": "2026-09-09T12:14:34+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "3d343a128b8ef7",
-      "title": "España registra sus peores resultados en lectura y matemáticas, y aumenta el alumnado con bajo rendimiento, según el nuevo informe PISA",
-      "url": "https://www.infocop.es/espana-registra-sus-peores-resultados-en-lectura-y-matematicas-y-aumenta-el-alumnado-con-bajo-rendimiento-segun-el-nuevo-informe-pisa/",
-      "source": "Infocop",
-      "category": "psicologia",
-      "summary": "El rendimiento educativo entre los y las adolescentes de 15 años ha experimentado un nuevo deterioro, con la competencia lectora como uno de los principales motivos de preocupación, según PISA. La entrada España registra…",
-      "image": null,
-      "published": "2026-09-09T04:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "bdfc32f2241b3d",
-      "title": "La intervención psicológica temprana y el apoyo a las familias, claves para favorecer el bienestar de niños y niñas con Trastorno del Espectro Alcohólico Fetal",
-      "url": "https://www.infocop.es/la-intervencion-psicologica-temprana-y-el-apoyo-a-las-familias-claves-para-favorecer-el-bienestar-de-ninos-y-ninas-con-trastorno-del-espectro-alcoholico-fetal/",
-      "source": "Infocop",
-      "category": "psicologia",
-      "summary": "El término Trastorno del Espectro Alcohólico Fetal (TEAF) engloba un conjunto de alteraciones permanentes originadas por la exposición prenatal al alcohol. La entrada La intervención psicológica temprana y el apoyo a las…",
-      "image": null,
-      "published": "2026-09-09T04:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "68af451c6b3b4d",
-      "title": "Apúntate al webinar gratuito de la APE sobre validez en tiempos de IA",
-      "url": "https://www.infocop.es/apuntate-al-webinar-gratuito-de-la-ape-sobre-validez-en-tiempos-de-ia/",
-      "source": "Infocop",
-      "category": "psicologia",
-      "summary": "La Academia de Psicología de España tiene el honor de invitar a todos los interesados al seminario online “Validez en tiempos de IA”, dentro del ciclo de conferencias «Los Miércoles con la Academia» (...) La entrada Apún…",
-      "image": null,
-      "published": "2026-09-09T04:00:00+00:00",
       "score": null,
       "tags": []
     },
@@ -2069,102 +2069,6 @@
       "tags": []
     },
     {
-      "id": "375543f10dadb8",
-      "title": "La importancia de los vínculos afectivos en el aula",
-      "url": "http://blog.tiching.com/la-importancia-los-vinculos-afectivos-aula/",
-      "source": "Tiching Blog",
-      "category": "educacion",
-      "summary": "Las evidencias neuro-científicas de los últimos años confirman que sin vínculo afectivo no es posible el aprendizaje. Los niños y […]",
-      "image": null,
-      "published": "2021-06-03T14:00:18+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "30827e2938db33",
-      "title": "Click to English: un recurso visual para el inglés",
-      "url": "http://blog.tiching.com/click-to-english-recurso-visual-ingles/",
-      "source": "Tiching Blog",
-      "category": "educacion",
-      "summary": "¿Qué es el CLICK? Es una presentación de Google Slides por la que se puede navegar con un simple clic. […]",
-      "image": null,
-      "published": "2021-05-20T14:00:56+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "1f4ddc6170c5ca",
-      "title": "La autonomía y la autorregulación para un aprendizaje activo en entornos online sobrevenidos",
-      "url": "http://blog.tiching.com/la-autonomia-y-la-autorregulacion-para-un-aprendizaje-activo-en-entornos-online-sobrevenidos/",
-      "source": "Tiching Blog",
-      "category": "educacion",
-      "summary": "Cuando hablamos de aprendizaje activo hablamos, como dice Héctor Ruíz Martín, de un aprendizaje cognitivamente activo, más allá de aprender haciendo, […]",
-      "image": null,
-      "published": "2021-05-06T14:00:29+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "39f21b0066f705",
-      "title": "¿Conoces las ventajas de la Gamificación y las herramientas para iniciarte en ella?",
-      "url": "http://blog.tiching.com/conoces-las-ventajas-la-gamificacion-las-herramientas-iniciarte-2/",
-      "source": "Tiching Blog",
-      "category": "educacion",
-      "summary": "En un mundo cada vez más globalizado y en el que se abren paso las nuevas tecnologías, están surgiendo nuevas […]",
-      "image": null,
-      "published": "2021-04-29T14:00:31+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "7c25c9b27d8e08",
-      "title": "El papel del juego en el aprendizaje",
-      "url": "http://blog.tiching.com/el-papel-del-juego-en-el-aprendizaje/",
-      "source": "Tiching Blog",
-      "category": "educacion",
-      "summary": "La utilización del juego como metodología de formación en las aulas facilita el aprendizaje de la materia, permitiendo que el […]",
-      "image": null,
-      "published": "2021-04-15T14:00:09+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "a27c862780854e",
-      "title": "Teuvo Sankila: “Los docentes deberían poder elegir sus propias herramientas de trabajo y los materiales de aprendizaje”",
-      "url": "http://blog.tiching.com/teuvo-sankila/",
-      "source": "Tiching Blog",
-      "category": "educacion",
-      "summary": "Entrevistamos a Teuvo Sankila, director de ediciones de Otava Learning y experto en el cambio educativo, para hablar sobre Tuhattaituri, […]",
-      "image": null,
-      "published": "2021-04-11T08:00:26+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "e31f7e480ae193",
-      "title": "IX Edición de los Premios Nacionales de Cortometrajes de Educación Vial: ¡La seguridad vial sí es cosa de niños!",
-      "url": "http://blog.tiching.com/ix-edicion-de-los-premios-nacionales-de-cortometrajes-de-educacion-vial-la-seguridad-vial-si-es-cosa-de-ninos/",
-      "source": "Tiching Blog",
-      "category": "educacion",
-      "summary": "La seguridad vial es un factor fundamental en la vida de todos los ciudadanos, independientemente de su edad. Aunque los […]",
-      "image": null,
-      "published": "2021-04-07T14:00:20+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "ea1bfdcc24e134",
-      "title": "Evaluar para aprender: herramientas para la autoevaluación",
-      "url": "http://blog.tiching.com/evaluar-para-aprender-herramientas-para-la-autoevaluacion/",
-      "source": "Tiching Blog",
-      "category": "educacion",
-      "summary": "La autoevaluación está cobrando cada vez mayor importancia. ¡Te ofrecemos un excelente recurso gratuito elaborado por Tekman! El confinamiento simplemente […]",
-      "image": null,
-      "published": "2021-03-17T15:00:31+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "2f407c0af061b1",
       "title": "Protegido: Prueba de vídeo",
       "url": "https://intef.es/prueba-de-video/",
@@ -2173,30 +2077,6 @@
       "summary": "No hay extracto porque es una entrada protegida.",
       "image": null,
       "published": "2021-03-11T10:26:43+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "3e8a4e92c6ff20",
-      "title": "Proceso reflexivo en la formación de ciudadanía global pospandemia",
-      "url": "http://blog.tiching.com/proceso-reflexivo-la-formacion-ciudadania-global-pospandemia/",
-      "source": "Tiching Blog",
-      "category": "educacion",
-      "summary": "La propuesta de este artículo considera que las estrategias pedagógicas más que nunca deben tener presente el proceso reflexivo como […]",
-      "image": null,
-      "published": "2021-02-25T17:00:13+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "f160c4352a3034",
-      "title": "8 razones por las que aprender a tocar música desde pequeño es beneficioso",
-      "url": "http://blog.tiching.com/8-razones-las-aprender-tocar-musica-desde-pequeno-beneficioso/",
-      "source": "Tiching Blog",
-      "category": "educacion",
-      "summary": "En este post, te presentaremos las 8 razones por las que aprender a tocar música desde pequeño resulta beneficioso. Aprender […]",
-      "image": null,
-      "published": "2021-02-11T15:00:26+00:00",
       "score": null,
       "tags": []
     }
