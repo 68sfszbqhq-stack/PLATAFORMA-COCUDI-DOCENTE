@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-10-05T23:53:37.871340+00:00",
+    "generated": "2026-10-06T05:38:06.265156+00:00",
     "total": 197
   },
   "items": [
@@ -12,7 +12,7 @@
       "category": "startup",
       "summary": "Frecuentemente se considera a los emprendedores como personas arriesgadas, visionarias y expertas en detectar oportunidades. Sin embargo, muchos tienen dificultades para manejar sus finanzas. The post Los mayores errores…",
       "image": null,
-      "published": "2026-10-05T23:53:36.294779+00:00",
+      "published": "2026-10-06T05:38:04.789809+00:00",
       "score": null,
       "tags": []
     },
@@ -24,7 +24,7 @@
       "category": "startup",
       "summary": "Cuando un trabajador tiene un problema con su jefe, algunos de los modelos de inteligencia artificial que utiliza como consejeros pueden terminar recomendándole que abandone el empleo. The post La IA debía ayudar a los t…",
       "image": null,
-      "published": "2026-10-05T23:53:36.294507+00:00",
+      "published": "2026-10-06T05:38:04.789331+00:00",
       "score": null,
       "tags": []
     },
@@ -36,7 +36,7 @@
       "category": "startup",
       "summary": "Los emprendedores suelen ser admirados por tomar riesgos. Sin embargo, hay una diferencia entre asumir riesgos y ser valiente, y solo lo segundo es esencial para los emprendedores. The post Esta es la única cualidad que …",
       "image": null,
-      "published": "2026-10-05T23:53:36.294231+00:00",
+      "published": "2026-10-06T05:38:04.788876+00:00",
       "score": null,
       "tags": []
     },
@@ -48,7 +48,7 @@
       "category": "startup",
       "summary": "Ahora que la inteligencia artificial reduce las barreras para emprender y escalar un negocio, crear una marca memorable y ofrecer grandes experiencias al cliente será la mayor ventaja competitiva. The post Tu estrategia …",
       "image": null,
-      "published": "2026-10-05T23:53:36.293912+00:00",
+      "published": "2026-10-06T05:38:04.788393+00:00",
       "score": null,
       "tags": []
     },
@@ -60,7 +60,7 @@
       "category": "startup",
       "summary": "El sismo del 10 de agosto en Colombia dejó 16.9 millones de metros cúbicos de residuos. Convertirlo en arena vendible es un negocio real, regulado y geográficamente retador. The post El escombro como inventario: el negoc…",
       "image": null,
-      "published": "2026-10-05T23:53:36.293617+00:00",
+      "published": "2026-10-06T05:38:04.787924+00:00",
       "score": null,
       "tags": []
     },
@@ -72,7 +72,7 @@
       "category": "startup",
       "summary": "La procrastinación no es cuestión de tiempo, sino de emociones. Aquí te mostramos cómo trabajar con tu cerebro para manejar las emociones y superarla. The post No puedes vencer la procrastinación con gestión del tiempo o…",
       "image": null,
-      "published": "2026-10-05T23:53:36.292420+00:00",
+      "published": "2026-10-06T05:38:04.786174+00:00",
       "score": null,
       "tags": []
     },
@@ -84,7 +84,7 @@
       "category": "startup",
       "summary": "En los negocios, lograr el balance adecuado entre hacer el trabajo y liderarlo es clave. Los líderes más efectivos saben cuándo arremangarse y cuándo dar un paso atrás para dirigir. The post ¿Quieres ser un mejor líder? …",
       "image": null,
-      "published": "2026-10-05T23:53:36.292104+00:00",
+      "published": "2026-10-06T05:38:04.785680+00:00",
       "score": null,
       "tags": []
     },
@@ -96,7 +96,7 @@
       "category": "startup",
       "summary": "Descubre por qué tus criterios estándar de contratación podrían estar dejando fuera a tus mejores candidatos, y cómo corregir tu proceso de reclutamiento. The post ¿Y si tus prácticas de contratación en realidad no son l…",
       "image": null,
-      "published": "2026-10-05T23:53:36.291767+00:00",
+      "published": "2026-10-06T05:38:04.785169+00:00",
       "score": null,
       "tags": []
     },
@@ -108,7 +108,7 @@
       "category": "startup",
       "summary": "La transición poscuántica no puede esperar: la información que roban hoy podría descifrarse en cuanto exista una computadora cuántica capaz de hacerlo. The post La ciberseguridad que México necesita todavía no enfrenta s…",
       "image": null,
-      "published": "2026-10-05T23:53:36.291470+00:00",
+      "published": "2026-10-06T05:38:04.784681+00:00",
       "score": null,
       "tags": []
     },
@@ -120,7 +120,199 @@
       "category": "startup",
       "summary": "¿Estás cansado de soportar aburridas presentaciones? A lo largo de los años, he recopilado una lista de errores comunes en las presentaciones y cómo evitarlos. Aquí están mis cinco mejores consejos. The post 5 errores cr…",
       "image": null,
-      "published": "2026-10-05T23:53:36.291133+00:00",
+      "published": "2026-10-06T05:38:04.784133+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "f0c32abf74292d",
+      "title": "GPT-6 Astra se cansó de perder en StarCraft. Lo que hizo para ganar sorprendió hasta a los organizadores del torneo",
+      "url": "https://www.xataka.com/robotica-e-ia/gpt-6-astra-se-canso-perder-starcraft-que-hizo-para-ganar-tsorprendio-organizadores-torneo",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Llevamos años poniendo a modelos de IA a jugar a videojuegos para medir sus capacidades y en eso precisamente consiste StarSkirmish , un torneo creado por aficionados a ' StarCraft: Brood War ' en el que se enfrentan var…",
+      "image": "https://i.blogs.es/bbb189/starcraft/1024_2000.jpeg",
+      "published": "2026-10-06T05:01:22+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "01ef26e0734f53",
+      "title": "SEP confirma qué día no hay clases en octubre 2026, alumnos tendrán puente de 4 días por descanso obligatorio",
+      "url": "https://www.merca20.com/sep-confirma-que-dia-no-hay-clases-en-octubre-2026-alumnos-tendran-puente-de-4-dias-por-descanso-obligatorio/?utm_source=rss&utm_medium=rss&utm_campaign=sep-confirma-que-dia-no-hay-clases-en-octubre-2026-alumnos-tendran-puente-de-4-dias-por-descanso-obligatorio",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "La SEP confirma qué día no hay clases en octubre; consulta cuándo comienza el puente de 4 días y qué fecha regresan.",
+      "image": "https://files.merca20.com/uploads/2026/10/SEP-confirma-que-dia-no-hay-clases-en-octubre-2026-alumnos-tendran-puente-de-4-dias-por-descanso-obligatorio-.jpg",
+      "published": "2026-10-06T04:31:24+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "a87312d2bfda5d",
+      "title": "En Japón, una oscura superstición sigue clasificando a sus ciudadanos por un atributo genético: su grupo sanguíneo",
+      "url": "https://www.xataka.com/magnet/japon-oscura-supersticion-sigue-clasificando-a-sus-ciudadanos-atributo-genetico-su-grupo-sanguineo",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "\"No creo en el horóscopo, pero\". Es la típica idea que podemos oírle a mucha de la gente a nuestro alrededor, e incluso muchos de nosotros nos reconocemos un poco en esas descripciones más o menos generales que nos defin…",
+      "image": "https://i.blogs.es/a6802c/photo-1615461066159-fea0960485d5/1024_2000.jpeg",
+      "published": "2026-10-06T04:31:22+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "1054b861701859",
+      "title": "La muerte del Sol será peor de lo previsto: ni los planetas gaseosos aguantarán tanto como pensábamos",
+      "url": "https://www.xataka.com/espacio/muerte-sol-sera-peor-previsto-planetas-gaseosos-aguantaran-como-pensabamos",
+      "source": "Xataka",
+      "category": "tech-ia",
+      "summary": "Durante mucho tiempo hemos pensado que los planetas gigantes gaseosos, como Júpiter, resistirían a los primeros estertores de la muerte del Sol . Sin embargo, y aunque sí que aguantarán un poco más que los planetas inter…",
+      "image": "https://i.blogs.es/bd8670/photo-1554635720-3b4ccefba011/1024_2000.jpeg",
+      "published": "2026-10-06T04:01:22+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "c40d28f41d5ae0",
+      "title": "El COP pone en valor la importancia del vínculo humano-animal y su relación con el bienestar psicológico",
+      "url": "https://www.infocop.es/el-cop-pone-en-valor-la-importancia-del-vinculo-humano-animal-y-su-relacion-con-el-bienestar-psicologico-asi-como-su-incorporacion-a-la-practica-profesional-de-la-psicologia/",
+      "source": "Infocop",
+      "category": "psicologia",
+      "summary": "Mañana, se presenta a los medios Affectiva, la primera Red de Psicología Pet Friendly, impulsada por la Fundación Affinity, que busca acercar a los y las profesionales de la Psicología el conocimiento sobre el vínculo hu…",
+      "image": null,
+      "published": "2026-10-06T04:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "47f757ba8d10ae",
+      "title": "El COVID persistente continúa teniendo un importante impacto sobre la salud, la salud mental y la economía",
+      "url": "https://www.infocop.es/el-covid-persistente-continua-teniendo-un-importante-impacto-sobre-la-salud-la-salud-mental-y-la-economia/",
+      "source": "Infocop",
+      "category": "psicologia",
+      "summary": "El COVID persistente (también denominado Long COVID) sigue representando uno de los principales legados de la pandemia, con importantes repercusiones para la salud, la calidad de vida y el bienestar (...) La entrada El C…",
+      "image": null,
+      "published": "2026-10-06T04:00:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5ec5257afbcec2",
+      "title": "FPU 2026: nueva gestión, solicitud institucional y evaluación del entorno investigador",
+      "url": "https://www.infocop.es/fpu-2026-nueva-gestion-solicitud-institucional-y-evaluacion-del-entorno-investigador/",
+      "source": "Infocop",
+      "category": "psicologia",
+      "summary": "La convocatoria de ayudas para la Formación de Profesorado Universitario (FPU) de 2026 incorpora cambios relevantes en su gestión, su procedimiento de solicitud y sus criterios de evaluación. La entrada FPU 2026: nueva g…",
+      "image": null,
+      "published": "2026-10-06T03:58:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "5d2022bc7c9867",
+      "title": "Publicada en el BOE la reforma de las leyes de Discapacidad y Dependencia, que fija un año para impulsar una Ley de Profesiones de la Intervención Social",
+      "url": "https://www.infocop.es/publicada-en-el-boe-la-reforma-de-las-leyes-de-discapacidad-y-dependencia-que-fija-un-ano-para-impulsar-una-ley-de-profesiones-de-la-intervencion-social/",
+      "source": "Infocop",
+      "category": "psicologia",
+      "summary": "El BOE ha publicado la Ley 4/2026, de 1 de octubre, por la que se modifican la Ley General de derechos de las personas con discapacidad y de su inclusión social y la Ley de Promoción de la Autonomía (...) La entrada Publ…",
+      "image": null,
+      "published": "2026-10-06T03:58:00+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "de218b02ed7f73",
+      "title": "Elon Musk suma US$61.000 millones en solo 24 horas tras el repunte de Tesla y SpaceX",
+      "url": "https://www.fayerwayer.com/internet/2026/10/06/elon-musk-suma-us61000-millones-en-solo-24-horas-tras-el-repunte-de-tesla-y-spacex/",
+      "source": "FayerWayer",
+      "category": "tech-ia",
+      "summary": "La fortuna de Elon Musk creció un 6,64% en un solo día según Forbes. Revisa las cifras de SpaceX, Tesla y su rol en la seguridad de la IA.",
+      "image": "https://www.fayerwayer.com/resizer/v2/G6NDB4VM3JF2TIG43CQ4K2SDHU.jpg?auth=1b142b993efd246ac045e315adbd964ae7e70773b506fa2906ae4aa38d1843fe&smart=true&width=1300&height=780",
+      "published": "2026-10-06T02:03:51+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "de5537ec773138",
+      "title": "Crunchyroll le gana la exclusiva a Netflix: transmitirá “Dragon Ball Super: Beerus” 6 días antes y hay nuevas imágenes",
+      "url": "https://www.fayerwayer.com/entretenimiento/2026/10/06/crunchyroll-le-gana-la-exclusiva-a-netflix-transmitira-dragon-ball-super-beerus-6-dias-antes-y-hay-nuevas-imagenes/",
+      "source": "FayerWayer",
+      "category": "tech-ia",
+      "summary": "Toei Animation y Crunchyroll revelan nuevas imágenes promocionales y confirman que la versión mejorada de Dragon Ball Super debutará el 11 de octubre...",
+      "image": "https://www.fayerwayer.com/resizer/v2/GFCFWVMOCZGIFCVXHTCPCR55HY.png?auth=68f2bf7c09b18d1f6fb5ea3b0aded67d9b80161e75ee642a465309b936cdf57d&smart=true&width=657&height=469",
+      "published": "2026-10-06T01:25:54+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "8c012bc4327cbd",
+      "title": "8 de cada 10 mexicanos recortan gastos de comida o salud para pagar su vivienda",
+      "url": "https://www.altonivel.com.mx/8-de-cada-10-mexicanos-recortan-gastos-de-comida-o-salud-para-pagar-su-vivienda/",
+      "source": "Alto Nivel",
+      "category": "coaching",
+      "summary": "Un estudio de Hábitat para la Humanidad reveló que 80% de las personas en México redujo gastos de alimentos o evitó atención médica para pagar su vivienda. The post 8 de cada 10 mexicanos recortan gastos de comida o salu…",
+      "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/10/vivienda-mexico.webp",
+      "published": "2026-10-06T00:40:09+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "c69ff152fe28af",
+      "title": "Primer vistazo al regreso de las Air Jordan 7 OG ‘Playoffs’: La mítica silueta de 1992 vuelve para su 35° aniversario",
+      "url": "https://www.fayerwayer.com/sneakers/2026/10/06/primer-vistazo-al-regreso-de-las-air-jordan-7-og-playoffs-la-mitica-silueta-de-1992-vuelve-para-su-35-aniversario/",
+      "source": "FayerWayer",
+      "category": "tech-ia",
+      "summary": "Jordan Brand alista el regreso de las Air Jordan 7 OG 'Playoffs' para 2027. Revisa las primeras imágenes, detalles de diseño, fecha de lanzamiento y precio",
+      "image": "https://www.fayerwayer.com/resizer/v2/M6HTF6AF55EYPORWOWFWDSPG2Q.jpg?auth=36c09fb226594b54685a5c7df045cf564e374cd18f59402fcca2e27385ddb28c&smart=true&width=1376&height=768",
+      "published": "2026-10-06T00:34:10+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "a3d6bdccb3f135",
+      "title": "Feria de Colima 2026, Julión Álvarez, Banda MS y Yuridia encabezan la cartelera del Palenque",
+      "url": "https://www.merca20.com/feria-de-colima-2026-julion-alvarez-banda-ms-y-yuridia-encabezan-la-cartelera-del-palenque/?utm_source=rss&utm_medium=rss&utm_campaign=feria-de-colima-2026-julion-alvarez-banda-ms-y-yuridia-encabezan-la-cartelera-del-palenque",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Consulta las fechas de la Feria de Colima 2026, la cartelera del Palenque con Julión Álvarez, Banda MS y Yuridia, y dónde comprar boletos.",
+      "image": "https://files.merca20.com/uploads/2026/10/581004776_122104228101096949_597625441766845188_n.jpg",
+      "published": "2026-10-06T00:29:39+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "1e4de844d49b6c",
+      "title": "Target Launches New Digital Holiday Catalog for Kids: Here’s What It Includes",
+      "url": "https://www.merca20.com/target-launches-new-digital-holiday-catalog-for-kids-heres-what-it-includes/?utm_source=rss&utm_medium=rss&utm_campaign=target-launches-new-digital-holiday-catalog-for-kids-heres-what-it-includes",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Target’s digital holiday catalog for kids brings together hundreds of products and features to help shoppers discover toys and gifts",
+      "image": "https://files.merca20.com/uploads/2026/10/Target-Digital-Holiday-Catalog.jpg",
+      "published": "2026-10-06T00:14:14+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "6a2cfe6e1a02ae",
+      "title": "PlayStation Store México, 4 juegos en oferta, de Spider-Man 2 a Halo con hasta 60% de descuento",
+      "url": "https://www.merca20.com/playstation-store-mexico-4-juegos-en-oferta-de-spider-man-2-a-halo-con-hasta-60-de-descuento/?utm_source=rss&utm_medium=rss&utm_campaign=playstation-store-mexico-4-juegos-en-oferta-de-spider-man-2-a-halo-con-hasta-60-de-descuento",
+      "source": "Merca 2.0",
+      "category": "startup",
+      "summary": "Spider-Man 2, Gears of War, The Witcher 3 y Halo tienen hasta 60% de descuento en PlayStation Store México; consulta vigencia.",
+      "image": "https://files.merca20.com/uploads/2026/10/PlayStation-Store-Mexico-4-juegos-en-oferta-de-Spider-Man-2-a-Halo-con-hasta-60-de-descuento-.jpg",
+      "published": "2026-10-06T00:06:49+00:00",
+      "score": null,
+      "tags": []
+    },
+    {
+      "id": "4fc9966fc6d861",
+      "title": "Hackers roban datos de casi nueve millones de personas en una filtración masiva en Dinamarca",
+      "url": "https://www.fayerwayer.com/internet/2026/10/05/hackers-roban-datos-de-casi-nueve-millones-de-personas-en-una-filtracion-masiva-en-dinamarca/",
+      "source": "FayerWayer",
+      "category": "tech-ia",
+      "summary": "Un ciberataque en Dinamarca expuso los datos de 8,8 millones de personas del registro civil CPR a través de una empresa privada. Revisa las consecuencias..",
+      "image": "https://www.fayerwayer.com/resizer/v2/2IBJD3QB2RB7VF4FJCEBV3Y66Q.jpg?auth=a40a5cf9861197841a087d8fa32c5046770d513bd2f21be6bd4e7669fcb1b3d7&smart=true&width=1376&height=768",
+      "published": "2026-10-05T23:55:55+00:00",
       "score": null,
       "tags": []
     },
@@ -353,30 +545,6 @@
       "tags": []
     },
     {
-      "id": "ebeae17bc046da",
-      "title": "Por qué la emoción es el nuevo ingrediente de las campañas de alimentos",
-      "url": "https://www.merca20.com/por-que-la-emocion-es-el-nuevo-ingrediente-de-las-campanas-de-alimentos/?utm_source=rss&utm_medium=rss&utm_campaign=por-que-la-emocion-es-el-nuevo-ingrediente-de-las-campanas-de-alimentos",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "El consumidor no necesariamente recuerda todos los atributos de una galleta, un cereal o una bebida, pero sí puede recordar una situación en la que esa marca estuvo presente.",
-      "image": "https://files.merca20.com/uploads/2026/10/bigstock-Man-Cover-Face-Using-Paper-Wit-280564699.jpg",
-      "published": "2026-10-05T21:47:53+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "7388013b2f9fd9",
-      "title": "¿Qué día se reestrena El Laberinto del Fauno en México por su 20 aniversario?",
-      "url": "https://www.merca20.com/que-dia-se-reestrena-el-laberinto-del-fauno-en-mexico-por-su-20-aniversario/?utm_source=rss&utm_medium=rss&utm_campaign=que-dia-se-reestrena-el-laberinto-del-fauno-en-mexico-por-su-20-aniversario",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Todo lo que debes saber sobre el estreno del Laberinto del Fauno en cines por 20 aniversario",
-      "image": "https://files.merca20.com/uploads/2025/11/El-laberinto-del-fauno.jpg",
-      "published": "2026-10-05T21:45:06+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "06463883d163b6",
       "title": "Plan México incentiva a la farmacéutica Adium a expandir capacidad industrial e investigación local",
       "url": "https://expansion.mx/empresas/2026/10/05/asofarma-adium-investigacion-produccion-mexico",
@@ -385,30 +553,6 @@
       "summary": "La empresa ve espacio para aumentar su participación en investigación clínica mediante acuerdos con sus socios licenciantes y, al mismo tiempo, fortalecer la producción local de medicamentos sólidos.",
       "image": "https://cdn-3.expansion.mx/dims4/default/c5ad18c/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fda%2Ffc%2Fe20217e643408c7a380fb2fbb117%2Fadium-mexico-investigacion-medica.jpeg",
       "published": "2026-10-05T21:10:52+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "e94dde58c63a64",
-      "title": "Hyundai Venue 2027 llega por $395,000, conoce el enganche para pagar $3,599 al mes",
-      "url": "https://www.merca20.com/hyundai-venue-2027-precio-mexico-enganche-mensualidad/?utm_source=rss&utm_medium=rss&utm_campaign=hyundai-venue-2027-precio-mexico-enganche-mensualidad",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "Hyundai Venue 2027 llega a México por $395,000; conoce el enganche de $203,662 para pagar desde $3,599 al mes, los requisitos y la vigencia.",
-      "image": "https://files.merca20.com/uploads/2026/10/Hyundai-Venue-2027-llega-por-395000-conoce-el-enganche-para-pagar-3599-al-mes-.jpg",
-      "published": "2026-10-05T21:08:54+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "a9f66ab02bdb8d",
-      "title": "Peste neumónica: qué se sabe del caso en Rusia y si puede llegar a México",
-      "url": "https://www.merca20.com/peste-neumonica-que-se-sabe-del-caso-en-rusia-y-si-puede-llegar-a-mexico/?utm_source=rss&utm_medium=rss&utm_campaign=peste-neumonica-que-se-sabe-del-caso-en-rusia-y-si-puede-llegar-a-mexico",
-      "source": "Merca 2.0",
-      "category": "startup",
-      "summary": "La muerte de una trabajadora en Rusia activó la vigilancia sanitaria por un posible caso de peste neumónica, aunque no ha sido confirmado.",
-      "image": "https://files.merca20.com/uploads/2025/12/Medicos.jpg",
-      "published": "2026-10-05T20:57:10+00:00",
       "score": null,
       "tags": []
     },
@@ -491,7 +635,7 @@
       "source": "Alto Nivel",
       "category": "coaching",
       "summary": "La reforma aprobada por el Senado crea un nuevo mecanismo para revisar adquisiciones extranjeras que puedan representar riesgos para la seguridad nacional. The post ¿Qué inversiones extranjeras revisará México por seguri…",
-      "image": "https://www.altonivel.com.mx/wp-content/uploads/2024/11/energia-electrica-cfe-jpg.webp",
+      "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/10/inversion-extranjera-en-mexico.webp",
       "published": "2026-10-05T19:47:10+00:00",
       "score": null,
       "tags": []
@@ -671,7 +815,7 @@
       "source": "Alto Nivel",
       "category": "coaching",
       "summary": "Spider-Man ayuda a explicar la trampa del éxito: cuando las capacidades que hicieron fuerte a una empresa terminan dificultando su cambio. The post La paradoja de Spider-Man: por qué el éxito puede impedir que una empres…",
-      "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/10/trampa-exito-spider-man-empresas-innovacion.jpg.webp",
+      "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/10/spiderman.webp",
       "published": "2026-10-05T16:21:31+00:00",
       "score": null,
       "tags": []
@@ -779,7 +923,7 @@
       "source": "Alto Nivel",
       "category": "coaching",
       "summary": "Karl Deisseroth, Peter Hegemann y Georg Nagel recibieron el Nobel de Medicina por desarrollar la optogenética y revelar cómo funcionan los circuitos neuronales. The post Nobel de Medicina 2026 reconoce avances que permit…",
-      "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/10/Nobel-medicina-2026.webp",
+      "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/10/premio-nobel-medicina.webp",
       "published": "2026-10-05T15:03:23+00:00",
       "score": null,
       "tags": []
@@ -833,18 +977,6 @@
       "tags": []
     },
     {
-      "id": "957e992e9caed2",
-      "title": "El mayor repositorio científico del mundo ha colapsado tras recibir 40.000 pre-prints este septiembre. Antes de la IA no pasaba de 15.000",
-      "url": "https://www.xataka.com/robotica-e-ia/mayor-repositorio-cientifico-mundo-ha-colapsado-recibir-40-000-pre-prints-este-septiembre-antes-ia-no-pasaba-15-000",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Cuatro páginas. Cincuenta subsecciones. Algunas, sin una sola línea de texto. Cuando a principios de 2026, la revista Science se preguntó qué estaba pasándole a arXiv, una de las piezas claves de la ciencia actual, Ralph…",
-      "image": "https://i.blogs.es/7f2351/thisisengineering-8ys04veb1tq-unsplash/1024_2000.jpeg",
-      "published": "2026-10-05T14:45:22+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "984df89953495e",
       "title": "Tom Cruise se estrella en taquilla con ‘Digger’, uno de los peores estrenos de toda su carrera: las pérdidas serán millonarias",
       "url": "https://hipertextual.com/cine-television/tom-cruise-se-estrella-en-taquilla-con-digger-uno-de-los-peores-estrenos-de-toda-su-carrera-las-perdidas-seran-millonarias/",
@@ -869,25 +1001,13 @@
       "tags": []
     },
     {
-      "id": "0eef32f31bdbd4",
-      "title": "En 2013, Bill Gates reconoció que el atajo de teclado más famoso de Windows era un error: Microsoft quería una sola tecla",
-      "url": "https://www.xataka.com/aplicaciones/bill-gates-reconocio-que-atajo-teclado-famoso-windows-era-error-microsoft-queria-sola-tecla",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Hay gestos de ordenador que ahorran un montón de trabajo, incluso aunque haya que pulsar varias teclas. Entre los más famosos de Windows el de Ctrl + Alt + Supr es la estrella: durante décadas ha servido para iniciar ses…",
-      "image": "https://i.blogs.es/c00529/bill-gates-portada/1024_2000.jpeg",
-      "published": "2026-10-05T14:31:22+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "e952a95f6e1080",
       "title": "¿La lechuga mexicana enfermó a casi 13 mil personas en EU? Esto concluyeron las autoridades",
       "url": "https://www.altonivel.com.mx/cofepris-lechuga-mexicana-cyclospora-salmonella-fda-estados-unidos/",
       "source": "Alto Nivel",
       "category": "coaching",
       "summary": "Cofepris asegura que no hay evidencia analítica concluyente para responsabilizar a productos agrícolas mexicanos. The post ¿La lechuga mexicana enfermó a casi 13 mil personas en EU? Esto concluyeron las autoridades appea…",
-      "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/10/cofepris-lechuga-mexicana-cyclospora-salmonella-fda-estados-unidos.webp",
+      "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/10/lechuga-mexicana.webp",
       "published": "2026-10-05T14:29:16+00:00",
       "score": null,
       "tags": []
@@ -913,18 +1033,6 @@
       "summary": "Sony estrena QSSR para PlayStation 5, la tecnología de escalado con IA que lleva la calidad de imagen de PS5 Pro a la consola estándar. Conoce sus detalles",
       "image": "https://www.fayerwayer.com/resizer/v2/GAVDT7NNERA2NDI4F2MIPTYOBY.jpg?auth=f96471ec7d52790dc8a0416e25418955a096cda0c863013dd1e4e5591e18fbee&smart=true&width=1376&height=768",
       "published": "2026-10-05T14:16:09+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "5275c9e942f049",
-      "title": "Desde hoy, las empresas tienen que explicar a sus trabajadores cómo funciona el algoritmo que gestiona su puesto de trabajo",
-      "url": "https://www.xataka.com/legislacion-y-derechos/hoy-empresas-tienen-que-explicar-a-sus-trabajadores-como-funciona-algoritmo-que-gestiona-su-puesto-trabajo",
-      "source": "Xataka",
-      "category": "tech-ia",
-      "summary": "Nuestras vidas cada vez están más supeditados a las decisiones que toma un algoritmo: decide qué noticias nos pueden interesar, cuál es la siguiente canción que te apetece escuchar o qué series te va a encantar. Sin emba…",
-      "image": "https://i.blogs.es/284d92/vitaly-gariev-hwbneqhe0oo-unsplash/1024_2000.jpeg",
-      "published": "2026-10-05T14:15:23+00:00",
       "score": null,
       "tags": []
     },
@@ -1313,54 +1421,6 @@
       "tags": []
     },
     {
-      "id": "3f13eb68e64b07",
-      "title": "No es solo un juguete: El router de los Minions triunfa en pruebas técnicas con Wi-Fi 6E de triple banda",
-      "url": "https://www.fayerwayer.com/internet/2026/10/04/no-es-solo-un-juguete-el-router-de-los-minions-triunfa-en-pruebas-tecnicas-con-wi-fi-6e-de-triple-banda/",
-      "source": "FayerWayer",
-      "category": "tech-ia",
-      "summary": "El router de los Minions de Davolink se vuelve viral por su alto rendimiento en Wi-Fi 6E. Conoce sus especificaciones técnicas y razones de su éxito.",
-      "image": "https://www.fayerwayer.com/resizer/v2/MRF7MICF5JAU3HT6UQWUGMZS44.png?auth=6eb0e413f170e580a56f01843db80d4d0f9d2659902413ec75b334388b8a47af&smart=true&width=2058&height=1108",
-      "published": "2026-10-04T23:23:02+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "603f1a8c619521",
-      "title": "WhatsApp empieza a cobrar a empresas: ¿Cuánto deberán pagar por enviar mensajes?",
-      "url": "https://www.fayerwayer.com/moviles/2026/10/04/whatsapp-empieza-a-cobrar-a-empresas-cuanto-deberan-pagar-por-enviar-mensajes/",
-      "source": "FayerWayer",
-      "category": "tech-ia",
-      "summary": "Conoce el nuevo esquema tarifario de WhatsApp Business Platform: precios, límites de mensajes gratuitos y a qué empresas afecta el cambio de Meta.",
-      "image": "https://www.fayerwayer.com/resizer/v2/EQ5QTVWPNBGVNAQYPVYNOLVW2E.jpg?auth=5cda5e75cdd34bbf72d3b71fe7a5ac135e3d205ba54a50647a90ef67b041c2aa&smart=true&width=1376&height=768",
-      "published": "2026-10-04T23:00:36+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "842d2267fb40da",
-      "title": "“Dragon Ball Super: Beerus” confirma su llegada a Netflix y Crunchyroll en América Latina, España y Estados Unidos",
-      "url": "https://www.fayerwayer.com/entretenimiento/2026/10/04/dragon-ball-super-beerus-confirma-su-llegada-a-netflix-y-crunchyroll-en-america-latina-espana-y-estados-unidos/",
-      "source": "FayerWayer",
-      "category": "tech-ia",
-      "summary": "Dragon Ball Super: Beerus llegará a Netflix y Crunchyroll en octubre de 2026. Revisa las fechas y detalles confirmados para América Latina y España.",
-      "image": "https://www.fayerwayer.com/resizer/v2/O5HL3JF7JJBYBE5YFOPGJUKBB4.jpg?auth=21ec3a7b7730b3f03d04bec1b2bc36882725df04a9780609adb5851a81f42d9f&smart=true&width=1376&height=768",
-      "published": "2026-10-04T20:14:18+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "523b95856d178d",
-      "title": "Se confirma que el Motorola Signature 27 tendrá soporte para GrapheneOS",
-      "url": "https://www.fayerwayer.com/moviles/2026/10/04/se-confirma-que-el-motorola-signature-27-tendra-soporte-para-grapheneos/",
-      "source": "FayerWayer",
-      "category": "tech-ia",
-      "summary": "El Motorola Signature 27 será el primer smartphone fuera de la serie Pixel compatible con GrapheneOS, precargado con el SO centrado en privacidad.",
-      "image": "https://www.fayerwayer.com/resizer/v2/VD2MPCAUFBEJHH5VT6QLWNTZFU.png?auth=03998e3931859dc34e476bb5cd6537b5f5c535f0ea4f888fec6cb8f15bbc0e37&smart=true&width=2902&height=1614",
-      "published": "2026-10-04T19:40:54+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
       "id": "4abc7fbb2405c3",
       "title": "Los mejores contenidos de la semana en MuyComputer (DXLIV)",
       "url": "https://www.muycomputer.com/2026/10/04/los-mejores-contenidos-de-la-semana-en-muycomputer-dxliv/",
@@ -1441,18 +1501,6 @@
       "summary": "Samsung lleva varios años intentando devolver a Exynos el protagonismo perdido en su gama alta, y el siguiente paso parece estar ya en marcha. La compañía habría iniciado la producción en masa del Exynos 2700, el procesa…",
       "image": null,
       "published": "2026-10-04T16:34:22+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "2fca4a925db509",
-      "title": "De “farmear aura” a farmear relevancia: el reto del memejacking para las marcas",
-      "url": "https://www.altonivel.com.mx/de-farmear-aura-a-farmear-relevancia-el-reto-del-memejacking-para-las-marcas/",
-      "source": "Alto Nivel",
-      "category": "coaching",
-      "summary": "Las marcas ya no solo compiten por comprar atención: buscan incorporarse a conversaciones que nacen en las comunidades digitales. El reto es hacerlo con contexto, autenticidad y relevancia. The post De “farmear aura” a f…",
-      "image": "https://www.altonivel.com.mx/wp-content/uploads/2026/10/farmear_aura.webp",
-      "published": "2026-10-04T16:00:00+00:00",
       "score": null,
       "tags": []
     },
@@ -1657,54 +1705,6 @@
       "summary": "La Jornada “Desinformación, fake news y convivencia: una mirada desde la Psicología” ha analizado el impacto de las noticias y contenidos falsos que se comparten en múltiples canales (...) La entrada Desinformación y fak…",
       "image": null,
       "published": "2026-10-02T04:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "9b438d9754f142",
-      "title": "Cerca de 322 millones de personas en todo el mundo viven con depresión, según datos actualizados de la OMS",
-      "url": "https://www.infocop.es/cerca-de-322-millones-de-personas-en-todo-el-mundo-viven-con-depresion-segun-datos-actualizados-de-la-oms/",
-      "source": "Infocop",
-      "category": "psicologia",
-      "summary": "Según datos actualizados de la OMS, aproximadamente, 322 millones de personas en todo el mundo viven con depresión (...) La entrada Cerca de 322 millones de personas en todo el mundo viven con depresión, según datos actu…",
-      "image": null,
-      "published": "2026-10-02T04:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "21b9800cacc3fb",
-      "title": "Hoy se celebra la III Jornada de Salud Mental en Contextos Educativos, que podrá seguirse en directo por streaming",
-      "url": "https://www.infocop.es/hoy-se-celebra-la-iii-jornada-de-salud-mental-en-contextos-educativos-que-podra-seguirse-en-directo-por-streaming/",
-      "source": "Infocop",
-      "category": "psicologia",
-      "summary": "Hoy, viernes 2 de octubre, se celebra la Jornada de Salud Mental en Contextos Educativos, que puedes seguir online, a través del canal de YouTube del COP (...) La entrada Hoy se celebra la III Jornada de Salud Mental en …",
-      "image": null,
-      "published": "2026-10-02T04:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "e88801ab4ce220",
-      "title": "La depresión podría generar pérdidas económicas globales de unos 12 billones de dólares hasta 2050",
-      "url": "https://www.infocop.es/la-depresion-podria-generar-perdidas-economicas-globales-de-unos-12-billones-de-dolares-hasta-2050/",
-      "source": "Infocop",
-      "category": "psicologia",
-      "summary": "La depresión podría ocasionar unas pérdidas acumuladas de, aproximadamente, 12 billones de dólares -a precios de 2024- en la economía mundial entre 2025 y 2050 (...) La entrada La depresión podría generar pérdidas económ…",
-      "image": null,
-      "published": "2026-10-02T04:00:00+00:00",
-      "score": null,
-      "tags": []
-    },
-    {
-      "id": "f5b7c4ff2824a1",
-      "title": "El COP-AO reunió en Córdoba a más de 270 profesionales en la Jornada nacional de Mediación",
-      "url": "https://www.infocop.es/el-cop-ao-reunio-en-cordoba-a-mas-de-270-profesionales-en-la-jornada-nacional-de-mediacion/",
-      "source": "Infocop",
-      "category": "psicologia",
-      "summary": "El pasado mes de junio, el COP-AO celebró en Córdoba la Jornada Nacional de Mediación, un encuentro que, durante dos días, reunió a más de 270 profesionales en modalidad presencial y online (...) La entrada El COP-AO reu…",
-      "image": null,
-      "published": "2026-10-02T03:50:00+00:00",
       "score": null,
       "tags": []
     },
